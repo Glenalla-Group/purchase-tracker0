@@ -1,0 +1,83 @@
+# =============================================================================
+# DATABASE CONFIGURATION (REQUIRED!)
+# =============================================================================
+# AWS RDS PostgreSQL Connection String
+# Format: postgresql://USERNAME:PASSWORD@ENDPOINT:PORT/DATABASE_NAME
+DATABASE_URL=postgresql://postgres:your_password@your-rds-endpoint.region.rds.amazonaws.com:5432/purchase_tracker
+
+# Example for local PostgreSQL:
+# DATABASE_URL=postgresql://postgres:postgres@localhost:5432/purchase_tracker
+
+# Database Connection Pool Settings (Optional - defaults shown)
+DB_POOL_SIZE=5
+DB_MAX_OVERFLOW=10
+DB_POOL_TIMEOUT=30
+DB_POOL_RECYCLE=3600
+DB_ECHO=False
+
+# =============================================================================
+# SERVER CONFIGURATION
+# =============================================================================
+HOST=0.0.0.0
+PORT=8000
+DEBUG=True
+
+# =============================================================================
+# GOOGLE CLOUD PROJECT (Optional - for Gmail integration)
+# =============================================================================
+GOOGLE_CLOUD_PROJECT_ID=your-project-id
+GOOGLE_PUBSUB_TOPIC=projects/your-project-id/topics/gmail-notifications
+GOOGLE_PUBSUB_SUBSCRIPTION=projects/your-project-id/subscriptions/gmail-sub
+
+# Gmail API Configuration
+GMAIL_CREDENTIALS_PATH=credentials.json
+GMAIL_TOKEN_PATH=token.json
+GMAIL_SCOPES=https://www.googleapis.com/auth/gmail.readonly,https://www.googleapis.com/auth/gmail.modify
+
+# Webhook Configuration
+WEBHOOK_SECRET=your-webhook-secret-key
+
+# =============================================================================
+# FRONTEND CONFIGURATION
+# =============================================================================
+# Frontend URL for email links and OAuth redirects
+FRONTEND_URL=http://localhost:5173
+
+# =============================================================================
+# SMTP EMAIL CONFIGURATION
+# =============================================================================
+# SMTP server settings (for sending password reset emails)
+# For Gmail: Use smtp.gmail.com with port 587
+# For Gmail, you need to create an App Password: https://myaccount.google.com/apppasswords
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-gmail-app-password
+SMTP_FROM_EMAIL=your-email@gmail.com
+SMTP_FROM_NAME=Purchase Tracker
+
+# =============================================================================
+# GOOGLE OAUTH CONFIGURATION
+# =============================================================================
+# Google OAuth 2.0 credentials for social login
+# Get credentials from: https://console.cloud.google.com/apis/credentials
+# 1. Create OAuth 2.0 Client ID
+# 2. Add authorized redirect URI: http://localhost:8000/auth/google/callback
+GOOGLE_OAUTH_CLIENT_ID=your-google-oauth-client-id.apps.googleusercontent.com
+GOOGLE_OAUTH_CLIENT_SECRET=your-google-oauth-client-secret
+GOOGLE_OAUTH_REDIRECT_URI=http://localhost:8000/auth/google/callback
+
+# =============================================================================
+# APPLICATION SETTINGS
+# =============================================================================
+LOG_LEVEL=INFO
+
+# Feature Flags (Enable/Disable Features)
+ENABLE_AUTO_EMAIL_PROCESSING=false
+ENABLE_GMAIL_WATCH=true
+ENABLE_PURCHASE_TRACKER_API=true
+ENABLE_RETAILERS_API=true
+ENABLE_CHECKIN_API=true
+
+
+

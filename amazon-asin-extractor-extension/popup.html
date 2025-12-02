@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 400px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .button-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            justify-content: center;
+        }
+        
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-rl {
+            background: #ff9500;
+            color: white;
+        }
+        
+        .btn-al {
+            background: #232f3e;
+            color: white;
+        }
+        
+        .btn-grab {
+            background: #0066cc;
+            color: white;
+            width: 100%;
+        }
+        
+        .btn-import {
+            background: #34a853;
+            color: white;
+            width: 100%;
+            margin-top: 15px;
+        }
+        
+        .btn-clear {
+            background: #dc3545;
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            opacity: 0.8;
+            transform: translateY(-1px);
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .asin-table {
+            margin: 15px 0;
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        
+        .asin-table th {
+            background: #f0f0f0;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .asin-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .quantity-input {
+            width: 60px;
+            padding: 4px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        
+        .form-url {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>🛒 Amazon ASIN Extractor</h3>
+        <p style="font-size: 12px; color: #666; margin: 5px 0;">Extract ASINs and send to Lead Submittal page</p>
+    </div>
+    
+    <div class="button-row">
+        <button id="rlBtn" class="btn btn-rl">RL</button>
+        <button id="alBtn" class="btn btn-al">AL</button>
+    </div>
+    
+    <button id="grabBtn" class="btn btn-grab">Grab ASINs</button>
+    
+    <div id="status" class="status hidden"></div>
+    
+    <div id="asinSection" class="hidden">
+        <div id="summarySection" style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 6px; text-align: center;">
+            <strong>Total Items: <span id="totalItems">0</span> | Total Quantity: <span id="totalQuantity">0</span></strong>
+        </div>
+        <table id="asinTable" class="asin-table">
+            <thead>
+                <tr>
+                    <th>ASIN</th>
+                    <th>Size</th>
+                    <th>Rec. Qty</th>
+                </tr>
+            </thead>
+            <tbody id="asinTableBody">
+            </tbody>
+        </table>
+    </div>
+    
+    <div>
+        <button id="importBtn" class="btn btn-import" disabled>Open Lead Submittal</button>
+        <button id="clearBtn" class="btn btn-clear">Clear All Data</button>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
