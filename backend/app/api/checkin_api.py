@@ -299,6 +299,66 @@ def delete_checkin(checkin_id: int, db: Session = Depends(get_db)):
     }
 
 
+class CheckinBulkDeleteRequest(BaseModel):
+    """Model for bulk deleting check-ins"""
+    ids: List[int]
+
+
+@router.delete("/")
+def bulk_delete_checkins(delete_data: CheckinBulkDeleteRequest, db: Session = Depends(get_db)):
+    """
+    Bulk delete check-in records
+    
+    Request body should contain a list of check-in IDs to delete
+    """
+    try:
+        if not delete_data.ids:
+            return {
+                "status": -1,
+                "data": None,
+                "message": "No check-in IDs provided"
+            }
+        
+        # Find all check-ins to delete
+        checkins_to_delete = db.query(Checkin).filter(Checkin.id.in_(delete_data.ids)).all()
+        
+        if not checkins_to_delete:
+            return {
+                "status": -1,
+                "data": None,
+                "message": "No check-ins found with the provided IDs"
+            }
+        
+        deleted_count = len(checkins_to_delete)
+        
+        # Delete all found check-ins
+        for checkin in checkins_to_delete:
+            db.delete(checkin)
+        
+        db.commit()
+        
+        logger.info(f"Bulk deleted {deleted_count} check-ins: IDs={delete_data.ids}")
+        
+        return {
+            "status": 200,
+            "data": {
+                "deleted_count": deleted_count,
+                "deleted_ids": delete_data.ids
+            },
+            "message": f"Successfully deleted {deleted_count} check-in record(s)"
+        }
+        
+    except Exception as e:
+        db.rollback()
+        error_msg = f"Error deleting check-ins: {str(e)}"
+        logger.error(error_msg, exc_info=True)
+        return {
+            "status": -1,
+            "data": None,
+            "message": error_msg
+        }
+
+
 @router.get("/stats/summary")
 def get_checkin_summary(db: Session = Depends(get_db)):
     """

@@ -6,6 +6,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/ui/form";
 import { Title } from "@/ui/typography";
 import { useState, useEffect, useMemo } from "react";
+import { useNavigate, useParams } from "react-router";
 import { toast } from "sonner";
 import Icon from "@/components/icon/icon";
 import { DataTable } from "@/components/data-table/data-table";
@@ -29,6 +30,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/ui/tabs";
 import { Badge } from "@/ui/badge";
 import { Separator } from "@/ui/separator";
 import { Checkbox } from "@/ui/checkbox";
+import { Switch } from "@/ui/switch";
+import { Label } from "@/ui/label";
 import leadService, { type Lead } from "@/api/services/leadService";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -90,6 +93,7 @@ const editLeadSchema = z.object({
 	productName: z.string().optional(),
 	retailerLink: z.string().url("Please enter a valid URL").or(z.string().length(0)).optional(),
 	amazonLink: z.string().url("Please enter a valid URL").or(z.string().length(0)).optional(),
+	uniqueId: z.string().optional(),
 	purchased: z.string().optional(),
 	purchaseMoreIfAvailable: z.string().optional(),
 	monitored: z.boolean().optional(),
@@ -101,6 +105,9 @@ const editLeadSchema = z.object({
 	pairsPerLeadId: z.string().optional(),
 	pairsPerSku: z.string().optional(),
 	salesRank: z.string().optional(),
+	ppu: z.string().optional(),
+	rsp: z.string().optional(),
+	margin: z.string().optional(),
 	asin1BuyBox: z.string().optional(),
 	asin1NewPrice: z.string().optional(),
 	pickPackFee: z.string().optional(),
@@ -112,11 +119,13 @@ const editLeadSchema = z.object({
 type EditLeadFormValues = z.infer<typeof editLeadSchema>;
 
 export default function OASourcing() {
+	const navigate = useNavigate();
+	const { leadId } = useParams<{ leadId: string }>();
 	const [leadData, setLeadData] = useState<Lead[]>([]);
 	const [loading, setLoading] = useState(false);
 	const [total, setTotal] = useState(0);
 	const [searchRetailer, setSearchRetailer] = useState("");
-	const [searchSourcer, setSearchSourcer] = useState("");
+	const [searchProductName, setSearchProductName] = useState("");
 	const [pagination, setPagination] = useState<PaginationState>({
 		pageIndex: 0,
 		pageSize: 10,
@@ -131,6 +140,13 @@ export default function OASourcing() {
 	const [selectedLead, setSelectedLead] = useState<Lead | null>(null);
 	const [isEditMode, setIsEditMode] = useState(false);
 	const [isSaving, setIsSaving] = useState(false);
+	
+	// ASIN editing state
+	const [editingAsinIndex, setEditingAsinIndex] = useState<number | null>(null);
+	const [editingAsinData, setEditingAsinData] = useState<{ asin: string; size: string; recommendedQuantity: number } | null>(null);
+	const [newAsin, setNewAsin] = useState({ asin: "", size: "", recommendedQuantity: 1 });
+	const [isAddingAsin, setIsAddingAsin] = useState(false);
+	const [isSavingAsin, setIsSavingAsin] = useState(false);
 
 	// Initialize form
 	const editForm = useForm<EditLeadFormValues>({
@@ -139,6 +155,7 @@ export default function OASourcing() {
 			productName: "",
 			retailerLink: "",
 			amazonLink: "",
+			uniqueId: "",
 			purchased: "",
 			purchaseMoreIfAvailable: "",
 			monitored: false,
@@ -150,6 +167,9 @@ export default function OASourcing() {
 			pairsPerLeadId: "",
 			pairsPerSku: "",
 			salesRank: "",
+			ppu: "",
+			rsp: "",
+			margin: "",
 			asin1BuyBox: "",
 			asin1NewPrice: "",
 			pickPackFee: "",
@@ -167,7 +187,8 @@ export default function OASourcing() {
 				header: "No",
 				size: 60,
 				minSize: 50,
-				maxSize: 80,
+				maxSize: 100,
+				enableSorting: false,
 				cell: ({ row }) => {
 					const index = pagination.pageIndex * pagination.pageSize + row.index + 1;
 					return <span className="font-medium text-sm">{index}</span>;
@@ -178,6 +199,8 @@ export default function OASourcing() {
 				header: "Lead ID",
 				size: 180,
 				minSize: 150,
+				maxSize: 300,
+				enableSorting: false,
 				cell: ({ row }) => (
 					<button
 						onClick={() => handleViewDetails(row.original)}
@@ -191,7 +214,8 @@ export default function OASourcing() {
 			accessorKey: "product_name",
 			header: "Product Name",
 			size: 320,
-			minSize: 250,
+			minSize: 200,
+			maxSize: 600,
 			cell: ({ row }) => (
 				<div className="flex items-center gap-2">
 					<span className="font-medium text-sm truncate flex-1">{row.original.product_name}</span>
@@ -229,6 +253,7 @@ export default function OASourcing() {
 			header: "Retailer",
 			size: 150,
 			minSize: 120,
+			maxSize: 250,
 			cell: ({ row }) => <span className="capitalize text-sm">{row.original.retailer_name}</span>,
 		},
 		{
@@ -236,6 +261,7 @@ export default function OASourcing() {
 			header: "SKU",
 			size: 160,
 			minSize: 130,
+			maxSize: 250,
 			cell: ({ row }) => (
 				<span className="font-mono text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">
 					{row.original.product_sku}
@@ -247,6 +273,7 @@ export default function OASourcing() {
 			header: "Unique ID",
 			size: 180,
 			minSize: 150,
+			maxSize: 250,
 			cell: ({ row }) =>
 				row.original.unique_id ? (
 					<span className="font-mono text-xs bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 px-2 py-1 rounded">
@@ -261,6 +288,7 @@ export default function OASourcing() {
 			header: "PPU",
 			size: 120,
 			minSize: 100,
+			maxSize: 200,
 			cell: ({ row }) =>
 				row.original.ppu ? (
 					<span className="font-semibold text-green-600 dark:text-green-400 text-sm">
@@ -275,6 +303,7 @@ export default function OASourcing() {
 			header: "RSP",
 			size: 120,
 			minSize: 100,
+			maxSize: 200,
 			cell: ({ row }) =>
 				row.original.rsp ? (
 					<span className="font-semibold text-blue-600 dark:text-blue-400 text-sm">
@@ -289,6 +318,7 @@ export default function OASourcing() {
 			header: "Margin",
 			size: 120,
 			minSize: 100,
+			maxSize: 200,
 			cell: ({ row }) =>
 				row.original.margin ? (
 					<span className="font-semibold text-purple-600 dark:text-purple-400 text-sm">
@@ -303,6 +333,7 @@ export default function OASourcing() {
 			header: "Sourcer",
 			size: 140,
 			minSize: 110,
+			maxSize: 200,
 			cell: ({ row }) => (
 				<Badge variant="secondary" className="text-xs">
 					{row.original.sourcer}
@@ -314,6 +345,7 @@ export default function OASourcing() {
 			header: "Date & Time",
 			size: 140,
 			minSize: 120,
+			maxSize: 200,
 			cell: ({ row }) => {
 				if (!row.original.timestamp) {
 					return <span className="text-gray-400 italic text-xs">N/A</span>;
@@ -338,12 +370,42 @@ export default function OASourcing() {
 			},
 		},
 		{
+			accessorKey: "status",
+			header: "Status",
+			size: 120,
+			minSize: 100,
+			maxSize: 150,
+			enableSorting: false,
+			enableResizing: false,
+			meta: {
+				sticky: true,
+			},
+			cell: ({ row }) => {
+				const status = row.original.status || 'draft';
+				const isDraft = status === 'draft';
+				return (
+					<Badge 
+						variant={isDraft ? "secondary" : "default"}
+						className={`text-xs ${isDraft ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400' : 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'}`}
+					>
+						{status === 'draft' ? '📝 Draft' : '✓ Complete'}
+					</Badge>
+				);
+			},
+		},
+		{
 			id: "actions",
 			header: "Actions",
-			size: 160,
-			minSize: 130,
-				cell: ({ row }) => (
-					<div className="flex items-center gap-1">
+			size: 120,
+			minSize: 120,
+			maxSize: 120,
+			enableSorting: false,
+			enableResizing: false,
+			meta: {
+				sticky: true,
+			},
+			cell: ({ row }) => (
+				<div className="flex items-center gap-1">
 					<Button
 						size="sm"
 						variant="ghost"
@@ -362,9 +424,9 @@ export default function OASourcing() {
 					>
 						<Icon icon="mdi:delete" size={16} className="text-red-600 dark:text-red-400" />
 					</Button>
-					</div>
-				),
-			},
+				</div>
+			),
+		},
 		],
 		[pagination.pageIndex, pagination.pageSize]
 	);
@@ -379,7 +441,7 @@ export default function OASourcing() {
 				skip: currentPagination.pageIndex * currentPagination.pageSize,
 				limit: currentPagination.pageSize,
 				retailer: searchRetailer || undefined,
-				sourcer: searchSourcer || undefined,
+				product_name: searchProductName || undefined,
 			};
 
 			const response = await leadService.getLeads(params);
@@ -401,6 +463,35 @@ export default function OASourcing() {
 		loadLeadData();
 	}, []);
 
+	// Handle deep link to specific lead by ID
+	useEffect(() => {
+		if (leadId) {
+			console.log(`[OA Sourcing] Deep link detected for lead ID: ${leadId}`);
+			
+			// Fetch the specific lead and open detail drawer
+			leadService.getLeadById(leadId)
+				.then((lead) => {
+					console.log(`[OA Sourcing] Lead data loaded successfully:`, lead);
+					setSelectedLead(lead);
+					setDetailDrawerOpen(true);
+					toast.success("Lead loaded", {
+						description: `Opened lead ${leadId}`,
+					});
+				})
+				.catch((error) => {
+					console.error(`[OA Sourcing] Error loading lead ${leadId}:`, error);
+					toast.error("Failed to load lead", {
+						description: error?.message || "Lead not found",
+					});
+					
+					// Optional: Redirect to main OA sourcing page after error
+					setTimeout(() => {
+						navigate("/oa-sourcing");
+					}, 3000);
+				});
+		}
+	}, [leadId, navigate]);
+
 	// Handle pagination change
 	const handlePaginationChange = (newPagination: PaginationState) => {
 		setPagination(newPagination);
@@ -417,7 +508,7 @@ export default function OASourcing() {
 	// Handle clear filters
 	const handleClearFilters = () => {
 		setSearchRetailer("");
-		setSearchSourcer("");
+		setSearchProductName("");
 		const newPagination = { ...pagination, pageIndex: 0 };
 		setPagination(newPagination);
 		setTimeout(() => loadLeadData(newPagination), 0);
@@ -440,6 +531,7 @@ export default function OASourcing() {
 			productName: lead.product_name || "",
 			retailerLink: lead.retailer_link || "",
 			amazonLink: lead.amazon_link || "",
+			uniqueId: lead.unique_id || "",
 			purchased: lead.purchased || "",
 			purchaseMoreIfAvailable: lead.purchase_more || "",
 			monitored: lead.monitored === "Yes" || lead.monitored === "true",
@@ -451,6 +543,9 @@ export default function OASourcing() {
 			pairsPerLeadId: lead.pairs_per_lead?.toString() || "",
 			pairsPerSku: lead.pairs_per_sku?.toString() || "",
 			salesRank: lead.sales_rank || "",
+			ppu: lead.ppu != null ? lead.ppu.toString() : "",
+			rsp: lead.rsp != null ? lead.rsp.toString() : "",
+			margin: lead.margin != null ? lead.margin.toString() : "",
 			asin1BuyBox: lead.buy_box || "",
 			asin1NewPrice: lead.new_price || "",
 			pickPackFee: lead.pick_pack_fee?.toString() || "",
@@ -486,6 +581,7 @@ export default function OASourcing() {
 			if (data.productName) updateData.productName = data.productName;
 			if (data.retailerLink !== undefined) updateData.retailerLink = data.retailerLink;
 			if (data.amazonLink !== undefined) updateData.amazonLink = data.amazonLink;
+			if (data.uniqueId !== undefined) updateData.uniqueId = data.uniqueId;
 			if (data.purchased) updateData.purchased = data.purchased;
 			if (data.purchaseMoreIfAvailable) updateData.purchaseMoreIfAvailable = data.purchaseMoreIfAvailable;
 			if (data.monitored !== undefined) updateData.monitored = data.monitored;
@@ -498,6 +594,9 @@ export default function OASourcing() {
 			if (data.pairsPerLeadId) updateData.pairsPerLeadId = parseInt(data.pairsPerLeadId);
 			if (data.pairsPerSku) updateData.pairsPerSku = parseInt(data.pairsPerSku);
 			if (data.salesRank !== undefined) updateData.salesRank = data.salesRank;
+			if (data.ppu !== undefined && data.ppu !== "") updateData.ppu = parseFloat(data.ppu);
+			if (data.rsp !== undefined && data.rsp !== "") updateData.rsp = parseFloat(data.rsp);
+			if (data.margin !== undefined && data.margin !== "") updateData.margin = parseFloat(data.margin);
 			if (data.asin1BuyBox) updateData.asin1BuyBox = parseFloat(data.asin1BuyBox);
 			if (data.asin1NewPrice) updateData.asin1NewPrice = parseFloat(data.asin1NewPrice);
 			if (data.pickPackFee) updateData.pickPackFee = parseFloat(data.pickPackFee);
@@ -515,11 +614,17 @@ export default function OASourcing() {
 			// Exit edit mode
 			setIsEditMode(false);
 
-			// Refresh the lead data
-			await loadLeadData();
+			// Refresh table and drawer: fetch fresh lead so detail drawer updates immediately
+			const leadIdToRefresh = selectedLead.lead_id;
+			const [_, freshLead] = await Promise.all([
+				loadLeadData(),
+				leadService.getLeadById(leadIdToRefresh),
+			]);
+			if (freshLead) {
+				setSelectedLead(freshLead);
+			}
 
-			// Close drawer
-			setDetailDrawerOpen(false);
+			// Keep drawer open (don't close it)
 		} catch (error: any) {
 			console.error("Error updating lead:", error);
 			toast.error("Failed to update lead", {
@@ -549,9 +654,129 @@ export default function OASourcing() {
 			loadLeadData(); // Reload data
 		} catch (error: any) {
 			console.error("Error deleting lead:", error);
-			toast.error("Failed to delete lead", {
+			const errMsg = error?.message || "Please try again";
+			toast.error(
+				errMsg.startsWith("Purchase Record Constraint") ? errMsg : "Cannot delete lead",
+				{ description: errMsg.startsWith("Purchase Record Constraint") ? undefined : errMsg }
+			);
+		}
+	};
+
+	// Handle status toggle
+	const handleStatusToggle = async (checked: boolean) => {
+		if (!selectedLead) return;
+
+		const newStatus = checked ? 'complete' : 'draft';
+		
+		try {
+			await leadService.updateLead(selectedLead.lead_id, { status: newStatus });
+
+			// Update the drawer state
+			setSelectedLead({ ...selectedLead, status: newStatus });
+			
+			// Update just the specific record in the table state
+			setLeadData(prevLeadData => 
+				prevLeadData.map(lead => 
+					lead.lead_id === selectedLead.lead_id 
+						? { ...lead, status: newStatus }
+						: lead
+				)
+			);
+		} catch (error: any) {
+			console.error("Error updating status:", error);
+			toast.error("Failed to update status", {
 				description: error?.message || "Please try again",
 			});
+		}
+	};
+
+	// Handle ASIN operations
+	const handleAddAsin = async () => {
+		if (!selectedLead || !newAsin.asin || !newAsin.size) {
+			toast.error("Please fill in ASIN and Size");
+			return;
+		}
+
+		setIsSavingAsin(true);
+		try {
+			await leadService.addAsinToLead(
+				selectedLead.lead_id,
+				newAsin.asin,
+				newAsin.size,
+				newAsin.recommendedQuantity
+			);
+
+			toast.success("ASIN added successfully");
+			
+			// Reset form
+			setNewAsin({ asin: "", size: "", recommendedQuantity: 1 });
+			setIsAddingAsin(false);
+
+			// Reload lead data
+			const response = await leadService.getLeadById(selectedLead.lead_id);
+			setSelectedLead((response as any).data || response);
+		} catch (error: any) {
+			console.error("Error adding ASIN:", error);
+			toast.error("Failed to add ASIN", {
+				description: error?.response?.data?.message || error?.message || "Please try again",
+			});
+		} finally {
+			setIsSavingAsin(false);
+		}
+	};
+
+	const handleUpdateAsin = async (position: number, asin: string, size: string, recommendedQuantity: number) => {
+		if (!selectedLead) return;
+
+		setIsSavingAsin(true);
+		try {
+			await leadService.updateAsinInLead(
+				selectedLead.lead_id,
+				position,
+				asin,
+				size,
+				recommendedQuantity
+			);
+
+			toast.success("ASIN updated successfully");
+			setEditingAsinIndex(null);
+
+			// Reload lead data
+			const response = await leadService.getLeadById(selectedLead.lead_id);
+			setSelectedLead((response as any).data || response);
+		} catch (error: any) {
+			console.error("Error updating ASIN:", error);
+			toast.error("Failed to update ASIN", {
+				description: error?.response?.data?.message || error?.message || "Please try again",
+			});
+		} finally {
+			setIsSavingAsin(false);
+		}
+	};
+
+	const handleDeleteAsin = async (position: number) => {
+		if (!selectedLead) return;
+
+		if (!confirm(`Are you sure you want to delete the ASIN at position ${position}?`)) {
+			return;
+		}
+
+		setIsSavingAsin(true);
+		try {
+			await leadService.deleteAsinFromLead(selectedLead.lead_id, position);
+
+			toast.success("ASIN deleted successfully");
+
+			// Reload lead data
+			const response = await leadService.getLeadById(selectedLead.lead_id);
+			setSelectedLead((response as any).data || response);
+		} catch (error: any) {
+			console.error("Error deleting ASIN:", error);
+			toast.error("Failed to delete ASIN", {
+				description: error?.response?.data?.message || error?.message || "Please try again",
+			});
+		} finally {
+			setIsSavingAsin(false);
 		}
 	};
 
@@ -579,17 +804,17 @@ export default function OASourcing() {
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 						<div>
 							<Input
-								placeholder="Search by Retailer..."
-								value={searchRetailer}
-								onChange={(e) => setSearchRetailer(e.target.value)}
+								placeholder="Product Name"
+								value={searchProductName}
+								onChange={(e) => setSearchProductName(e.target.value)}
 								onKeyDown={(e) => e.key === "Enter" && handleSearch()}
 							/>
 						</div>
 						<div>
 							<Input
-								placeholder="Search by Sourcer..."
-								value={searchSourcer}
-								onChange={(e) => setSearchSourcer(e.target.value)}
+								placeholder="Retailer Name"
+								value={searchRetailer}
+								onChange={(e) => setSearchRetailer(e.target.value)}
 								onKeyDown={(e) => e.key === "Enter" && handleSearch()}
 							/>
 						</div>
@@ -615,7 +840,11 @@ export default function OASourcing() {
 							Lead Records ({total.toLocaleString()} total)
 						</Title>
 					</CardTitle>
-					<CardAction>
+					<CardAction className="flex gap-2">
+						<Button size="sm" onClick={() => navigate("/lead-submittal")}>
+							<Icon icon="mdi:plus" className="mr-1" />
+							Add Lead
+						</Button>
 						<Button size="sm" variant="outline" onClick={() => loadLeadData()} disabled={loading}>
 							<Icon icon="mdi:refresh" className="mr-1" />
 							Refresh
@@ -656,7 +885,19 @@ export default function OASourcing() {
 									<span className="font-mono text-sm">{selectedLead?.lead_id}</span>
 								</SheetDescription>
 							</div>
-							<div className="flex gap-2 mr-6">
+							<div className="flex gap-3 mr-6 items-center">
+								{!isEditMode && (
+									<div className="flex items-center gap-2 border-r pr-3">
+										<Label htmlFor="status-toggle" className="text-sm font-medium cursor-pointer">
+											{selectedLead?.status === 'complete' ? '✓ Complete' : '📝 Draft'}
+										</Label>
+										<Switch
+											id="status-toggle"
+											checked={selectedLead?.status === 'complete'}
+											onCheckedChange={handleStatusToggle}
+										/>
+									</div>
+								)}
 								{!isEditMode ? (
 									<Button size="sm" onClick={enterEditMode}>
 										<Icon icon="mdi:pencil" className="mr-1" />
@@ -712,6 +953,7 @@ export default function OASourcing() {
 											{selectedLead.amazon_link && (
 												<DetailField label="Amazon Link" value={selectedLead.amazon_link} isLink />
 											)}
+											<DetailField label="Unique ID" value={selectedLead.unique_id} mono />
 										</div>
 									</div>
 
@@ -788,11 +1030,70 @@ export default function OASourcing() {
 
 								{/* ASINs Tab */}
 								<TabsContent value="asins" className="mt-4">
-									{selectedLead.asins && selectedLead.asins.length > 0 ? (
-										<div className="space-y-2">
-											<h4 className="font-semibold mb-3">
-												ASINs ({selectedLead.asins.length})
+									<div className="space-y-4">
+										<div className="flex items-center justify-between">
+											<h4 className="font-semibold">
+												ASINs ({selectedLead.asins?.length || 0})
 											</h4>
+											<Button
+												size="sm"
+												variant="outline"
+												onClick={() => setIsAddingAsin(true)}
+												disabled={isSavingAsin || (selectedLead.asins && selectedLead.asins.length >= 15)}
+											>
+												<Icon icon="mdi:plus" className="mr-1" />
+												Add ASIN
+											</Button>
+										</div>
+
+										{/* Add ASIN Form */}
+										{isAddingAsin && (
+											<div className="border rounded-lg p-4 bg-gray-50 dark:bg-gray-800/50">
+												<div className="grid grid-cols-3 gap-3">
+													<Input
+														placeholder="ASIN"
+														value={newAsin.asin}
+														onChange={(e) => setNewAsin({ ...newAsin, asin: e.target.value.toUpperCase() })}
+														className="font-mono text-xs"
+													/>
+													<Input
+														placeholder="Size"
+														value={newAsin.size}
+														onChange={(e) => setNewAsin({ ...newAsin, size: e.target.value })}
+													/>
+													<div className="flex gap-2">
+														<Input
+															type="number"
+															placeholder="Qty"
+															value={newAsin.recommendedQuantity}
+															onChange={(e) => setNewAsin({ ...newAsin, recommendedQuantity: parseInt(e.target.value) || 1 })}
+															className="w-20"
+														/>
+														<Button
+															size="sm"
+															onClick={handleAddAsin}
+															disabled={isSavingAsin || !newAsin.asin || !newAsin.size}
+														>
+															<Icon icon="mdi:check" />
+														</Button>
+														<Button
+															size="sm"
+															variant="outline"
+															onClick={() => {
+																setIsAddingAsin(false);
+																setNewAsin({ asin: "", size: "", recommendedQuantity: 1 });
+															}}
+															disabled={isSavingAsin}
+														>
+															<Icon icon="mdi:close" />
+														</Button>
+													</div>
+												</div>
+											</div>
+										)}
+
+										{/* ASINs Table */}
+										{selectedLead.asins && selectedLead.asins.length > 0 ? (
 											<div className="border rounded-lg overflow-hidden">
 												<table className="w-full text-sm">
 													<thead className="bg-gray-50 dark:bg-gray-800">
@@ -800,36 +1101,120 @@ export default function OASourcing() {
 															<th className="px-4 py-2 text-left font-semibold">#</th>
 															<th className="px-4 py-2 text-left font-semibold">ASIN</th>
 															<th className="px-4 py-2 text-left font-semibold">Size</th>
-															<th className="px-4 py-2 text-right font-semibold">
-																Recommended Qty
-															</th>
+															<th className="px-4 py-2 text-right font-semibold">Recommended Qty</th>
+															<th className="px-4 py-2 text-right font-semibold">Actions</th>
 														</tr>
 													</thead>
 													<tbody className="divide-y">
-														{selectedLead.asins.map((asin, index) => (
-															<tr key={asin.id} className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
-																<td className="px-4 py-2 text-gray-600">{index + 1}</td>
-																<td className="px-4 py-2 font-mono text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400">
-																	{asin.asin}
-																</td>
-																<td className="px-4 py-2">
-																	<Badge variant="outline">{asin.size}</Badge>
-																</td>
-																<td className="px-4 py-2 text-right font-semibold">
-																	{asin.recommended_quantity}
-																</td>
-															</tr>
-														))}
+														{selectedLead.asins.map((asin, index) => {
+															const position = index + 1;
+															const isEditing = editingAsinIndex === index;
+															const editData = editingAsinData || { asin: asin.asin, size: asin.size, recommendedQuantity: asin.recommended_quantity || 1 };
+
+															return (
+																<tr key={asin.id} className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
+																	<td className="px-4 py-2 text-gray-600">{position}</td>
+																	{isEditing ? (
+																		<>
+																			<td className="px-4 py-2">
+																				<Input
+																					value={editData.asin}
+																					onChange={(e) => setEditingAsinData({ ...editData, asin: e.target.value.toUpperCase() })}
+																					className="font-mono text-xs h-8"
+																				/>
+																			</td>
+																			<td className="px-4 py-2">
+																				<Input
+																					value={editData.size}
+																					onChange={(e) => setEditingAsinData({ ...editData, size: e.target.value })}
+																					className="h-8"
+																				/>
+																			</td>
+																			<td className="px-4 py-2">
+																				<Input
+																					type="number"
+																					value={editData.recommendedQuantity}
+																					onChange={(e) => setEditingAsinData({ ...editData, recommendedQuantity: parseInt(e.target.value) || 1 })}
+																					className="h-8 w-20 ml-auto"
+																				/>
+																			</td>
+																			<td className="px-4 py-2">
+																				<div className="flex gap-1 justify-end">
+																					<Button
+																						size="sm"
+																						variant="ghost"
+																						onClick={() => {
+																							if (editingAsinData) {
+																								handleUpdateAsin(position, editingAsinData.asin, editingAsinData.size, editingAsinData.recommendedQuantity);
+																							}
+																						}}
+																						disabled={isSavingAsin || !editData.asin || !editData.size}
+																					>
+																						<Icon icon="mdi:check" size={16} className="text-green-600" />
+																					</Button>
+																					<Button
+																						size="sm"
+																						variant="ghost"
+																						onClick={() => {
+																							setEditingAsinIndex(null);
+																							setEditingAsinData(null);
+																						}}
+																						disabled={isSavingAsin}
+																					>
+																						<Icon icon="mdi:close" size={16} className="text-gray-600" />
+																					</Button>
+																				</div>
+																			</td>
+																		</>
+																	) : (
+																		<>
+																			<td className="px-4 py-2 font-mono text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400">
+																				{asin.asin}
+																			</td>
+																			<td className="px-4 py-2">
+																				<Badge variant="outline">{asin.size}</Badge>
+																			</td>
+																			<td className="px-4 py-2 text-right font-semibold">
+																				{asin.recommended_quantity}
+																			</td>
+																			<td className="px-4 py-2">
+																				<div className="flex gap-1 justify-end">
+																					<Button
+																						size="sm"
+																						variant="ghost"
+																						onClick={() => {
+																							setEditingAsinIndex(index);
+																							setEditingAsinData({ asin: asin.asin, size: asin.size, recommendedQuantity: asin.recommended_quantity || 1 });
+																						}}
+																						disabled={isSavingAsin}
+																					>
+																						<Icon icon="mdi:pencil" size={16} className="text-blue-600" />
+																					</Button>
+																					<Button
+																						size="sm"
+																						variant="ghost"
+																						onClick={() => handleDeleteAsin(position)}
+																						disabled={isSavingAsin}
+																					>
+																						<Icon icon="mdi:delete" size={16} className="text-red-600" />
+																					</Button>
+																				</div>
+																			</td>
+																		</>
+																	)}
+																</tr>
+															);
+														})}
 													</tbody>
 												</table>
 											</div>
-										</div>
-									) : (
-										<div className="text-center py-8 text-gray-500">
-											<Icon icon="mdi:package-variant-closed" size={48} className="mx-auto mb-2 opacity-50" />
-											<p>No ASINs found for this lead</p>
-										</div>
-									)}
+										) : (
+											<div className="text-center py-8 text-gray-500">
+												<Icon icon="mdi:package-variant-closed" size={48} className="mx-auto mb-2 opacity-50" />
+												<p>No ASINs found for this lead</p>
+											</div>
+										)}
+									</div>
 								</TabsContent>
 							</Tabs>
 						</div>
@@ -880,6 +1265,20 @@ export default function OASourcing() {
 													<FormLabel>Amazon Link</FormLabel>
 													<FormControl>
 														<Input {...field} placeholder="https://" type="url" />
+													</FormControl>
+													<FormMessage />
+												</FormItem>
+											)}
+										/>
+
+										<FormField
+											control={editForm.control}
+											name="uniqueId"
+											render={({ field }) => (
+												<FormItem>
+													<FormLabel>Unique ID</FormLabel>
+													<FormControl>
+														<Input {...field} placeholder="Enter unique ID (e.g., HJ7395)" />
 													</FormControl>
 													<FormMessage />
 												</FormItem>
@@ -1051,6 +1450,48 @@ export default function OASourcing() {
 										<h3 className="text-lg font-semibold">Pricing & Fees</h3>
 
 										<div className="grid grid-cols-2 gap-4">
+											<FormField
+												control={editForm.control}
+												name="ppu"
+												render={({ field }) => (
+													<FormItem>
+														<FormLabel>PPU (including ship)</FormLabel>
+														<FormControl>
+															<Input {...field} type="number" step="0.01" placeholder="0.00" />
+														</FormControl>
+														<FormMessage />
+													</FormItem>
+												)}
+											/>
+
+											<FormField
+												control={editForm.control}
+												name="rsp"
+												render={({ field }) => (
+													<FormItem>
+														<FormLabel>RSP</FormLabel>
+														<FormControl>
+															<Input {...field} type="number" step="0.01" placeholder="0.00" />
+														</FormControl>
+														<FormMessage />
+													</FormItem>
+												)}
+											/>
+
+											<FormField
+												control={editForm.control}
+												name="margin"
+												render={({ field }) => (
+													<FormItem>
+														<FormLabel>Margin (%)</FormLabel>
+														<FormControl>
+															<Input {...field} type="number" step="0.1" placeholder="0.0" />
+														</FormControl>
+														<FormMessage />
+													</FormItem>
+												)}
+											/>
+
 											<FormField
 												control={editForm.control}
 												name="pairsPerLeadId"

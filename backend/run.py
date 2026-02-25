@@ -29,7 +29,7 @@ if __name__ == "__main__":
     
     # Parse command line arguments
     port = settings.port
-    reload = settings.debug
+    reload = settings.is_development  # Auto-reload enabled in development mode
     
     args = sys.argv[1:]
     for arg in args:
@@ -45,6 +45,13 @@ if __name__ == "__main__":
             except ValueError:
                 print(f"Invalid port: {arg}")
     
+    # Display environment information
+    print("=" * 60)
+    print(f"Environment Mode: {settings.environment.upper()}")
+    env_file = ".env" if settings.environment == "production" else ".env.development"
+    print(f"Using env file: {env_file}")
+    print(f"Credentials file: {settings.gmail_credentials_path}")
+    print("=" * 60)
     print(f"Starting server on {settings.host}:{port}")
     print(f"Auto-reload: {reload}")
     print(f"Access docs at: http://localhost:{port}/docs")

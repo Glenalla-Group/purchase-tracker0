@@ -48,4 +48,35 @@ export const frontendNavData: NavProps["data"] = [
 			}
 		],
 	},
+	{
+		name: "Teams",
+		items: [
+			{
+				title: "Calendar & PTO",
+				path: "/teams/calendar-and-pto",
+				icon: <Icon icon="mdi:calendar-clock" size="24" />,
+			},
+			{
+				title: "Tasks",
+				path: "/teams/tasks",
+				icon: <Icon icon="mdi:clipboard-list" size="24" />,
+			}
+		],
+	},
+	{
+		name: "sys.nav.user.index",
+		items: [
+			{
+				title: "sys.nav.user.profile",
+				path: "/management/user/profile",
+				icon: <Icon icon="mdi:account-edit" size="24" />,
+			},
+			{
+				title: "sys.nav.accounts",
+				path: "/management/user/account",
+				icon: <Icon icon="mdi:account-group" size="24" />,
+				auth: ["admin"], // Only visible to admin users
+			},
+		],
+	},
 ];

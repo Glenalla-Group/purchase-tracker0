@@ -1,0 +1,907 @@
+<div dir="ltr"><br><br>
+    <div class="gmail_quote gmail_quote_container">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#0e0e0e;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding:10px 0px 10px 0px">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                                            style="max-width:600px">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" style="background-color:#0e0e0e">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <table width="100%" cellpadding="0"
+                                                                            cellspacing="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:center">
+                                                                                        <span style="font-size:10px">
+                                                                                            <span style="color:#ffffff">
+                                                                                                <span
+                                                                                                    style="font-family:&quot;helvetica neue&quot;,helvetica,arial,sans-serif,serif,EmojiFont">
+                                                                                                    <b>FREE SHIPPING ON
+                                                                                                        ORDERS OVER
+                                                                                                        $75 </b>*Exclusions
+                                                                                                    Apply
+                                                                                                </span>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#222222;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding:10px 0px 10px 0px">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                                            style="max-width:600px">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" style="background-color:#222222">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <table width="100%" cellpadding="0"
+                                                                            cellspacing="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:5px 10px 5px 10px">
+                                                                                        <a href="https://dtlr.com"
+                                                                                            rel="noopener noreferrer"
+                                                                                            title="DTLR"
+                                                                                            target="_blank">
+                                                                                            <img src="https://cdn.shopify.com/s/files/1/0095/4420/4367/files/dtlr-villa-logo-white.png?v=1621875452"
+                                                                                                alt="DTLR" width="100"
+                                                                                                style="display:block;width:100px;max-width:160px;border:0px">
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#f2f2f2;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="background-color:#f2f2f2">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" style="padding:0px 0px 5px 0px">
+                                                                        <img src="http://mediacdn.espssl.com/6265/eblast/campaigns/affirm.png"
+                                                                            alt="Buy Now and Pay Later with Affirm"
+                                                                            width="206"
+                                                                            style="display:block;width:100%;max-width:206px;border:0px">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:transparent;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="background-color:transparent">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:20px 10px 2px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:left">
+                                                                        <span style="font-family:montserrat,sans-serif">
+                                                                            <span
+                                                                                style="font-size:20px;letter-spacing:normal">
+                                                                                <b>Order Fulfillment Confirmation</b>
+                                                                            </span>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:left">
+                                                                        <span
+                                                                            style="font-family:oswald,arial narrow,sans-serif">
+                                                                            <span style="letter-spacing:0.5px">
+                                                                                Order #4794342</span>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:left">
+                                                                        <span
+                                                                            style="font-family:oswald,arial narrow,sans-serif">
+                                                                            <span style="letter-spacing:0.5px">Order
+                                                                                Date: 11/17/2025 9:08:14 AM</span>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        <span style="font-size:12px">
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        <span>Hello Griffin Myers,</span>
+                                                                        <p><span style="font-size:12px">
+                                                                                Thank you for your order from DTLR. We
+                                                                                have processed and fulfilled items in
+                                                                                your order!
+                                                                                Tracking information can be found below
+                                                                                for items that have been shipped.
+                                                                                <br><br>
+                                                                                Multi-unit orders may ship in multiple
+                                                                                shipments. You will receive separate
+                                                                                emails and tracking numbers for each
+                                                                                shipment.
+                                                                                <br><br>
+                                                                                If your order is being picked up in
+                                                                                store or delivered locally, you’ll
+                                                                                receive another email once it’s ready
+                                                                                for pickup or out for delivery.<br><br>
+                                                                                You can check the status of your order
+                                                                                by <a
+                                                                                    href="https://www.dtlr.com/customer/account/"
+                                                                                    target="_blank">logging into your
+                                                                                    account</a>.</span></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <p><img
+                                                                                src="https://middleware.dtlr.com/BarcodeTools/GenerateEcommerceReturnBarcode/4794342">
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        <table border="0" cellpadding="5"
+                                                                            cellspacing="0" style="width:100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="1"
+                                                                                        style="font-family:Arial;font-size:16px;padding:5px;background:#efefef;font-weight:bold">
+                                                                                        Billing Information</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="width:300px;font-family:arial;font-size:12px;font-weight:bold">
+                                                                                        Billing Contact</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="font-family:arial;font-size:11px">
+                                                                                        Griffin Myers<br>
+                                                                                        595 Lloyd Laaneee<br>SUITE D<br>
+                                                                                        Independence,OR 97351
+                                                                                        <br>USA<br>
+                                                                                        <a href="mailto:g.lenallagroupc@gmail.com"
+                                                                                            target="_blank">g.lenallagroupc@gmail.com</a><br>
+                                                                                        3032108012
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        <table border="0" cellpadding="5"
+                                                                            cellspacing="0" style="width:100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="1"
+                                                                                        style="font-family:Arial;font-size:16px;padding:5px;background:#efefef;font-weight:bold">
+                                                                                        Customer Information</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="width:300px;font-family:arial;font-size:12px;font-weight:bold">
+                                                                                        Customer Contact</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="font-family:arial;font-size:11px">
+                                                                                        Griffin Myers<br>
+                                                                                        595 Lloyd Laaneee<br>
+                                                                                        Independence,OR 97351 USA<br>
+                                                                                        3032108009</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        <table border="0" cellpadding="5"
+                                                                            cellspacing="0" style="width:100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="4"
+                                                                                        style="font-family:Arial;font-size:16px;padding:5px;background:#efefef;font-weight:bold">
+                                                                                        Order Details</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size:12px;font-family:arial;font-weight:bold"
+                                                                                        width="35%">Description</td>
+                                                                                    <td style="font-size:12px;font-family:arial;font-weight:bold"
+                                                                                        width="15%">Ord Qty</td>
+                                                                                    <td style="font-size:12px;font-family:arial;font-weight:bold"
+                                                                                        width="15%">Fulfilled Qty</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:12px;font-family:arial;font-weight:bold"
+                                                                                        width="35%">Tracking</td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">AJ1 MID WHT/ LEGEND
+                                                                                        BLU 4-7Color=WHITE;Size=6</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">FedEx Economy - <a
+                                                                                            href="https://www.fedex.com/fedextrack/?trknbr=395458965257"
+                                                                                            target="_blank">395458965257</a>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">AJ1 MID WHT/ LEGEND
+                                                                                        BLU 4-7Color=WHITE;Size=6.5</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">2</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">2</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">FedEx Economy - <a
+                                                                                            href="https://www.fedex.com/fedextrack/?trknbr=395458754574"
+                                                                                            target="_blank">395458754574</a>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">DUNK LOW DUSTY
+                                                                                        CACTUS/THUNDER
+                                                                                        BLUE-WHITEColor=BLUE;Size=12
+                                                                                    </td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">FedEx Economy - <a
+                                                                                            href="https://www.fedex.com/fedextrack/?trknbr=395429431270"
+                                                                                            target="_blank">395429431270</a>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">AJ1 MID WHT/ LEGEND
+                                                                                        BLU 4-7Color=WHITE;Size=6</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">FedEx Economy - <a
+                                                                                            href="https://www.fedex.com/fedextrack/?trknbr=395461011053"
+                                                                                            target="_blank">395461011053</a>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">AJ1 MID WHT/ LEGEND
+                                                                                        BLU 4-7Color=WHITE;Size=6.5</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">1</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">FedEx Economy - <a
+                                                                                            href="https://www.fedex.com/fedextrack/?trknbr=395461011053"
+                                                                                            target="_blank">395461011053</a>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">DUNK LOW DUSTY
+                                                                                        CACTUS/THUNDER
+                                                                                        BLUE-WHITEColor=BLUE;Size=12
+                                                                                    </td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">2</td>
+                                                                                    <td style="font-size:11px;font-family:arial"
+                                                                                        valign="top">0</td>
+                                                                                    <td align="right"
+                                                                                        style="font-size:11px;font-family:arial"
+                                                                                        valign="top">Shipping Separately
+                                                                                        - </td>
+                                                                                </tr>
+
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:0px 10px 30px 10px;vertical-align:top">
+                                                                        <table width="100%" cellpadding="0"
+                                                                            cellspacing="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="30"
+                                                                                        style="font-size:0px;line-height:0px;border-bottom-style:solid;border-top-width:0px;border-bottom-width:1px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                                                                                         </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td
+                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:16px;font-weight:normal;color:#222222;line-height:1.5;text-align:left">
+                                                                        For information on returns, please visit <a
+                                                                            href="https://www.dtlr.com/pages/returns-policy"
+                                                                            target="_blank">https://www.dtlr.com/pages/returns-policy</a>.
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#e92e45;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding:30px 0px 30px 0px">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                                            style="max-width:600px">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" style="background-color:#e92e45">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <table width="100%" cellpadding="0"
+                                                                            cellspacing="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 20px 10px 20px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1.5;text-align:center">
+                                                                                        <span style="color:#ffffff">
+                                                                                            <span
+                                                                                                style="font-size:16px">
+                                                                                                <span
+                                                                                                    style="font-family:&quot;Open Sans Condensed&quot;,&quot;Arial Narrow&quot;,sans-serif,serif,EmojiFont">
+                                                                                                    <b>TRENDSETTERS</b>
+                                                                                                </span>
+                                                                                            </span>
+                                                                                            <br>
+                                                                                            <span
+                                                                                                style="font-size:12px">You
+                                                                                                can now track your
+                                                                                                points through the DTLR
+                                                                                                mobile app!</span>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:0px 30px 10px 30px">
+                                                                                        <table cellpadding="0"
+                                                                                            cellspacing="0" border="0"
+                                                                                            style="width:100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <th align="center"
+                                                                                                        style="display:block;background-color:#e92e45;border-style:solid;border-width:1px;border-color:#ffffff;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;color:#ffffff;line-height:1.5">
+                                                                                                        <a href="https://www.dtlr.com/pages/download-the-app"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="View Points"
+                                                                                                            style="color:#ffffff;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-style:normal;letter-spacing:0px;text-align:center;display:block;background-color:#e92e45;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;text-decoration:none;padding:10px 20px 10px 20px;box-sizing:border-box;border-width:1px;border-style:solid;border-color:#e92e45"
+                                                                                                            target="_blank">
+                                                                                                            <strong>Download</strong>
+                                                                                                        </a>
+                                                                                                    </th>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#f2f2f2;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="background-color:#f2f2f2">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:10px 5px 10px 10px">
+                                                                        <img src="http://mediacdn.espssl.com/6265/eblast/campaigns/affirm.png"
+                                                                            alt="" width="228"
+                                                                            style="display:block;width:100%;max-width:228px;border:0px">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td align="center"
+                        style="background-color:#181818;border-top-style:none;border-bottom-style:none;border-right-style:none;border-left-style:none;border-top-width:0px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#222222">
+                        <table width="100%" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding:30px 0px 30px 0px">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                                            style="max-width:600px">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" style="background-color:#181818">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <table width="100%" cellpadding="0"
+                                                                            cellspacing="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <span
+                                                                                            style="font-family:&quot;Open Sans Condensed&quot;,&quot;Arial Narrow&quot;,sans-serif,serif,EmojiFont">
+                                                                                            <b>
+                                                                                                <span
+                                                                                                    style="letter-spacing:0px">
+                                                                                                    <span
+                                                                                                        style="font-size:16px">
+                                                                                                        <span
+                                                                                                            style="color:#ffffff">Need
+                                                                                                            it Today?
+                                                                                                            Buy Online
+                                                                                                            and Pickup
+                                                                                                            In
+                                                                                                            Store</span>
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </b>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:10px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <span style="font-size:12px">
+                                                                                            <span style="color:#ffffff">
+                                                                                                <span
+                                                                                                    style="font-family:arial,&quot;helvetica neue&quot;,helvetica,sans-serif,serif,EmojiFont">Skip
+                                                                                                    shipping fees and
+                                                                                                    have your order sent
+                                                                                                    directly to a store
+                                                                                                    near you</span>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 20px 30px 20px;vertical-align:top">
+                                                                                        <table width="100%"
+                                                                                            cellpadding="0"
+                                                                                            cellspacing="0" border="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height="30"
+                                                                                                        style="font-size:0px;line-height:0px;border-bottom-style:solid;border-top-width:0px;border-bottom-width:1px;border-right-width:0px;border-left-width:0px;border-color:#393939">
+                                                                                                         </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 0px 0px 0px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <b>
+                                                                                            <span
+                                                                                                style="font-family:&quot;Open Sans Condensed&quot;,&quot;Arial Narrow&quot;,sans-serif,serif,EmojiFont">
+                                                                                                <span
+                                                                                                    style="letter-spacing:0px">
+                                                                                                    <span
+                                                                                                        style="font-size:16px">
+                                                                                                        <span
+                                                                                                            style="color:#ffffff">STORE
+                                                                                                            LOCATOR</span>
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </span>
+                                                                                        </b>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:10px 30px 20px 30px">
+                                                                                        <table cellpadding="0"
+                                                                                            cellspacing="0" border="0"
+                                                                                            style="width:100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <th align="center"
+                                                                                                        style="display:block;background-color:transparent;border-style:solid;border-width:1px;border-color:#393939;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;color:#ffffff;line-height:1.5">
+                                                                                                        <a href="https://locations.dtlr.com/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Store Locator"
+                                                                                                            style="color:#ffffff;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-style:normal;letter-spacing:0px;text-align:center;display:block;background-color:transparent;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;text-decoration:none;padding:10px 20px 10px 20px;box-sizing:border-box;border-width:1px;border-style:solid;border-color:#181818"
+                                                                                                            target="_blank">
+                                                                                                            <strong>Find
+                                                                                                                A
+                                                                                                                Store</strong>
+                                                                                                        </a>
+                                                                                                    </th>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 0px 0px 0px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <b>
+                                                                                            <span
+                                                                                                style="font-family:&quot;Open Sans Condensed&quot;,&quot;Arial Narrow&quot;,sans-serif,serif,EmojiFont">
+                                                                                                <span
+                                                                                                    style="letter-spacing:0px">
+                                                                                                    <span
+                                                                                                        style="font-size:16px">
+                                                                                                        <span
+                                                                                                            style="color:#ffffff">CONTACT
+                                                                                                            US</span>
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </span>
+                                                                                        </b>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:10px 30px 10px 30px">
+                                                                                        <table cellpadding="0"
+                                                                                            cellspacing="0" border="0"
+                                                                                            style="width:100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <th align="center"
+                                                                                                        style="display:block;background-color:transparent;border-style:solid;border-width:1px;border-color:#393939;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;color:#ffffff;line-height:1.5">
+                                                                                                        <a href="https://www.dtlr.com/pages/contact-us"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Customer Service"
+                                                                                                            style="color:#ffffff;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-style:normal;letter-spacing:0px;text-align:center;display:block;background-color:transparent;border-top-left-radius:500px;border-top-right-radius:500px;border-bottom-right-radius:500px;border-bottom-left-radius:500px;text-decoration:none;padding:10px 20px 10px 20px;box-sizing:border-box;border-width:1px;border-style:solid;border-color:#181818"
+                                                                                                            target="_blank">
+                                                                                                            <strong>Contact
+                                                                                                                Customer
+                                                                                                                Service</strong>
+                                                                                                        </a>
+                                                                                                    </th>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:10px 10px 0px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <span style="font-size:12px">
+                                                                                            <span style="color:#ffffff">
+                                                                                                <span
+                                                                                                    style="font-family:arial,&quot;helvetica neue&quot;,helvetica,sans-serif,serif,EmojiFont">844-408-3857
+                                                                                                     |  <a
+                                                                                                        href="mailto:custserv@dtlr.com"
+                                                                                                        target="_blank">custserv@dtlr.com</a></span>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:0px 20px 30px 20px;vertical-align:top">
+                                                                                        <table width="100%"
+                                                                                            cellpadding="0"
+                                                                                            cellspacing="0" border="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height="30"
+                                                                                                        style="font-size:0px;line-height:0px;border-bottom-style:solid;border-top-width:0px;border-bottom-width:1px;border-right-width:0px;border-left-width:0px;border-color:#393939">
+                                                                                                         </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:0px 10px 5px 10px">
+                                                                                        <a href="http://dtlr.com"
+                                                                                            rel="noopener noreferrer"
+                                                                                            title="dtlr.com"
+                                                                                            target="_blank">
+                                                                                            <img src="https://cdn.shopify.com/s/files/1/0095/4420/4367/files/dtlr-villa-logo-white.png?v=1621875452"
+                                                                                                alt="dtlr.com"
+                                                                                                width="90"
+                                                                                                style="display:block;width:90px;max-width:128px;border:0px">
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding:10px 10px 10px 10px">
+                                                                                        <table width="100%"
+                                                                                            cellpadding="0"
+                                                                                            cellspacing="0" border="0"
+                                                                                            style="display:inline-block;margin:0;vertical-align:top;max-width:160px">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td width="24">
+                                                                                                        <a href="https://www.instagram.com/dtlrvilla/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Instagram"
+                                                                                                            target="_blank">
+                                                                                                            <img src="http://mediacdn.espssl.com/email/Composer/Icons/circle/large/white/images/instagram.png"
+                                                                                                                alt="Instagram"
+                                                                                                                width="24"
+                                                                                                                style="display:block;width:100%;max-width:24px;border:0">
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                    <td>
+                                                                                                        <span
+                                                                                                            style="display:block;width:10px"> </span>
+                                                                                                    </td>
+                                                                                                    <td width="24">
+                                                                                                        <a href="https://twitter.com/dtlrvilla"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Twitter"
+                                                                                                            target="_blank">
+                                                                                                            <img src="http://mediacdn.espssl.com/email/Composer/Icons/circle/large/white/images/twitter.png"
+                                                                                                                alt="Twitter"
+                                                                                                                width="24"
+                                                                                                                style="display:block;width:100%;max-width:24px;border:0">
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                    <td>
+                                                                                                        <span
+                                                                                                            style="display:block;width:10px"> </span>
+                                                                                                    </td>
+                                                                                                    <td width="24">
+                                                                                                        <a href="https://www.youtube.com/channel/UCUaNSShMHacqYUOj_9sPw9w"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="YouTube"
+                                                                                                            target="_blank">
+                                                                                                            <img src="http://mediacdn.espssl.com/email/Composer/Icons/circle/large/white/images/youtube.png"
+                                                                                                                alt="YouTube"
+                                                                                                                width="24"
+                                                                                                                style="display:block;width:100%;max-width:24px;border:0">
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                    <td>
+                                                                                                        <span
+                                                                                                            style="display:block;width:10px"> </span>
+                                                                                                    </td>
+                                                                                                    <td width="24">
+                                                                                                        <a href="https://www.facebook.com/DTLRVILLA"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Facebook"
+                                                                                                            target="_blank">
+                                                                                                            <img src="http://mediacdn.espssl.com/email/Composer/Icons/circle/large/white/images/facebook.png"
+                                                                                                                alt="Facebook"
+                                                                                                                width="24"
+                                                                                                                style="display:block;width:100%;max-width:24px;border:0">
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                    <td>
+                                                                                                        <span
+                                                                                                            style="display:block;width:10px"> </span>
+                                                                                                    </td>
+                                                                                                    <td width="24">
+                                                                                                        <a href="https://blog.dtlr.com/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            title="Blog"
+                                                                                                            target="_blank">
+                                                                                                            <img src="http://mediacdn.espssl.com/6265/eblast/blog-white.png"
+                                                                                                                alt="Blog"
+                                                                                                                width="24"
+                                                                                                                style="display:block;width:100%;max-width:24px;border:0">
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td
+                                                                                        style="padding:10px 10px 10px 10px;border-width:0px;border-style:none;font-family:Arial,&#39;Helvetica Neue&#39;,Helvetica,sans-serif;font-size:12px;font-weight:normal;color:#222222;line-height:1;text-align:center">
+                                                                                        <span style="color:#ffffff">
+                                                                                            <span
+                                                                                                style="font-size:12px">Copyright
+                                                                                                © 2022 DTLR Inc. All
+                                                                                                rights reserved.
+                                                                                                <br>
+                                                                                                <i>Your Fashion. Your
+                                                                                                    Lifestyle.</i>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

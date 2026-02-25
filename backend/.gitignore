@@ -35,14 +35,21 @@ ENV/
 
 # Environment variables
 .env
+.env.development
+
+# Secrets configuration
+
 
 # Google credentials
 credentials.json
+credentials-dev.json
 token.json
-*.json
+token-dev.json
+.gmail_history_id
 
 # Logs
 *.log
+log.txt
 logs/
 
 # OS
@@ -53,4 +60,9 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Screenshots and temporary files
+tmp/
+*.png
+!**/static/**/*.png
 

@@ -103,6 +103,36 @@ class RetailerOrderService {
 	}
 
 	/**
+	 * Process Footlocker order update emails (shipping and cancellation)
+	 * @param maxEmails - Maximum number of emails to process per type
+	 */
+	async processFootlockerUpdates(maxEmails: number = 20): Promise<ProcessingResult> {
+		return apiClient.post<ProcessingResult>({
+			url: `/api/v1/gmail/process-footlocker-updates?max_emails=${maxEmails}`,
+		});
+	}
+
+	/**
+	 * Process Finish Line order update emails (shipping and full cancellation)
+	 * @param maxEmails - Maximum number of emails to process per type
+	 */
+	async processFinishLineUpdates(maxEmails: number = 20): Promise<ProcessingResult> {
+		return apiClient.post<ProcessingResult>({
+			url: `/api/v1/gmail/process-finishline-updates?max_emails=${maxEmails}`,
+		});
+	}
+
+	/**
+	 * Process JD Sports order update emails (shipping and full cancellation)
+	 * @param maxEmails - Maximum number of emails to process per type
+	 */
+	async processJDSportsUpdates(maxEmails: number = 20): Promise<ProcessingResult> {
+		return apiClient.post<ProcessingResult>({
+			url: `/api/v1/gmail/process-jdsports-updates?max_emails=${maxEmails}`,
+		});
+	}
+
+	/**
 	 * Get processing statistics
 	 */
 	async getProcessingStats(): Promise<ProcessingStats> {

@@ -5,10 +5,12 @@ Parses order confirmation emails from Champs Sports using BeautifulSoup
 
 import logging
 import re
+from datetime import datetime
 from typing import List, Optional
 from bs4 import BeautifulSoup
 
 from app.models.email import EmailData
+from app.utils.address_utils import normalize_shipping_address
 
 logger = logging.getLogger(__name__)
 
@@ -23,18 +25,47 @@ class ChampsOrderItem:
         self.product_name = product_name or "Unknown Product"
     
     def __repr__(self):
-        return f"<ChampsOrderItem(unique_id={self.unique_id}, size={self.size}, qty={self.quantity})>"
+        if self.product_name and len(self.product_name) > 50:
+            product_display = self.product_name[:50] + "..."
+        else:
+            product_display = self.product_name or "Unknown"
+        return f"<ChampsOrderItem(unique_id={self.unique_id}, size={self.size}, qty={self.quantity}, product={product_display})>"
 
 
 class ChampsOrderData:
     """Represents a complete Champs Sports order"""
+    
+    def __init__(self, order_number: str, items: List[ChampsOrderItem], shipping_address: str = None, order_datetime: Optional[datetime] = None):
+        self.order_number = order_number
+        self.items = items
+        self.shipping_address = shipping_address or ""
+        self.order_datetime = order_datetime  # Purchase date/time from email
+    
+    def __repr__(self):
+        return f"<ChampsOrderData(order_number={self.order_number}, items_count={len(self.items)}, address={self.shipping_address})>"
+
+
+class ChampsShippingData:
+    """Represents Champs Sports shipping notification data"""
+    
+    def __init__(self, order_number: str, tracking_number: str, items: List[ChampsOrderItem]):
+        self.order_number = order_number
+        self.tracking_number = tracking_number
+        self.items = items
+    
+    def __repr__(self):
+        return f"<ChampsShippingData(order={self.order_number}, tracking={self.tracking_number}, items={len(self.items)})>"
+
+
+class ChampsCancellationData:
+    """Represents Champs Sports cancellation notification data"""
     
     def __init__(self, order_number: str, items: List[ChampsOrderItem]):
         self.order_number = order_number
         self.items = items
     
     def __repr__(self):
-        return f"<ChampsOrderData(order_number={self.order_number}, items_count={len(self.items)})>"
+        return f"<ChampsCancellationData(order={self.order_number}, items={len(self.items)})>"
 
 
 class ChampsEmailParser:
@@ -46,19 +77,88 @@ class ChampsEmailParser:
     Subject: "Thank you for your order, [name]"
     """
     
-    # Email identification patterns
+    # Email identification - Order Confirmation (Production)
     CHAMPS_FROM_EMAIL = "accountservices@em.champssports.com"
     CHAMPS_FROM_PATTERN = r"champs"
     SUBJECT_ORDER_PATTERN = r"Thank you for your order"
     
+    # Email identification - Development (forwarded emails)
+    DEV_CHAMPS_ORDER_FROM_EMAIL = "glenallagroupc@gmail.com"
+    DEV_SUBJECT_ORDER_PATTERN = r"Fwd:\s*Thank you for your order"
+    
+    # Email identification - Shipping & Cancellation Updates (same as Footlocker)
+    CHAMPS_UPDATE_FROM_EMAIL = "accountservices@em.champssports.com"
+    SUBJECT_SHIPPING_PATTERN = r"Your order is ready to go"
+    SUBJECT_CANCELLATION_PATTERN = r"An item is no longer available"
+    DEV_SUBJECT_SHIPPING_PATTERN = r"Fwd:\s*Your order is ready to go"
+    DEV_SUBJECT_CANCELLATION_PATTERN = r"Fwd:\s*An item is no longer available"
+    
     def __init__(self):
         """Initialize the Champs email parser."""
-        pass
+        from app.config.settings import get_settings
+        self.settings = get_settings()
+    
+    @property
+    def order_from_email(self) -> str:
+        """Get the appropriate from email address based on environment."""
+        if self.settings.is_development:
+            return self.DEV_CHAMPS_ORDER_FROM_EMAIL
+        return self.CHAMPS_FROM_EMAIL
+    
+    @property
+    def order_subject_pattern(self) -> str:
+        """Get the appropriate subject pattern (regex) for matching based on environment."""
+        if self.settings.is_development:
+            return self.DEV_SUBJECT_ORDER_PATTERN
+        return self.SUBJECT_ORDER_PATTERN
+    
+    @property
+    def order_subject_query(self) -> str:
+        """Get the appropriate subject pattern for Gmail queries (non-regex) based on environment."""
+        if self.settings.is_development:
+            # For Gmail queries, use a simpler pattern that Gmail can understand
+            return "Fwd: Thank you for your order"
+        return "Thank you for your order"
+    
+    @property
+    def update_from_email(self) -> str:
+        """Get the appropriate from email address for updates (shipping/cancellation) based on environment."""
+        if self.settings.is_development:
+            return self.DEV_CHAMPS_ORDER_FROM_EMAIL
+        return self.CHAMPS_UPDATE_FROM_EMAIL
+    
+    @property
+    def shipping_subject_query(self) -> str:
+        """Get the appropriate subject pattern for Gmail shipping queries. Same as Footlocker."""
+        if self.settings.is_development:
+            return 'subject:"Fwd: Your order is ready to go"'
+        return 'subject:"Your order is ready to go"'
+    
+    @property
+    def cancellation_subject_query(self) -> str:
+        """Get the appropriate subject pattern for Gmail cancellation queries. Same as Footlocker."""
+        if self.settings.is_development:
+            return 'subject:"Fwd: An item is no longer available"'
+        return 'subject:"An item is no longer available"'
     
     def is_champs_email(self, email_data: EmailData) -> bool:
-        """Check if email is from Champs Sports"""
+        """
+        Check if email is from Champs Sports.
+        
+        In dev mode, Champs and Footlocker both forward from glenallagroupc with same subjects.
+        Differentiate via HTML content (champssports vs footlocker).
+        """
         sender_lower = email_data.sender.lower()
         
+        # In development, both use same dev email - require champssports in HTML
+        if self.settings.is_development:
+            if self.DEV_CHAMPS_ORDER_FROM_EMAIL.lower() in sender_lower:
+                html = (email_data.html_content or "").lower()
+                if "champssports" in html:
+                    return True
+                return False
+        
+        # Check for production email address
         if self.CHAMPS_FROM_EMAIL.lower() in sender_lower:
             return True
         
@@ -71,9 +171,34 @@ class ChampsEmailParser:
         """Check if email is an order confirmation"""
         subject_lower = email_data.subject.lower()
         
+        # Use environment-aware subject pattern
+        if re.search(self.order_subject_pattern, subject_lower, re.IGNORECASE):
+            return True
+        
+        # Also check for the base pattern (for forwarded emails that might have variations)
         if re.search(self.SUBJECT_ORDER_PATTERN, subject_lower, re.IGNORECASE):
             return True
         
+        return False
+    
+    def is_shipping_email(self, email_data: EmailData) -> bool:
+        """Check if email is a shipping notification"""
+        subject_lower = email_data.subject.lower()
+        
+        if re.search(self.SUBJECT_SHIPPING_PATTERN, subject_lower, re.IGNORECASE):
+            return True
+        if self.settings.is_development and re.search(self.DEV_SUBJECT_SHIPPING_PATTERN, subject_lower, re.IGNORECASE):
+            return True
+        return False
+    
+    def is_cancellation_email(self, email_data: EmailData) -> bool:
+        """Check if email is a cancellation notification"""
+        subject_lower = email_data.subject.lower()
+        
+        if re.search(self.SUBJECT_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE):
+            return True
+        if self.settings.is_development and re.search(self.DEV_SUBJECT_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE):
+            return True
         return False
     
     def parse_email(self, email_data: EmailData) -> Optional[ChampsOrderData]:
@@ -114,10 +239,37 @@ class ChampsEmailParser:
             for item in items:
                 logger.debug(f"  - {item}")
             
-            return ChampsOrderData(order_number=order_number, items=items)
+            # Extract shipping address
+            shipping_address = self._extract_shipping_address(soup)
+            if shipping_address:
+                logger.info(f"Extracted shipping address: {shipping_address}")
+
+            # Extract purchase date/time (e.g. "Purchase date: November 13, 2025")
+            order_datetime = self._extract_purchase_datetime(soup)
+            if order_datetime:
+                logger.info(f"Extracted purchase datetime: {order_datetime}")
+            
+            return ChampsOrderData(order_number=order_number, items=items, shipping_address=shipping_address, order_datetime=order_datetime)
         
         except Exception as e:
             logger.error(f"Error parsing Champs order: {e}", exc_info=True)
+            return None
+
+    def _extract_purchase_datetime(self, soup: BeautifulSoup) -> Optional[datetime]:
+        """Extract purchase date from email (e.g. 'Purchase date: November 13, 2025')."""
+        try:
+            text = soup.get_text()
+            match = re.search(r'Purchase\s+date:\s*([A-Za-z]+\s+\d{1,2},?\s+\d{4})\s*', text, re.IGNORECASE)
+            if match:
+                date_str = match.group(1).strip().replace(',', '')
+                try:
+                    dt = datetime.strptime(date_str, '%B %d %Y')
+                    return dt.replace(hour=12, minute=0, second=0, microsecond=0)
+                except ValueError:
+                    pass
+            return None
+        except Exception as e:
+            logger.debug(f"Could not extract purchase datetime: {e}")
             return None
     
     def _extract_order_number(self, soup: BeautifulSoup) -> Optional[str]:
@@ -139,22 +291,21 @@ class ChampsEmailParser:
                 parent = element.parent
                 if parent:
                     parent_text = parent.get_text()
-                    # Look for order number patterns in the parent text
-                    match = re.search(r'Order[:\s]+([A-Z0-9]+)', parent_text, re.IGNORECASE)
+                    # Champs uses same order format as Footlocker: P + 19 digits
+                    match = re.search(r'Order[:\s]+([P]\d{19})', parent_text, re.IGNORECASE)
                     if match:
                         return match.group(1)
             
-            # Method 2: Look for spans that might contain the order number
+            # Method 2: Look for spans with P + 19 digits pattern
             spans = soup.find_all('span')
             for span in spans:
                 span_text = span.get_text(strip=True)
-                # Check if this span contains an order number pattern
-                if re.match(r'^[A-Z0-9]{8,20}$', span_text):
+                if re.match(r'^P\d{19}$', span_text):
                     return span_text
             
-            # Method 3: Fallback to regex on full text (as last resort)
+            # Method 3: Fallback to regex on full text
             text = soup.get_text()
-            match = re.search(r'Order[:\s]+([A-Z0-9]+)', text, re.IGNORECASE)
+            match = re.search(r'Order[:\s]+([P]\d{19})', text, re.IGNORECASE)
             if match:
                 return match.group(1)
             
@@ -169,11 +320,10 @@ class ChampsEmailParser:
         """
         Extract order items using BeautifulSoup.
         
-        Champs Sports structure analysis:
-        - Product names: "Brooks Ghost 16 - Men's" in links
-        - Unique IDs: "4181D090" in image URLs (https://images.footlocker.com/is/image/EBFL2/4181D090)
-        - Sizes: "08.5", "09.0" in spans
-        - Quantities: "1" in spans
+        Champs Sports uses the SAME HTML structure as Footlocker (same parent company):
+        - fluid-row, col-3, col-9 table layout
+        - Product images: images.footlocker.com/is/image/EBFL2/{unique_id}
+        - Size/Qty in spans within same product container
         
         Args:
             soup: BeautifulSoup object of email HTML
@@ -184,42 +334,33 @@ class ChampsEmailParser:
         items = []
         
         try:
-            # Find all product images with unique IDs
-            product_images = soup.find_all('img', src=re.compile(r'/EBFL2/([A-Z0-9]+)'))
-            logger.debug(f"Found {len(product_images)} product images with unique IDs")
+            # Find all images with EBFL2 in the src (product images) - same as Footlocker
+            product_images = soup.find_all('img', src=re.compile(r'/EBFL2/'))
+            logger.debug(f"Found {len(product_images)} product images")
             
-            # Extract all size and quantity data from the document
-            size_quantity_data = self._extract_all_size_quantity_data(soup)
-            logger.debug(f"Found {len(size_quantity_data)} size/quantity entries")
-            
-            # Track used size/quantity pairs to avoid duplicates
             used_size_quantity = set()
             
             for img in product_images:
                 try:
-                    # Extract unique ID from image URL
                     img_src = img.get('src', '')
-                    unique_id_match = re.search(r'/EBFL2/([A-Z0-9]+)', img_src)
+                    # Handle Gmail proxy URLs
+                    if "#" in img_src:
+                        parts = img_src.split("#")
+                        if len(parts) > 1:
+                            img_src = parts[-1]
                     
+                    unique_id_match = re.search(r'(?:/EBFL2/|/is/image/EBFL2/)([A-Z0-9]+)', img_src)
                     if not unique_id_match:
                         logger.warning(f"Could not extract unique ID from image: {img_src}")
                         continue
                     
                     unique_id = unique_id_match.group(1)
-                    
-                    # Extract product name from the image's container
                     product_name = self._extract_product_name_from_image(img)
+                    size, quantity = self._find_size_quantity_for_image(img, used_size_quantity)
                     
-                    # Find matching size and quantity data (avoid reusing the same pair)
-                    size, quantity = self._find_matching_size_quantity_advanced(
-                        unique_id, size_quantity_data, used_size_quantity
-                    )
-                    
-                    # Mark this size/quantity pair as used
                     if size and quantity:
                         used_size_quantity.add((size, quantity))
                     
-                    # Validate and create item
                     if size and quantity and self._is_valid_size(size) and self._is_valid_quantity(quantity):
                         items.append(ChampsOrderItem(
                             unique_id=unique_id,
@@ -244,7 +385,9 @@ class ChampsEmailParser:
         except Exception as e:
             logger.error(f"Error extracting items: {e}", exc_info=True)
         
-        logger.info(f"Items: {items}")
+        if items:
+            items_summary = [f"(ID: {item.unique_id}, Size: {item.size}, Qty: {item.quantity})" for item in items]
+            logger.info(f"[Champs Sports] Extracted {len(items)} items: {', '.join(items_summary)}")
         return items
     
     def _extract_all_size_quantity_data(self, soup: BeautifulSoup) -> List[dict]:
@@ -303,30 +446,162 @@ class ChampsEmailParser:
             logger.error(f"Error extracting size/quantity data: {e}")
             return []
     
-    def _extract_product_name_from_image(self, img) -> str:
-        """Extract product name from the image's container"""
+    def _find_size_quantity_for_image(self, img, used_size_quantity: set) -> tuple:
+        """
+        Find size and quantity for a product image based on DOM structure.
+        
+        Champs uses the SAME structure as Footlocker: fluid-row table with col-3 (image)
+        and col-9 (product details). Size and Qty are in spans within the same container.
+        
+        Args:
+            img: BeautifulSoup img element
+            used_size_quantity: Set of already used (size, quantity) pairs
+        
+        Returns:
+            Tuple of (size, quantity) or (None, None) if not found
+        """
         try:
-            # Find the container of the image
-            container = img.find_parent()
-            if not container:
-                return "Unknown Product"
+            fluid_row = img.find_parent('table', class_=re.compile(r'fluid-row'))
+            if not fluid_row:
+                parent_table = img.find_parent('table')
+                if parent_table:
+                    parent_tables = [parent_table]
+                    grandparent = parent_table.find_parent('table')
+                    if grandparent:
+                        parent_tables.append(grandparent)
+                    for table in parent_tables:
+                        has_image = bool(table.find('img', src=re.compile(r'/EBFL2/')))
+                        has_size_qty = bool(re.search(r'Size|Qty', table.get_text(), re.IGNORECASE))
+                        if has_image and has_size_qty:
+                            fluid_row = table
+                            break
+            if not fluid_row:
+                col3_table = img.find_parent('table', class_=re.compile(r'col-3'))
+                if col3_table:
+                    parent = col3_table.find_parent('table')
+                    if parent and parent.find('table', class_=re.compile(r'col-9')):
+                        fluid_row = parent
+            if not fluid_row:
+                return None, None
             
-            # Look for links with target="_blank" in the container
-            links = container.find_all('a', target="_blank")
-            for link in links:
-                link_text = link.get_text(strip=True)
-                if link_text and len(link_text) > 5:  # Filter out short text
-                    return link_text
+            size = None
+            quantity = None
+            spans = fluid_row.find_all('span')
             
-            # Also look for alt text on the image itself
+            for span in spans:
+                span_text = span.get_text(strip=True)
+                if not span_text:
+                    continue
+                is_size = self._is_valid_size(span_text)
+                is_quantity = self._is_valid_quantity(span_text)
+                if not (is_size or is_quantity):
+                    continue
+                
+                parent_text = ""
+                current = span.parent
+                for _ in range(5):
+                    if current:
+                        current_text = current.get_text(strip=True)
+                        current_text_upper = current_text.upper()
+                        # Check case-insensitively: order confirmations use "QTY", cancellations use "Qty"
+                        if 'SIZE' in current_text_upper or 'QTY' in current_text_upper:
+                            parent_text = current_text
+                            break
+                        current = current.find_parent(['td', 'tr', 'table', 'div'])
+                    else:
+                        break
+                if not parent_text and span.parent:
+                    parent_text = span.parent.get_text(strip=True)
+                
+                parent_text_upper = parent_text.upper()
+                if is_size and 'SIZE' in parent_text_upper:
+                    size = span_text
+                if is_quantity and 'QTY' in parent_text_upper:
+                    quantity = span_text
+            
+            if size and quantity:
+                pair = (size, quantity)
+                if pair in used_size_quantity:
+                    return None, None
+                return size, quantity
+            return size, quantity
+        except Exception as e:
+            logger.error(f"Error finding size/quantity for image: {e}")
+            return None, None
+    
+    def _extract_product_name_from_image(self, img) -> str:
+        """Extract product name from the image's container - improved version"""
+        try:
+            # Find the container of the image - go up multiple levels
+            containers_to_check = []
+            
+            # Try immediate parent first
+            parent = img.find_parent()
+            if parent:
+                containers_to_check.append(parent)
+            
+            # Try td/tr/table ancestors (Champs uses tables)
+            for tag in ['td', 'tr', 'table', 'div']:
+                ancestor = img.find_parent(tag)
+                if ancestor and ancestor not in containers_to_check:
+                    containers_to_check.append(ancestor)
+            
+            # Method 0: Check alt text on the image first
             alt_text = img.get('alt', '')
-            if alt_text and len(alt_text) > 5:
+            if alt_text and len(alt_text) > 10 and len(alt_text) < 200:
+                logger.debug(f"[Champs] Found product name from alt text: {alt_text[:50]}")
                 return alt_text
             
+            # Method 1: Look for links with text longer than 10 characters
+            for container in containers_to_check:
+                links = container.find_all('a')
+                for link in links:
+                    link_text = link.get_text(strip=True)
+                    # Product names are usually substantial text
+                    if link_text and len(link_text) > 10 and len(link_text) < 200:
+                        # Skip common link text that isn't product names
+                        skip_texts = ['view', 'details', 'shop now', 'buy now', 'add to cart', 
+                                     'track order', 'return', 'exchange', 'view order']
+                        if link_text.lower() not in skip_texts:
+                            logger.debug(f"[Champs] Found product name from link: {link_text[:50]}")
+                            return link_text
+            
+            # Method 2: Look for text in <td> or <div> elements containing the image
+            for container in containers_to_check[:3]:  # Check first 3 ancestors
+                # Find all text in the container
+                for elem in container.find_all(['td', 'div', 'span', 'p']):
+                    text = elem.get_text(strip=True)
+                    # Look for substantial text that looks like a product name
+                    if text and 15 < len(text) < 200:
+                        # Skip if it looks like size/quantity/price/generic text
+                        if not re.search(r'^(Size|Qty|Quantity|Price|Total|Subtotal|Order|Shipping)', text, re.IGNORECASE):
+                            # Skip if it's mostly numbers or currency
+                            if not re.search(r'^\$[\d,]+\.?\d*$', text):
+                                # Skip if it contains only size/qty patterns
+                                if not re.match(r'^(Size\s*\d+|Qty\s*\d+)$', text, re.IGNORECASE):
+                                    logger.debug(f"[Champs] Found product name from text: {text[:50]}")
+                                    return text
+            
+            # Method 3: Look in the entire table row if image is in a table
+            tr = img.find_parent('tr')
+            if tr:
+                # Get all text from the row, split by common separators
+                row_text = tr.get_text(separator='|', strip=True)
+                # Split and look for product-like text
+                parts = [p.strip() for p in row_text.split('|')]
+                for part in parts:
+                    if 15 < len(part) < 200:
+                        # Look for text that might be a product name
+                        if not re.search(r'^(Size|Qty|Quantity|Price|\$|Order)', part, re.IGNORECASE):
+                            if not re.match(r'^[\d,]+\.?\d*$', part):
+                                logger.debug(f"[Champs] Found product name from table row: {part[:50]}")
+                                return part
+            
+            logger.debug(f"[Champs] Could not extract product name from image: {img.get('src', '')[:50]}")
             return "Unknown Product"
             
         except Exception as e:
-            logger.error(f"Error extracting product name: {e}")
+            logger.warning(f"[Champs] Error extracting product name from image: {e}")
             return "Unknown Product"
     
     def _extract_unique_id_from_image(self, img_src: str, img_alt: str) -> Optional[str]:
@@ -412,25 +687,34 @@ class ChampsEmailParser:
             return None, None
     
     def _is_valid_size(self, size: str) -> bool:
-        """Check if size is valid (numeric with optional decimal)"""
-        try:
-            # Remove any non-numeric characters except decimal point
-            clean_size = re.sub(r'[^\d.]', '', size)
-            if not clean_size:
-                return False
-            
-            # Convert to float and check range
-            size_num = float(clean_size)
-            return 2.0 <= size_num <= 20.0  # Reasonable shoe size range
-            
-        except (ValueError, TypeError):
-            return False
+        """Check if a value looks like a valid shoe size (same as Footlocker)"""
+        # Decimal sizes like "06.0", "10.5", "14.0", "12.0"
+        if re.match(r'^\d{1,2}\.\d$', size):
+            return True
+        if re.match(r'^\d{1,2}$', size):
+            num = int(size)
+            return num > 0
+        if re.match(r'^\d{1,2}(\.\d)?Y$', size, re.IGNORECASE):
+            return True
+        if re.match(r'^\d{1,2}T$', size, re.IGNORECASE):
+            return True
+        if re.match(r'^\d{1,2}C$', size, re.IGNORECASE):
+            return True
+        if re.match(r'^\d{1,2}(\.\d)?W$', size, re.IGNORECASE):
+            return True
+        if re.match(r'^[SMLX]+$', size, re.IGNORECASE):
+            return True
+        if re.match(r'^OS(FM)?$', size, re.IGNORECASE):
+            return True
+        return False
     
     def _is_valid_quantity(self, quantity: str) -> bool:
         """Check if quantity is valid (positive integer)"""
         try:
+            if not re.match(r'^\d+$', quantity):
+                return False
             qty = int(quantity)
-            return 1 <= qty <= 10  # Reasonable quantity range
+            return 1 <= qty <= 20  # Same range as Footlocker
         except (ValueError, TypeError):
             return False
     
@@ -532,3 +816,193 @@ class ChampsEmailParser:
             return str(int(num)) if num % 1 == 0 else str(num)
         
         return size
+    
+    def parse_shipping_email(self, email_data: EmailData) -> Optional[ChampsShippingData]:
+        """
+        Parse Champs Sports shipping notification email.
+        
+        Args:
+            email_data: EmailData object containing email information
+        
+        Returns:
+            ChampsShippingData object or None if parsing fails
+        """
+        try:
+            html_content = email_data.html_content
+            
+            if not html_content:
+                logger.error("No HTML content in Champs shipping email")
+                return None
+            
+            soup = BeautifulSoup(html_content, 'lxml')
+            
+            # Extract order number
+            order_number = self._extract_order_number(soup)
+            if not order_number:
+                logger.error("Failed to extract order number from Champs shipping email")
+                return None
+            
+            # Extract tracking number
+            tracking_number = self._extract_tracking_number(soup)
+            if not tracking_number:
+                logger.warning("Failed to extract tracking number from Champs shipping email")
+                tracking_number = "Unknown"
+            
+            logger.info(f"Extracted Champs shipping - Order: {order_number}, Tracking: {tracking_number}")
+            
+            # Extract items using BeautifulSoup
+            items = self._extract_items(soup)
+            
+            if not items:
+                logger.error("Failed to extract any items from Champs shipping email")
+                return None
+            
+            logger.info(f"Successfully extracted {len(items)} items from Champs shipping notification")
+            for item in items:
+                logger.debug(f"  - {item}")
+            
+            return ChampsShippingData(
+                order_number=order_number,
+                tracking_number=tracking_number,
+                items=items
+            )
+        
+        except Exception as e:
+            logger.error(f"Error parsing Champs shipping email: {e}", exc_info=True)
+            return None
+    
+    def parse_cancellation_email(self, email_data: EmailData) -> Optional[ChampsCancellationData]:
+        """
+        Parse Champs Sports cancellation notification email.
+        
+        Args:
+            email_data: EmailData object containing email information
+        
+        Returns:
+            ChampsCancellationData object or None if parsing fails
+        """
+        try:
+            html_content = email_data.html_content
+            
+            if not html_content:
+                logger.error("No HTML content in Champs cancellation email")
+                return None
+            
+            soup = BeautifulSoup(html_content, 'lxml')
+            
+            # Extract order number
+            order_number = self._extract_order_number(soup)
+            if not order_number:
+                logger.error("Failed to extract order number from Champs cancellation email")
+                return None
+            
+            logger.info(f"Extracted Champs cancellation - Order: {order_number}")
+            
+            # Extract items using BeautifulSoup
+            items = self._extract_items(soup)
+            
+            if not items:
+                logger.error("Failed to extract any items from Champs cancellation email")
+                return None
+            
+            logger.info(f"Successfully extracted {len(items)} items from Champs cancellation notification")
+            for item in items:
+                logger.debug(f"  - {item}")
+            
+            return ChampsCancellationData(
+                order_number=order_number,
+                items=items
+            )
+        
+        except Exception as e:
+            logger.error(f"Error parsing Champs cancellation email: {e}", exc_info=True)
+            return None
+    
+    def _extract_tracking_number(self, soup: BeautifulSoup) -> Optional[str]:
+        """
+        Extract tracking number from shipping email.
+        
+        Args:
+            soup: BeautifulSoup object of email HTML
+        
+        Returns:
+            Tracking number or None
+        """
+        try:
+            # Method 1: Look for "tracking" keyword and nearby numbers
+            tracking_elements = soup.find_all(string=re.compile(r'tracking', re.IGNORECASE))
+            
+            for element in tracking_elements:
+                parent = element.parent
+                if parent:
+                    parent_text = parent.get_text()
+                    # Look for tracking number patterns (various carriers)
+                    # FEDEX: 12 digits (e.g., 394651080864)
+                    match = re.search(r'FEDEX\s+tracking[:\s]+(\d{12})', parent_text, re.IGNORECASE)
+                    if match:
+                        return match.group(1)
+                    
+                    # Generic tracking number patterns
+                    match = re.search(r'tracking[:\s]+(\d{9,20})', parent_text, re.IGNORECASE)
+                    if match:
+                        return match.group(1)
+                    
+                    # UPS: 1Z...
+                    match = re.search(r'1Z[A-Z0-9]{16}', parent_text, re.IGNORECASE)
+                    if match:
+                        return match.group(0)
+                    
+                    # USPS: 20-22 digits
+                    match = re.search(r'\b\d{20,22}\b', parent_text)
+                    if match:
+                        return match.group(0)
+            
+            # Method 2: Look for links with tracking URLs
+            links = soup.find_all('a', href=re.compile(r'track', re.IGNORECASE))
+            for link in links:
+                href = link.get('href', '')
+                # Extract tracking number from URL
+                match = re.search(r'tracking[=/#]([A-Z0-9]+)', href, re.IGNORECASE)
+                if match:
+                    return match.group(1)
+            
+            logger.warning("Tracking number not found in Champs shipping email")
+            return None
+        
+        except Exception as e:
+            logger.error(f"Error extracting tracking number: {e}")
+            return None
+    
+    def _extract_shipping_address(self, soup: BeautifulSoup) -> str:
+        """
+        Extract shipping address from email and normalize it.
+        
+        Args:
+            soup: BeautifulSoup object of email HTML
+        
+        Returns:
+            Normalized shipping address or empty string
+        """
+        try:
+            text = soup.get_text()
+            
+            # Find the shipping section
+            shipping_match = re.search(
+                r'SHIPPING\s+TO:?\s*(.*?)(?:ORDER\s+SUMMARY|PAYMENT|$)',
+                text,
+                re.IGNORECASE | re.DOTALL
+            )
+            
+            if shipping_match:
+                address_text = shipping_match.group(1).strip()
+                address_lines = [line.strip() for line in address_text.split('\n') if line.strip()][:5]
+                address_combined = ' '.join(address_lines)
+                
+                normalized = normalize_shipping_address(address_combined)
+                return normalized
+            
+            return ""
+        
+        except Exception as e:
+            logger.error(f"Error extracting shipping address: {e}")
+            return ""

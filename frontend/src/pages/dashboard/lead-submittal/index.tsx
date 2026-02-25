@@ -40,11 +40,16 @@ const extractUniqueIdFromUrl = (url: string): string => {
 			}
 		}
 		
-		// Finish Line pattern: /HV6417/001 -> convert to HV6417_001
-		if (urlLower.includes("finishline.com")) {
-			const match = url.match(/\/([A-Z0-9]+)\/(\d+)/i);
+		// Finish Line pattern: /pdp/.../prod2873469/1104451D/175 or /HV6417/001
+		// JD Sports uses the same pattern
+		// Style segment may have trailing width suffix (e.g. 1D) - strip it for unique_id: 1104451D -> 110445
+		if (urlLower.includes("finishline.com") || urlLower.includes("jdsports.com")) {
+			const match = url.match(/\/([A-Z0-9]+)\/(\d+)(?:\/|$)/i);
 			if (match && match[1] && match[2]) {
-				return `${match[1]}_${match[2]}`;
+				let style = match[1];
+				// Strip trailing single digit+letter suffix (e.g. 1D, 2E) - width/variant indicator
+				style = style.replace(/\d[A-Z]$/i, "");
+				return `${style}_${match[2]}`;
 			}
 		}
 		
@@ -53,6 +58,105 @@ const extractUniqueIdFromUrl = (url: string): string => {
 			const match = url.match(/\/([^/]+)\.html/);
 			if (match && match[1]) {
 				return match[1];
+			}
+		}
+		
+		// Revolve pattern: /dp/ONF-MZ457/ or code=ONF-MZ457
+		if (urlLower.includes("revolve.com")) {
+			// Try /dp/ pattern first: https://www.revolve.com/.../dp/ONF-MZ457/
+			const dpMatch = url.match(/\/dp\/([A-Z0-9\-]+)/i);
+			if (dpMatch && dpMatch[1]) {
+				return dpMatch[1].toUpperCase();
+			}
+			// Try code= parameter: ...code=ONF-MZ457...
+			const codeMatch = url.match(/code=([A-Z0-9\-]+)/i);
+			if (codeMatch && codeMatch[1]) {
+				return codeMatch[1].toUpperCase();
+			}
+		}
+		
+		// ASOS pattern: /prd/206573245
+		if (urlLower.includes("asos.com")) {
+			const match = url.match(/\/prd\/(\d+)/i);
+			if (match && match[1]) {
+				return match[1];
+			}
+		}
+		
+		// Snipes pattern: ...fj4146-100-1000113535.html -> fj4146-100 (style code has hyphen: XX####-###)
+		if (urlLower.includes("snipesusa.com")) {
+			// Style code format: letters/digits-hyphen-2or3 digits (e.g. fj4146-100, 454350-700)
+			const styleMatch = url.match(/-([a-z0-9]+-\d{2,3})-\d+\.html/i);
+			if (styleMatch && styleMatch[1]) {
+				return styleMatch[1].toLowerCase();
+			}
+			// Fallback: numeric ID
+			const numericMatch = url.match(/-(\d+)\.html/i);
+			if (numericMatch && numericMatch[1]) {
+				return numericMatch[1];
+			}
+		}
+		
+		// DTLR pattern: /products/hoka-clifton-9-1127895-ncsw-white -> 1127895-ncsw
+		// Only extract for HOKA products (skip Nike/Jordan/Adidas)
+		if (urlLower.includes("dtlr.com")) {
+			// Check if it's a HOKA product
+			if (urlLower.includes("hoka")) {
+				// Pattern: /products/{product-name}-{numeric_id}-{letters}-{color}
+				// Extract: {numeric_id}-{letters}
+				const match = url.match(/\/products\/.*?-(\d+)-([a-z]+)(?:-|$)/i);
+				if (match && match[1] && match[2]) {
+					return `${match[1]}-${match[2].toLowerCase()}`;
+				}
+			}
+			// For Nike/Jordan/Adidas, return empty string (no unique ID)
+			return "";
+		}
+		
+		// END Clothing pattern: .../nike-zoom-vomero-5-w-sneaker-fj2028-101.html -> fj2028-101
+		if (urlLower.includes("endclothing.com")) {
+			// Pattern: .../{product-name}-{code}.html
+			// Extract the last code before .html
+			const match = url.match(/([a-z]{2}\d{4}-\d{3})\.html/i);
+			if (match && match[1]) {
+				return match[1].toLowerCase();
+			}
+		}
+		
+		// Shoe Palace pattern: /products/adidas-id1483-samba-og-mens-lifestyle-shoes-shadow-green-white-gold?variant=...
+		// Extract: samba-og-mens-lifestyle-shoes-shadow-green-white-gold
+		if (urlLower.includes("shoepalace.com")) {
+			// Pattern: /products/{brand}-{code}-{slug}?variant=...
+			// Extract the slug after the second hyphen
+			const match = url.match(/\/products\/[^-]+-[^-]+-([^?]+)/i);
+			if (match && match[1]) {
+				return match[1].toLowerCase();
+			}
+		}
+		
+		// ShopWSS pattern: /products/fq8714_004 or /products/FQ8714004 -> fq8714_004 (lowercase, xx####_### format)
+		if (urlLower.includes("shopwss.com")) {
+			// Primary: /products/{unique_id} with underscore (e.g. fq8714_004)
+			const matchWithUnderscore = url.match(/\/products\/([a-z]{2}\d{4}_\d{3})/i);
+			if (matchWithUnderscore?.[1]) {
+				return matchWithUnderscore[1].toLowerCase();
+			}
+			// Fallback: /products/{code} 9 chars without underscore (e.g. FQ8714004 -> fq8714_004)
+			const matchNoUnderscore = url.match(/\/products\/([a-z]{2}\d{7})(?:\?|$|\/)/i);
+			if (matchNoUnderscore?.[1]) {
+				const raw = matchNoUnderscore[1].toLowerCase();
+				return `${raw.slice(0, 6)}_${raw.slice(6)}`;
+			}
+		}
+		
+		// On pattern: .../white-flame-shoes-3WE30050256?bxid=... -> 3WE30050256
+		// Or: .../black-eclipse-shoes-55.98626?bxid=... -> 55.98626
+		if (urlLower.includes("on.com")) {
+			// Pattern: .../{product-name}-{unique_id}?...
+			// Unique ID can be alphanumeric with dots (e.g., 3WE30050256 or 55.98626)
+			const match = url.match(/-([A-Z0-9.]+)(?:\?|$)/i);
+			if (match && match[1]) {
+				return match[1].toUpperCase();
 			}
 		}
 		
@@ -65,18 +169,18 @@ const extractUniqueIdFromUrl = (url: string): string => {
 
 // Schema for form validation
 const leadSubmittalSchema = z.object({
-	submittedBy: z.string().min(1, "Please select who submitted this"),
-	productName: z.string().min(1, "Product name is required"),
-	productSku: z.string().min(1, "Product SKU is required"),
-	retailerLink: z.string().url("Please enter a valid URL").or(z.string().length(0)),
-	retailerName: z.string().min(1, "Please select a retailer"),
-	amazonLink: z.string().url("Please enter a valid URL").or(z.string().length(0)),
+	submittedBy: z.string().optional(),
+	productName: z.string().optional(),
+	productSku: z.string().optional(),
+	retailerLink: z.string().url("Please enter a valid retailer URL").min(1, "Retailer link is required"),
+	retailerName: z.string().optional(),
+	amazonLink: z.string().url("Please enter a valid Amazon URL").min(1, "Amazon link is required"),
 	uniqueId: z.string().optional(),
 	ppu: z.string().min(1, "PPU is required"),
 	rsp: z.string().min(1, "RSP is required"),
 	margin: z.string().min(1, "Margin is required"),
-	pros: z.array(z.string()).min(1, "Please select at least one pro"),
-	cons: z.array(z.string()).min(1, "Please select at least one con"),
+	pros: z.array(z.string()).optional(),
+	cons: z.array(z.string()).optional(),
 	otherNotes: z.string().optional(),
 	promoCode: z.string().optional(),
 	asins: z.array(
@@ -363,18 +467,18 @@ export default function LeadSubmittal() {
 		
 		// Prepare data for backend (convert recommendedQuantity to number, join pros/cons arrays)
 		const submitData = {
-			submittedBy: data.submittedBy,
-			productName: data.productName,
-			productSku: data.productSku,
-			retailerLink: data.retailerLink || undefined,
-			retailerName: data.retailerName,
-			amazonLink: data.amazonLink || undefined,
+			submittedBy: data.submittedBy || undefined,
+			productName: data.productName || undefined,
+			productSku: data.productSku || undefined,
+			retailerLink: data.retailerLink, // Required field - validated by schema
+			retailerName: data.retailerName || undefined,
+			amazonLink: data.amazonLink, // Required field - validated by schema
 			uniqueId: data.uniqueId || undefined,
 			ppu: data.ppu,
 			rsp: data.rsp,
 			margin: data.margin,
-			pros: data.pros.join(", "),  // Join array into comma-separated string
-			cons: data.cons.join(", "),  // Join array into comma-separated string
+			pros: (data.pros && data.pros.length > 0) ? data.pros.join(", ") : undefined,
+			cons: (data.cons && data.cons.length > 0) ? data.cons.join(", ") : undefined,
 			otherNotes: data.otherNotes || undefined,
 			promoCode: data.promoCode || undefined,
 			asins: filteredAsins.map(asin => ({
@@ -465,7 +569,7 @@ export default function LeadSubmittal() {
 								name="submittedBy"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel>Submitted By *</FormLabel>
+										<FormLabel>Submitted By</FormLabel>
 										<Select onValueChange={field.onChange} value={field.value}>
 											<FormControl>
 												<SelectTrigger className="w-1/2">
@@ -490,7 +594,7 @@ export default function LeadSubmittal() {
 								name="productName"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel>Product Name *</FormLabel>
+										<FormLabel>Product Name</FormLabel>
 										<FormControl>
 											<Input placeholder="Enter product name" {...field} />
 										</FormControl>
@@ -504,7 +608,7 @@ export default function LeadSubmittal() {
 						name="retailerName"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel>Retailer Name *</FormLabel>
+								<FormLabel>Retailer Name</FormLabel>
 								<FormControl>
 									<Combobox
 										options={retailers}
@@ -527,7 +631,7 @@ export default function LeadSubmittal() {
 								name="productSku"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel>Product SKU *</FormLabel>
+										<FormLabel>Product SKU</FormLabel>
 										<FormControl>
 											<Input placeholder="Enter product SKU" {...field} />
 										</FormControl>
@@ -541,7 +645,7 @@ export default function LeadSubmittal() {
 								name="retailerLink"
 								render={({ field }) => (
 									<FormItem className="md:col-span-2">
-										<FormLabel>Retailer Link</FormLabel>
+										<FormLabel>Retailer Link *</FormLabel>
 										<FormControl>
 											<Input placeholder="https://example.com/product" {...field} />
 										</FormControl>
@@ -555,7 +659,7 @@ export default function LeadSubmittal() {
 							name="amazonLink"
 							render={({ field }) => (
 								<FormItem className="md:col-span-2">
-									<FormLabel>Amazon Link</FormLabel>
+									<FormLabel>Amazon Link *</FormLabel>
 									<FormControl>
 										<Input placeholder="https://amazon.com/product" {...field} />
 									</FormControl>
@@ -667,7 +771,7 @@ export default function LeadSubmittal() {
 							name="pros"
 							render={({ field }) => (
 								<FormItem>
-									<FormLabel>Pros * (Select multiple)</FormLabel>
+									<FormLabel>Pros (Select multiple)</FormLabel>
 									<FormControl>
 										<MultiSelect
 											options={prosOptions}
@@ -688,7 +792,7 @@ export default function LeadSubmittal() {
 							name="cons"
 							render={({ field }) => (
 								<FormItem>
-									<FormLabel>Cons * (Select multiple)</FormLabel>
+									<FormLabel>Cons (Select multiple)</FormLabel>
 									<FormControl>
 										<MultiSelect
 											options={consOptions}

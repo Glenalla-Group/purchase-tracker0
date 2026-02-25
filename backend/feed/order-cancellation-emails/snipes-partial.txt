@@ -1,0 +1,637 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg2991975246899278136"><u></u>
+      <div style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word">
+        <table class="m_2991975246899278136wrapper" bgcolor="#ffffff" cellpadding="0" cellspacing="0"
+          role="presentation" width="100%">
+          <tbody>
+            <tr>
+              <td>
+                <table class="m_2991975246899278136container" align="center" bgcolor="#FFFFFF" cellpadding="0"
+                  cellspacing="0" role="presentation" width="600">
+                  <tbody>
+                    <tr>
+                      <td class="m_2991975246899278136borderless-sm" style="border:2px solid #ebebeb">
+                        <div
+                          style="display:none;font-size:1px;color:#ffffff;line-height:1px;font-family:sans-serif;max-height:0px;max-width:0px;opacity:0;overflow:hidden">
+                          We have processed a cancelation for one or more of your items on your order.</div>
+                        <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tbody>
+                            <tr bgcolor="#ffffff">
+                              <td class="m_2991975246899278136spacer-mini" height="40"
+                                style="font-size:40px;line-height:40px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding:0px 0px;text-align:center">
+                                <table cellpadding="10" cellspacing="0" role="presentation" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td class="m_2991975246899278136col" align="center" width="600"
+                                        style="padding:0 0px">
+                                        <table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" width="100%"
+                                                style="padding:0px 0px 0px 0px;background-color:#ffffff;text-align:center">
+                                                <table align="center" cellpadding="0" cellspacing="0"
+                                                  role="presentation" style="margin:0 auto">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td class="m_2991975246899278136sans-serif"
+                                                        style="font-size:14px;line-height:100%;word-break:break-all;color:#ffffff">
+                                                        <table
+                                                          class="m_2991975246899278136col m_2991975246899278136align-sm-center"
+                                                          align="center" bgcolor="#ffffff" cellpadding="0"
+                                                          cellspacing="0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td class="m_2991975246899278136spacer-mini" height="10"
+                                                                style="font-size:10px;line-height:10px">
+                                                                 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td class="m_2991975246899278136col" width="600"
+                                                                style="padding:5px 0px 10px 0px">
+                                                                <center>
+                                                                  <table align="center" bgcolor="#ffffff"
+                                                                    cellpadding="0" cellspacing="0">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td width="150"
+                                                                          style="padding-left:0px;padding-right:0px">
+                                                                          <a name="m_2991975246899278136_logo"
+                                                                            href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/61c48e2d?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQxZCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cLz91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=IpULa5GKWjnxY7hUW-EFIFhjAMfpEKdUvsDfc6yI7dw"
+                                                                            target="_blank"><img
+                                                                              src="https://images.cordial.com/1325/350x126/snipes-logo.png"
+                                                                              width="150" alt="SNIPES"
+                                                                              style="border:0;width:150px;max-width:150px;height:auto;display:block"></a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                                </center>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+                        <table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" role="presentation"
+                          width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="m_2991975246899278136pt-sm-1"
+                                style="padding:5px 0px 15px 0px;text-align:center">
+                                <table cellpadding="10" cellspacing="0" role="presentation" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td class="m_2991975246899278136col" align="center" width="640"
+                                        style="padding:0 0px">
+                                        <table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" width="100%"
+                                                style="padding:0px 0px;background-color:#ffffff;text-align:center">
+                                                <table align="center" cellpadding="0" cellspacing="0"
+                                                  role="presentation" style="margin:0 auto">
+                                                  <tbody>
+                                                    <tr>
+                                                      <th class="m_2991975246899278136sans-serif" style="color:#ffffff">
+
+                                                        <table align="center" bgcolor="#ffffff" cellpadding="0"
+                                                          cellspacing="0">
+                                                          <tbody>
+                                                            <tr align="center">
+                                                              <td align="center">
+                                                                <div align="center">
+                                                                  <div>
+                                                                    <table cellpadding="0" cellspacing="0"
+                                                                      role="presentation">
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td
+                                                                            class="m_2991975246899278136px-sm-1 m_2991975246899278136font-sm"
+                                                                            style="padding-right:60px;font-size:18px">
+                                                                            <a name="m_2991975246899278136_nav-new"
+                                                                              style="color:#0c0f0a;text-decoration:none;font-weight:700;line-height:22px"
+                                                                              href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/221b8cd1?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQxZSIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL25ldy1hcnJpdmFscz91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=ylkECSY55KwYUBc4fK3h5gDQ3ifNHLXfpc3KhQS4eFY"
+                                                                              target="_blank">NEW</a>
+                                                                          </td>
+                                                                          <td
+                                                                            class="m_2991975246899278136px-sm-1 m_2991975246899278136font-sm"
+                                                                            style="padding-right:60px;font-size:18px">
+                                                                            <a name="m_2991975246899278136_nav-mens"
+                                                                              style="color:#0c0f0a;text-decoration:none;font-weight:700;line-height:22px"
+                                                                              href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/59c25c08?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQxZiIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL21lbj91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=X4BlLTrm83NsSsEk5sB_vzOzeq7gbj9velqa1Pjq5hY"
+                                                                              target="_blank">MENS</a>
+                                                                          </td>
+                                                                          <td
+                                                                            class="m_2991975246899278136px-sm-1 m_2991975246899278136font-sm"
+                                                                            style="padding-right:60px;font-size:18px">
+                                                                            <a name="m_2991975246899278136_nav-womens"
+                                                                              style="color:#0c0f0a;text-decoration:none;font-weight:700;line-height:22px"
+                                                                              href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/76c4c796?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyMCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL3dvbWVuP3V0bV9zb3VyY2U9Y29yZGlhbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlcl9DYW5jZWxsZWQifQ&amp;jwtS=TsQ5xyeLO_gcjLEMsN8r4NWTW6BMXpP27hGENvva77Y"
+                                                                              target="_blank">WOMENS</a>
+                                                                          </td>
+                                                                          <td
+                                                                            class="m_2991975246899278136px-sm-1 m_2991975246899278136font-sm"
+                                                                            style="padding-right:60px;font-size:18px">
+                                                                            <a name="m_2991975246899278136_nav-kids"
+                                                                              style="color:#0c0f0a;text-decoration:none;font-weight:700;line-height:22px"
+                                                                              href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/acffd680?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyMSIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL2tpZHM_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=YA-dW__FqwzWgHExgLc-g3qLDXZ5b7UC_LdiVx_Daag"
+                                                                              target="_blank">KIDS</a>
+                                                                          </td>
+                                                                          <td
+                                                                            class="m_2991975246899278136px-sm-1 m_2991975246899278136font-sm"
+                                                                            style="padding-right:0px;font-size:18px">
+                                                                            <a name="m_2991975246899278136_nav-sale"
+                                                                              style="color:#0c0f0a;text-decoration:none;font-weight:700;line-height:22px"
+                                                                              href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/d45425fc?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyMiIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL3NhbGU_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=7SFkyno0YdcuAbHUc0vTvEJWoAwl1x5Z-a5EEOK4Q3M"
+                                                                              target="_blank">SALE</a>
+                                                                          </td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                  </div>
+                                                                </div>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+
+                                                      </th>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table width="600" cellspacing="0" cellpadding="0" bgcolor="#f7f7f7"
+                          class="m_2991975246899278136col">
+                          <tbody>
+                            <tr>
+                              <td
+                                style="padding:30px 20px 20px;color:#4b4d54;font-weight:700;font-size:20px;line-height:28px;text-align:center">
+                                <strong>One or more items have been cancelled.</strong></td>
+                            </tr>
+                            <tr>
+                              <td class="m_2991975246899278136col"
+                                style="padding:0 20px 25px;font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;text-align:center">
+                                Hey Griffin, we are really sorry, but one or more items in your recent SNIPES order
+                                couldn’t be processed. Here’s why this might have happened:</td>
+                            </tr>
+                            <tr>
+                              <td style="padding:0 20px 25px 30px">
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right:5px;font-family:Roboto,Arial,sans-serif;font-weight:bold">•
+                                      </td>
+                                      <td
+                                        style="font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;font-weight:bold">
+                                        Out of Stock</td>
+                                    </tr>
+                                    <tr>
+                                      <td> </td>
+                                      <td
+                                        style="padding:0 0 15px;font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:14px;line-height:18px">
+                                        Unfortunately, we didn’t have enough of the item(s) you ordered. We’re sorry for
+                                        the mix-up.</td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="padding-right:5px;font-family:Roboto,Arial,sans-serif;font-weight:bold">•
+                                      </td>
+                                      <td
+                                        style="font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;font-weight:bold">
+                                        Payment Issue</td>
+                                    </tr>
+                                    <tr>
+                                      <td> </td>
+                                      <td
+                                        style="padding:0 0 15px;font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:14px;line-height:18px">
+                                        We tried to process your payment when it was time to ship your order, but it
+                                        didn’t go through. This could be why your order was canceled.</td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="padding-right:5px;font-family:Roboto,Arial,sans-serif;font-weight:bold">•
+                                      </td>
+                                      <td
+                                        style="font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;font-weight:bold">
+                                        You Requested It</td>
+                                    </tr>
+                                    <tr>
+                                      <td> </td>
+                                      <td
+                                        style="font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:14px;line-height:18px">
+                                        If you asked us to cancel the item, we’ve taken care of that for you..</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="m_2991975246899278136col"
+                                style="padding:0 20px 25px;font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;text-align:center">
+                                Don’t worry—you weren’t charged for any item(s) that were canceled. If you see a hold on
+                                your payment method, it should be released soon. If it doesn’t go away or you have
+                                questions, our customer support team is here to help.</td>
+                            </tr>
+                            <tr>
+                              <td class="m_2991975246899278136col"
+                                style="padding:0 20px 25px;font-family:Roboto,Arial,sans-serif;color:#4b4d54;font-size:16px;line-height:24px;text-align:center">
+                                For items bought in-store with cash or a gift card, refunds need to be handled at the
+                                store where you made the purchase. We can help with that if you need it.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="m_2991975246899278136col m_2991975246899278136align-sm-center" align="center"
+                          bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th class="m_2991975246899278136col m_2991975246899278136px-sm-1"
+                                style="padding-left:10px;padding-right:10px">
+                                <table class="m_2991975246899278136align-sm-center" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td bgcolor="#ffffff" class="m_2991975246899278136spacer-mini" height="30"
+                                        style="font-size:30px;line-height:30px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <th bgcolor="#ffffff"
+                                        class="m_2991975246899278136col m_2991975246899278136align-sm-center"
+                                        style="color:#4b4d54;font-size:18px;line-height:26px;text-align:center">
+                                        <div class="m_2991975246899278136sans-serif">Order Number: SNP15751775</div>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <td bgcolor="#ffffff" class="m_2991975246899278136spacer-mini" height="10"
+                                        style="font-size:20px;line-height:20px"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tbody>
+                            <tr bgcolor="#ffffff">
+                              <td class="m_2991975246899278136spacer-mini m_2991975246899278136hide-sm" height="10"
+                                style="font-size:10px;line-height:10px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+
+
+
+
+
+                        <table class="m_2991975246899278136col m_2991975246899278136full-width-sm" align="center"
+                          bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th class="m_2991975246899278136col" width="600"
+                                style="padding-left:20px;padding-right:20px">
+                                <table class="m_2991975246899278136col m_2991975246899278136full-width-sm"
+                                  cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td class="m_2991975246899278136col m_2991975246899278136pr-sm-1" width="600"
+                                        style="color:#333333;font-weight:400;font-size:12px;line-height:14px;text-align:left">
+                                        <div class="m_2991975246899278136sans-serif m_2991975246899278136py-sm-1"
+                                          style="color:#333333;font-size:12px;line-height:14px;font-weight:400;padding:20px 0">
+
+                                          <div class="m_2991975246899278136sans-serif"
+                                            style="color:#333333;font-size:18px;line-height:26px;font-weight:400;margin-bottom:0px">
+                                            <strong>Status:</strong> 
+                                            Cancelled
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th
+                                class="m_2991975246899278136col m_2991975246899278136px-sm-0 m_2991975246899278136py-sm-1"
+                                width="600" style="padding-left:20px;padding-right:20px">
+                                <table class="m_2991975246899278136col m_2991975246899278136full-width-sm"
+                                  cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <th
+                                        class="m_2991975246899278136col m_2991975246899278136col-sm-4 m_2991975246899278136pr-sm-1"
+                                        width="180"
+                                        style="color:#333333;font-weight:400;font-size:12px;line-height:14px;text-align:left">
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:12px;line-height:14px;font-weight:400;margin-bottom:0px">
+                                          <a style="color:#000000;text-decoration:none"
+                                            href="http://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/a0cc30c1?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyMyIsImxpbmtVcmwiOiJodHRwOlwvXC93d3cuc25pcGVzdXNhLmNvbVwvbWFub2EtbGVhdGhlci1ib290cy1uaWtlLWhheXN0YWNrLS0tYmxhY2stNDU0MzUwLTcwMC0xMDAwMDI5MjUzLmh0bWw_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=kJmvmhTusfBD6D4lszKOP5WTnVAhxV6bydxK1BUcgzc"
+                                            target="_blank"><img
+                                              src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipes-master-catalog/default/dwaa6bef07/images/hi-res/nike_454350-700_01.jpg"
+                                              width="180" alt="item" style="border:0;max-width:180px;display:block"></a>
+                                        </div>
+                                      </th>
+                                      <th class="m_2991975246899278136col m_2991975246899278136col-sm-8" width="390"
+                                        style="color:#333333;font-weight:400;font-size:12px;line-height:14px;text-align:left;vertical-align:bottom;padding-left:10px">
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#4f5158;font-size:18px;line-height:26px;font-weight:400;margin-bottom:0px">
+                                          Manoa Leather Boots</div>
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:14px;line-height:18px;font-weight:400;margin-bottom:0px">
+                                          SKU: 711800042</div>
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:14px;line-height:18px;font-weight:400;margin-bottom:0px">
+                                          Size: 10.5</div>
+
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:14px;line-height:18px;font-weight:400;margin-bottom:0px">
+                                          Qty: 1</div>
+
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:14px;line-height:18px;font-weight:400;margin-bottom:0px">
+                                           </div>
+                                        <div class="m_2991975246899278136sans-serif"
+                                          style="color:#333333;font-size:18px;line-height:26px;font-weight:400;margin-bottom:0px">
+                                           </div>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <th class="m_2991975246899278136spacer-mini" height="30"
+                                        style="font-size:30px;line-height:30px">
+                                         </th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+
+
+
+
+                        <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tbody>
+                            <tr bgcolor="#ffffff">
+                              <td class="m_2991975246899278136spacer-mini" height="10"
+                                style="font-size:10px;line-height:10px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="m_2991975246899278136col m_2991975246899278136full-width-sm" align="center"
+                          bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th class="m_2991975246899278136col m_2991975246899278136px-sm-0"
+                                style="padding-left:10px;padding-right:10px">
+                                <table class="m_2991975246899278136full-width-sm" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <th bgcolor="#ffffff" class="m_2991975246899278136col"
+                                        style="color:#4b4d54;font-size:18px;line-height:26px;text-align:center">
+                                        <div class="m_2991975246899278136sans-serif">Items in your order may ship
+                                          separately</div>
+                                        <div class="m_2991975246899278136sans-serif">View <a
+                                            style="text-decoration:underline;color:#4b4d54"
+                                            href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/3e8b28c6?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyNCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb20_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=C_ZY30fcpab8b6FDOitTd2gCXhXtED3qyI6-wYoqqf4"
+                                            target="_blank">your order</a> for shipping updates</div>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <td bgcolor="#ffffff" class="m_2991975246899278136spacer-mini" height="30"
+                                        style="font-size:30px;line-height:30px"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="m_2991975246899278136px-sm-2" align="center" cellpadding="0" cellspacing="0"
+                          width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                class="m_2991975246899278136divider-mini m_2991975246899278136py-sm-1 m_2991975246899278136px-sm-1"
+                                height="10" style="padding:10px 20px">
+                                <div style="border-top:1px solid #dcdcdc;line-height:0"> </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table width="600" align="center" bgcolor="#0c0f0a" cellpadding="0" cellspacing="0"
+                          style="background-color:#0c0f0a">
+                          <tbody>
+                            <tr>
+                              <td width="30" style="width:30px;font-size:1px;line-height:1px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td bgcolor="#000000" height="30"
+                                        style="height:30px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td bgcolor="#000000"
+                                        style="color:#0c0f0a;font-weight:400;font-size:18px;line-height:26px;text-align:center">
+                                        <a name="m_2991975246899278136_findstore-pin"
+                                          style="color:#ffffff;text-decoration:none"
+                                          href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/aec5511d?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyNSIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL3N0b3JlLWxvY2F0b3IuaHRtbD91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=aiRNGo-XtDuk0R6fGFTkz6mNDcORJFIY7t7m36AtyfQ"
+                                          target="_blank"><img width="35"
+                                            src="https://images.cordial.com/1325/60x52/store-icon.png"
+                                            aria-hidden="true" alt="store icon" border="0"
+                                            style="vertical-align:middle">  <span
+                                            style="vertical-align:middle;font-family:&#39;Roboto&#39;,sans-serif">Find
+                                            the nearest store in your area</span></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td bgcolor="#000000" height="30"
+                                        style="height:30px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="30" style="width:30px;font-size:1px;line-height:1px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table align="center" width="600" bgcolor="#f8f8f8" cellpadding="0" cellspacing="0"
+                          style="background-color:#f8f8f8">
+                          <tbody>
+                            <tr>
+                              <td width="30" style="width:30px;font-size:1px;line-height:1px"> </td>
+                              <td>
+                                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td height="30" style="height:30px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <table align="center" cellpadding="0" cellspacing="0">
+                                          <tbody>
+                                            <tr>
+                                              <td width="130" align="center"><a name="m_2991975246899278136_AppStore"
+                                                  href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/94ac60e4?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyNiIsImxpbmtVcmwiOiJodHRwczpcL1wvYXBwcy5hcHBsZS5jb21cL2F1XC9hcHBcL2tpY2tzdXNhXC9pZDEwNDIyNDM1MDg_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=8TNJTjravaj0X5gW7XGfDGU1LjI_OZprFVAAXWZst7s"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/280x90/apple.png" width="130"
+                                                    alt="App Store"
+                                                    style="border:0;width:100%;max-width:130px;max-height:45px;display:block"></a>
+                                              </td>
+                                              <td width="15" align="center"></td>
+                                              <td width="130" align="center"><a name="m_2991975246899278136_GooglePlay"
+                                                  href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/94a6eeb9?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyNyIsImxpbmtVcmwiOiJodHRwczpcL1wvcGxheS5nb29nbGUuY29tXC9zdG9yZVwvYXBwc1wvZGV0YWlscz9pZD1jb20uc2hvcGdhdGUuYW5kcm9pZC5hcHAyMjc2MCZobD1lbiZ1dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=1HaCB15ReAQYaTyhOVrOAxYS2X3cqB9h3x1GnzXK6Ls"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/280x90/google.png" width="130"
+                                                    alt="Google Play"
+                                                    style="border:0;width:100%;max-width:130px;max-height:45px;display:block"></a>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="30" style="height:30px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table width="360" align="center" cellpadding="0" cellspacing="0"
+                                          style="width:360px">
+                                          <tbody>
+                                            <tr>
+                                              <td width="" style="padding-left:10px;padding-right:10px" align="center">
+                                                <a href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/c53ad189?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyOCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LmZhY2Vib29rLmNvbVwvc25pcGVzdXNhP3V0bV9zb3VyY2U9Y29yZGlhbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlcl9DYW5jZWxsZWQifQ&amp;jwtS=kSlpfh4sP8XIedKeiTzJ3ZPHpDUhQrKUloYEkmWlwg0"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/96x96/icon_fb_cir_000.png"
+                                                    width="40" alt="fb"
+                                                    style="width:100%;max-width:40px;display:block"></a></td>
+                                              <td width="" style="padding-left:10px;padding-right:10px" align="center">
+                                                <a href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/d9845a2a?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyOSIsImxpbmtVcmwiOiJodHRwczpcL1wveC5jb21cL3NuaXBlc191c2E_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=v0UFefWw1FDc-t0O_v9IsGBDc59dtLNK7__uUrBZwx8"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/96x96/icon_x_cir_000.png"
+                                                    width="40" alt="tw"
+                                                    style="width:100%;max-width:40px;display:block"></a></td>
+                                              <td width="" style="padding-left:10px;padding-right:10px" align="center">
+                                                <a href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/8b9ce3f1?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyYSIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3Lmluc3RhZ3JhbS5jb21cL3NuaXBlc191c2E_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=RqDrh9xc1v49qNh1nrFyZ-5vgDCJ93F1kJgLbwduUgc"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/96x96/icon_ig_cir_000.png"
+                                                    width="40" alt="ig"
+                                                    style="width:100%;max-width:40px;display:block"></a></td>
+                                              <td width="" style="padding-left:10px;padding-right:10px" align="center">
+                                                <a href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/243ae8b2?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyYiIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnlvdXR1YmUuY29tXC9jaGFubmVsXC9VQzhBdGtvRmJKQUlaSXlKRzlCbnNISHc_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=6PFY8a_wttMxPqGP5oHW66ZiUE2-FH9ppfJmR0o52vA"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/96x96/icon_yt_cir_000.png"
+                                                    width="40" alt="tt"
+                                                    style="width:100%;max-width:40px;display:block"></a></td>
+                                              <td width="" style="padding-left:10px;padding-right:10px" align="center">
+                                                <a href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/2721faa9?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyYyIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnRpa3Rvay5jb21cL0BzbmlwZXN1c2E_dXRtX3NvdXJjZT1jb3JkaWFsJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPU9yZGVyX0NhbmNlbGxlZCJ9&amp;jwtS=h7ebkN82RhiIA0HrcZjZeENTZlULpyLovwbtHJCcgF0"
+                                                  target="_blank"><img
+                                                    src="https://images.cordial.com/1325/96x96/icon_tt_cir_000.png"
+                                                    width="40" alt="tt"
+                                                    style="width:100%;max-width:40px;display:block"></a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20" style="height:20px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td bgcolor="#f8f8f8"
+                                        style="color:#0c0f0a;font-weight:400;font-size:16px;line-height:26px;text-align:center">
+                                        <a name="m_2991975246899278136_footer-trackorder"
+                                          style="font-family:&#39;Roboto&#39;,sans-serif;color:#0c0f0a;text-decoration:none"
+                                          href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/ce618d3c?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyZCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL29yZGVycz91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=AITKvGhxJ5cWPwBM9P7gopYbXMHb-WPDxwxOxsjvfLk"
+                                          target="_blank">Track Order</a>    <a name="m_2991975246899278136_footer-faqs"
+                                          style="color:#0c0f0a;text-decoration:none;font-family:&#39;Roboto&#39;,sans-serif"
+                                          href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/30fb06bf?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyZSIsImxpbmtVcmwiOiJodHRwczpcL1wvc25pcGVzLXVzYS5mb3JjZS5jb21cL2hlbHBjZW50ZXJcL3NcLz91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=zlA8enp60D5j4P_E5KACKXkGcd-qkqD3C72vx1Osgrw"
+                                          target="_blank">FAQs</a>    <a name="m_2991975246899278136_footer-contactus"
+                                          style="color:#0c0f0a;text-decoration:none;font-family:&#39;Roboto&#39;,sans-serif"
+                                          href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/6d1a7887?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQyZiIsImxpbmtVcmwiOiJodHRwczpcL1wvc25pcGVzLXVzYS5mb3JjZS5jb21cL2hlbHBjZW50ZXJcL3NcL2NvbnRhY3RzdXBwb3J0P3V0bV9zb3VyY2U9Y29yZGlhbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlcl9DYW5jZWxsZWQifQ&amp;jwtS=cG_rxfrrmSQjzu2qy1Mu5vApNnvrtIAbGAwrO1u_ZMI"
+                                          target="_blank">Contact Us</a>    <a name="m_2991975246899278136_footer-blog"
+                                          style="color:#0c0f0a;text-decoration:none;font-family:&#39;Roboto&#39;,sans-serif"
+                                          href="https://e.e.snipesusa.com/c2/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/62d84c36?jwtH=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&amp;jwtP=eyJpYXQiOjE3MzYxODgxNDQsImNkIjoiLmUuc25pcGVzdXNhLmNvbSIsImNlIjo4NjQwMCwidGsiOiJzbmlwZXMiLCJtdGxJRCI6IjY3N2I3Mjc0OGZkOTg1YmMxNzA2MmQzMCIsImxpbmtVcmwiOiJodHRwczpcL1wvd3d3LnNuaXBlc3VzYS5jb21cL2Jsb2cuaHRtbD91dG1fc291cmNlPWNvcmRpYWwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249T3JkZXJfQ2FuY2VsbGVkIn0&amp;jwtS=aMfXWXDc2svG4uBXQH205cXkykuH3udevPMYvTf2Xno"
+                                          target="_blank">Blog</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20" style="font-size:20px;line-height:20px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="font-family:&#39;Roboto&#39;,sans-serif;color:#0c0f0a;font-weight:400;font-size:12px;line-height:22px;text-align:center">
+                                        SNIPES USA. 3329 Street Rd. <span style="white-space:nowrap">Bensalem,
+                                          Pennsylvania 19020</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="50" style="height:50px;font-size:1px;line-height:1px"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td width="30" style="width:30px;font-size:1px;line-height:1px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table><img
+          src="https://e.e.snipesusa.com/o/p/1325:68b01aea94d6455f2801bde1a5305c50:d250106:651eec168be3775fa304303c:677c2058e885bd3f720b0360/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzYxODgxNDR9.cienGZoApnGxKPbX0jEl1ueyIxy9E0_7-G7xFRLfvq4"
+          height="1" width="1"><img width="1" height="1" alt=""
+          src="https://mg.t.snipesusa.com/o/eJyUz7tqAzEQheGnWXUxMxqNLoWKBSfgx5A0I2fJXsyu7ecPOE2qQOoDh__7UJVa2tfb5ZyRLA80ehbF5BGLOo4oTi35JPiaULWhj1UpBO6FwBFQG2hs2y5TmU3bZX5fn_m2b_Jo92lbjWSXvKRmNGMgjzGiY_OZgy8FJfXqibmRkguWm2jw3QLXaqZswTIgeIw2gTslVVsiR3W1d4Y0OLifjnW66fE4yqlti1naL0msgEVLcuIdc7cRsIpiYQJuDAON8vP_t82H0Cxw1Bi5CvVgoQJ5MHu-zrqWeS7XfXvc2uDgupRpfpXc83JczgON_64xz2y_AwAA__-LWnFF">
+      </div>
+    </div>
+  </div>
+</div>

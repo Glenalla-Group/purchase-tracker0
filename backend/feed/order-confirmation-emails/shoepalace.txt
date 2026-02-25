@@ -1,0 +1,888 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg-3059031395627145506"><u></u>
+      <div style="display:block!important;min-width:100%!important;width:100%!important;margin:0px;padding:0px">
+        <table style="width:100%;max-width:100%;border-spacing:0" width="100%" cellspacing="0" cellpadding="0"
+          border="0" align="center">
+          <tbody>
+            <tr>
+              <td bgcolor="#F4F4F4" align="center" style="border-collapse:collapse">
+                <table class="m_-3059031395627145506row" style="width:600px;max-width:600px;border-spacing:0"
+                  width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#282828" align="center" style="border-collapse:collapse">
+                        <table class="m_-3059031395627145506row" style="width:540px;max-width:540px;border-spacing:0"
+                          width="540" cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="m_-3059031395627145506container-padding" align="center"
+                                style="border-collapse:collapse">
+                                <table width="540" border="0" cellpadding="0" cellspacing="0" align="center"
+                                  class="m_-3059031395627145506row"
+                                  style="width:540px;max-width:540px;border-spacing:0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="border-collapse:collapse">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                          style="width:100%;max-width:100%;border-spacing:0">
+                                          <tbody>
+                                            <tr>
+                                              <td height="25" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td style="border-collapse:collapse">
+                                                <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                  align="center" style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td width="80" align="left" style="border-collapse:collapse">
+                                                        <img width="80"
+                                                          style="display:block!important;width:100%;max-width:80px;height:auto;margin:auto;border-width:0px"
+                                                          alt="img"
+                                                          src="https://cdn.shopify.com/s/files/1/0852/3376/t/29/assets/SP_Stacked_white.png?v=1599910673">
+                                                      </td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AABhAyxhRd3EfynyzJcqMyueiss66yOg74FdXI22ebvD64i8XiPZDQpWNETP1HF1_rN0_89gFzKbPfBVElZatyG9n2xJ64O0PuoRge5Q9-o_MKFU_B4wr2GqhlOXd4-auJkN7pHUMMu5nERT28zJU9ZtrG5DyJvr1y9Qdo5Z-_BMv-7TYEg9gLDMFrjaQqcjh9eqowdw6azRZkBCWC1ZI8MEdCa3go6sLyihPZyKt9lAbaLNvv2D4Oqh_StBmDfxloyVs59K4pOIbRa_iPk9NFXXuMfHlJQ169zmNMmt8dVHRGU8E43U4S6KT1TFQrFRbXLsmMp3lUBZUaF6APvnHvz18b9s6NwLHT5USIL_OUkCSQ=="
+                                                          style="color:#ffffff;text-decoration:none!important"
+                                                          target="_blank">Contact us</a></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="25" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="width:100%;max-width:100%;border-spacing:0" width="100%" cellspacing="0" cellpadding="0"
+          border="0" align="center">
+          <tbody>
+            <tr>
+              <td bgcolor="#F4F4F4" align="center" style="border-collapse:collapse">
+                <table class="m_-3059031395627145506row" style="width:600px;max-width:600px;border-spacing:0"
+                  width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#f6f6f4" align="center" style="border-collapse:collapse">
+                        <table class="m_-3059031395627145506row" style="width:540px;max-width:540px;border-spacing:0"
+                          width="540" cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="m_-3059031395627145506container-padding" align="center"
+                                style="border-collapse:collapse">
+                                <table width="540" border="0" cellpadding="0" cellspacing="0" align="center"
+                                  class="m_-3059031395627145506row"
+                                  style="width:540px;max-width:540px;border-spacing:0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="border-collapse:collapse">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                          style="width:100%;max-width:100%;border-spacing:0">
+                                          <tbody>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" style="border-collapse:collapse"><img width="100%"
+                                                  style="display:block!important;width:100%;max-width:640px;height:auto;margin:auto;border-width:0px"
+                                                  alt="img"
+                                                  src="https://cdn.shopify.com/s/files/1/0852/3376/files/preview-full-sp5.jpg">
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center"
+                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:30px;color:#282828;border-collapse:collapse">
+                                                Purchase confirmation</td>
+                                            </tr>
+                                            <tr>
+                                              <td height="18" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center"
+                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:24px;color:#282828;border-collapse:collapse">
+                                                Thanks for your purchase. We’ll send tracking
+                                                info when your order ships. </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="18" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center"
+                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:15px;color:#282828;border-collapse:collapse">
+                                                If you&#39;re for looking more:</td>
+                                            </tr>
+                                            <tr>
+                                              <td height="25" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" style="border-collapse:collapse">
+
+
+                                                <table border="0" bgcolor="#333333" cellpadding="0" cellspacing="0"
+                                                  style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+
+                                                      <td align="center" height="40" width="170"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;font-weight:600;letter-spacing:0.5px;border-collapse:collapse">
+
+
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AAAiKoPSI7QyQSugV_zqV4tttkJBAk95FlEQ5Uz_YZ--84DuLaW1S9UURc_Qs84r7ONzLteF0YplvfM-mW73ktgJ8zd1i0oL6b7PKsQ6sroM_HX_YtmMsduNH_vY2xHadBldA_sNwYkIlqyA2QAaDyC61qhyt_7LKDgoRRt-MWcSXK-dcYhWORmUf0qduPLwlR3rjDhtFidWmXS8KeRDzS4sJjPSxep8rKd8psBj84P3Ji5IUk8_0XY8IHfQeYpXvTH1mpudgFoRzN-Ja40MshDZUZYSW-RkfG6XBlYepj-eCrAJLezIlMF7GE8IS4xH87_c0MEVQA3NC58TbHkqV_8="
+                                                          style="color:#ffffff;text-decoration:none!important"
+                                                          target="_blank">GO TO SITE</a>
+                                                      </td>
+
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="18" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center"
+                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:15px;color:#282828;border-collapse:collapse">
+                                                or <a
+                                                  href="https://www.shoepalace.com/_t/c/v3/AAAzk0sgTgDHCUGxOZfdjmKSXelHMjNckuw5L5voPC0nTzaRLw98cp-OUiBWnEbxdJBHeMgPviEl5ZKav_tU6DKDN7QG9omw2T-egqw42nZKp-FRM5gzVs4dnmMHDkkPML45KkUKIohAkA8sBGK_hspl97iagrMb0AbO7d9QMx9Nd5EiluotIjNanNY8P0y-A7I8RWMI3zF_773y6otN9kLd5RLc30hLh_nIfCr5eTglJVCWYzsMxpPCB8B28FtDzLr9YtJcYB5ncKRIw-ioHOddLv9utIJJaUhj8Y3pEviq0DHktnUk6L2aW4Fx7MGUoNR3uEJiAOJy7oZL8l-QJH5eSGiiAf5QqXURyszMzWeqZHZpjnr2LRqZ10BgPYNLgu1d-EJBokRbh8QaBR2T5jLptqHzVZOHzpfKSg5BvgJ42aGPXD8spzui2qjZ6UJBYSgDOjtLIBiQJNTrnh9SkWPq84Cx-xIP6xXuWSZa26UR0MBAHdaDJpRRtiSywnuVmU0-_EVIqnAHq5lYcYGs1_RT4Xdguna4tccxcCoHMRARqsnD5-9EC4Z6mWrUdusCyzJl73AZXsCIp2oBa7PWIgvDImxOQYGvycxbmobsKvx_dsYSstL5d0Kw34qicnwPOHk_d5kintTPn1xNqbe0kfYEodWUHLxMMth9_Q5G5wvF3XplQIjJ7QPQrPRhoe4RoR0oX3d3k44pQPoiiRcXtB57gSaB_PnQsWelXy7hP6zUns-CwRzIRMUF9DK1QipHvY8lf_JIqFQNFek1H8Dh9jXX3P9vfC_KoSiElSszwYe09aErR_1_-oPsSDU2mgUEKcSZ3PTA__vvKE4sPqeXZKoxUEx58zFgkyMBB0nUZVrRgH3XhcXsEG2N77tqoudffubD0EKeWugdPYVjo5Kaz0pn5IXrGEof3xjaPAtU6mAHiMkMRwfpwC5ggZQj5u--56PUPpLIYXHPB1HJcNpO7YBqmxjbbthoCv_bXGQsoZ44tGApf68LUyNOm99sPoHp6aB1hKMmNl7yirnzhafCFlTRpJhzwwwLdBtYgYEMLM04Hbx5-tZ96H4wCL8IdtK8yeKi_q8y4fPD2dMcBOCWWgdEWM8VUCasTwS0rM9dgWC8MGiagGJVyNPUpTgZxX-T6I63uYO9Oy9YSmS44VK_jfwT82TRxGrnEmlqwn_fePQPVHImd6l9ly63wIMxxhaa9Lwt8JbiM8dZrftl9DirEA3PCWhBtocIGhr3e_eQqdSgRqPl8XdIHVVZ6zriHBbhtYdXaN8-2Mgrs25jaGY_KtdBuq3ukQKwaBZ1WwXGVICIr4aHN_cB_vVuh4CGr1Zw5tyrX9a1PAAHqwhkUexDiCmDW-uXuHqljScmHaMayUxnyQNfMqTjeeFoSdffOd5p6zcBSqXxHABru3v4Rf-2NMNY_8CO9mP45nhIXVPmyLlcgEoEf7ZCl3wlWm3SeoRGwhB50lV7Q-JFMStNrEk1fM6TLz0_q7YK9huE1BIk7z8-v3VUCt5bdq2CbL3jCw=="
+                                                  style="color:#282828;text-decoration:none!important"
+                                                  target="_blank"><u>View your order</u></a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="width:100%;max-width:100%;border-spacing:0" width="100%" cellspacing="0" cellpadding="0"
+          border="0" align="center">
+          <tbody>
+            <tr>
+              <td bgcolor="#F4F4F4" align="center" style="border-collapse:collapse">
+
+
+                <table class="m_-3059031395627145506row" style="width:600px;max-width:600px;border-spacing:0"
+                  width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#FFFFFF" align="center" style="border-collapse:collapse">
+
+
+                        <table class="m_-3059031395627145506row" style="width:540px;max-width:540px;border-spacing:0"
+                          width="540" cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="m_-3059031395627145506container-padding" align="center"
+                                style="border-collapse:collapse">
+
+
+
+
+                                <table width="540" border="0" cellpadding="0" cellspacing="0" align="center"
+                                  class="m_-3059031395627145506row"
+                                  style="width:540px;max-width:540px;border-spacing:0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="border-collapse:collapse">
+
+
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                          style="width:100%;max-width:100%;border-spacing:0">
+                                          <tbody>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td style="border-collapse:collapse">
+                                                <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                  align="center" style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;border-collapse:collapse">
+                                                        Order Number #1994494</td>
+                                                      <td width="30" style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;border-collapse:collapse">
+                                                        Items Price</td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td
+                                                style="line-height:8px;height:8px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                              <td bgcolor="#e7e6e2"
+                                                style="line-height:8px;height:8px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td style="border-collapse:collapse">
+                                                <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                  align="center" style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td width="130" style="border-collapse:collapse">
+
+                                                        <img width="130"
+                                                          style="display:block!important;width:100%;max-width:130px;height:auto;margin:auto;border-width:0px"
+                                                          alt="img"
+                                                          src="https://cdn.shopify.com/s/files/1/0852/3376/files/4ac7a8b4e5eaa1ab79bf1c7efafc467f_1024x1024.jpg?v=1739479598">
+
+                                                      </td>
+                                                      <td width="20" style="border-collapse:collapse"> </td>
+                                                      <td width="250" style="border-collapse:collapse">
+                                                        <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                          style="border-spacing:0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;line-height:21px;border-collapse:collapse">
+                                                                Pegasus 41 Road Womens Running Shoes (Photon
+                                                                Dust/Metallic Pewter/Sail/Echo Pink) - 8</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;line-height:21px;border-collapse:collapse">
+                                                                Quantitiy : 5</td>
+                                                            </tr>
+
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right" width="60" style="border-collapse:collapse">
+                                                        <table border="0" width="60" cellpadding="0" cellspacing="0"
+                                                          style="border-spacing:0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="right"
+                                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                                $249.85</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="right"
+                                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#5d5d5d;text-decoration:line-through;border-collapse:collapse">
+                                                              </td>
+                                                            </tr>
+
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td height="20"
+                                                style="border-bottom-width:1px;border-bottom-color:#e0e0e0;border-bottom-style:solid;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+
+
+
+
+
+
+
+
+
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td bgcolor="#e7e6e2"
+                                                style="line-height:8px;height:8px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="right" style="border-collapse:collapse">
+
+                                                <table border="0" width="280" cellpadding="0" cellspacing="0"
+                                                  style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;line-height:24px;border-collapse:collapse">
+                                                        Subtotal</td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;border-collapse:collapse">
+                                                        $249.85</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;line-height:24px;border-collapse:collapse">
+                                                        Shipping</td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;border-collapse:collapse">
+                                                        $32.95</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;line-height:24px;border-collapse:collapse">
+                                                        Tax</td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;border-collapse:collapse">
+                                                        $0.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;line-height:24px;border-collapse:collapse">
+                                                        Discount</td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:14px;color:#282828;border-collapse:collapse">
+                                                        $0.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;font-weight:600;line-height:24px;border-collapse:collapse">
+                                                        Total Due</td>
+                                                      <td style="border-collapse:collapse"> </td>
+                                                      <td align="right"
+                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                        <strong style="font-weight:bold!important">$282.80 USD</strong>
+                                                      </td>
+                                                    </tr>
+
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td bgcolor="#e7e6e2"
+                                                style="line-height:8px;height:8px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                              <td
+                                                style="line-height:15px;height:15px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <table style="width:100%;max-width:100%;border-spacing:0" width="100%" cellspacing="0" cellpadding="0"
+          border="0" align="center">
+          <tbody>
+            <tr>
+              <td bgcolor="#F4F4F4" align="center" style="border-collapse:collapse">
+
+
+                <table class="m_-3059031395627145506row" style="width:600px;max-width:600px;border-spacing:0"
+                  width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#FFFFFF" align="center" style="border-collapse:collapse">
+
+
+                        <table class="m_-3059031395627145506row" style="width:540px;max-width:540px;border-spacing:0"
+                          width="540" cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="m_-3059031395627145506container-padding" align="center"
+                                style="border-collapse:collapse">
+
+
+
+
+                                <table width="540" cellpadding="0" cellspacing="0" align="center"
+                                  class="m_-3059031395627145506row"
+                                  style="width:540px;max-width:540px;border-spacing:0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="border-collapse:collapse">
+
+
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                          style="width:100%;max-width:100%;border-spacing:0">
+                                          <tbody>
+                                            <tr>
+                                              <td
+                                                style="line-height:15px;height:15px;font-size:0px;border-collapse:collapse">
+                                                 </td>
+                                            </tr>
+
+
+                                            <tr>
+                                              <td align="center" style="border-collapse:collapse">
+
+
+
+
+                                                <table class="m_-3059031395627145506row"
+                                                  style="width:260px;max-width:260px;border-spacing:0" width="260"
+                                                  cellspacing="0" cellpadding="0" border="0" align="left">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center" style="border-collapse:collapse">
+
+
+                                                        <table width="260"
+                                                          style="width:260px;max-width:260px;border-spacing:0"
+                                                          cellspacing="0" cellpadding="0" border="0" align="center">
+
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="center" bgcolor="#F5F5F3"
+                                                                style="border-collapse:collapse">
+
+                                                                <table border="0" width="200" cellpadding="0"
+                                                                  cellspacing="0" align="center"
+                                                                  style="border-spacing:0">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td height="30" style="border-collapse:collapse"> 
+                                                                      </td>
+                                                                    </tr>
+
+
+                                                                    <tr>
+                                                                      <td
+                                                                        style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                                        Billing Address</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td height="18" style="border-collapse:collapse"> 
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td
+                                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;line-height:22px;border-collapse:collapse">
+                                                                        Griffin Myers
+
+                                                                        <br>595 Lloyd Lane
+
+                                                                        <br>STE D
+
+                                                                        <br>Independence, OR 97351
+                                                                        <br>United States
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td height="30" style="border-collapse:collapse"> 
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td
+                                                                        style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                                        Shipping Method</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td height="18" style="border-collapse:collapse"> 
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td
+                                                                        style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;border-collapse:collapse">
+                                                                        Flat Rate</td>
+                                                                    </tr>
+
+
+                                                                    <tr>
+                                                                      <td height="30" style="border-collapse:collapse"> 
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+
+                                                              </td>
+                                                            </tr>
+
+
+
+                                                          </tbody>
+                                                        </table>
+
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+
+
+
+                                                <table class="m_-3059031395627145506row"
+                                                  style="width:50px;max-width:50px;border-spacing:0" width="50"
+                                                  cellspacing="0" cellpadding="0" border="0" align="left">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td height="30" style="border-collapse:collapse"></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+
+
+
+                                                <table class="m_-3059031395627145506row"
+                                                  style="width:230px;max-width:230px;border-spacing:0" width="230"
+                                                  cellspacing="0" cellpadding="0" border="0" align="right">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center" style="border-collapse:collapse">
+
+
+                                                        <table width="230"
+                                                          style="width:230px;max-width:230px;border-spacing:0"
+                                                          cellspacing="0" cellpadding="0" border="0" align="center">
+
+                                                          <tbody>
+                                                            <tr>
+                                                              <td height="30" style="border-collapse:collapse"> </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                                Shipping Address</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td height="18" style="border-collapse:collapse"> </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;line-height:22px;border-collapse:collapse">
+                                                                Griffin Myers
+
+                                                                <br>595 Lloyd Lane
+
+                                                                <br>STE D
+
+                                                                <br>Independence, OR 97351
+                                                                <br>United States
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td height="30" style="border-collapse:collapse"> </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#282828;border-collapse:collapse">
+                                                                Payment Method</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td height="18" style="border-collapse:collapse"> </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style="font-family:&#39;Open Sans&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#282828;border-collapse:collapse">
+
+
+
+
+                                                                <img align="left"
+                                                                  src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/american_express-44152baf677c1090bbd5feb49c21ea85183a21c030f7489d8df470a48804d089.png"
+                                                                  style="display:block!important;width:auto;max-width:auto;height:auto;margin:auto;border-width:0px">
+                                                                - XXXX - 1018
+
+
+
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td height="30" style="border-collapse:collapse"> </td>
+                                                            </tr>
+
+
+
+                                                          </tbody>
+                                                        </table>
+
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+
+
+
+
+
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="30" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="width:100%;max-width:100%;border-spacing:0" width="100%" cellspacing="0" cellpadding="0"
+          border="0" align="center">
+          <tbody>
+            <tr>
+              <td bgcolor="#F4F4F4" align="center" style="border-collapse:collapse">
+
+
+                <table class="m_-3059031395627145506row" style="width:600px;max-width:600px;border-spacing:0"
+                  width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#282828" align="center" style="border-collapse:collapse">
+
+
+                        <table class="m_-3059031395627145506row" style="width:540px;max-width:540px;border-spacing:0"
+                          width="540" cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="m_-3059031395627145506container-padding" align="center"
+                                style="border-collapse:collapse">
+
+
+
+
+                                <table width="540" border="0" cellpadding="0" cellspacing="0" align="center"
+                                  class="m_-3059031395627145506row"
+                                  style="width:540px;max-width:540px;border-spacing:0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="border-collapse:collapse">
+
+
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                          style="width:100%;max-width:100%;border-spacing:0">
+                                          <tbody>
+                                            <tr>
+                                              <td height="40" style="border-collapse:collapse"> </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td align="center"
+                                                style="font-family:&#39;Josefin Sans&#39;,Arial,Helvetica,sans-serif;font-size:18px;color:#dadada;font-weight:400;border-collapse:collapse">
+                                                Get in Touch</td>
+                                            </tr>
+
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td style="border-collapse:collapse">
+
+                                                <table cellspacing="0" cellpadding="0" border="0" align="center"
+                                                  style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td width="25" style="border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AAANNjdVYfKAEx46gTwci5cBSpyVa6zgwNscpsfhoycaam7SShltrF0eaC5A7Q7DeemXEliPsX9HOSIO52ohznppUZ2-ifY1p_vRHVpdcOYEr3HbaKZoaFaN-2hwPDwIG_mOGt7agFLZ5SYV7ssJJugtuhPDfmscneMI0gS4K7u7i9jUoDj_UHI19c8BZeca8ts5JCnuSFk48SzTmnmYKMjHVDOwaIVrZD66mzKk7mkUvpRaWgkFl0IEs0sfxT8I3V7d0o_tGQ2yfu-O8mO5EfqV1jG1yz853U1OSZUefA=="
+                                                          style="text-decoration:none!important" target="_blank">
+
+                                                          <img width="25"
+                                                            style="display:block!important;width:100%;max-width:25px;height:auto;margin:auto;border-width:0px"
+                                                            src="https://cdn.shopify.com/s/files/1/0852/3376/files/fb.png?v=1600108956">
+                                                        </a>
+                                                      </td>
+                                                      <td width="10" style="border-collapse:collapse"> </td>
+                                                      <td width="25" style="border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AADGp3Len1ot9wvYLJBqms0SEs7PhDoPZHgBDu3ZsY30LiA4XoRUmmIvKaZoxf0Kbskwc34IJ-J1HR7wBO-_G3MJ7i6YrOcoverPDcMeYtoKbChie7j7ubVpYmJZQbhcBJ2ZsTy8Uw0ciMRtRgDeG3E6pm7vQr-XXg3gsLWg5OQV14pl1pLmJh-JSyHwoLf-tUnwZ8OpW3C-niH7qIj-cpFufOaoG6drW6FjV-cpsO8wkz7qfPgyxKMnlkliiWrSe4Yvt2pdfoq3SHnJvKfNhliAKG7hzTYqSA=="
+                                                          style="text-decoration:none!important" target="_blank">
+
+                                                          <img width="25"
+                                                            style="display:block!important;width:100%;max-width:25px;height:auto;margin:auto;border-width:0px"
+                                                            src="https://cdn.shopify.com/s/files/1/0852/3376/files/tw.png?v=1600109026">
+                                                        </a>
+                                                      </td>
+                                                      <td width="10" style="border-collapse:collapse"> </td>
+                                                      <td width="25" style="border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AAASK0Vhq2tjjMcFUvcYnIjJMQ-lA2E_VmJ5WoIK0rCkTvE0hb1Dr4ZabdN1CBOpdOXZ8pxlQXlTUw8EtnX91Nbde3WzFmyl4NG5ySUgtbQqYrpZwGBxv4kWnvdzukgZW6cXifLDVQzmk43ARgRNyyXByfTNGKLiOCmZBBArOHSl6HHZytAkg3zRD4dCCk7Jx3AWatK9Kk3fME5Ihlr5Sj46MkwzQaVl06tLyyPw5lsboHqB6zVf4vJA9qXqwDFnuJGbMvEAnLe-E8YjzwXlS-mm3oj5946ZMD686IVINVY="
+                                                          style="text-decoration:none!important" target="_blank">
+
+                                                          <img width="25"
+                                                            style="display:block!important;width:100%;max-width:25px;height:auto;margin:auto;border-width:0px"
+                                                            src="https://cdn.shopify.com/s/files/1/0852/3376/files/in.png?v=1600109065">
+                                                        </a>
+                                                      </td>
+
+                                                      <td width="10" style="border-collapse:collapse"> </td>
+                                                      <td width="25" style="border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AABEmNB9F43LSPJI0aX47POX6FT5jddu_2tvNX_CtjPIY0q--1Q8xQnQBdlTuPG3XiKJPQM26xD0IjXCoTKoFSOD9WyZHMZUoJgEEAH-3Ifrq_k_ER2fx9OIzwaCNLHnBWpL0E_k817Py47_Wmc6FTFG9h5N2Pgwbh6vPkujlGTpkb1Dr7M1wk1c9QIP7Vip_Ui1gpAeD5QCNo8ILFVX0xdW2664wqmIsiKIzkwL70Yqp_jZFItgw1hxwbcwawWVmrfyhCbfiojZ0gHfxNtCurNFRN2GmtcmyLnCP8cFmDA="
+                                                          style="text-decoration:none!important" target="_blank">
+
+                                                          <img width="25"
+                                                            style="display:block!important;width:100%;max-width:25px;height:auto;margin:auto;border-width:0px"
+                                                            src="https://cdn.shopify.com/s/files/1/0852/3376/files/pi.png?v=1600109074">
+                                                        </a>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="20" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" style="border-collapse:collapse">
+
+                                                <table cellspacing="0" cellpadding="0" border="0"
+                                                  style="border-spacing:0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center"
+                                                        style="font-family:&#39;Roboto&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#dadada;line-height:20px;text-decoration:underline;border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AAAXu7PaEHjoayWTfgkIXo6ZmyG4jSXkvf2mF8JvKc8WZ9IMSjN794IaCCXyu-JG4SYqgNeu0XYKin4unFSeqSF-AU3TwMSRoohPFevgAQh-XyHvP6Q2gbbALYwWH4FN02FUGqrjDNnBXjEkWfty5MPg57MrzV1yTMs1-6kGhB_r4C4jkBJpP_of8Fy7AoL9Ahxu3vb9HtYGFEgAUPe9COkI1aK8t6lmA-7AJTAIpyZDRE32AWuC1mFS4he7lhKM0ohXOsAoW77BbjSq45yfqglnpByOh9E0_StfXdXPk02YMN65GnNcDHC2fJR-DOFuufNG2ya2hUqPIdv507J7uXSiPIae2OsRfC6avWtv3aVsuA=="
+                                                          style="color:#dadada;text-decoration:none!important"
+                                                          target="_blank">Sign Up</a></td>
+                                                      <td width="20" align="center"
+                                                        style="font-family:&#39;Roboto&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#dadada;line-height:20px;border-collapse:collapse">
+                                                        |</td>
+                                                      <td align="center"
+                                                        style="font-family:&#39;Roboto&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#dadada;line-height:20px;text-decoration:underline;border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AABmXAGxe5YtGz5BdQQrP3FFrpKLh9dYeOmPkGbyoToo0aawFC25wtJKmXaQXngR8TP8Y2qV3yE5G1xuUw8lKj_5pQoHskRpt70cj-1Tf_pZuUd9g1V4iNYiLxdRB48lmUF-ze6LtQzphUQVdpSOFfsV6PiqK9UI3j257DopVVlXR2IYmzdkbQLdQpC_S2FOl3Kt8i1QI6rc5olbwMD3Wyl0EPRZ2Z7gcWo_mV0hwDQcxL03NshEb6gM88ErzxHZx6Opxsjn7jXLPo_mY4Y1luY-eX1oG7Iqy65-4FXXRpeZ0lk7_Vyw3rY1ByKd2zm32r8UgkV7TObwBUAeYTQ0y7PGy-qlt2iMJale4nrNZSE62ASLfP0="
+                                                          style="color:#dadada;text-decoration:none!important"
+                                                          target="_blank">Privacy Policy</a></td>
+                                                      <td width="20" align="center"
+                                                        style="font-family:&#39;Roboto&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#dadada;line-height:20px;border-collapse:collapse">
+                                                        |</td>
+                                                      <td align="center"
+                                                        style="font-family:&#39;Roboto&#39;,Arial,Helvetica,sans-serif;font-size:13px;color:#dadada;line-height:20px;text-decoration:underline;border-collapse:collapse">
+                                                        <a href="https://www.shoepalace.com/_t/c/v3/AADFA6KT4Fysg0oYZkXDYygZ1gO1k_LdK97Fpc1vw-DADgup0L58InCRfSn0i2QtweUjnkCEilYurA-7G29Ntsie0i6h3n7AXixxRykkMbSYaJCerqw7AP_mIsPlqaO3QNMql4L0cIiY_IeB9H7nCcMHx2KEKTSuWj8UgsQzpnAZnwUYkEtbmHLGiuTabbMOeiZplvdvd576La8vh0P6eh2PGlJO9zBCJn-fh5T8BlPUB2xYfxLNwqSJ2O4dr5IPwPfGTRzeQl0Fpzqp31zVmKcRB-SVC2g2l6gbUtb7lXvrog9z1rA9rF83JjnNOhflVDkQ3ER5qmMeSijDO5aACvriCGNbQauipbIaWdpV_CR75Q=="
+                                                          style="color:#dadada;text-decoration:none!important"
+                                                          target="_blank">Contact us</a></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="40" style="border-collapse:collapse"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

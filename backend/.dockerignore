@@ -1,46 +1,43 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
+# Sensitive files - NEVER include in Docker images
+credentials.json
+token.json
+*.pem
+*.key
+.env
+.env.local
 
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Git
-.git/
+# Development files
+.git
 .gitignore
-
-# Documentation
+.vscode
+.idea
 *.md
-!README.md
+*.log
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+venv
+env
 
 # Logs
-*.log
 logs/
+*.log
 
-# Environment (will be passed separately)
-.env
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
 
-# Tests
-tests/
-.pytest_cache/
-
-# Examples
-examples/
-
-
-
+# Testing
+.pytest_cache
+.coverage
+htmlcov

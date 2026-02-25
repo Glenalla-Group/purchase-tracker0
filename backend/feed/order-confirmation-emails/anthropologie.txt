@@ -1,0 +1,437 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width:100%">
+  <tbody>
+    <tr>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<div class="m_7070641517232076345body-bg">
+  <table align="center" class="m_7070641517232076345main-bg">
+    <tbody>
+      <tr>
+        <td class="m_7070641517232076345body-bg">
+          <img src="https://click.s.anthropologie.com/open.aspx?ffcb10-fecc167174670c79-fe6113727365037b7414-fe3e11717164057c701470-ff9c1572-fe2b157377600175731370-fef3117670670d&amp;d=110056&amp;bmt=0" width="1" height="1" alt="">
+          <table align="center" class="m_7070641517232076345main">
+            <tbody>
+              <tr>
+                <td class="m_7070641517232076345mobile-padding">
+                  <table align="center" class="m_7070641517232076345full-width">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table align="center" class="m_7070641517232076345full-width">
+                            <tbody>
+                              <tr>
+                                <td class="m_7070641517232076345framework-logo">
+                                  <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e3244ebb04bbd1b9168532eb2db9a21d9164733740dd42a1a650ecf6b70a23c6abb1a49fc60ee9575ec7338990584eb24d8a253fb0b0656636bc" target="_blank">
+                                    <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/611f75f5-ab89-4149-920a-f6c74ad9e217.png" width="230" alt="Anthropologie" style="display:block;margin:auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table class="m_7070641517232076345full-width">
+                            <tbody>
+                              <tr>
+                                <td class="m_7070641517232076345framework-title">
+                                  <h1>We Like Your Style</h1>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_7070641517232076345framework-order">
+                                  <h4> Order Number: <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e32433c07a2cf66a11677e8b7dbee84aad425a30bfcaef788fef4f8183f8b0c94e44396adfd047e2096be3c87622a0e8687978fb5bb87cee583d" target="_blank">AN23865003</a>
+                                  </h4>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_7070641517232076345header-copy">
+                                  <p>Thank you for shopping at <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e32480d328af0389c7a087e21ddc171f5d26e9874489b538d41993613e57bbab194248cf365a73a71833922146fc20447108a0bbb2ed095ed3f6" target="_blank">anthropologie.com</a>. The details of your order are outlined below. Note: Any backordered items will have the estimated availability date listed under the product information. </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top:30px">
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_7070641517232076345h2-wrapper" style="padding-top:30px;border-top:solid 1px #cccccc">
+                                          <h2>Shipping Information</h2>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_7070641517232076345shaded-box">
+                                          <table class="m_7070641517232076345full-width">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_7070641517232076345h3-wrapper">
+                                                  <h3> Shipping Address </h3>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345address"> Griffin  Myers <br> 595 Lloyd Lane <br> Independence, OR  97351 </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <td style="text-align:left;padding-top:15px">
+                                          <table class="m_7070641517232076345full-width">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_7070641517232076345shaded-box">
+                                                  <table class="m_7070641517232076345full-width">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="padding-bottom:10px">
+                                                          <h4> Standard Shipping </h4>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td style="padding-bottom:5px"> Arrives within 4-8 business days </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td style="padding-top:5px"> You will receive a notification email when each item has shipped. Should your order include multiple or backordered items, they may arrive in separate packages and at variable times based on availability. </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="height:10px"></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr class="m_7070641517232076345item-heading-large">
+                                        <td class="m_7070641517232076345column-header-container">
+                                          <table class="m_7070641517232076345full-width-fixed">
+                                            <tbody>
+                                              <tr class="m_7070641517232076345h4">
+                                                <td class="m_7070641517232076345item-image"></td>
+                                                <td class="m_7070641517232076345item-details"> Item </td>
+                                                <td style="text-align:left" class="m_7070641517232076345item-price-large"> Price </td>
+                                                <td style="text-align:center" class="m_7070641517232076345item-price-large"> Qty </td>
+                                                <td style="text-align:right" class="m_7070641517232076345item-price-large"> Total </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345item-table-container">
+                                          <table class="m_7070641517232076345full-width-fixed">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_7070641517232076345item-image" rowspan="2">
+                                                  <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e3244e5f2a820485e9b7191d0488d9b06a02db3cb80a412cb9ac4b414f4f763d0d343b1b5e54f5ff2e857fcd68ff38d262cde2238ebbfc1441a5" target="_blank">
+                                                    <img width="129" border="0" src="https://images.urbndata.com/is/image/Anthropologie/90093667_029_a" alt="UGG® Tasman Caspian Slippers">
+                                                  </a>
+                                                </td>
+                                                <td class="m_7070641517232076345item-details">
+                                                  <table class="m_7070641517232076345full-width">
+                                                    <tbody>
+                                                      <tr class="m_7070641517232076345product-name-large">
+                                                        <td class="m_7070641517232076345item-detail-row m_7070641517232076345product-name">
+                                                          <h4>UGG® Tasman Caspian Slippers</h4>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345item-detail-row m_7070641517232076345product-style"> Style No.  <span>90093667</span>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345item-detail-row m_7070641517232076345product-color"> Color:  <span>Burnt Cedar</span>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345item-detail-row m_7070641517232076345product-size"> Size:  <span>8</span>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                                <td class="m_7070641517232076345item-price-large" style="text-align:left"> $ 54.97 <br>
+                                                </td>
+                                                <td class="m_7070641517232076345item-price-large" style="text-align:center"> 5 </td>
+                                                <td class="m_7070641517232076345item-price-large" style="text-align:right"> $ 274.85 <br>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345product-specs" colspan="4">
+                                                  <table class="m_7070641517232076345full-width">
+                                                    <tbody>
+                                                      <tr class="m_7070641517232076345item-price-small">
+                                                        <td class="m_7070641517232076345item-detail-row">
+                                                          <label>Price: </label> $ 54.97 
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="m_7070641517232076345item-price-small">
+                                                        <td class="m_7070641517232076345item-detail-row">
+                                                          <label>Qty: </label> 5
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="m_7070641517232076345item-price-small">
+                                                        <td class="m_7070641517232076345item-detail-row">
+                                                          <label>Total: </label> $ 274.85 
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345item-detail-row m_7070641517232076345product-size">
+                                                          <br>
+                                                          <p style="color:#a5642d">FINAL SALE: No Returns or Exchanges </p>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="height:50px;line-height:15px;border-top:1px solid #cccccc" height="50"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <th class="m_7070641517232076345h2-wrapper">
+                                          <h2>Billing Information</h2>
+                                        </th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding-bottom:50px">
+                                          <table class="m_7070641517232076345two-column" align="left">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_7070641517232076345two-column-left">
+                                                  <table class="m_7070641517232076345full-width">
+                                                    <tbody>
+                                                      <tr>
+                                                        <th class="m_7070641517232076345h3-wrapper">
+                                                          <h3>Billing Address</h3>
+                                                        </th>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345address"> Griffin Myers <br> 595 Lloyd Lane <br> Independence, OR  97351 </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <table class="m_7070641517232076345two-column" align="right">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_7070641517232076345two-column-right">
+                                                  <table class="m_7070641517232076345full-width">
+                                                    <tbody>
+                                                      <tr>
+                                                        <th class="m_7070641517232076345h3-wrapper">
+                                                          <h3>Payment Method</h3>
+                                                        </th>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="m_7070641517232076345payment-method"> Master Card  Ending in:  0220 <br>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-bottom:50px">
+                                  <table align="right" class="m_7070641517232076345two-column">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" class="m_7070641517232076345two-column-right">
+                                          <table class="m_7070641517232076345order-summary-table">
+                                            <tbody>
+                                              <tr>
+                                                <th align="left" colspan="2" class="m_7070641517232076345h2-wrapper">
+                                                  <h2>Order Summary</h2>
+                                                </th>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345summary-td-left">Subtotal:</td>
+                                                <td class="m_7070641517232076345summary-td-right" style="padding-right:2px">$274.85</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345summary-td-left">Shipping:</td>
+                                                <td class="m_7070641517232076345summary-td-right" style="padding-right:2px">$0.00</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345summary-td-left">Tax:</td>
+                                                <td class="m_7070641517232076345summary-td-right" style="padding-right:2px">$0.00</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_7070641517232076345order-total-label">Total:</td>
+                                                <td class="m_7070641517232076345order-total" style="padding-right:2px">$274.85</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table class="m_7070641517232076345full-width">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_7070641517232076345h2-wrapper" style="text-align:center">
+                                          <h2>Need to cancel something?</h2>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding-bottom:20px;text-align:center">
+                                          <p>You have a short window of time to cancel items from your order before they begin processing. If you miss that window, you may return or exchange eligble items once your order arrives.</p>
+                                          <p>
+                                            <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324f89a38efeb7d5fbe2b8a6cacf46635b62f0877c215d7744fda3fa5c895c5a482f99bb44c8c7416c229612ea06fb973d3dfca7ddfb0ac2706" target="_blank">View or Manage Order</a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table class="m_7070641517232076345full-width">
+                            <tbody>
+                              <tr>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center;padding:30px 0px">
+                                  <table align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_7070641517232076345social-td">
+                                          <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324728b656f289a559371bd9ff7d75c1b644d4062279e06b4bd61f31c53e07824bc9d8c94d8144360a7e23bccfcb1d52f2ebb4dff247ad5580e" target="_blank">
+                                            <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/efff158d-db11-4cce-9041-a2e90af7ecc8.png" width="20" alt="Pinterest">
+                                          </a>
+                                        </td>
+                                        <td class="m_7070641517232076345social-td">
+                                          <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e3245c389b92456e72886396454e40e00ea5c3571afd1693ca8027a6160753034f07eb975baf25b04d78b917495aa23d27bc416a1f89f3077a35" target="_blank">
+                                            <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/a592e079-c1c8-4da9-8032-148184d1b7b1.png" width="20" alt="Instagram">
+                                          </a>
+                                        </td>
+                                        <td class="m_7070641517232076345social-td">
+                                          <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324b2e27688a7b2cd30b5134d1a8d0870c10b17340dce8d1db9630d6db085e07a2565f2edcf5352bc1d67f578edb4c4c9a71fe7a2bcf0821c68" target="_blank">
+                                            <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/7f9aad47-47ed-4838-9ffe-c4e78413a932.png" width="20" alt="Facebook">
+                                          </a>
+                                        </td>
+                                        <td class="m_7070641517232076345social-td-last">
+                                          <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324c64f1f981bf11c1a17cae67939b7a621892115f8ddd45f6e924c03a863146791ade5869166bea2ebbed1b4dc157748458ab84eae892121a7" target="_blank">
+                                            <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/881df713-a800-4382-a446-1fd8513b2f06.png" width="20" alt="Twitter">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center;padding-bottom:30px">
+                                  <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324b015daeb8e7af4acf4570a48176dbfd6b0997ce273a1b368b841efdaf383228d500a372c5732c65766ca948ef003c0ff0e836463b984aa21" target="_blank">
+                                    <img src="https://image.s.anthropologie.com/lib/fe3e11717164057c701470/m/1/087b5f4e-2c2b-4b6c-82bf-917c94b048ab.png" width="120" alt="App Store">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width:100%">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="m_7070641517232076345full-width" style="border-top:1px solid #cccccc">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-top:30px;padding-bottom:20px"> As soon as we receive your order, we start working on it right away. While we&#39;re unable to make changes after you have placed your order, you do have a short window to cancel items by selecting &quot;View or Manage Your Order&quot; above. </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-bottom:20px"> Our goal is to meet the delivery date quoted in this confirmation email. This estimated delivery date includes processing as well as extra time to account for weekends and/or national holidays. Express and overnight orders placed after 1 PM EST typically ship the next business day. </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-bottom:20px"> To check the status of your order at any time, view your <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324a24dc41312570e7e44e73aa45679b0c8c76a6b395bcd805aca7aada511714568bd36ce2259e87e3349923c8033563092926f6433f0683614" target="_blank">Order History</a>. Orders placed in guest checkout can be found by checking your <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e3240c4bb28ff606346b009f5b0fcbc1ca0b62471303df9057b22d3a0c20eda6418eed2b1bce09672746662b72e9fe5141467ba6bdd0d3cde0f0" target="_blank">Order Status</a>. </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-bottom:20px"> If your method of payment is a gift card or e-gift card, the charge will be processed right away. Most other items will be charged when they ship, and the shipping fees and taxes will be prorated and applied based on the value of each individual shipment. Unlimited Furniture Delivery items will be charged when they are ready to be shipped from our warehouse. Please note that you may see an authorization charge on your method of payment at the time of checkout. Wedding gowns and select upholstery may be subject to a restocking fee if returned, plus applicable taxes. </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-bottom:20px"> If you have purchased items that are now on sale, we will gladly offer you a one–time price adjustment on full-price purchases only. Please contact us with an original sales receipt within 14 days of original sales purchase. Learn more <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e3240bb95319234d7fe2ec02c17afc6a085ab60356d4ad0342221294c2a628968edff3b5d60efae9e9c17ceb599cc20f2c331eb364840ac92eb7" target="_blank">here</a>. </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_7070641517232076345footer-copy" style="padding-bottom:45px"> Need something right away? <a href="https://click.s.anthropologie.com/u/?qs=13f8b6c82ba1e324e9f92b8221d71a9e55075b85c071075ae60817da4dc5f4237869e16598ec6b0019296c925c48460300ab57866e09b320298a30ffba39deb0" target="_blank">Contact us</a>. </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=N1vkTvS4_sfmc_514011500_sha256&amp;partner_uid=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b" width="0" height="0" style="display:none">
+          <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=N1vkTvS4_sfmc_514011500_subid&amp;partner_uid=132458670" width="0" height="0" style="display:none">
+          <img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=vxjp670zb&amp;advertiserid=514011500&amp;campaignid=anus_ppc_orderConfirmation" width="0" height="0" style="display:none">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+</div>

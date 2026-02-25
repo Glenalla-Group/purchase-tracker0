@@ -1,0 +1,1723 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div style="background-color:#f7f7f7;margin:0;padding:0" bgcolor="#F7F7F7">
+      <div style="background-color:#f7f7f7">
+        <div style="background-color:#1a1a1a;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#1a1a1a;width:100%;border-collapse:collapse" bgcolor="#1A1A1A">
+            <tbody>
+              <tr>
+                <td
+                  style="border-bottom-width:1px;border-bottom-color:#474747;border-bottom-style:solid;direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:12px"
+                  align="center" valign="top">
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="border-collapse:collapse;border-spacing:0px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:44px;border-collapse:collapse"><a
+                                              href="http://email.orders.endclothing.com/c/eJyckkFzmzAQhX-NuGTsAQkEHDgkxe7EmTpxmjb1iRHSgtUIicoC4vz6jty4pT32xux-T2_3sZx1PZOtRsnN5bOSAiVlkWZhlubBDICOSVUdh_o7cOeRvRns1WpbLq-MFWCvuNGNtB1z0ui5sLfGSyrNOvA6L5n3LXDZS9CuEqZjUnum9WZLbro5-B_eDrpeMQe_zf9qnvpz7ckyfWTca5maAyOz8vykpz4Y7axRgShokqVNAEWUJgmNSEaS4FDUcYh5XccRiWjMU5wmvIlBiCinwJqaBbLAIU7CLMqjmIQkWTKWRQ0ngjWCpLyOUByelzkuQQuujDtI3Z4zUMXBuf6IyDXCa4TX0zT9yyCyHlxXHc1gOSBSapiOCpwDizD1nQ6EHDpEyvN_fC9yox1oh0jJf213qV8yIOXT4_X2c3UebDFP-Z10YP2jz8a-NMpMCNMRrPFH9O5U0SzKkzSj3EeRC0E5pSLBURjjJm_i_CLhRo-IlIvXl9XbSVO77yrQ9fC2Pa0Ptn1N9rv7u83K1kSMdLqDr28Pzfpa6AzMoaz75_bHba1O7ONm3Lw-8i_39WbU3xajrnbibnfzglm6eyArbJtT9OmWrhfTfrMNbNEq0Ewp1loz9BzF4Z_Lc4WfK3BFDQc2SjNYpoKxwD8DAAD___lwGJ8"
+                                              target="_blank"><img height="16"
+                                                src="https://media.endclothing.com/media/wysiwyg/transactional_emails/200413_end_logo@2x.png"
+                                                style="display:block;outline:none;text-decoration:none;height:16px;width:100%;line-height:100%;border:0"
+                                                width="44"></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="background-color:#1a1a1a;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#1a1a1a;width:100%;border-collapse:collapse" bgcolor="#1A1A1A">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:40px 12px 18px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:22px;letter-spacing:0.35px;line-height:30px;text-align:left;color:#ffffff"
+                                      align="left"><span
+                                        style="font-family:ProximaNova-SemiBold,Arial,sans-serif;letter-spacing:2.8px;text-transform:uppercase">Hi
+                                        Griffin, We’ve received your order</span></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.35px;line-height:22px;text-align:left;color:#dddddd"
+                                      align="left">
+                                      <p style="letter-spacing:0.4px;display:block;margin:16px 0 22px">Your order #<a
+                                          href="http://email.orders.endclothing.com/c/eJyckk9zmzwQxj-NuGTsQZIl4MAheTHvxJk6cZo29YkR0mKrERKVBcT59B2cuHV77E2z-3v20f6Rou2E3lnEbs7PSivEijxJ4zTJogsAWqFNdejr7yDDhGxd76-W62J-5bwCfyWdbbRvRdDOXgo77yZJZUULk26SXOY9SN1psKFSrhXaTsxuMptL116C_-AdoO2MCPDL_I_ksTvFnrywByEnrTCXwCC8PpWcqP-cDd6ZSOWcpUkTQY4TxjimKWXRPl8kkFGaYprFlANNSZzxOOWiJpLXDLNI5yQmLE5xhhc0pmwuRIobSZVoFE1kjdEiPjVzmINV0riw13Z3moHJ9yF0iF4jUiJSjuP4N4JIKaR0vQ2IlO9VECkxY5wkCUe07ENbHVzvJSBaWBgPBkIAjwifMi0o3beIFqclfwSlswFsQLSQ762f4-cB0eLp8Xr9uTr5zS5X8EEG8FPRZ-dfGuNGRPgA3k0X9uFU8RRnLEm5VDjjmVJccq4YwfGCNFmzyM4S6eyAaDF7fVm-HS3327YCW_dv62O597tXtt3c362WvqZq4OMdfH17aMprZVNw-6Lunnc_bmtzFP-vhtXro_xyX68G-2022Gqj7jY3L0Qkmwe6JL454k-3vJyN29U68vnOgBXGiJ13fSfRIv59liGf_hWFvIa9GLTrvTDRkJOfAQAA___k5R-K"
+                                          style="text-decoration:none;color:#ffffff;font-family:ProximaNova-SemiBold,Arial,sans-serif"
+                                          target="_blank">2404720997</a> will soon be on its way. We’ll be in touch once
+                                        it’s dispatched with the tracking details.</p>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+        </div>
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:64px 24px 32px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:18px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                      align="left"><span
+                                        style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold">Order
+                                        Summary</span></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <table cellpadding="0" cellspacing="0" width="100%" border="0"
+                                      style="color:#000000;font-family:Proxima Nova,Arial,sans-serif;font-size:14px;line-height:17px;table-layout:auto;width:100%;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:88px;padding-right:24px;border-collapse:collapse"><a
+                                              href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              target="_blank"><img
+                                                src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_400,h_400/prodmedia/media/catalog/product/1/7/17-06-2024-LB_FD0736-104_2_1.jpg"
+                                                width="88"
+                                                style="width:100%;height:auto;display:block;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                align="left"></a></td>
+                                          <td style="border-collapse:collapse">
+                                            <a href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              style="text-decoration:none;color:#000000" target="_blank">
+                                              <p
+                                                style="font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                                Nike W V2K Run Sneaker</p>
+                                            </a>
+                                            <p
+                                              style="color:#999999;font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                              White, Silver &amp; Platinum</p>
+                                            <table style="width:100%;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0">
+                                                    UK 7.5 QTY 8</td>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0"
+                                                    align="right"> $56.00</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:32px 0px">
+                                    <p
+                                      style="border-top-width:1px;border-top-color:#f0f0f0;border-top-style:solid;font-size:1;width:100%;display:block;margin:0px auto">
+                                    </p>
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <table cellpadding="0" cellspacing="0" width="100%" border="0"
+                                      style="color:#000000;font-family:Proxima Nova,Arial,sans-serif;font-size:14px;line-height:17px;table-layout:auto;width:100%;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:88px;padding-right:24px;border-collapse:collapse"><a
+                                              href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              target="_blank"><img
+                                                src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_400,h_400/prodmedia/media/catalog/product/1/7/17-06-2024-LB_FD0736-104_2_1.jpg"
+                                                width="88"
+                                                style="width:100%;height:auto;display:block;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                align="left"></a></td>
+                                          <td style="border-collapse:collapse">
+                                            <a href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              style="text-decoration:none;color:#000000" target="_blank">
+                                              <p
+                                                style="font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                                Nike W V2K Run Sneaker</p>
+                                            </a>
+                                            <p
+                                              style="color:#999999;font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                              White, Silver &amp; Platinum</p>
+                                            <table style="width:100%;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0">
+                                                    UK 8 QTY 2</td>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0"
+                                                    align="right"> $56.00</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:32px 0px">
+                                    <p
+                                      style="border-top-width:1px;border-top-color:#f0f0f0;border-top-style:solid;font-size:1;width:100%;display:block;margin:0px auto">
+                                    </p>
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <table cellpadding="0" cellspacing="0" width="100%" border="0"
+                                      style="color:#000000;font-family:Proxima Nova,Arial,sans-serif;font-size:14px;line-height:17px;table-layout:auto;width:100%;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:88px;padding-right:24px;border-collapse:collapse"><a
+                                              href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              target="_blank"><img
+                                                src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_400,h_400/prodmedia/media/catalog/product/1/7/17-06-2024-LB_FD0736-104_2_1.jpg"
+                                                width="88"
+                                                style="width:100%;height:auto;display:block;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                align="left"></a></td>
+                                          <td style="border-collapse:collapse">
+                                            <a href="http://email.orders.endclothing.com/c/eJyckk1zmzoUhn-N2GTw6AMELFgkF3Mnzlwnzk2besUISYBqIVFZQJxf38GNW7fL7jTnPK_e88VZPzDVGhDfXZ6VEiAu8iSFaZIFV4DsmdLVcay_Su4XZG9Hd7PeFqsb64R0N9yaRrmeeWXNtXBwdpFUhvVy0S2S67yTXA1KGl8J2zNlFqZdzFbc9tfgX3h72Q-aefnT_LfkaTjHXhwzR8YXLdPXwMScOn-5UP9Y453VgchpnCZNIHOUxDFFJCVx0OU8hRlJBK5FImDKkCQZZA3EokY0EhgGKscQxzBFGYoIJPGKsRQ1nAjWCJLwGoEInps5rqQRXFvfKdOeZ6DzzvsBkFuAS4DLeZ7_RAAujTrIcA4nfAjdaMJGwITQEMFo1fleA1KOvq-OdnRcAlIYOR-19F46gOmS6aVQYw9Icd7zR5Bb46XxgBT8R_eX-GVGpHh5vt3-X50LD6-38EF66ZZPX607NNrOANNJOrsc2YdTRVOUxUlKuUAZzYSgnFIRYwQj3GRNlF0k3JoJkCJ8O6zfT4a6fV9JU4_v21PZufYt3u8eHzZrVxMx0flBfn5_aspbYVJpu6IeXttv97U-sX830-btmX96rDeT-RJOptqJh93dAbNk90TW2DUn9N89LcN5v9kGLm-1NExr1jo7DhxE8Ndl-nypK_B5LTs2KTs6poMpx98DAAD__2hbIa8"
+                                              style="text-decoration:none;color:#000000" target="_blank">
+                                              <p
+                                                style="font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                                Nike W V2K Run Sneaker</p>
+                                            </a>
+                                            <p
+                                              style="color:#999999;font-size:14px;letter-spacing:0.4px;line-height:22px;display:block;margin:0">
+                                              White, Silver &amp; Platinum</p>
+                                            <table style="width:100%;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0">
+                                                    UK 8.5 QTY 2</td>
+                                                  <td
+                                                    style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;border-collapse:collapse;padding:0"
+                                                    align="right"> $56.00</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:32px 0px">
+                                    <p
+                                      style="border-top-width:1px;border-top-color:#f0f0f0;border-top-style:solid;font-size:1;width:100%;display:block;margin:0px auto">
+                                    </p>
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:40%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="left"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                        align="left"><span>Subtotal:</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:60%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="right"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:right;color:#333333"
+                                        align="right"><span> $672.00</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:40%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="left"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                        align="left"><span>Discount:</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:60%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="right"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:right;color:#333333"
+                                        align="right"><span> $100.80</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:40%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="left"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                        align="left"><span>Shipping:</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:60%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 10px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="right"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:right;color:#333333"
+                                        align="right"><span> $0.00</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:40%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 21px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="left"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                        align="left"><span>Tax:</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:60%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0 0 21px"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="right"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:right;color:#333333"
+                                        align="right"><span> $0.00</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px 64px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;max-width:408px;direction:ltr"
+                    align="left">
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:40%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="left"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:20px;letter-spacing:0.4px;line-height:24px;text-align:left;color:#1a1a1a"
+                                        align="left"><span
+                                          style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold">Total:</span>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div
+                      style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:60%"
+                      align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                        style="border-collapse:collapse">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="background-color:#ffffff;vertical-align:bottom;border-collapse:collapse;padding:0"
+                              bgcolor="#ffffff" valign="bottom">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align="right"
+                                      style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                      <div
+                                        style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:20px;letter-spacing:0.4px;line-height:24px;text-align:right;color:#1a1a1a"
+                                        align="right"><span
+                                          style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold">
+                                          $571.20</span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#f2f2f2;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#f2f2f2;width:100%;border-collapse:collapse" bgcolor="#F2F2F2">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:32px 12px 18px"
+                  align="center" valign="top">
+
+                  <div style="max-width:576px;margin:0px auto">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                      style="width:100%;max-width:408px;border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td
+                            style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0"
+                            align="center" valign="top">
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <div
+                                                style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333;padding-right:16px"
+                                                align="left">
+                                                <p
+                                                  style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                                  Shipping Address</p>
+                                                <p style="display:block;margin:4px 0 8px">
+                                                  595 Lloyd Ln<br>ste d<br>
+                                                  Independence<br>United States<br>97351-2105
+                                                </p>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <div
+                                                style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                                align="left">
+                                                <p
+                                                  style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                                  Billing Address</p>
+                                                <p style="display:block;margin:4px 0 8px">
+                                                  595 Lloyd Ln<br>ste d<br>
+                                                  Independence<br>United States<br>97351-2105
+                                                </p>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div style="max-width:576px;margin:0px auto">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                      style="width:100%;max-width:408px;border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td
+                            style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0"
+                            align="center" valign="top">
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <div
+                                                style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333;padding-right:16px"
+                                                align="left">
+                                                <p
+                                                  style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                                  Shipping Method</p>
+                                                <p style="display:block;margin:4px 0 8px">FREE FedEx IC Plus Service</p>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <div
+                                                style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                                align="left">
+                                                <p
+                                                  style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                                  Payment Method</p>
+                                                <p style="color:#333333;display:block;margin:4px 0 8px">AE **** </p>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div style="max-width:576px;margin:0px auto">
+                    <div style="max-width:408px;margin:0px auto">
+                      <div
+                        style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                        align="left">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                          style="border-collapse:collapse">
+                          <tbody>
+                            <tr>
+                              <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                  style="border-collapse:collapse">
+                                  <tbody>
+                                    <tr>
+                                      <td align="left"
+                                        style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                        <div
+                                          style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333;padding-right:16px"
+                                          align="left">
+                                          <p
+                                            style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                            Estimated Arrival</p>
+                                          <p style="color:#7ed477;display:block;margin:4px 0 22px">Wed 27 Aug - Thu 28
+                                            Aug</p>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div
+                        style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;max-width:408px"
+                        align="left">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                          style="border-collapse:collapse">
+                          <tbody>
+                            <tr>
+                              <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                  style="border-collapse:collapse">
+                                  <tbody>
+                                    <tr>
+                                      <td align="left"
+                                        style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                        <div
+                                          style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                          align="left">
+                                          <p
+                                            style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:8px 0 4px">
+                                          </p>
+                                          <p style="color:#7ed477;display:block;margin:4px 0 22px"></p>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:48px 12px 4px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                      align="left">
+                                      <p
+                                        style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:16px 0 0">
+                                        Additional Information</p>
+                                      <p style="display:block;margin:8px 0 22px">We’ll send you an email once your order
+                                        is dispatched containing tracking details, or you can check its progress by
+                                        visiting <a
+                                          href="http://email.orders.endclothing.com/c/eJycksFy2yAQhp8GXTL2CBBIOuiQVFYnztSJ07SpTxoESKZBoGIkxXn6Dm7cuj32xux-__67y3LWD0x1BpCb87NWApCySLM4S_PoApA9U7o-jM13yX1AdnZ0V6tNubyyTkh3xa1pleuZV9ZcCgdng6Q2rJdBFySXeSe5GpQ0vha2Z8oEpgtmS277S_A_vL3sB828_G3-V_I4nGJPjpkD40HL9CUwMadOJQP1wRrvrI5EQUmWtpEsYEoIhTjDJNoXWSywSKDMESJtHiOGEhoTjmGbJjBGSaQKFCMSZzCHCY4xWTKWwZZjwVqBU95AkMSnYQ5LaQTX1u-V6U470MXe-wHga4AqgKp5nv9FAKoY53Y0PiC4Gn1fH-zouAS4NHI-aOm9dADRkOmlUGMPcHn60_cgt8ZL4wEu-a9Jz_HzPnD59Hi9-Vyfmlxcbvyd9NKFos_WvbTazgDRSTobDurdqaYZzEmaUS5gTnMhKKdUEATjBLV5m-RnCbdmArhcvL6s3o6Gul1fS9OMb5tjtXfdK9lt7-_WK9dgMdH5Tn59e2ira2EyafdlMzx3P24bfWQf19P69ZF_uW_Wk_m2mEy9FXfbmxfE0u0DXiHXHuGnW1ot5t16E7mi09IwrVnn7DhwkMR_rtAXoa_IF43cs0nZ0TEdTQX6GQAA__-1mhrR"
+                                          style="color:#000000;font-family:ProximaNova-SemiBold,Arial,sans-serif"
+                                          target="_blank">your account</a>.</p>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:4px 12px 42px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="left"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                      align="left">
+                                      <p
+                                        style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:10px 0 0">
+                                        Need Help?</p>
+                                      <p style="display:block;margin:8px 0 22px">If you wish to cancel your order, we
+                                        allow a 1 hour cancellation period after the order has been placed. To cancel an
+                                        order, please follow the steps <a
+                                          href="http://email.orders.endclothing.com/c/eJyckk9z4ygQxT8NuqTskkB_0EGHZGVtxal14mx2Mz6pELRsxgg0CMmxP_0UnnhGc50b1e_3eNDdnHU9k3uNkofbsZYCJWWR0ZBmeTADoGNS1cPYfAXuPLIzo71bbcrlnbEC7B03upW2Y04aPTf21nhLrVkH3uctc90Cl70E7WphOia1Z_Y-bMlNNwf_INtB1yvm4Gf4b-K5v9beLNMD497L1ByYmJXXKz31l9HOGhWIIk1o1gZQRFmSpBGhJAkOBQDEYQNNREjLCI4xzWhKMCY0IkwkOJAFDnES0iiPYhKSZMkYjVpOBGsFyXgToTi8fmZYghZcGXeQen_tgSoOzvUDIvcIVwhXc_0CWsBw9BzC1YFf5cU4IFwx6yRX4I8xJXmchTQP85AiUo2uqwczWg6IlBpOgwLnwCKceqUDIccOkfI6888iN9qBdoiU_EcnbvVbv0j59nq_-be-fmIxn8gn6cD6S9-NPbbKnBBOJ7DGL9xnUp3SKE8ymnIR5WkuRMrTVCQ4CmPc5m2c3yzc6AmRcvFxXF3OOrW7rgbdjJfNuTrY_Uey2z4_rVe2IWJKT0_w_-Wlre6FpmAOZdO_7789NurM_l5P649X_t9zs570l8Wk66142j4cMcu2L2SFbXuO_nlMq8Vpt94Ettgr0Ewptrdm7DmKw19b6gr_rsAVDRzYJM1omQqmAn8PAAD___B2JHI"
+                                          style="text-decoration:none;color:#333333" target="_blank"><span
+                                            style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold">here</span></a>.<br><br>If
+                                        you have any issues or questions, please feel free to contact our friendly
+                                        Customer Service team. You can reach out using our webform or messaging services
+                                        which can be found on both our website and Apps. We aim to respond to all
+                                        contacts within 24 hours, please allow for longer during busy periods..</p>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+
+
+                  <div style="background-color:#ffffff;max-width:600px;margin:0px auto">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                      style="background-color:#ffffff;width:100%;border-collapse:collapse" bgcolor="#ffffff">
+                      <tbody>
+                        <tr>
+                          <td
+                            style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:4px 12px 42px"
+                            align="center" valign="top">
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <div
+                                                style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:14px;letter-spacing:0.4px;line-height:22px;text-align:left;color:#333333"
+                                                align="left">
+                                                <p
+                                                  style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;display:block;margin:10px 0 0">
+                                                  Got a minute?</p>
+                                                <p style="display:block;margin:8px 0 22px">Your opinion matters to us,
+                                                  so we&#39;d love to hear your feedback. Please leave us a review on
+                                                  Google to help us improve our shopping experience.</p>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+
+                            <div
+                              style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                              align="left">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="border-collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                        style="border-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align="center"
+                                              style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                                style="border-collapse:separate;width:250px;line-height:100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td align="center" bgcolor="#ffffff" role="presentation"
+                                                      style="border-radius:0;background-color:#ffffff;border-collapse:collapse;padding:12px 0px;border:1px solid #1a1a1a"
+                                                      valign="middle"><a
+                                                        href="http://email.orders.endclothing.com/c/eJyckD2P3CAQhn8NNCtZfBh_FBSXu90qShUpujSrMYxtIgyIZZ3k30dYSuK06dDM8_BqXgNbArcEoj78ft6dJepN9wMb-pGeANzA-fvjOX1DUyryHp_5cv301lxitpgvJobZ5Q2Ki-Esphyrcg-wYfWqct5nNC45DOVu4wYuVGapYY2J2xn8j-yCW_JQ8E_4P8uf6Zh9zhAeYKoL_gzskN3xZaVeYyg5emp1p4Z-pqh5r1TH5SAVXTWKaW7NNDIjx1EZ5KCmvmt73vLRdExRpwUTig185K1kUjUAA5-NtDBb2ZuJk5YdxzwaDNb4WFYXlqMDr9dS0oPIFyJuRNyWJsGCRNwyEbfXL1_XH-6j7d6RX1-udYq7w-8068VjAO9hyfGZDGnZ31qL3jFHWvSEK-wuPjN4umvxKwAA__8SKrFf"
+                                                        style="background-color:#ffffff;color:#333333;font-family:ProximaNova-Bold,Arial,sans-serif;font-size:14px;font-weight:600;line-height:17px;text-decoration:none;text-transform:uppercase;margin:0"
+                                                        target="_blank"><span
+                                                          style="letter-spacing:2.1px;text-transform:uppercase;font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold">LEAVE
+                                                          A REVIEW</span></a></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div style="background-color:#f2f2f2;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#f2f2f2;width:100%;border-collapse:collapse" bgcolor="#f2f2f2">
+            <tbody>
+              <tr>
+                <td
+                  style="border-bottom-width:1px;border-bottom-color:#e5e5e5;border-bottom-style:solid;direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:40px 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="center"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 12px">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:16px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:16px;vertical-align:middle;width:16px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJycksFyozgQhp9GXFJ2IckScOCQLPZWnFonzmY34xPVSAJrAhIjC4jz9FPyxDPMdW6q7u_vv7vVAroedGMQu7s-Sy0RK_IkjdMki2aA6kC35WmovirhA3Kwg7tZ74rljXVSuRthTa1dB15bMxf2zgZJaaBTQRck87xTQvdaGV9K24E2gWmC2VLYbg7-gbdXXd-CVz_Nf0ue-0vsxYE5gQhaaOfACE5fSgbqL2u8s20kc87SpI5UjhPGOKYpZdExFylmkMAKpxQYy3iSxZAkGFdASAqkinROYsLiFGd4RWPKlgAprgWVUEuaiAqjVXwZ5rRURorW-qM2zWUHbX70vj8heovIBpHNNE1LbU4eGgddIBDZzDQBopvBd-XJDk4oRAujplOrvFcOER4ynZJ66BAtLt_6GRTWeGU8ooX4Mew1fl0JLV6eb3f_lpc-F_Olf5JeuVD01bq3urUTInxUzoab-nQqeYozlqRcSJzxTEouOJeM4HhF6qxeZVeJsGZEtFi8v60_zoa7Q1cqUw0fu_Pm6Jp3dtg_PmzXrqJy5NOD-v_jqd7cSpMqeyyq_rX5dl-1Z_h7O27fn8V_j9V2NF8Woyn38mF_90Yg2T_RNXH1Gf9zzzeL6bDdRS5vWmWgbaFxdugFWsW_DtHnoa_I55U6wqjt4KCNxpx8DwAA__8rGxyF"
+                                                      target="_blank"><img height="24"
+                                                        src="https://media.endclothing.com/end-cms/prodcms/3ab103a5-baaf-47a4-876d-b78558f7aa8e_Social+-+Instagram+-+Email.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="24"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 12px">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:16px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:16px;vertical-align:middle;width:16px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJyckkFzmzwQhn-NuGTsQZIl4MAh-bC_iTN14jRt6hMjpAVTC4nKAuL8-o7cuHWvvWl2n3ff3dVK0fWibQxid5dn2SrEijxJ4zTJoisAOtHq8jhU30H6gOzs4G6Wm2J-Y50CdyOtqVvXCd9acy3snQ2S0ogOgi5IrvMOZNu3YHypbCdaE5gmmM2l7a7Bf_D20PVaePht_lfy1J9jL06Yo5BBK_Q1MArXnksG6j9rvLM6UjlnaVJHkOOEMY5pSlm0z3kMWcIIVLEShFaKJ0RRqHAlWaYoY1Gbk5iwOMUZXtCYsrkQKa4lVaJWNJEVRov4PMxxDkZJbf2-Nc15Bzrfe98fEb1FZIXIapqmeS0kVNYeAoDIarkpZhiTmHOaEczjZEEDS1eD78qjHZwERAsD01GD9-AQ4SHTgWqHDtHi_LsfQWmNB-MRLeSvmS_xy2Zo8fJ8u_lcntudXe_-g_TgQtFX6w61thMifARnw2l9OJU8xRlLUi4VznimFJecK0ZwvCB1Vi-yi0RaMyJazN4Oy_eT4W7XlWCq4X1zWu1d88Z228eH9dJVVI18eoCv70_16laZFOy-qPrX5sd9pU_i__W4fnuWXx6r9Wi-zUZTbtXD9u5ARLJ9okvi6hP-dM9Xs2m33kQubzQYobVonB16iRbxn3v0eegr8nkFezG2dnBCR2NOfgYAAP__SBwcMw"
+                                                      target="_blank"><img height="24"
+                                                        src="https://media.endclothing.com/end-cms/prodcms/efa17acf-59d9-43a1-bc58-4f970dabab77_Social+-+Facebook+-+Email.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="24"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 12px">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:16px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:16px;vertical-align:middle;width:16px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJycUk1zmzwQ_jXikrEHJCTgwCF5sd-JM3XiNG3qE6MvsBohUVlAnF_fkWu39Nqb5vnYZ3e1nHY9Va0B-O76rJUAuCqzPM6zIpoJZEeVro8D-y65D5K9HdzNalstb6wT0t1waxrlOuqVNXNj72yw1IZ2MviCZc47yVWvpPG1sB1VJmjaELbktpsL_yHby67X1Mvf4X-Rp_6MvThqjpQHL9VzwUidOpcMqv-s8c7qSJQE51kTyTLJMCYJyhGODiVGLM5kw0iWMJHEkGZFSinCsKEZE0UTqRLGEMd5UiQpihFeUponDUeCNgJlnCUgjc_DHJfSCK6tPyjTnnegy4P3_RGgWwDXAK6naVqe7OAHJgMfwDSemQBaD76rj3ZwXAJUGTkdtfReOgBJYDop1NABVJ0_9QJya7w0HqCK_xr1il8XgqqX59vt5_rc5WK-8ovSSxeKvlr31mg7AUhG6Wy4qEtSTfKkwFlOuEgKUghBOCECwyROYVM0aXG1cGtGgKrF-9vq42SI23e1NGz42J7WB9e-4_3u8WGzcgyJkUwP8uvHU7O-FSaX9lCx_rX9cc_0if6_GTfvz_zLI9uM5ttiNPVOPOzu3iDNdk9oBV1zSj7dk_Vi2m-2kStbLQ3VmrbODj0HafznDH0Z-op8yeSBjsoOjupoLOHPAAAA__-Krhyo"
+                                                      target="_blank"><img height="24"
+                                                        src="https://media.endclothing.com/end-cms/prodcms/2fa197f0-ff7b-4710-9f53-00103c6fb921_Social+-+YouTube+-+Email.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="24"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 12px">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:16px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:16px;vertical-align:middle;width:16px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJycUk1zmzwQ_jXikrEHEAg4cEhe7HfiTJ04TZv6xCzSglWDRGUBcX59R27c0mtvmudjn93Vcuh6kI0i8d31WUpB4iJPUj9NMm8mwA5kW56G6jty6yR7PZib1bZY3mgj0NxwrWppOrBSq7mxN9pZSgUdOp-zzHmDXPYSlS2F7kAqp2lc2JLrbi78h2yLXd-Cxd_hf5Hn_oK9GFAn4M4L7VwwgpGXkk71n1bW6NYTOYvTpPYwD5I4ZgFNaewdcqgiiBgIlvhpBIkfQVZhFDDwaZLFyDyZh34Y-2mQBRH1abwESIOaUwG1oAmvAhL5l2FOS1SCt9oepGouO2jzg7X9idBbEq5JuJ6maWnl0eqjox0W-TMPoevBduVJD4YjoYXC6dSitWhIyBzToZBDR2hx-dMPkGtlUVlCC_5r0it-3QctXp5vt5_LS5OL-cY_lBaNK_qqzbFu9URCNqLR7qA-kkqWBlmcpIyLIGOZEIwzJuIw8KOwzuoou1q4ViOhxeLtuHo_K2b2XYmqGt635_XBNG_xfvf4sFmZioqRTQ_49f2pXt8KlaI-FFX_2vy4r9oz_L8ZN2_P_MtjtRnVt8Woyp142N0dQ0h2T3QVmvocfLpn68W032w9kzctKmhbaIweek4i_88V2tz15dm8wgOMUg8GWm_Mw58BAAD__z5VG6Q"
+                                                      target="_blank"><img height="24"
+                                                        src="https://media.endclothing.com/end-cms/prodcms/fcf6a8ac-3fb8-46aa-878e-0b1b3816de2b_Social+-TikTok+-+Email.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="24"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 12px">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:16px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:16px;vertical-align:middle;width:16px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJyckkFzmz4QxT-NuGTsQRIScOCQ_DH_iTN14jRt6hMjJIHVCInKAsf59B25dkuvvTH7fk9vd1nO-oGpzgByd_2slQCkLNIsztI8mgGyZ0rXh7H5LrkPyM6O7ma1KZc31gnpbrg1rXI988qauXFwNlhqw3oZfMEy153kalDS-FrYnikTmC6ELbnt5-A_ZHvZD5p5-Tv8L_E0nGsvjpkD48HL9ByYmFPnJwP1nzXeWR2JgpIsbSNZwJQQCnGGSbQvOINNKmmOsxw3NIVJluQYohgx0TJK2kgVKEYkzmAOExxjsmQsgy3HgrUCp7yBIInPwxyW0giurd8r0513oIu998MB4FuAKoAqf1TeSxc0gKoZDXA1-r4-2NFxCXBp5PGgZWABokHppVBjD3B5_puXIrfGS-MBLvmvGa_16yZw-fJ8u_lcn9tbzHd9Ib104dFX695abY8A0Uk6G07pklTTDOYkzSgXMKe5EJRTKgiCcYLavE3yq4VbMwFcLt7fVh8nQ92ur6Vpxo_Nqdq77p3sto8P65VrsJjo8UF-_Xhqq1thMmn3ZTO8dj_uG31i_6-n9fsz__LYrCfzbTGZeisetndviKXbJ7xCrj3BT_e0Whx3603kik5Lw7RmnbPjwEES_7k_X4S-Il80cs8mZUfHdDQV6GcAAAD__wSjGeA"
+                                                      target="_blank"><img height="24"
+                                                        src="https://media.endclothing.com/end-cms/prodcms/cf9df612-c4ff-4152-8157-d2ab9a1f21f5_Social+-+X+-+Email.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="24"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#f2f2f2;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#f2f2f2;width:100%;border-collapse:collapse" bgcolor="#f2f2f2">
+            <tbody>
+              <tr>
+                <td
+                  style="border-bottom-width:1px;border-bottom-color:#e5e5e5;border-bottom-style:solid;direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:40px 12px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:top;border-collapse:collapse;padding:0" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="center"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0 0 0px">
+                                    <div><a
+                                        href="http://email.orders.endclothing.com/c/eJyckk9zmzwQxj-NuGTsAYQEHDgkL-adOFMnTtOmPjFCWv7UIFEhcOxP3xG1W3rtjdnn9-jZXZazrmdNJRF5uH3mjUAkTcLIjcLYWQDQsabNh7H4DtxY5KBGfbfZpes7pQXoO65k2eiOmUbJpbHXylpyyTqwPmtZ6hp40zcgTS5UxxppmcqGrbnqluA_ZBvo-pYZ-B3-l3ju59qbZnJg3HpZuwQmppv5SUv9p6TRqnVEQkkUlg4kXkgI9XCEiVMnUUhEQAnxIj8OYpeGHqdhWXhxVFKIS3CaxHd94kZe7AXYxWTNWOSVHAtWChzywkOBOw8zrEEK3ipTN7Kad9AmtTH9gPA98jPkZ0v9AlLAcLQc8rOaz_KqKhDORtPlgxo1B4RTCaehBWNAI59apQPRjB3C6fxjr0WupAFpEE75r3Fv9dtScPr2er_7nM-drpZrv5IGtH30Xelj2aoT8ukEWtmruiblNPJiEkaUCy-msRCUUyqI77mBX8ZlEN8sXMkJ4XT1cdxczpLqQ5eDLMbL7pzVuvogh_3z03ajCywmenqCr5eXMrsXMgJVp0X_Xv14LNoz-387bT9e-ZfnYjvJb6tJ5nvxtH84-izcv-CNr8uz9-mRZqvTYbtzdFK1IFnbskqrsecocP-coklsX45JCqjZ1KhRs9aZEv9nAAAA___jRRzj"
+                                        target="_blank"><img
+                                          src="https://media.endclothing.com/media/f_auto,q_auto/prodmedia/media/wysiwyg/transactional_emails/NeedHelpHighRes2024.png"
+                                          width="124"
+                                          style="height:auto;line-height:100%;outline:none;text-decoration:none;border:0"></a>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#f2f2f2;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#f2f2f2;width:100%;border-collapse:collapse" bgcolor="#f2f2f2">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:24px 12px 40px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:middle;border-collapse:collapse;padding:0" valign="middle">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="center"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="float:none;display:inline-table;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border-collapse:collapse;padding:0 8px 0 0">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                              style="border-radius:3px;width:40px;border-collapse:collapse">
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="font-size:0;height:40px;vertical-align:middle;width:40px;border-collapse:collapse"
+                                                    valign="middle"><a
+                                                      href="http://email.orders.endclothing.com/c/eJycksFymzAQhp9GXDL2gGQEHDgkxXTiTJ04TZv6xAhpwWqERIWAOE_fkRu3bo-9aXa_f__d1XLW9Uy2GsU352clBYqLPEnDNMmCCwA6JlU1jPV34M4jezPaq_W2WF4ZK8BecaMbaTvmpNGXwt4aL6k068DrvOQyb4HLXoJ2lTAdk9ozrTdbctNdgv_h7aDrFXPw2_yv5LE_xZ4s0wPjXsvUJTAxK08lPfXBaGeNCkRO4zRpAsijJI5pRFISB4dc1AnlSZ1BnCUpTnkikpBkNMwyTIQgq0DmOMRxmEZZtCIhiZeMpVHDiWCNIAmvI7QKT8MMS9CCK-MOUrenHaj84Fw_IHKNcIlwOc_zvwzCZVsjXIIWC9b3gwdJObquGsxoOSBSaJgHBc6BRZj6TAdCjh0ixelr34PcaAfaIVLwXwOf4-e1kOLp8Xr7uTr1urhc_DvpwPqiz8a-NMrMCNMJrPF39e5U0TTK4iSlXEQZzYSgnFIR4yhc4SZrVtlZwo2eECkWry_rt6Omdt9VoOvxbXssD7Z9jfe7-7vN2tZETHS-g69vD015LXQK5lDU_XP747ZWR_ZxM21eH_mX-3oz6W-LSVc7cbe7ecEs2T2QNbbNMfp0S8vFvN9sA5u3CjRTirXWjD1Hq_DPMbrc9xW4vIYDm6QZLVPBlOOfAQAA___4bh1l"
+                                                      target="_blank"><img height="40"
+                                                        src="https://media.endclothing.com/media/wysiwyg/transactional_emails/200413_app_icon@2x.png"
+                                                        style="border-radius:3px;height:auto;line-height:100%;outline:none;text-decoration:none;border:0"
+                                                        width="40"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                          <td
+                                            style="vertical-align:middle;border-collapse:collapse;padding:4px 4px 4px 0"
+                                            valign="middle"><a
+                                              href="http://email.orders.endclothing.com/c/eJycksFymzAQhp9GXDL2gGQEHDgkxXTiTJ04TZv6xAhpwWqERIWAOE_fkRu3bo-9aXa_f__d1XLW9Uy2GsU352clBYqLPEnDNMmCCwA6JlU1jPV34M4jezPaq_W2WF4ZK8BecaMbaTvmpNGXwt4aL6k068DrvOQyb4HLXoJ2lTAdk9ozrTdbctNdgv_h7aDrFXPw2_yv5LE_xZ4s0wPjXsvUJTAxK08lPfXBaGeNCkRO4zRpAsijJI5pRFISB4dc1AnlSZ1BnCUpTnkikpBkNMwyTIQgq0DmOMRxmEZZtCIhiZeMpVHDiWCNIAmvI7QKT8MMS9CCK-MOUrenHaj84Fw_IHKNcIlwOc_zvwzCZVsjXIIWC9b3gwdJObquGsxoOSBSaJgHBc6BRZj6TAdCjh0ixelr34PcaAfaIVLwXwOf4-e1kOLp8Xr7uTr1urhc_DvpwPqiz8a-NMrMCNMJrPF39e5U0TTK4iSlXEQZzYSgnFIR4yhc4SZrVtlZwo2eECkWry_rt6Omdt9VoOvxbXssD7Z9jfe7-7vN2tZETHS-g69vD015LXQK5lDU_XP747ZWR_ZxM21eH_mX-3oz6W-LSVc7cbe7ecEs2T2QNbbNMfp0S8vFvN9sA5u3CjRTirXWjD1Hq_DPMbrc9xW4vIYDm6QZLVPBlOOfAQAA___4bh1l"
+                                              style="color:#1a1a1a;font-size:14px;font-family:ProximaNova-SemiBold,Arial,sans-serif;line-height:22px;text-decoration:none"
+                                              target="_blank"><span
+                                                style="font-family:ProximaNova-SemiBold,Arial,sans-serif;font-weight:bold;letter-spacing:0.35px;color:#1a1a1a">Our
+                                                Apps</span></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background-color:#f2f2f2;max-width:600px;margin:0px auto">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color:#f2f2f2;width:100%;border-collapse:collapse" bgcolor="#f2f2f2">
+            <tbody>
+              <tr>
+                <td
+                  style="direction:ltr;font-size:0px;text-align:center;vertical-align:top;border-collapse:collapse;padding:0 12px 40px"
+                  align="center" valign="top">
+
+                  <div
+                    style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;max-width:408px"
+                    align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                      style="border-collapse:collapse">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align:middle;border-collapse:collapse;padding:0" valign="middle">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                              style="border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td align="center"
+                                    style="font-size:0px;word-break:break-word;border-collapse:collapse;padding:0">
+                                    <div
+                                      style="font-family:ProximaNova-Regular,Arial,sans-serif;font-size:12px;letter-spacing:0.35px;line-height:20px;text-align:center;color:#7e7e7e"
+                                      align="center">Copyright © Ashworth and Parker Limited (t/a END.) | 1 Parsons Rd,
+                                      Washington, NE37 1EZ | All taxes and duties are paid for EU sales (our prices
+                                      include a 20% contribution to import taxes / duties) | Registered in England - VAT
+                                      # GB389764913</div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <img width="1" height="1" alt=""
+        src="http://email.orders.endclothing.com/o/eJyckM1uhCAUhZ9GN5MYGUBxwaadbrvqpitzhatDw4-5gyZ9-waTtnbbHeF8HyccA2EFt8RKPn0fR2credO9alU_1CcAAzg_PrbpA00uyHva6PLyemsuiSzSxaQ4OwqQXYpncaVUlDFCwOIV5ZwTGrc6jHm0KYCLhVlKWWNSOIP_6M4YVg8Zf8r_hJ_rcfdGEB9gigv-DOxA7niyUM8pZkq-trqTqp9r1KyXsmNccVnftWF26jpuByEnK6WaxWDEoLjg0HFkvHb62l5lq9jABG-5bAAUmw23MFvem4lVoj0-82gwWuNTvru4HBuQXjxG8B4WSttqKtH-DpT1jpTqrCe8w-7SRuDrXV-_AgAA___2MaB7">
+    </div>
+  </div>
+</div>

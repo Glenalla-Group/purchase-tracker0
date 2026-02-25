@@ -1,0 +1,1374 @@
+<div style="margin:0px;padding:0px;background-color:#f2f2f2">
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;font-family:sans-serif"> We&#39;ll let you know when your items ship.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  </div>
+  <table role="none" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f2f2">
+    <tbody>
+      <tr>
+        <td align="center" valign="top">
+          <table role="none" align="center" width="688" border="0" cellspacing="0" cellpadding="0" style="width:688px;max-width:688px;margin:0 auto" class="m_147230498582254813width414">
+            <tbody>
+              <tr>
+                <td bgcolor="#fffffe">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="padding:22px 0px 0px" class="m_147230498582254813padT18 m_147230498582254813padL0 m_147230498582254813padR0">
+                                  <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYYAT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3AlGTOHwtSB0Mlv8J1OYF_Fxi6WtmpwRCZO1-yxmM4w2KVE5xT-icxG_CVe3DLMPSFrN8wD87_oGbXXl5fKyiMNSZZz-vi53ro0f5STxYZRgJLQHBR9vFvZqPBWELReFr4GgvaSy8NFrGOl5x03zF-FuNyy23psu6WZfzTK0K7ZnOvo-qi1QjzybMSwqkNyD5i0s8IklXG_QBprgyvNgOofJh8IW8mQkzM6USAUTqNleO21gLLpSQ-W42MjsEq4U2iC.&amp;_di_=pk14cj0bdi8q41959mcj4tst5qooru24jefqqsj6p8rb8q5e22fg" style="text-decoration:none" target="_blank">
+                                    <img class="m_147230498582254813height22 m_147230498582254813width145" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_logo.png" width="198" height="30px" style="height:30px;width:198px" alt="Macy&#39;s | Bloomingdales">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:16px 0px 24px" class="m_147230498582254813padB16">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe" style="padding-bottom:8px">
+                                  <p style="margin:0px;padding:0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:24px;line-height:32px;font-weight:bold;letter-spacing:0.24px" class="m_147230498582254813fs22 m_147230498582254813marB16"> We received your order, Griffin! </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe" style="padding-bottom:24px">
+                                  <p style="margin:0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:20px;font-weight:normal;letter-spacing:0.16px" class="m_147230498582254813fs16 m_147230498582254813lh21"> We&#39;ll update you once it&#39;s ready to ship. </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe" style="padding-bottom:24px">
+                                  <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" bgcolor="#fffffe" style="padding-bottom:4px">
+                                          <p style="margin:0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;font-weight:400;line-height:20px;letter-spacing:0.16px" class="m_147230498582254813fs14">
+                                            <span style="font-weight:700">Order #:</span> 770138915
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td align="left" bgcolor="#fffffe">
+                                          <p style="margin:0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;font-weight:400;line-height:20px;letter-spacing:0.16px" class="m_147230498582254813fs14">
+                                            <span style="margin:0px;font-weight:700;color:#000000">Delivery address:</span> 595 lloyd ln, Ste d, Independence, OR 97351
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe">
+                                  <div>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" style="background:#000000;text-align:center;display:block;line-height:20px" width="193" height="50" class="m_147230498582254813width164">
+                                            <a rel="opener" href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" style="background-color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#ffffff;font-size:14px;font-weight:700;text-decoration:none;padding:16px 20px;display:block;white-space:nowrap;letter-spacing:0.56px" class="m_147230498582254813width_auto m_147230498582254813padR20 m_147230498582254813padL20" target="_blank"> ORDER DETAILS </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="padding-bottom:24px">
+                                  <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                                    <tbody>
+                                      <tr>
+                                        <td style="background:#f8f8f8;padding:16px">
+                                          <span style="margin:0;color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:20px;font-weight:700;line-height:25px;letter-spacing:0.2px;padding:0px" class="m_147230498582254813fs18 m_147230498582254813lh23"> Processing </span>
+                                          <div style="padding-bottom:4px"></div>
+                                          <span style="margin:0;color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:20px;font-weight:700;line-height:25px;letter-spacing:0.2px" class="m_147230498582254813fs18 m_147230498582254813lh23">
+                                            <p class="m_147230498582254813lh18 m_147230498582254813fs12" style="margin:0;display:block;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:18px;color:#2c2c37;font-weight:normal">Expected to arrive in 3-5 business days</p>
+                                          </span>
+                                          <div style="padding-bottom:16px"></div>
+                                          <p style="margin:0;color:#000000;font-size:16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;line-height:20px;letter-spacing:0.16px" class="m_147230498582254813fs14 m_147230498582254813lh18">Delivery method: Standard</p>
+                                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:596px;margin:auto">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top:17px">
+                                                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center">
+                                                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td>
+                                                                  <div class="m_147230498582254813hide">
+                                                                    <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" style="text-decoration:none" target="_blank">
+                                                                      <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/status_indicator_desktop_step_1.png" width="628" style="display:block;width:100%" alt="Step 0">
+                                                                    </a>
+                                                                  </div>
+                                                                  <div class="m_147230498582254813block" style="display:none">
+                                                                    <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" style="text-decoration:none" target="_blank">
+                                                                      <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/status_indicator_mobile_step_1.png" width="628" style="display:block" class="m_147230498582254813em_img" alt="Step 0">
+                                                                    </a>
+                                                                  </div>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td style="text-align:center">
+                                                          <table style="width:100%;border-collapse:collapse">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td style="width:29%;text-align:left" class="m_147230498582254813width25pc">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Processing</p>
+                                                                </td>
+                                                                <td style="width:auto;text-align:left" class="m_147230498582254813width_auto m_147230498582254813padL16">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Shipped </p>
+                                                                </td>
+                                                                <td style="width:auto;text-align:right;padding-right:10px" class="m_147230498582254813width_auto m_147230498582254813padL16">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Out for delivery </p>
+                                                                </td>
+                                                                <td style="width:23%;text-align:right" class="m_147230498582254813width_auto">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Delivered </p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669ujbQIAP8SWUAMVlLlxl1eW0DNN8riNuTSBHtF1i-SZN0wVmveegrbWE3N7NeLJ8Rf4m-xCIqkur7bJn4lWJtvgBIkZ56wrSRdlvuj2F7fpSUdgBoePd06SpfPiPREuCCRe6HeIt9Yiw61e67ayHnHjvfWjmZ4sQNRRmh6najfAWBUj9BY290Ifb4H0eGn6GqHWarVfgjR6Gsa6PcpQY6tMdK_zqK3DIEdf-XHf-4UvcKHx1L6n5CWev4HDCl8WIAHWDPB2wkt-57UCcfbWQjpVFPcjj5xwz_XOvJ3chR0XcxYqq79DvMC2GsnelZmSMBgcLi0WiRr6nH8xy67iUI4L_kjegaf6WkFI9BQkM7aCRVC0nsCLO8RWNhPu-3JSys8Hq5AKO_JU.&amp;_di_=vigd5p20nso36kj44sri812d6epdqldp4n9m23iirsgt893kbqjg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/8/optimized/14798978_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669ujbQIAP8SWUAMVlLlxl1eW0DNN8riNuTSBHtF1i-SZN0wVmveegrbWE3N7NeLJ8Rf4m-xCIqkur7bJn4lWJtvgBIkZ56wrSRdlvuj2F7fpSUdgBoePd06SpfPiPREuCCRe6HeIt9Yiw61e67ayHnHjvfWjmZ4sQNRRmh6najfAWBUj9BY290Ifb4H0eGn6GqHWarVfgjR6Gsa6PcpQY6tMdK_zqK3DIEdf-XHf-4UvcKHx1L6n5CWev4HDCl8WIAHWDPB2wkt-57UCcfbWQjpVFPcjj5xwz_XOvJ3chR0XcxYqq79DvMC2GsnelZmSMBgcLi0WiRr6nH8xy67iUI4L_kjegaf6WkFI9BQkM7aCRVC0nsCLO8RWNhPu-3JSys8Hq5AKO_JU.&amp;_di_=25m76vlliacgs91cu91skt6do2vionhptdsohgmpsf49rqc9l810" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Men&#39;s Cloudrunner 2 Running Sneakers </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 13, Frost White <br> Qty: 6 <br> UPC: 7630867894905 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$128.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $160.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT323TqbCIgUZVDaqaYIO3d32inYxophb6j8Cr7SFmhct2d8t1WQZz3jYaVGEZxi1hGAxIuPYRzKrH4wrblFJFqN0idFHig-noB1d5eyKjksIqqIonn-zXAtd2ilo0zk56VtWTUYjYNjQBjaJcZJ9iabKj2lTR_Wg9_9dsZRzU6u459RfJcuj4Xs1MZV2Ar69WhSnu4tSVmY4sA9ZTbNKx7re3XA3df33fiR6Do0d9Rf8t5--fqmEP8Xk3d_xPZpR10gFuRgX1s8FJgkEEGolyCmg_3n22eocS0g0BhyJiin_VExypCXwplthWRrSjCcqBe1pv-zPEL0hFGFYfI18INkApMcIOxltQX6I4C7dYRSo_.&amp;_di_=j4f66u5tp00pf6eurvc69es724eb1tdu3ctae682t96k6mtn8qg0" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/5/optimized/14544705_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT323TqbCIgUZVDaqaYIO3d32inYxophb6j8Cr7SFmhct2d8t1WQZz3jYaVGEZxi1hGAxIuPYRzKrH4wrblFJFqN0idFHig-noB1d5eyKjksIqqIonn-zXAtd2ilo0zk56VtWTUYjYNjQBjaJcZJ9iabKj2lTR_Wg9_9dsZRzU6u459RfJcuj4Xs1MZV2Ar69WhSnu4tSVmY4sA9ZTbNKx7re3XA3df33fiR6Do0d9Rf8t5--fqmEP8Xk3d_xPZpR10gFuRgX1s8FJgkEEGolyCmg_3n22eocS0g0BhyJiin_VExypCXwplthWRrSjCcqBe1pv-zPEL0hFGFYfI18INkApMcIOxltQX6I4C7dYRSo_.&amp;_di_=6img27ghui794v2ert3fmghm9qulobpmblnia4qm3rv34bfm2ttg" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudnova 2 Sneakers </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 7, Fade/Desert <br> Qty: 1 <br> UPC: 7615537211961 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 7.5, Frost/Wash <br> Qty: 6 <br> UPC: 7615537226620 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 8.5, Frost/Wash <br> Qty: 6 <br> UPC: 7615537226644 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 9, Frost/Wash <br> Qty: 6 <br> UPC: 7615537226651 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 9.5, Frost/Wash <br> Qty: 6 <br> UPC: 7615537226668 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="left" bgcolor="#fffffe"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="padding-bottom:24px">
+                                  <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                                    <tbody>
+                                      <tr>
+                                        <td style="background:#f8f8f8;padding:16px">
+                                          <span style="margin:0;color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:20px;font-weight:700;line-height:25px;letter-spacing:0.2px;padding:0px" class="m_147230498582254813fs18 m_147230498582254813lh23"> Processing </span>
+                                          <div style="padding-bottom:4px"></div>
+                                          <span style="margin:0;color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:20px;font-weight:700;line-height:25px;letter-spacing:0.2px" class="m_147230498582254813fs18 m_147230498582254813lh23">
+                                            <p class="m_147230498582254813lh18 m_147230498582254813fs12" style="margin:0;display:block;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:18px;color:#2c2c37;font-weight:normal">Expected to arrive in 3-6 business days</p>
+                                          </span>
+                                          <div style="padding-bottom:16px"></div>
+                                          <p style="margin:0;color:#000000;font-size:16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;line-height:20px;letter-spacing:0.16px" class="m_147230498582254813fs14 m_147230498582254813lh18">Delivery method: Standard</p>
+                                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:596px;margin:auto">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top:17px">
+                                                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center">
+                                                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td>
+                                                                  <div class="m_147230498582254813hide">
+                                                                    <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" style="text-decoration:none" target="_blank">
+                                                                      <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/status_indicator_desktop_step_1.png" width="628" style="display:block;width:100%" alt="Step 0">
+                                                                    </a>
+                                                                  </div>
+                                                                  <div class="m_147230498582254813block" style="display:none">
+                                                                    <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" style="text-decoration:none" target="_blank">
+                                                                      <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/status_indicator_mobile_step_1.png" width="628" style="display:block" class="m_147230498582254813em_img" alt="Step 0">
+                                                                    </a>
+                                                                  </div>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td style="text-align:center">
+                                                          <table style="width:100%;border-collapse:collapse">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td style="width:29%;text-align:left" class="m_147230498582254813width25pc">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Processing</p>
+                                                                </td>
+                                                                <td style="width:auto;text-align:left" class="m_147230498582254813width_auto m_147230498582254813padL16">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Shipped </p>
+                                                                </td>
+                                                                <td style="width:auto;text-align:right;padding-right:10px" class="m_147230498582254813width_auto m_147230498582254813padL16">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Out for delivery </p>
+                                                                </td>
+                                                                <td style="width:23%;text-align:right" class="m_147230498582254813width_auto">
+                                                                  <p class="m_147230498582254813fs12" style="margin:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:14px;line-height:18px;letter-spacing:0.14px"> Delivered </p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669ujbQIAP8SWUAMVlLlxl1eW0DNN8riNuTSBHtF1i-SZN0wVmveegrbWE3N7NeLJ8Rf4m-xCIqkur7bJn4lWJtvgBIkZ56wrSRdlvuj2F7fpSUdgBoePd06SpfPiPREuCCRe6HeIt9Yiw61e67ayHnHjvfWjmZ4sQNRRmh6najfAWBUj9BY290Ifb4H0eGn6GqHWarVfgjR6Gsa6PcpQY6tMdK_zqK3DIEdf-XHf-4UvcKHx1L6n5CWev4HDCl8WIAHWDPB2wkt-57UCcfbWQjpVFPcjj5xwz_XOvJ3chR0XcxYqq79DvMC2GsnelZmSMBgcLi0WiRr6nH8xy67iUI4L_kjegaf6WkFI9BQkM7aCRVC0nsCLO8RWNhPu-3JSys8Hq5AKO_JU.&amp;_di_=vigd5p20nso36kj44sri812d6epdqldp4n9m23iirsgt893kbqjg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/8/optimized/14798978_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669ujbQIAP8SWUAMVlLlxl1eW0DNN8riNuTSBHtF1i-SZN0wVmveegrbWE3N7NeLJ8Rf4m-xCIqkur7bJn4lWJtvgBIkZ56wrSRdlvuj2F7fpSUdgBoePd06SpfPiPREuCCRe6HeIt9Yiw61e67ayHnHjvfWjmZ4sQNRRmh6najfAWBUj9BY290Ifb4H0eGn6GqHWarVfgjR6Gsa6PcpQY6tMdK_zqK3DIEdf-XHf-4UvcKHx1L6n5CWev4HDCl8WIAHWDPB2wkt-57UCcfbWQjpVFPcjj5xwz_XOvJ3chR0XcxYqq79DvMC2GsnelZmSMBgcLi0WiRr6nH8xy67iUI4L_kjegaf6WkFI9BQkM7aCRVC0nsCLO8RWNhPu-3JSys8Hq5AKO_JU.&amp;_di_=25m76vlliacgs91cu91skt6do2vionhptdsohgmpsf49rqc9l810" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Men&#39;s Cloudrunner 2 Running Sneakers </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 11, Frost White <br> Qty: 6 <br> UPC: 7630867894868 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$128.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $160.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 8, Frost/Wash <br> Qty: 6 <br> UPC: 7615537226637 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 10, Frost/Wash <br> Qty: 4 <br> UPC: 7615537226675 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <span style="font-size:14px;line-height:18px;font-weight:400" class="m_147230498582254813lh16"> per item </span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe" style="padding:24px 0px">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" bgcolor="#fffffe" style="border-bottom:1px solid #c0c0c0"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="m_147230498582254813padLR20" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" width="139" height="163" class="m_147230498582254813height134 m_147230498582254813width114">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYACT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=2hfbsmabg66escetuvefe9n6ij3im5c9ttaff3p02plfomdqn1cg" style="text-decoration:none" target="_blank">
+                                            <img src="http://images.bloomingdales.com/is/image/BLM/products/6/optimized/14401306_fpx.tif?bgc=255,255,255&amp;wid=700&amp;qlt=100&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=png" width="139" height="163" style="display:block;border:0;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000" class="m_147230498582254813width114 m_147230498582254813height134" alt="img">
+                                          </a>
+                                        </td>
+                                        <td align="left" valign="top" style="padding-left:24px;width:465px" class="m_147230498582254813padL16 m_147230498582254813width244 m_147230498582254813iphonemh">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:20px;width:465px;max-height:40px;overflow:hidden;margin:0px" class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813truncate m_147230498582254813width244 m_147230498582254813iphonemh">
+                                            <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSWCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRHW_JHffK3JyNABsHht6ds2BVgE0GrCEQ7R0UjqrET8yKwQ_-L531SGJar5n962CG1m12jTiz38cP8wEgBQ669gdNphhRDOkE2nruCbuT322-LLrI_uKq0kiJ7U6QyElXu0zH8g024DMA0aKI-uJpVnzAiOW8M5MgL4HKsCi-3OT-RdwPGyv6-s48IolnniW4KPDQjnrT0V2iqzMMW9dPR3lJqnK2edAijXLDITtM31DU13x7Y2ia8LBsr7cf8cbwqdjIS36wQKiPV68_1vuw5tjnABBmqgqFvPexDNvRKAuJnRQ0rbxBL06_5jsSI5eE1HruFfifJoAZSg3vVQ8Wwtv_UQnf4WLjcbOFS455qFB3xo1ZBvQbzzy7rqYQX22S68cFLwjqck_eW5Ug5qEEuCW0ZiGDV2AYR4gr6n7OiDFflNodCC0cElvzbH6r4RN9XJsAwLVZ86X2JdUyTkkiRyUZOY3y1HPp7O1lCT5HF4xFr9MpJUQ.&amp;_di_=rs63pifuo004dhge356k6grgpb85pmu3s9r3kjud8374kjtk85h0" style="color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:20px" target="_blank"> On Women&#39;s Cloudmonster Road Running Sneakers in Frost </a>
+                                          </p>
+                                          <div style="padding-bottom:8px"></div>
+                                          <p style="margin:0px;padding:0px 0px 16px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#626369;font-size:14px;line-height:18px;font-weight:400;letter-spacing:0.14px" class="m_147230498582254813fs12 m_147230498582254813lh20"> 6, Frost/Wash <br> Qty: 1 <br> UPC: 7615537226590 <br>
+                                          </p>
+                                          <p style="margin:0px;padding:0px 0px 0px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;font-size:16px;line-height:22px;height:20px" class="m_147230498582254813fs14 m_147230498582254813lh18">
+                                            <span style="font-weight:700;color:#e01a2b;line-height:20px" class="m_147230498582254813lh18">$136.00</span>
+                                            <s style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;color:#000000;line-height:18px;font-size:14px;font-weight:400;text-decoration:line-through" class="m_147230498582254813fs14 m_147230498582254813lh16 m_147230498582254813line_through"> $170.00 </s>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" bgcolor="#fffffe"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;background:#f8f8f8;border-radius:5px;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td style="padding:16px">
+                                  <p class="m_147230498582254813module-header-text m_147230498582254813fs18 m_147230498582254813lh23" style="margin:0px;padding-bottom:16px;font-weight:700;font-size:20px;line-height:25px;letter-spacing:0.2px"> Order summary </p>
+                                  <table style="width:100%;border-collapse:collapse">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_147230498582254813fs14" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px"> Subtotal (48 items) </td>
+                                        <td class="m_147230498582254813fs14" style="text-align:right;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px"> $6,432.00 </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_147230498582254813fs14" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:23px;padding-top:4px"> Shipping fee </td>
+                                        <td class="m_147230498582254813fs14" style="text-align:right;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:23px;padding-top:4px"> FREE </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_147230498582254813fs14" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px;padding-top:4px"> Tax </td>
+                                        <td class="m_147230498582254813fs14" style="text-align:right;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px;padding-top:4px"> $0.00 </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <hr class="m_147230498582254813borderBottom" style="margin:16px 0 16px">
+                                  <table style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_147230498582254813fs16" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-weight:700;line-height:23px;letter-spacing:-0.18px;font-size:18px"> Total </td>
+                                        <td class="m_147230498582254813fs16" style="text-align:right;font-family:Avenir,Helvetica Neue,Arial,sans-serif;line-height:23px;letter-spacing:-0.18px;font-weight:700;font-size:18px"> $6,432.00 </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <div style="padding-top:8px"></div>
+                                  <table style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="display:flex">
+                                          <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/american_express.png" alt="Amex" width="27" height="17" class="m_147230498582254813width25 m_147230498582254813height16">
+                                          <span class="m_147230498582254813fs12" style="padding-left:8px;font-size:14px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;line-height:20px;color:#626369"> Amex ****1018 </span>
+                                        </td>
+                                        <td class="m_147230498582254813fs12" style="text-align:right;font-weight:400;font-family:Avenir,Helvetica Neue,Arial,sans-serif;line-height:20px;color:#6e6e6e;font-size:14px"> $6,432.00 </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <hr class="m_147230498582254813borderBottom m_147230498582254813fs14" style="margin:16px 0 16px">
+                                  <p style="text-align:center;font-size:16px;color:#e01a2b;margin-bottom:0;line-height:20px"> You saved $1,608.00 </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td style="padding-bottom:8px">
+                                  <p class="m_147230498582254813fs14 m_147230498582254813lh18" style="font-size:16px;font-style:normal;font-weight:700;line-height:20px;margin:0;letter-spacing:0.16px">Need to cancel or change your order?</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p class="m_147230498582254813fs14 m_147230498582254813lh18" style="margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px">
+                                    <span> You can <a rel="opener" style="color:#000000;text-decoration:underline" href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSWRDBDTT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UxIbxISrTjHZ9lASjtbxN82Top78Hf66RyCXOaeWh3zNe_bn09RIQqwXqByiCZMCoA1fdk6yuP0uRCvSEYA0KTpatw_VQ1qI9FFMHRxzxs2kJhqHltP3frhC7B2PgtLp-Jg71LXcFHJy7BSFvBLbkGGLV88j_nVsEBDBINumeGt-sKL5JYd0CoSB6Qq9Acoid8KPh6e4vmul7EzD7lIenp3vgkEm8uvWgLQxiY_EvMS0Cfol29yQFGEI7O1Yw271LM7I4cT6IwR9R_z1ly8S7Fo8G1e4J-rGpSqGseOuqJvsAGK4mMdskRM35ZTU9-j1HNUKrcDmEFqpEmkdWcP_-2BgWa9ZZSftMO0JgXbjfj9kHfaIXQBIsHi5pcW19mRuiPIO9UwXreQc-WzHxro7uA7uR3bCa6iXyy8XWH_03kyV_931S0U5ccBXfi5YU-OAsBAZRsPT7t4JPk9MjIgjczO.&amp;_di_=oh1pnp8aeo4q1qaur5afmc9t1mmnge8u3v650qi2b85dulev5do0" target="_blank"> make changes</a> to most orders up to 30 minutes after purchase. </span>
+                                  </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:688px" class="m_147230498582254813width414">
+                    <tbody>
+                      <tr>
+                        <td style="padding:0px 30px 0px 30px" class="m_147230498582254813padLR19p5">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr valign="top">
+                                <td align="center" bgcolor="#F8F8F8">
+                                  <table width="628" height="10" style="display:block;border:0;background:#4d49be;width:100%;height:10px">
+                                    <tbody>
+                                      <tr>
+                                        <td height="10" style="height:10px"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding:0">
+                                                  <table align="left" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="padding:32px 0px 24px 24px" class="m_147230498582254813padL20">
+                                                          <table style="color:#4d49be;height:24px" height="24" width="24">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td style="height:24px" height="24" width="24">
+                                                                  <img style="height:24px;width:24px" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/LOYALLIST_MEA.png" height="24" width="24">
+                                                                </td>
+                                                                <td style="height:24px;font-size:16px;font-weight:500;line-height:20px;letter-spacing:0.16px;padding-left:4px" height="24"> LOYALLIST </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:0px 24px" class="m_147230498582254813padR20 m_147230498582254813padL20">
+                                          <p class="m_147230498582254813fs18 m_147230498582254813lh23 m_147230498582254813ls0-18" style="color:#000000;font-family:Avenir,Helvetica Neue,Arial,sans-serif;margin-top:0;font-style:normal;font-size:20px;font-weight:700;line-height:25px;letter-spacing:0.20px;word-wrap:break-word;text-align:start;margin-bottom:8px">
+                                            <span style="text-transform:capitalize">Griffin</span>, you&#39;ll earn a $3,225 Reward with this purchase!
+                                          </p>
+                                          <p class="m_147230498582254813fs12 m_147230498582254813lh16 m_147230498582254813ls0-12" style="color:#2c2c37;font-family:Avenir,Helvetica Neue,Arial,sans-serif;margin-top:0;font-style:normal;font-size:16px;font-weight:400;line-height:20px;letter-spacing:0.16px;word-wrap:break-word;text-align:start;margin-bottom:32px"> Rewards and points are pending until your items ship or are delivered. 5,000 points = $25 Reward. <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSYRT&amp;_ei_=EXvuOy_H1HITxE9vgfGW_1xpXsMMXS3O5JddcfUoDtTxQkNIuj9lOsb9p4OI24n-4SqF9eaGKVGU285tlLELyIqisPawgfBcdqXrb1FTyNmkK-8hdCjmZmZgbtz6Z49vlvB_gV4YBEBfMYtE6bN4tFfTovFYiNzrpItzQ7hF6ssg156aY5FRKZAzJIEpjoAsxMhhnLp2wnORKHC71gPji914LOBNDJ9HZkboono5tV8PMLzodf1xCx1O7iEEwIZES1x6.&amp;_di_=2g7ivm0qlsdv4f55s3r1kigka1mdri991nsstdtbdh9rbflpdat0" style="text-decoration:underline;color:#2c2c37" target="_blank">How it works</a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813overalllrpadding" style="padding:0px 30px;text-align:center">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:0;border-radius:5px;color:#000000;background-color:#fffffe;display:inline-block">
+                            <tbody>
+                              <tr>
+                                <td class="m_147230498582254813module-header-text" style="padding-bottom:24px;text-align:left;color:#000000;font-weight:700;font-size:20px;line-height:25px;letter-spacing:0.20px"> You might also love </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table class="m_147230498582254813width100pc" style="border-spacing:0;vertical-align:top;text-align:center;padding:0px;margin:0px;background-color:#fffffe" valign="top" align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td class="m_147230498582254813width114 m_147230498582254813height140" style="padding:0;margin:0;text-align:left;vertical-align:top;width:193px;height:231.232px" valign="top" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSART&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGnlO_h6YTNjhiQ54Y95wt2cqQO6l7TNRPEkTMXd9WSUWKYMD8F8W8uHrfAdLDAzgt9bUzLjmm_qvJwj5q9SOzgNNkThw5NmX0UgLA6-h2jZHCvQapMQ4gRMFnJpsb00tdUcwqKBXmjBtK_fhL6zH6Ldxay6DXwpAFwtHTMtrzV8mqIp1HB5yZt4MT2T02jHCqVsM4PZNSpXE3Brq4qjWr-erJ47-kw8PSZ3P0KqWNvP-qsZtVqIkWBBDdWFfn-OIE17TPQrv3K0K_SjLMdhGldrhLOWU0lzPoEyRMYCW0BTM0tBSuIylCqfFlkv1aXnJL3fp84Du_SLcpi9Q-1Bg5KE7Khg67sX1JEvtMowLOw4Xv2cEYk-xyiqRFK4T12M0VW8v18NKXPeafNxPswuBoTnppGWIPVwzWP4EauoNxhfgfwne0Xz94ishgGcM7Y8BCJXiDU62-It1ehibfVT2xc1PY9-gXlyhlhBEvT4b0ugFt.&amp;_di_=c0spfakontr6ok45gp3ruh2jiftprlj9fu1qvgsrrp6uuk3otm30" style="color:#2ba6cb;text-decoration:none" target="_blank">
+                                            <img class="m_147230498582254813width114 m_147230498582254813height140" src="http://images.bloomingdales.com/is/image/BLM/products/3/optimized/13454143_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg" alt="" width="193" height="231.232" style="border:none">
+                                          </a>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114 m_147230498582254813height140" style="padding:0;margin:0;text-align:left;vertical-align:top;width:194px;height:231.232px" valign="top" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSART&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGG7pwQ8SCMqSrnh3fr8A6Xd-xqr6UO1xuo33wXt-Kv8oOEkfbZRpynzarhSBQ7hafwTS_qPkvD3yNqTAew_uQkMFbo6j24Fs73BqZUPb1SRy8pSsZ1cWD-nZJzcG2AWLXFBRoglFKM0geX3tjpASwm6Qqm2oE4eMIB-zrVZT5iKo0A8uUdpZl1imA38D5GFMr8ITNZcXODDThAeENeYYMtDeXI9do_Asf_TyIvj6IsJhrGuA7Lo57G4x8l6YY9SxYFK8UaDqs_Z5vc16uPzn8Ji7jWV_qaacxZbNkf0KZUqMtdy61_8SUz522OqIDAEb9-TJSgUUBIZxLhBk3bD_1iqEfdLo1T3zL-wc-tyFAui_juHY3GPSdBau9KREeb3W54a35vZyIoWij_f94p9S1T_HfGd0dskHmfdBV0GTM4FNPpQLYINVy-CVR2flgzaSvKcM-5tay930UgXoDkOw_z-ySes5lBpSfbPXBTF_4ww.&amp;_di_=cjh8pvao8m8qhbq51h8r5ao8egr9k1vcaentn3fqc1l6k8irotag" target="_blank">
+                                            <img class="m_147230498582254813width114 m_147230498582254813height140" src="http://images.bloomingdales.com/is/image/BLM/products/2/optimized/13849132_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg" alt="" width="194" height="231.232" style="border:none">
+                                          </a>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114 m_147230498582254813height140" style="padding:0;margin:0;text-align:left;vertical-align:top;width:193px;height:231.232px" valign="top" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSART&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGlg3RrRMFJ6BT_Sm-L2RbC4WN_Ge_qaFoRABnIefnxUsdHUXUVIuCWByZs2zrS6DMlth21IDJs_jqR7FQSFU6B17cOOSbTNp1hU3Ii2oQq7OvQgYpJATycwNqv_8LNflqreurNL_gYxCuY4MWkTKF9IFKWTr-__v71eSvBLFs5VCH3ZlhH1Lo-MkMGILmWAKoKqelu--XZk-smtHXYQZxMhdaVJlRNWTgT3zEFUDiuwDGjehS1bd0sEhQ4jIeIc328Qt7-kMPuvROQq6JoFpoho51bQE31mpAV4BUXZAB-4a9Vuju39wwliLsHvFmVMM1Jgxu_ffx7BRKZmoDuFwWGxLMKDYvi0Sm57-sp8-tRmlAXBI9sQNKqdYJQKNFpOafEjngrUKvmo2iG5keWQrXezDHKDlEvus7XEXzKS2mYtqO4Jjyqy7ZcYuAV-uQeNHoelK3G0RXenSt25NcCU_86hu-3TES.&amp;_di_=vhjjp2k6ojkgqdptt0kgrh9vsveafh4tetgfd3eojo3si3gejf80" target="_blank">
+                                            <img class="m_147230498582254813width114 m_147230498582254813height140" src="http://images.bloomingdales.com/is/image/BLM/products/8/optimized/13849048_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg" alt="" width="193" height="231.232" style="border:none">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="8" style="height:16px;padding:0px;margin:0px" height="16"></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_147230498582254813width114 m_147230498582254813iphonemh" valign="top" style="text-align:center;display:inline-block;word-break:break-all;word-wrap:break-word;width:193px;max-height:60px;overflow:hidden;line-height:18px;padding:0px;margin:0px" width="193" align="center">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSATT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGnlO_h6YTNjhiQ54Y95wt2cqQO6l7TNRPEkTMXd9WSUWKYMD8F8W8uHrfAdLDAzgt9bUzLjmm_qvJwj5q9SOzgNNkThw5NmX0UgLA6-h2jZHCvQapMQ4gRMFnJpsb00tdUcwqKBXmjBtK_fhL6zH6Ldxay6DXwpAFwtHTMtrzV8mqIp1HB5yZt4MT2T02jHCqVsM4PZNSpXE3Brq4qjWr-erJ47-kw8PSZ3P0KqWNvP-qsZtVqIkWBBDdWFfn-OIE17TPQrv3K0K_SjLMdhGldrhLOWU0lzPoEyRMYCW0BTM0tBSuIylCqfFlkv1aXnJL3fp84Du_SLcpi9Q-1Bg5KE7Khg67sX1JEvtMowLOw4Xv2cEYk-xyiqRFK4T12M0VW8v18NKXPeafNxPswuBoTnppGWIPVwzWP4EauoNxhfgfwne0Xz94ishgGcM7Y8BCJXiDU62-It1ehibfVT2xc1PY9-gXlyhlhBEvT4b0ugFt.&amp;_di_=7fvhplvdsf201u7or14v1dq9g7m7mrc6jf0e7qudoposg9td3aq0" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none;letter-spacing:0.14px;word-wrap:break-word;word-break:break-word;font-weight:300" target="_blank"> On <br>
+                                          </a>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114 m_147230498582254813iphonemh" valign="top" style="text-align:center;display:inline-block;word-break:break-all;word-wrap:break-word;width:194px;max-height:60px;overflow:hidden;line-height:18px;padding:0px;margin:0px" width="194" align="center">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSATT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGG7pwQ8SCMqSrnh3fr8A6Xd-xqr6UO1xuo33wXt-Kv8oOEkfbZRpynzarhSBQ7hafwTS_qPkvD3yNqTAew_uQkMFbo6j24Fs73BqZUPb1SRy8pSsZ1cWD-nZJzcG2AWLXFBRoglFKM0geX3tjpASwm6Qqm2oE4eMIB-zrVZT5iKo0A8uUdpZl1imA38D5GFMr8ITNZcXODDThAeENeYYMtDeXI9do_Asf_TyIvj6IsJhrGuA7Lo57G4x8l6YY9SxYFK8UaDqs_Z5vc16uPzn8Ji7jWV_qaacxZbNkf0KZUqMtdy61_8SUz522OqIDAEb9-TJSgUUBIZxLhBk3bD_1iqEfdLo1T3zL-wc-tyFAui_juHY3GPSdBau9KREeb3W54a35vZyIoWij_f94p9S1T_HfGd0dskHmfdBV0GTM4FNPpQLYINVy-CVR2flgzaSvKcM-5tay930UgXoDkOw_z-ySes5lBpSfbPXBTF_4ww.&amp;_di_=47cavjhvrjo72606041mppdl70kj55iugqac4irjmge18cl8urrg" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none;letter-spacing:0.14px;word-wrap:break-word;word-break:break-word;display:inline-block" target="_blank"> On <br>
+                                          </a>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114 m_147230498582254813iphonemh" valign="top" style="text-align:center;display:inline-block;word-break:break-all;word-wrap:break-word;width:193px;max-height:60px;overflow:hidden;line-height:18px;padding:0px;margin:0px" width="193" align="center">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASBSATT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NGB9BO2Fm-uB0H9dCBUcH3U-EOt07wkF4OXOAMWoRrFVltAjZKX4oD0WthjtNsP3UwPvlO6bT3PJkoUu4wf5tIGlg3RrRMFJ6BT_Sm-L2RbC4WN_Ge_qaFoRABnIefnxUsdHUXUVIuCWByZs2zrS6DMlth21IDJs_jqR7FQSFU6B17cOOSbTNp1hU3Ii2oQq7OvQgYpJATycwNqv_8LNflqreurNL_gYxCuY4MWkTKF9IFKWTr-__v71eSvBLFs5VCH3ZlhH1Lo-MkMGILmWAKoKqelu--XZk-smtHXYQZxMhdaVJlRNWTgT3zEFUDiuwDGjehS1bd0sEhQ4jIeIc328Qt7-kMPuvROQq6JoFpoho51bQE31mpAV4BUXZAB-4a9Vuju39wwliLsHvFmVMM1Jgxu_ffx7BRKZmoDuFwWGxLMKDYvi0Sm57-sp8-tRmlAXBI9sQNKqdYJQKNFpOafEjngrUKvmo2iG5keWQrXezDHKDlEvus7XEXzKS2mYtqO4Jjyqy7ZcYuAV-uQeNHoelK3G0RXenSt25NcCU_86hu-3TES.&amp;_di_=1figk1ujvnu6cr6iotfgrqpud94bp6leiishbd7c60ap8vmq7ja0" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none;letter-spacing:0.14px;word-wrap:break-word;word-break:break-word;display:inline-block" target="_blank"> On <br>
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="8" style="height:4px;padding:0px;margin:0px" height="4"></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_147230498582254813width114" valign="top" style="text-align:center;margin:0px;padding:0px;display:inline-block;word-break:break-all;word-wrap:break-word;width:193px" width="193" align="center">
+                                          <span style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500;font-size:14px;line-height:18px;vertical-align:bottom">
+                                            <div>
+                                              <span style="color:#e01a2b;font-size:14px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-weight:500;line-height:18px;word-wrap:break-word;letter-spacing:0.14px">$128.00</span>
+                                              <span style="color:#e01a2b;font-size:14px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-weight:500;line-height:18px;word-wrap:break-word;letter-spacing:0.14px"></span>
+                                              <span style="color:#000000;font-size:14px;font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-weight:500;text-decoration:line-through;line-height:18px;word-wrap:break-word;letter-spacing:0.14px">$160.00</span>
+                                            </div>
+                                          </span>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114" valign="top" style="text-align:center;margin:0;padding:0;display:inline-block;word-break:break-all;word-wrap:break-word;width:194px" width="194" align="center">
+                                          <span style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500;font-size:14px;line-height:18px;vertical-align:bottom">
+                                            <span style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500;font-size:14px;line-height:18px;color:#000000;letter-spacing:0.14px">$170.00 </span>
+                                          </span>
+                                        </td>
+                                        <td class="m_147230498582254813width16" width="24" style="width:24px;padding:0px;margin:0px"></td>
+                                        <td class="m_147230498582254813width114" valign="top" style="text-align:center;margin:0;padding:0;display:inline-block;word-break:break-all;word-wrap:break-word;width:193px" width="193" align="center">
+                                          <span style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500;font-size:14px;line-height:18px;vertical-align:bottom">
+                                            <span style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:400;font-size:14px;line-height:18px;color:#000000;letter-spacing:0.14px">$160.00 </span>
+                                          </span>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td class="m_147230498582254813padB16" style="padding-bottom:8px;width:100%">
+                                  <p class="m_147230498582254813fs18 m_147230498582254813lh23" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:20px;line-height:25px;letter-spacing:0.2px;font-weight:700;margin:0px"> Have questions? </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_147230498582254813padB16" style="padding-bottom:24px;width:100%">
+                                  <p class="m_147230498582254813fs14 m_147230498582254813lh18 m_147230498582254813width100pc" style="font-size:16px;line-height:20px;letter-spacing:0.16px;margin:0;width:601px"> Our live agents are here 8AM to midnight ET. Automated phone support is available 24/7 at 1-800-777-0000. </p>
+                                </td>
+                              </tr>
+                              <tr align="left">
+                                <td style="width:32px;padding-right:32px">
+                                  <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" style="width:99px;color:#000000">
+                                    <tbody>
+                                      <tr align="left">
+                                        <td style="width:32px;padding-right:32px">
+                                          <a href="tel:+1-800-777-0000" style="color:#000000;display:inline-block" target="_blank">
+                                            <img class="m_147230498582254813height24 m_147230498582254813width24" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/NEW-Phone.png" alt="Call" width="32" height="32">
+                                            <p class="m_147230498582254813fs14 m_147230498582254813lh18" style="font-weight:400;font-size:16px;line-height:20px;letter-spacing:0.16px;padding-top:3px;text-decoration:underline;width:32px;margin:0px"> Call</p>
+                                          </a>
+                                        </td>
+                                        <td style="width:32px" class="m_147230498582254813width25">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSYTT&amp;_ei_=EXvuOy_H1HITxE9vgfGW_1xQBxI3YgITH8QG3HQPpJKOChpPqdrNJwgofnBY9pXwxsKF3WgLHSfwcRzd4e40Hih-4I3a8_rPTzCb9YPQ4Dbr-LnLji-O891nbsxWfxRxaR5DUXsExZKP4IAhNcRPv9warFPDikytwqkyASuzpmD0O5fR8gTj-39CaDixPY23bOja6U9Yded-FioHFa-z3wcE6ffhtXd2d1FPf2jALSY2tLE_K9ABfMz11NFIbqpnuq6powG1FXkYvT0PIvOz1I1om7gxyrMgOGRAgPbwbRgaUw.&amp;_di_=fu4qben9c7286tjvtlmf9k6p9uu3p708ablel9eelmvbsmmd8mdg" style="color:#000000;display:inline-block" target="_blank">
+                                            <img class="m_147230498582254813height24 m_147230498582254813width24" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/NEW-Chat.png" alt="Chat" width="32" height="32">
+                                            <p class="m_147230498582254813fs14 m_147230498582254813lh18" style="font-weight:400;font-size:16px;line-height:20px;padding-top:3px;letter-spacing:0.16px;text-decoration:underline;width:35px;margin:0px">Chat</p>
+                                          </a>
+                                        </td>
+                                        <td width="100%" style="width:100%"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_147230498582254813padT16" style="padding-top:24px">
+                                  <p class="m_147230498582254813fs14" style="margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0.16px"> Need more help? Visit our <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSYWT&amp;_ei_=EXvuOy_H1HITxE9vgfGW_1xQBxI3YgITH8QG3HQPpJKOChpPqdrNJwgofnBY9pXwxsKF3WgLHSfwcRzd4e40Hih-4I3a8_rPTzCb9YPQ4Dbr-LnLji-O891nbsxWfxRxaR5DUXsExZKP4IAhNcRPv9warFPDikytwqkyASuzpmD0O5fR8gTj-39CaDixPY23bOja6U9Yded-FioHFa-z3wcE6ffhtXd2d1FPf2jALSY2tLE_K9ABfMz11NFIbqpnuq6powG1FXkYvT0PIvOz1I1om7gxyrMgOGRAgPbwbRgaUw.&amp;_di_=0vpu8kpp5sa2gjs3b9c158jfepcafbcm6sjst0vt5cdi0iscmcf0" style="color:#000000;text-decoration:underline" target="_blank">FAQs</a>
+                                  </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding:24px 0px">
+                          <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td style="line-height:8px;height:8px;width:100%;background-color:#f8f8f8" class="m_147230498582254813height8 m_147230498582254813lh8"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                      <tr>
+                        <td class="m_147230498582254813padLR20" style="padding-bottom:54px">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:302px;height:302px" class="m_147230498582254813height175 m_147230498582254813width175">
+                                    <tbody>
+                                      <tr valign="top">
+                                        <td align="center">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSYAT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3AlGTOHwtSB0Mlv8J1OYF_Fxi6WtmpwRCZO1-yxmM4w2KVE5xT-icxG_CVe3DLMPSFrN8wD87_oGbXXl5fKyiMNSZZz-vi53ro0f5STxYZRgJLQHBR9vFvZqPBWELReFr4GgvaSy8NFrGOl5x03zF-FuNyy23psu6WZfzTK0K7ZnOvo-qi1QjzybMSwqkNyD5i0s8IklXG_QBprgyvNgOofJh8IW8mQkzM6USAUTqNleO21gLLpSQ-W42MjsEq4U2iC.&amp;_di_=oghkcl9g108va5s4gh0uqg99b54r429eoirss34207gv3pd9a4a0" target="_blank">
+                                            <img width="302" height="302" class="m_147230498582254813height175 m_147230498582254813width175" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/email_signup_banner.jpg" alt="Email_signup">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td>
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:302px;height:302px" class="m_147230498582254813height175 m_147230498582254813width175">
+                                    <tbody>
+                                      <tr valign="top">
+                                        <td align="center">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSYCT&amp;_ei_=EN3rn36QyqaoyBq3BUklU3DEEfm4OfZ0_4TWYTT0Hf_G4JSWUwu3SclfASlA8lLqiMuhh5Eee9hAdtBdd07hXL5ssYMeeFULMzyZU51RUZ1cZhJsg-_gODZw1ONZ-hJHOKFUqWDklHdcmMSjJoyftKX5_e9yL8beCPu_KReMDz9Uvrj02xSkr8UYsAlzQFWE9Ne0kFPU50fxzPdxbof90NFFHDF2YkdHbPdyQ2jXVeQ005BaPJJ9Mf_u0ypop-CLww.&amp;_di_=7ofoebju58i6nrtc7qqler0hafvjgo4es03c17g44i5v207aehqg" target="_blank">
+                                            <img width="302" height="302" class="m_147230498582254813height175 m_147230498582254813width175" src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/download_app_banner.jpg" alt="App_download">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;background:#f8f8f8">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td class="m_147230498582254813block m_147230498582254813padR0 m_147230498582254813padL0" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;padding:48px 0px 24px" align="center">
+                                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:auto;color:#000000">
+                                    <tbody>
+                                      <tr>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSATRSART&amp;_ei_=EXvuOy_H1HITxE9vgfGW_1xQBxI3YgITH8QG3HQPpJKOChpPqdrNJwgofnBY9pXwxsKF3WgLHSfwcRzd4e40Hih-4I3a8_rPTzCb9YPQ4Dbr-LnLji-O891nbsxWfxRxaR5DUXsExZKP4IAhNcRPv9warFPDikytwqkyASuzpmD0O5fR8gTj-39CaDixPY23bOja6U9Yded-FioHFa-z3wcE6ffhtXd2d1FPf2jALSY2tLE_K9ABfMz11NFIbqpnuq6powG1FXkYvT0PIvOz1I1om7gxyrMgOGRAgPbwbRgaUw.&amp;_di_=advoetsdg9h6effcujg79skq8n4epqhggejsqvue8ekf87vmq71g" style="color:#000;font-weight:bold;padding:0px;text-decoration:underline;font-size:12px;width:100%;letter-spacing:0.12px" width="100%" target="_blank">Stores &amp; Events</a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;width:16px" align="left"></td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBARCT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRlSrOdAqpUKaATGnIMYEB_3GWKSN5K50Hl6VzNmgdDOA.&amp;_di_=mi26m1vdf7785ebcehjpaqg9m32hqvgmstot70d08icmf40lbv8g" style="color:#000;font-weight:bold;padding:0px;text-decoration:underline;font-size:12px;width:100%;letter-spacing:0.12px" width="100%" target="_blank">Shopping Services</a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;width:16px" align="left"></td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBASRT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRlSrOdAqpUKaATGnIMYEB_3GWKSN5K50Hl6VzNmgdDOA.&amp;_di_=7qhchtrd2gsjd563f64lpd88b62m0nb9ucpa1o2imiutud52jqng" style="color:#000;font-weight:bold;padding:0px;text-decoration:underline;font-size:12px;width:100%;letter-spacing:0.12px" width="100%" target="_blank">Credit Services</a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;width:16px" align="left"></td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px" align="left">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBASTT&amp;_ei_=EQb_wXKTht6edxnSA2p69yawTP01F_tMohbyx3IvX3gCT8FmufRhgv78aC5Vqz0RUxWi2DL3XJJzKTCBS0eNe2c8JvD6obuBSH43BNdskzge7rAW0ONj_I7hRnOAm-Xc7P-MTQlQdxblf-XDVmDrMuBmCU90jjjRFLleRxrTCAWSzg5BEjlwg-dwotKeVoxO1p5c6TX1NuuOwpjY0vsEL3hra_z8mBfBwL7_iIHDHcCRlSrOdAqpUKaATGnIMYEB_3GWKSN5K50Hl6VzNmgdDOA.&amp;_di_=43g0pgbq1k71q4e8rthsl6ns1jve6npv9ug126jdrfoqvsf2jto0" style="color:#000;font-weight:bold;padding:0px;text-decoration:underline;font-size:12px;width:100%;letter-spacing:0.12px" width="100%" target="_blank">Loyallist</a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="m_147230498582254813padLR20">
+                          <table class="m_147230498582254813width100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:628px;margin:auto;color:#000000">
+                            <tbody>
+                              <tr>
+                                <td class="m_147230498582254813padB16" align="center" style="padding:0px;border-top:1px solid #c0c0c0;border-bottom:1px solid #c0c0c0;font-weight:700;padding-bottom:24px">
+                                  <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" style="width:144px;margin:auto;color:#000000">
+                                    <tbody>
+                                      <tr>
+                                        <td colspan="4" style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;text-align:center;padding-top:24px;padding-bottom:16px;margin:0px;vertical-align:bottom" align="center">
+                                          <p style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:16px;font-weight:700">Connect With Us</p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:24px;padding-right:16px;margin:0px" align="left" width="30">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYDAT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKhhzbNWd2thkFRMVGLsKP1gKDSN15ouljOUQ49bz0O5wPXs2U3GXB-WKSBUNUpoq3_iZUEWZUH4shxdw235jrMt4A_5DrA6YlL0EfSPafi0cduVSxjPk01PcU4MtxfdynPcoHtItfclQBiFy6yU7B5TvkDtNM6oHK4VNbJubxuUUWw.&amp;_di_=lsm5afhglmj4avln1fvljrnpv1gcv70hu669ep7makh2sdmejidg" style="text-decoration:none" target="_blank">
+                                            <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_instagram.png" alt="instagram" width="24">
+                                          </a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:24px;padding-right:16px;margin:0px" align="left" width="30">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBYDCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKhhzbNWd2thkFRMVGLsKP1gKDSN15ouljOUQ49bz0O5wPXs2U3GXB-WKSBUNUpoq3_iZUEWZUH4shxdw235jrMt4A_5DrA6YlL0EfSPafi0cduVSxjPk01PcU4MtxfdynPcoHtItfclQBiFy6yU7B5TvkDtNM6oHK4VNbJubxuUUWw.&amp;_di_=fn0gulphtn2p5q63ru0is5n8i4e4hvs88al5r1h6jis7t1h5vjj0" style="text-decoration:none" target="_blank">
+                                            <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_pinterest.png" alt="pinterest" width="24">
+                                          </a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:24px;padding-right:16px;margin:0px" align="left" width="30">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBARWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKhhzbNWd2thkFRMVGLsKP1gKDSN15ouljOUQ49bz0O5wPXs2U3GXB-WKSBUNUpoq3_iZUEWZUH4shxdw235jrMt4A_5DrA6YlL0EfSPafi0cduVSxjPk01PcU4MtxfdynPcoHtItfclQBiFy6yU7B5TvkDtNM6oHK4VNbJubxuUUWw.&amp;_di_=s75tamk8gab8n4diajshh946vc8m3fajc8gd4c7q9jiuald3vej0" style="text-decoration:none" target="_blank">
+                                            <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_facebook.png" alt="facebook" width="24" style="margin:0">
+                                          </a>
+                                        </td>
+                                        <td style="font-family:Avenir,Helvetica Neue,Arial,sans-serif;font-size:12px;line-height:24px;margin:0px" align="left" width="30">
+                                          <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DBARTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKhhzbNWd2thkFRMVGLsKP1gKDSN15ouljOUQ49bz0O5wPXs2U3GXB-WKSBUNUpoq3_iZUEWZUH4shxdw235jrMt4A_5DrA6YlL0EfSPafi0cduVSxjPk01PcU4MtxfdynPcoHtItfclQBiFy6yU7B5TvkDtNM6oHK4VNbJubxuUUWw.&amp;_di_=4nonad5ksu11b6r7k0kipk98al4okorj8maqd8eo310g07qual60" style="text-decoration:none" target="_blank">
+                                            <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_x.png" alt="x" width="24" style="margin:0">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding:16px 30px 16px 30px;display:none" class="m_147230498582254813block">
+                                  <p style="font-weight:700">Download the Bloomingdale&#39;s App</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding:0px;display:none" class="m_147230498582254813block">
+                                  <a href="https://emails.bloomingdales.com/pub/cc?_ri_=X0Gzc2X%3DBQjkPkSTUQGzaEzfzewjlDFXlcCWPrLzbFbbJ0yzdHeC255FtLzd9qtzaPmLSPKKXjOVXtpKX%3DSASACBTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKhhzbNWd2thkFRMVGLsKP1gKDSN15ouljOUQ49bz0O5wPXs2U3GXB-WKSBUNUpoq3_iZUEWZUH4shxdw235jrMt4A_5DrA6YlL0EfSPafi0cduVSxjPk01PcU4MtxfdynPcoHtItfclQBiFy6yU7B5TvkDtNM6oHK4VNbJubxuUUWw.&amp;_di_=bfga51gho2d4poafke64j70580t41veqgo0ej4sft899pghbf7ug" style="text-decoration:none" target="_blank">
+                                    <img src="https://emails.bloomingdales.com/assets/responsysimages/content/bloom/oes_app_store_button.png" alt="instagram" width="120px" style="margin:0">
+                                  </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_147230498582254813padR0 m_147230498582254813padL0" style="padding:0px;padding-top:24px;line-height:14px">
+                                  <p style="font-size:10px;margin:0;font-weight:700;line-height:14px;letter-spacing:0.1px">Free Shipping:</p>
+                                  <p style="font-size:10px;margin:0;color:#555;line-height:14px;letter-spacing:0.1px"> Free standard shipping on orders of $150 or more only at Bloomingdales.com and Bloomingdales.com/Registry. Not valid when shipping to multiple addresses. No adjustments to prior purchases. Free shipping is valid online only. Offer excludes Gift Cards, Furniture, and Mattresses. Not valid in Bloomingdale&#39;s The Outlet stores. Valid only when shipping to the U.S. Delivery charges may apply in store. See a sales associate for details. </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_147230498582254813padR0 m_147230498582254813padL0" style="padding:0px;line-height:14px;padding-top:16px">
+                                  <p style="font-size:10px;margin:0;font-weight:700;line-height:14px;letter-spacing:0.1px">Free Shipping on Beauty:</p>
+                                  <p style="font-size:10px;color:#6e6e6e;margin:0;line-height:14px;letter-spacing:0.1px"> Free standard shipping on beauty of $50 or more at Bloomingdales.com. Not valid when shipping to multiple addresses. No adjustments to prior purchases. Free shipping is valid online only. Not valid in Bloomingdale&#39;s stores or Bloomingdale&#39;s The Outlet stores. Valid only when shipping to the U.S. Delivery charges may apply in store. See a sales associate for details. </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_147230498582254813padR0 m_147230498582254813padL0" style="padding:0px;line-height:14px;padding-top:16px;padding-bottom:48px">
+                                  <p style="font-size:10px;margin:0;font-weight:700;line-height:14px;letter-spacing:0.1px">Free Returns:</p>
+                                  <p style="font-size:10px;color:#6e6e6e;margin:0;line-height:14px;letter-spacing:0.1px"> Free returns everyday on online orders. Offer excludes gift cards, furniture, mattresses, mirrors, lamps and wall art. Only valid when shipping within the U.S. </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <span>
+            <font color="#FFFFFF" face="arial" size="1"></font>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+</div>

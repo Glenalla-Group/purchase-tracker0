@@ -1,0 +1,370 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg1925890848300367556">
+      <div><u></u>
+        <div style="background-color:#fff;margin:0;padding:0">
+          <table width="100%" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td>
+                  <table width="750" border="0" cellspacing="0" cellpadding="0" align="center"
+                    class="m_1925890848300367556responsive m_1925890848300367556content_top_wrap" style="margin:0 auto">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                            class="m_1925890848300367556nomob" align="center">
+                            <tbody>
+                              <tr valign="top">
+                                <td valign="top"
+                                  style="font-family:arial;font-size:10px;text-decoration:none;text-align:center;color:#717171;padding-top:10px">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr valign="top">
+                                <td valign="top" align="center" style="padding-bottom:20px;padding-top:20px">
+                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwczovL3Jldm9sdmUuY29tPyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9VHJhbnNhY3Rpb25hbCZ1dG1fY2FtcGFpZ249VFJBTlNfUkVWX09WRVJTT0xEX09WRVJTT0xEJnV0bV9jb250ZW50PXRyYW5zYWN0aW9uYWx0ZW1wbGF0ZS1yXzJjXzMmdXNlcklkPTQxMTUwMjIxJnJlZklEPTM0MTIyMTA5Ni0yMDI1MTIzMDEwMjMzMSJ9.j9tkBqwthRx_TVaGDxXGdpNtMP6Z3BG7ui0bmQNF1Ok/341221096-20251230102331"
+                                    style="font-family:arial;font-size:11px;text-decoration:none;color:#717171"
+                                    target="_blank">
+                                    <img
+                                      src="https://is4.revolveassets.com/images/up/2025/November/Remail_2025Rebrand_Logo.png"
+                                      class="m_1925890848300367556rev_logo m_1925890848300367556nomob"
+                                      style="display:block;border:0;margin:0 auto" width="262" border="0">
+                                    <img
+                                      src="https://is4.revolveassets.com/images/up/2025/November/Remail_2025Rebrand_Header.png"
+                                      class="m_1925890848300367556show"
+                                      style="display:none;border:0;margin:0 auto;width:100%" border="0">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
+                          <table width="750" class="m_1925890848300367556responsive" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tbody style="font-family:Helvetica,Arial,sans-serif">
+                              <tr>
+                                <td colspan="1"
+                                  style="font-weight:bold;font-size:24px;line-height:30px;letter-spacing:1.75px;text-align:center;text-transform:uppercase;padding:24px 24px 32px">
+                                  An item from your order was cancelled
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="1"
+                                  style="font-weight:bold;padding:0 8px 24px;font-size:14px;line-height:21px;letter-spacing:0.15px">
+                                  Griffin,
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="1"
+                                  style="padding:0 8px 24px;font-size:14px;line-height:21px;letter-spacing:0.15px">
+                                  We&#39;re sorry, but due to insufficient inventory, we are not able to fulfill your
+                                  entire order #341221096. The item below has been canceled as it was unavailable.
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="1"
+                                  style="padding:0 8px 24px;font-size:14px;line-height:21px;letter-spacing:0.15px">
+                                  You will not be charged for the unavailable item. We&#39;ll let you know if this item
+                                  becomes available again!
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="750" class="m_1925890848300367556responsive" border="0" cellspacing="0"
+                            cellpadding="0" style="width:100%;margin-bottom:24px">
+
+                            <tbody style="vertical-align:top">
+                              <tr class="m_1925890848300367556show-row" style="display:none">
+                                <td colspan="4"
+                                  style="text-transform:uppercase;font-size:18px;line-height:24px;letter-spacing:2px;text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;height:60px;vertical-align:middle;padding:0 8px">
+                                  Your Items
+                                </td>
+
+                              </tr>
+                              <tr class="m_1925890848300367556nomob"
+                                style="text-transform:uppercase;font-size:12px;line-height:16px;letter-spacing:1.3px;font-family:Helvetica,Arial,sans-serif">
+                                <td colspan="2" style="width:50%;height:60px;vertical-align:middle;padding:0 8px">Your
+                                  Items</td>
+                                <td style="width:25%;height:60px;vertical-align:middle;padding:0 8px" align="center">
+                                  Quantity</td>
+                                <td style="width:25%;height:60px;vertical-align:middle;padding:0 8px" align="right">
+                                  Subtotal</td>
+                              </tr>
+                              <tr>
+                                <td style="border-bottom:1px solid #e4e4e4" colspan="4"></td>
+                              </tr>
+
+                              <tr style="font-family:Helvetica,Arial,sans-serif">
+                                <td style="width:15%;padding:24px 8px 24px" valign="middle">
+                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LnJldm9sdmUuY29tL3IvRGlzcGxheVByb2R1Y3QuanNwP2NvZGU9T05GLU1aNDU0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1UcmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1UUkFOU19SRVZfT1ZFUlNPTERfT1ZFUlNPTEQmdXRtX2NvbnRlbnQ9dHJhbnNhY3Rpb25hbHRlbXBsYXRlLXJfMmNfMyZ1c2VySWQ9NDExNTAyMjEmcmVmSUQ9MzQxMjIxMDk2LTIwMjUxMjMwMTAyMzMxIn0.uayDsQg979_jFiPwgTtAf3K_PcLNakq0Ov2sqzehkjA/341221096-20251230102331"
+                                    target="_blank">
+                                    <img src="https://is4.revolveassets.com/images/p4/ip2/pl2/ONF-MZ454_V1.jpg"
+                                      width="117" alt="item1" border="0">
+                                  </a>
+                                </td>
+                                <td style="font-size:12px;line-height:18px;letter-spacing:0.15px;padding:24px 8px"
+                                  valign="top" align="left">
+                                  <div style="font-weight:bold;text-transform:uppercase">Cloudswift 4 in Black &amp;
+                                    Eclipse</div>
+                                  <div>On
+                                    <div>Color: Black &amp; Eclipse</div>
+                                    <div>Size: 11</div>
+                                    <div class="m_1925890848300367556show" style="display:none;margin-bottom:16px">
+                                      Qty: 1
+                                    </div>
+                                    <div class="m_1925890848300367556show" style="display:none">
+                                      <span style="color:#961c1c">$95.20</span><span
+                                        style="color:#717171;margin-left:8px;text-decoration:line-through">$160.00</span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="m_1925890848300367556nomob" align="center"
+                                  style="width:25%;line-height:21px;letter-spacing:.15px;padding:24px 8px;font-size:14px"
+                                  valign="top">1</td>
+                                <td class="m_1925890848300367556nomob" align="right" valign="top"
+                                  style="width:25%;line-height:1.5;letter-spacing:.03px;font-family:Helvetica,Arial,sans-serif;padding:24px 8px 24px;font-size:14px">
+                                  <div style="color:#961c1c">$95.20</div>
+                                  <div style="color:#717171;text-decoration:line-through">$160.00</div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="border-top:1px solid #e4e4e4" colspan="4"></td>
+                              </tr>
+
+
+                            </tbody>
+                          </table>
+                          <table width="750" class="m_1925890848300367556responsive" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tbody style="font-family:Helvetica,Arial,sans-serif">
+                              <tr>
+                                <td colspan="1"
+                                  style="padding:0 8px 24px;font-size:14px;line-height:21px;letter-spacing:0.15px">
+                                  We apologize for the inconvenience.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
+                          <table width="750" class="m_1925890848300367556responsive" border="0" cellspacing="0"
+                            cellpadding="0" style="padding:0 8px;margin:24px 0 32px">
+                            <tbody
+                              style="font-family:Helvetica,Arial,sans-serif;line-height:20px;letter-spacing:0.15px;font-size:14px">
+
+
+                              <tr>
+                                <td style="padding-bottom:16px">Thanks for shopping with us!</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div>Best,</div>
+                                  <div style="font-weight:bold">Team REVOLVE</div>
+                                  <div> <a href="mailto:sales@revolve.com" target="_blank">sales@revolve.com</a>
+                                  </div>
+                                  <div> <a
+                                      href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJ0ZWw6ODg4NDQyNTgzMCJ9.BCUw9VT9Rijr254v87y6bJdtggB1QBnQb4XmRmQ8zVw/341221096-20251230102331"
+                                      target="_blank">888.442.5830</a>
+                                  </div>
+                                  <div> Text us: 888.442.5830
+                                  </div>
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+
+
+                          <table width="750" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto"
+                            class="m_1925890848300367556responsive" align="center">
+                            <tbody>
+                              <tr>
+                                <td valign="top">
+                                  <table width="750" border="0" cellpadding="0" cellspacing="0"
+                                    style="margin:0 auto;border-top:2px solid black"
+                                    class="m_1925890848300367556responsive m_1925890848300367556preferences_banner__border"
+                                    align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td style="height:60px">
+                                          <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                                            style="margin:0 auto;letter-spacing:.05em"
+                                            class="m_1925890848300367556responsive" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="middle" class="m_1925890848300367556small-1" align="center"
+                                                  width="350">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LnJldm9sdmUuY29tL3NoaXBwaW5nZGVsaXZlcnk_JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1UcmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1UUkFOU19SRVZfT1ZFUlNPTERfT1ZFUlNPTEQmdXRtX2NvbnRlbnQ9dHJhbnNhY3Rpb25hbHRlbXBsYXRlLXJfMmNfMyZ1c2VySWQ9NDExNTAyMjEmcmVmSUQ9MzQxMjIxMDk2LTIwMjUxMjMwMTAyMzMxIn0.Ryl7Cg0EBHGnUWclv0WmBr3rztXX_uOGZtraQw7ZdIA/341221096-20251230102331"
+                                                    style="font:bold 16px Arial,sans-serif;text-decoration:none;color:#000001"
+                                                    class="m_1925890848300367556mob_font_size_12" target="_blank">
+                                                    ENJOY FREE SHIPPING &amp; FREE RETURNS *
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="750" bgcolor="#000001" border="0" cellpadding="0" cellspacing="0"
+                            style="margin:0 auto;background-color:#000001;padding-bottom:20px;padding-top:20px"
+                            class="m_1925890848300367556footer_container m_1925890848300367556responsive"
+                            align="center">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table width="750" border="0" cellspacing="0" cellpadding="0"
+                                    class="m_1925890848300367556responsive m_1925890848300367556footer_element"
+                                    align="center" style="font-family:arial;font-size:10px;margin:0 auto">
+                                    <tbody>
+                                      <tr valign="top">
+                                        <td valign="top" class="m_1925890848300367556small-1"
+                                          style="vertical-align:middle;color:#949494;text-align:center;padding:0 0 16px 0">
+                                          *Free Shipping offer only applies to US orders and international orders over
+                                          $100. Other restrictions may apply. <a
+                                            href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LnJldm9sdmUuY29tL3NoaXBwaW5nZGVsaXZlcnk_JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1UcmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1UUkFOU19SRVZfT1ZFUlNPTERfT1ZFUlNPTEQmdXRtX2NvbnRlbnQ9dHJhbnNhY3Rpb25hbHRlbXBsYXRlLXJfMmNfMyZ1c2VySWQ9NDExNTAyMjEmcmVmSUQ9MzQxMjIxMDk2LTIwMjUxMjMwMTAyMzMxIn0.Ryl7Cg0EBHGnUWclv0WmBr3rztXX_uOGZtraQw7ZdIA/341221096-20251230102331"
+                                            style="color:#949494" target="_blank">More information</a>
+                                        </td>
+                                      </tr>
+                                      <tr valign="top">
+                                        <td valign="top" class="m_1925890848300367556small-1"
+                                          style="vertical-align:middle">
+                                          <table border="0" cellspacing="0" cellpadding="0" align="center"
+                                            class="m_1925890848300367556footer_social" width="220"
+                                            style="font-family:arial;font-size:10px;margin:0 auto;padding-top:0px;padding-bottom:14px">
+                                            <tbody>
+                                              <tr valign="top">
+                                                <td valign="top" style="padding-right:20px;vertical-align:middle">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vaW5zdGFncmFtLmNvbS9yZXZvbHZlLz8mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVRyYW5zYWN0aW9uYWwmdXRtX2NhbXBhaWduPVRSQU5TX1JFVl9PVkVSU09MRF9PVkVSU09MRCZ1dG1fY29udGVudD10cmFuc2FjdGlvbmFsdGVtcGxhdGUtcl8yY18zJnVzZXJJZD00MTE1MDIyMSZyZWZJRD0zNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEifQ.ABq7aFYLfOPO1zmECZyQCQ2M3Nne2iP9VAXBC7XUjho/341221096-20251230102331"
+                                                    target="_blank"><img
+                                                      src="http://is4.revolveassets.com/images/emailpics/rev_social_instagram.jpg"
+                                                      width="30" style="display:block"
+                                                      class="m_1925890848300367556social_instagram">
+                                                  </a>
+                                                </td>
+                                                <td valign="top" style="padding-right:20px;vertical-align:middle">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9SRVZPTFZFPyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9VHJhbnNhY3Rpb25hbCZ1dG1fY2FtcGFpZ249VFJBTlNfUkVWX09WRVJTT0xEX09WRVJTT0xEJnV0bV9jb250ZW50PXRyYW5zYWN0aW9uYWx0ZW1wbGF0ZS1yXzJjXzMmdXNlcklkPTQxMTUwMjIxJnJlZklEPTM0MTIyMTA5Ni0yMDI1MTIzMDEwMjMzMSJ9.M7ab4ybTd_E4pmK83JWSzat-R3vPiidtCa3GZbvcx_Y/341221096-20251230102331"
+                                                    target="_blank"><img
+                                                      src="http://is4.revolveassets.com/images/emailpics/rev_social_facebook.jpg"
+                                                      width="30" style="display:block"
+                                                      class="m_1925890848300367556social_facebook">
+                                                  </a>
+                                                </td>
+                                                <td valign="top" style="padding-right:20px;vertical-align:middle">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LnR3aXR0ZXIuY29tL1JFVk9MVkU_JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1UcmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1UUkFOU19SRVZfT1ZFUlNPTERfT1ZFUlNPTEQmdXRtX2NvbnRlbnQ9dHJhbnNhY3Rpb25hbHRlbXBsYXRlLXJfMmNfMyZ1c2VySWQ9NDExNTAyMjEmcmVmSUQ9MzQxMjIxMDk2LTIwMjUxMjMwMTAyMzMxIn0.aNOSZvFr9Fgi9Ui8iGWpRe5mwJgMoDdmtOWFM7egskc/341221096-20251230102331"
+                                                    target="_blank"><img
+                                                      src="http://is4.revolveassets.com/images/emailpics/rev_social_twitter.jpg"
+                                                      width="30" style="display:block"
+                                                      class="m_1925890848300367556social_twitter">
+                                                  </a>
+                                                </td>
+                                                <td valign="top" style="padding-right:20px;vertical-align:middle"
+                                                  class="m_1925890848300367556social_pinterest">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vcGludGVyZXN0LmNvbS9yZXZvbHZlY2xvdGhpbmcvPyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9VHJhbnNhY3Rpb25hbCZ1dG1fY2FtcGFpZ249VFJBTlNfUkVWX09WRVJTT0xEX09WRVJTT0xEJnV0bV9jb250ZW50PXRyYW5zYWN0aW9uYWx0ZW1wbGF0ZS1yXzJjXzMmdXNlcklkPTQxMTUwMjIxJnJlZklEPTM0MTIyMTA5Ni0yMDI1MTIzMDEwMjMzMSJ9.Ay1kwa6PGRLhXihD7oMDRiUPAk5B7OgaC6V0WwveNQg/341221096-20251230102331"
+                                                    target="_blank"><img
+                                                      src="http://is4.revolveassets.com/images/emailpics/rev_social_pinterest.jpg"
+                                                      width="30" style="display:block"
+                                                      class="m_1925890848300367556social_pinterest">
+                                                  </a>
+                                                </td>
+                                                <td valign="top" style="vertical-align:middle">
+                                                  <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwczovL3BsdXMuZ29vZ2xlLmNvbS8rcmV2b2x2ZWNsb3RoaW5nLz8mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVRyYW5zYWN0aW9uYWwmdXRtX2NhbXBhaWduPVRSQU5TX1JFVl9PVkVSU09MRF9PVkVSU09MRCZ1dG1fY29udGVudD10cmFuc2FjdGlvbmFsdGVtcGxhdGUtcl8yY18zJnVzZXJJZD00MTE1MDIyMSZyZWZJRD0zNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEifQ.rcZPJeOfuVta_zO-K1i5VJmtzVvlnsD3KQazoFBOfGo/341221096-20251230102331"
+                                                    target="_blank"><img
+                                                      src="http://is4.revolveassets.com/images/emailpics/rev_social_google_plus.jpg"
+                                                      width="30" style="display:block"
+                                                      class="m_1925890848300367556social_google">
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table border="0" cellspacing="0" cellpadding="0" align="center"
+                                    class="m_1925890848300367556footer_element m_1925890848300367556footer_app_download_section"
+                                    width="322"
+                                    style="font-family:arial;font-size:10px;margin:0 auto;padding-bottom:4px">
+                                    <tbody>
+                                      <tr valign="top">
+                                        <td valign="top" align="right" style="padding-right:10px">
+                                          <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwczovL2FwcC5hZGp1c3QuY29tL2N2bDZpaj8mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVRyYW5zYWN0aW9uYWwmdXRtX2NhbXBhaWduPVRSQU5TX1JFVl9PVkVSU09MRF9PVkVSU09MRCZ1dG1fY29udGVudD10cmFuc2FjdGlvbmFsdGVtcGxhdGUtcl8yY18zJnVzZXJJZD00MTE1MDIyMSZyZWZJRD0zNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEifQ.OragvEYwXggA1VkJBtYChfRCwrdqQHf4uCRZ44YQznI/341221096-20251230102331"
+                                            target="_blank">
+                                            <img
+                                              src="https://is4.revolveassets.com/images/emailpics/rev_social_app_iphone_2.png"
+                                              width="97" style="display:block">
+                                          </a>
+                                        </td>
+                                        <td valign="top" class="m_1925890848300367556nomob">
+                                          <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwczovL2FwcC5hZGp1c3QuY29tL3NybDhjZz8mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVRyYW5zYWN0aW9uYWwmdXRtX2NhbXBhaWduPVRSQU5TX1JFVl9PVkVSU09MRF9PVkVSU09MRCZ1dG1fY29udGVudD10cmFuc2FjdGlvbmFsdGVtcGxhdGUtcl8yY18zJnVzZXJJZD00MTE1MDIyMSZyZWZJRD0zNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEifQ.EqaynRdsnnZxtyyay9X06hCgqhYodNckGrVZPA1YJfA/341221096-20251230102331"
+                                            target="_blank">
+                                            <img
+                                              src="https://is4.revolveassets.com/images/emailpics/rev_social_app_ipad_2.png"
+                                              width="97" style="display:block">
+                                          </a>
+                                        </td>
+                                        <td valign="top" align="left" style="padding-left:10px">
+                                          <a href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwczovL2FwcC5hZGp1c3QuY29tL3Z0ZW00dj8mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVRyYW5zYWN0aW9uYWwmdXRtX2NhbXBhaWduPVRSQU5TX1JFVl9PVkVSU09MRF9PVkVSU09MRCZ1dG1fY29udGVudD10cmFuc2FjdGlvbmFsdGVtcGxhdGUtcl8yY18zJnVzZXJJZD00MTE1MDIyMSZyZWZJRD0zNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEifQ.CVJqs6ty_BNOcud2_pQHOa0yeZni9pH29kkNnksZcZE/341221096-20251230102331"
+                                            target="_blank">
+                                            <img
+                                              src="https://is4.revolveassets.com/images/emailpics/rev_social_app_android_2.png"
+                                              width="97" style="display:block">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="750" border="0" cellspacing="0" cellpadding="0"
+                                    class="m_1925890848300367556responsive m_1925890848300367556mob_text_center"
+                                    align="center" style="font-family:Arial;font-size:10px;color:#949494;margin:0 auto">
+                                    <tbody>
+                                      <tr valign="top" class="m_1925890848300367556footer_element">
+                                        <td valign="top"
+                                          style="padding:10px 0 5px 0;color:#949494;font-family:Arial;font-size:10px;text-align:center">
+                                          <span
+                                            class="m_1925890848300367556small-1 m_1925890848300367556footer-manage-line"><a
+                                              href="https://mailtrk.revolve.com/api/tracking/nlink/t/revolve/eyJhbGciOiJIUzI1NiJ9.eyJyZWYiOiIzNDEyMjEwOTYtMjAyNTEyMzAxMDIzMzEiLCJlbWFpbCI6ImQudWZmeWVjYWl0bGluNDcxQGdtYWlsLmNvbSIsInNmIjoicmV2b2x2ZSIsImxpbmsiOiJodHRwOi8vd3d3LnJldm9sdmUuY29tL3IvaW5mb0NvbnRhY3RVcy5qc3A_JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1UcmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1UUkFOU19SRVZfT1ZFUlNPTERfT1ZFUlNPTEQmdXRtX2NvbnRlbnQ9dHJhbnNhY3Rpb25hbHRlbXBsYXRlLXJfMmNfMyZ1c2VySWQ9NDExNTAyMjEmcmVmSUQ9MzQxMjIxMDk2LTIwMjUxMjMwMTAyMzMxIn0.JGcNRLO20y-520RHsGYBexmfGJb52Y0KKrUjxX783LE/341221096-20251230102331"
+                                              style="color:#949494;font-family:Arial;font-size:10px"
+                                              target="_blank">Contact Us</a></span></td>
+                                      </tr>
+                                      <tr valign="top">
+                                        <td valign="top" class="m_1925890848300367556footer_element"
+                                          style="padding:0px 0 5px 0;color:#949494;font-family:Arial;font-size:10px;text-align:center">
+                                          © Eminent, Inc. All Rights Reserved<span class="m_1925890848300367556nomob">  
+                                            •   </span><span
+                                            class="m_1925890848300367556appleLinks m_1925890848300367556small-1">16800
+                                            Edwards Rd., Cerritos, CA 90703   USA</span></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div style="display:none">
+                    <u></u><u></u>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

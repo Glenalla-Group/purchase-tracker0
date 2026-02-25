@@ -1,0 +1,836 @@
+<div bgcolor="#F7F7F7" style="height:100%;margin:0;min-width:100%;padding:0;width:100%!important">
+  <img src="https://e.email.hibbett.com/open?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/V/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s4i6e0c2fa3" height="2" width="3" alt="">
+  <center bgcolor="#F7F7F7" style="background:#f7f7f7">
+    <div style="display:none;max-height:0px;overflow:hidden">Your recent order has been cancelled. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ </div>
+    <table bgcolor="#000000" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:680px;width:100%;border-spacing:0;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvetica!important;font-weight:normal;color:#333333;background-color:#ffffff" role="presentation">
+      <tbody>
+        <tr>
+          <td align="right" style="padding:0 0 10px;background-color:#ffffff;text-align:right;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvetica!important;font-weight:normal;font-size:11px;line-height:0px">
+            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly92aWV3LmVtYWlsLmhpYmJldHQuY29tL21lc3NhZ2VzLzE3NjgxMDMzNTYwNDVjOWJiZGU1MjMzYmQvcmF3/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sekae2ffed4" style="color:#296d91;text-decoration:underline" target="_blank">View in browser</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;width:100%;border-spacing:0;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvetica!important;font-weight:normal;color:#333333;background-color:#ffffff" role="presentation">
+      <tbody>
+        <tr>
+          <td>
+            <table width="100%" style="table-layout:fixed;border-collapse:collapse" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="text-align:center;font-size:1px;height:8px;background-color:#ffffff;padding:0;line-height:0px;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;width:100%" align="center">
+                    <div style="text-align:center;font-size:1px;height:8px;background-color:#ffffff;padding:0;line-height:0px;width:100%"></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <td align="center" style="padding:0">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" style="text-align:center;max-width:640px;width:100%;border-spacing:0" role="presentation">
+              <tbody>
+                <tr>
+                  <td align="center" valign="top">
+                    <table width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:640px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td width="208" align="center" valign="top" style="background-color:#000000">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20v/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sble4c29c14" target="_blank">
+                              <img src="https://images.email.hibbett.com/images/679e5187fea576bad21ce1d89a1f02fc/HIBBETT.png" alt="Mens" title="Mens" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:208px">
+                            </a>
+                          </td>
+                          <td width="96" align="center" valign="top" style="background-color:#000000">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vbWVuLw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s1u2de8961d" target="_blank">
+                              <img src="https://images.email.hibbett.com/images/679e5187fea576bad21ce1d89a1f02fc/MENS1.png" alt="Mens" title="Mens" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:106px">
+                            </a>
+                          </td>
+                          <td width="113" align="center" valign="top" style="background-color:#000000">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vd29tZW4v/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sfgad449ad0" target="_blank">
+                              <img src="https://images.email.hibbett.com/images/679e5187fea576bad21ce1d89a1f02fc/WOMENS.png" alt="Womens" title="Womens" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:113px">
+                            </a>
+                          </td>
+                          <td width="72" align="center" valign="top" style="background-color:#000000">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYm95cy1hbmQtZ2lybHMv/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s2nfdbac2a4" target="_blank">
+                              <img src="https://images.email.hibbett.com/images/679e5187fea576bad21ce1d89a1f02fc/KIDS1.png" alt="Kids" title="Kids" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:73px">
+                            </a>
+                          </td>
+                          <td width="154" align="center" valign="top" style="background-color:#000000">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vc3RvcmVz/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sdm465c4ba5" target="_blank">
+                              <img src="https://images.email.hibbett.com/images/679e5187fea576bad21ce1d89a1f02fc/SHOP1.png" alt="Shop" title="Shop" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:157px">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:640px;width:100%" role="presentation">
+              <tbody>
+                <tr>
+                  <td width="640" align="center" valign="top">
+                    <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWNjb3VudA/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s0uc5bfa51c" target="_blank">
+                      <img src="https://mi.hibbett.com/p/rp/2597c9f909320fb7.png?mi_u=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b&amp;mi_ecmp=Cancel%20Email%20w/o%20Code2026011103&amp;mi_ign=Cancel%20Email%20w/o%20Code2026011103&amp;mi_fname=Griffin&amp;mi_tier=VIP&amp;mi_points=9" alt="Promotional Image" title="Promotional Image" style="display:block;border:none;outline:none;padding:0;margin:0;background-color:#000000;width:100%;max-width:640px">
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table bgcolor="#FFFFFF" width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:640px;width:100%" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                    <table width="100%" style="border-collapse:collapse!important;border-spacing:0;table-layout:fixed" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;font-size:1px;height:2px;line-height:normal;margin:0;padding:0;width:100%" align="center" bgcolor="#ECECEC">
+                            <div style="background:#ececec;font-size:1px;height:2px;line-height:1px;padding:0;width:100%" align="center"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0 25px">
+                    <table width="100%" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse!important;border-spacing:0;max-width:640px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:normal;margin:0;padding:25px 0px 5px" align="left">
+                            <div>
+                              <span style="font-size:18px">
+                                <b>Hi Griffin,</b>
+                              </span>
+                            </div>
+                            <div>
+                              <br>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0 25px">
+                    <table width="100%" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse!important;border-spacing:0;max-width:640px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                            <table width="100%" style="border-collapse:collapse!important;border-spacing:0;table-layout:fixed" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td style="border:0px;border-collapse:collapse;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;font-size:1px;height:10px;line-height:normal;margin:0;padding:0;width:100%" align="center" bgcolor="#FFFFFF">
+                                    <div style="background:#ffffff;font-size:1px;height:10px;line-height:1px;padding:0;width:100%" align="center"></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" style="border:0px;border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;margin:0;max-width:640px;padding:0px 0px 25px;width:100%" align="left"> We regret to inform you that your order #0017329490547 has been cancelled and you have not been charged for this order. <br>
+                            <br> If you did not self initiate this cancel and would like to place your order again, please complete the following steps before making another ordering attempt. <ul style="list-style:outside;margin:0;padding:0 0 0 2em">
+                              <li>Verify your billing name, address, and phone number is an exact match to what is on file with your bank or credit card company </li>
+                              <li>Contact your banking institution to inquire why the payment was not authorized </li>
+                              <li>Resubmit your order attempt with another form of payment </li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                            <table bgcolor="#FFFFFF" width="595" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:595px;width:100%" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                    <table width="100%" style="border-collapse:collapse!important;border-spacing:0;table-layout:fixed" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                      <tbody>
+                                        <tr>
+                                          <td style="border:0px;border-collapse:collapse;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;font-size:1px;height:1px;line-height:normal;margin:0;padding:0;width:100%" align="center" bgcolor="#E8E8E8">
+                                            <div style="background:#e8e8e8;font-size:1px;height:1px;line-height:1px;padding:0;width:100%" align="center"></div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;color:#333333;font-family:&#39;Roboto&#39;,Arial,Helvetica,Sans-Serif;font-size:15px;font-weight:bold;line-height:normal;margin:0;padding:10px 0px;width:640px" align="left" bgcolor="#ffffff">
+                            <div>ITEM(S) CANCELED</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                    <table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:640px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td class="m_1627244481568254605zabp" style="border:0px;border-collapse:collapse;border-spacing:0px;margin:0;padding:0px 0px 38px">
+                            <div>
+                              <div style="font-size:0">
+                                <table align="center" width="100%" style="border-collapse:collapse!important;border-spacing:0;max-width:600px" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                  <tbody>
+                                    <tr>
+                                      <td bgcolor="#FFFFFF" style="border:0px;border-collapse:collapse;border-spacing:0px;margin:0;overflow:hidden;padding:0px">
+                                        <table width="100%" bgcolor="#FFFFFF" style="border-collapse:collapse!important;border-spacing:0" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                          <tbody>
+                                            <tr>
+                                              <td style="border:0px;border-collapse:collapse;border-spacing:0;margin:0;padding:12px 0px 0px" border="0" cellpadding="0" cellspacing="0">
+                                                <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;max-width:600px;width:100%" bgcolor="#FFFFFF" role="presentation">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                        <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;display:inline-block;max-width:600px;width:100%" role="presentation">
+                                                          <tbody>
+                                                            <tr class="m_1627244481568254605s_desk_h_mob">
+                                                              <td width="400" align="left" valign="top" style="border:0px;border-collapse:collapse;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:400px;padding:10px 0px 20px;table-layout:fixed"> PRODUCT </td>
+                                                              <td width="90" align="center" valign="top" style="border:0px;border-collapse:collapse;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:90px;padding:10px 0px 20px;table-layout:fixed"> QTY </td>
+                                                              <td width="110" align="center" valign="top" style="border:0px;border-collapse:collapse;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:10px 0px 20px;table-layout:fixed"> PRICE </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vam9yZGFuLXNwaXppa2UtbG93LXNhaWwtdmFyc2l0eS1yZWQtYW50aHJhY2l0ZS1jb2NvbnV0JTI1RTIlMjU4MCUyNThCLW1pbGstbWVucy1zaG9lLzAwMEdMLmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s0k769724f9" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/000GL_1017_right/Jordan%20Spizike%20Low%20%22Sail/Varsity%20Red/Anthracite/Coconut%C3%A2%E2%82%AC%E2%80%B9%20Milk%22%20Men&#39;s%20Shoe-1017?%24large%24" width="100" alt="Jordan Spizike Low " title="Jordan Spizike Low " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> Jordan Spizike Low &quot;Sail/Varsity Red/Anthracite/Coconutâ€‹ Milk&quot; Men&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54388017 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: SAIL
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 12
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 1
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 1 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $79.18 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vam9yZGFuLXNwaXppa2UtbG93LXNhaWwtdmFyc2l0eS1yZWQtYW50aHJhY2l0ZS1jb2NvbnV0JTI1RTIlMjU4MCUyNThCLW1pbGstbWVucy1zaG9lLzAwMEdMLmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s0k769724f9" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/000GL_1017_right/Jordan%20Spizike%20Low%20%22Sail/Varsity%20Red/Anthracite/Coconut%C3%A2%E2%82%AC%E2%80%B9%20Milk%22%20Men&#39;s%20Shoe-1017?%24large%24" width="100" alt="Jordan Spizike Low " title="Jordan Spizike Low " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> Jordan Spizike Low &quot;Sail/Varsity Red/Anthracite/Coconutâ€‹ Milk&quot; Men&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54388015 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: SAIL
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 11
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 1
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 1 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $79.19 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170572 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 7
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.72 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170573 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 7.5
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.73 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170574 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 8
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.74 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170575 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 8.5
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.74 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170576 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 9
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.74 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYWRpZGFzLW9yaWdpbmFscy1oYW5kYmFsbC1zcGV6aWFsLWx1Y2lkLXBpbmstZnR3ci13aGl0ZS1nb2xkLW1ldGFsbGljLXdvbWVucy1zaG9lL0EzNDM3Lmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/salf11e13b8" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/A3437_9114_right/adidas%20Originals%20Handball%20Spezial%20%22Lucid%20Pink/Ftwr%20White/Gold%20Metallic%22%20Women&#39;s%20Shoe-9114?%24large%24" width="100" alt="adidas Originals Handball Spezial " title="adidas Originals Handball Spezial " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> adidas Originals Handball Spezial &quot;Lucid Pink/Ftwr White/Gold Metallic&quot; Women&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54170571 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: PINK/WHITE
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 6.5
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 4
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 4 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $204.74 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vam9yZGFuLXNwaXppa2UtbG93LXNhaWwtdmFyc2l0eS1yZWQtYW50aHJhY2l0ZS1jb2NvbnV0JTI1RTIlMjU4MCUyNThCLW1pbGstbWVucy1zaG9lLzAwMEdMLmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s0k769724f9" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/000GL_1017_right/Jordan%20Spizike%20Low%20%22Sail/Varsity%20Red/Anthracite/Coconut%C3%A2%E2%82%AC%E2%80%B9%20Milk%22%20Men&#39;s%20Shoe-1017?%24large%24" width="100" alt="Jordan Spizike Low " title="Jordan Spizike Low " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> Jordan Spizike Low &quot;Sail/Varsity Red/Anthracite/Coconutâ€‹ Milk&quot; Men&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54388013 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: SAIL
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 10
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 1
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 1 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $79.19 </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td width="400" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;margin:0px 0 0;max-width:400px;padding:20px 0 0">
+                                                                <table align="left" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" role="presentation">
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td width="100" style="border:0px;border-collapse:collapse;border-spacing:0px;font-size:0px;margin:0;max-width:105px;padding:0 5px 0 0">
+                                                                        <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vam9yZGFuLXNwaXppa2UtbG93LXNhaWwtdmFyc2l0eS1yZWQtYW50aHJhY2l0ZS1jb2NvbnV0JTI1RTIlMjU4MCUyNThCLW1pbGstbWVucy1zaG9lLzAwMEdMLmh0bWw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s0k769724f9" style="color:#296d91" target="_blank">
+                                                                          <img src="https://classic.cdn.media.amplience.net/i/hibbett/000GL_1017_right/Jordan%20Spizike%20Low%20%22Sail/Varsity%20Red/Anthracite/Coconut%C3%A2%E2%82%AC%E2%80%B9%20Milk%22%20Men&#39;s%20Shoe-1017?%24large%24" width="100" alt="Jordan Spizike Low " title="Jordan Spizike Low " style="border:0 none;height:auto;line-height:100%;max-width:100px;outline:none;text-decoration:none;width:100%">
+                                                                        </a>
+                                                                      </td>
+                                                                      <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                                                        <table align="left" cellspacing="0" cellpadding="0" border="0" role="presentation" style="border:0px;border-collapse:collapse!important;border-spacing:0px;color:#333333;font-size:12px;max-width:240px;padding-top:0px;vertical-align:top">
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;color:#333333;font-size:12px;line-height:14px;margin:0;padding:0px 5px 5px"> Jordan Spizike Low &quot;Sail/Varsity Red/Anthracite/Coconutâ€‹ Milk&quot; Men&#39;s Shoe </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;font-weight:normal;line-height:14px;margin:0;padding:5px"> Product #54388014 </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>COLOR</b>: SAIL
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>SIZE</b>: 10.5
+                                                                              </td>
+                                                                            </tr>
+                                                                            <tr style="display:none" class="m_1627244481568254605show_mob_h_desk">
+                                                                              <td style="border:0px;border-collapse:collapse;font-size:12px;line-height:14px;margin:0;padding:5px">
+                                                                                <b>QTY</b>: 1
+                                                                              </td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="90" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:normal;line-height:16px;margin:0;max-width:90px;padding:20px 0px;table-layout:fixed"> 1 </td>
+                                                              <td class="m_1627244481568254605s_desk_h_mob" width="110" align="center" valign="top" style="border-collapse:collapse;border-top-color:#cccccc;border-top-style:solid;border-width:1px 0px 0px;font-size:14px;font-weight:bold;line-height:16px;margin:0;max-width:110px;padding:20px 0px;table-layout:fixed"> $79.18 </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                    <table bgcolor="#FFFFFF" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:600px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                            <table width="100%" style="border-collapse:collapse!important;border-spacing:0;table-layout:fixed" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td style="border:0px;border-collapse:collapse;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;font-size:1px;height:1px;line-height:normal;margin:0;padding:0;width:100%" align="center" bgcolor="#E8E8E8">
+                                    <div style="background:#e8e8e8;font-size:1px;height:1px;line-height:1px;padding:0;width:100%" align="center"></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0 25px">
+                    <table width="100%" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse!important;border-spacing:0;max-width:640px;width:100%" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td width="100%" style="border:0px;border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:normal;margin:0;max-width:640px;padding:0px 0px 25px;width:100%" align="left">
+                            <br> You were not charged for this order; however, you may see an authorization hold on your account. In that case, funds will be released within 3 to 5 days, but could take up to 30 days. This hold will be automatically removed after that time period. Customer Service is unable to remove the authorization hold. If you have any issues, please contact your bank. <br>
+                            <br> If you used a Gift Card or Digital Gift Card to pay for your order, you will receive a new Digital Gift Card. You will receive an email containing a new code within 2 business days. <br>
+                            <br>Hibbett Awards redeemed on canceled orders will be reissued to customers after the cancellation has been processed. Awards will be reissued within 24 to 48 hours. <br>
+                            <br> Please retain a copy of this email for your records. <br>
+                            <br> Questions? Visit our <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vY3VzdG9tZXItc2VydmljZS1oZWxwLW1lbnUuaHRtbA/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s4vd0082d24" title="Customer Service Center" style="color:#296d91" target="_blank">Customer Service Center</a>. <br>
+                            <br> Thanks again for shopping with us. <br>
+                            <br> Please retain a copy of this email for your records.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table bgcolor="#FFFFFF" width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:640px;width:100%" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                    <table width="100%" style="border-collapse:collapse!important;border-spacing:0;table-layout:fixed" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;font-family:&#39;Roboto&#39;,Helvetica,Arial,sans-serif;font-size:1px;height:4px;line-height:normal;margin:0;padding:0;width:100%" align="center" bgcolor="#ECECEC">
+                            <div style="background:#ececec;font-size:1px;height:4px;line-height:1px;padding:0;width:100%" align="center"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table bgcolor="#000000" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:640px;width:100%" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="border:0px;border-collapse:collapse;border-spacing:0px;margin:0;padding:0px">
+                    <table align="center" width="100%" style="border-collapse:collapse!important;border-spacing:0;max-width:640px" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td align="center" style="border:0px;border-collapse:collapse;margin:0;padding:0px">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse!important;border-spacing:0;max-width:640px;text-align:center;width:100%" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                    <table width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;max-width:640px;width:100%" role="presentation">
+                                      <tbody>
+                                        <tr>
+                                          <td width="160" align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vY2xlYXJhbmNlLw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sfu9856788d" style="color:#296d91" target="_blank">
+                                              <img border="0" width="100%" style="border:0 none;display:inline-block;height:auto;line-height:100%;max-width:160px;min-width:100%;outline:none;text-decoration:none;width:100%" src="https://images.email.hibbett.com/nudges/hibbett/content/1e04f693f737ff50c8ed67ea1ed141cd/1a57ab25/images/f_clearance.jpg" alt="Clearance" title="Clearance">
+                                            </a>
+                                          </td>
+                                          <td width="160" align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYmxvZw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s3oc5e6bf0b" style="color:#296d91" target="_blank">
+                                              <img border="0" width="100%" style="border:0 none;display:inline-block;height:auto;line-height:100%;max-width:160px;min-width:100%;outline:none;text-decoration:none;width:100%" src="https://images.email.hibbett.com/nudges/hibbett/content/1e04f693f737ff50c8ed67ea1ed141cd/1a57ab25/images/f_blog.jpg" alt="Blog" title="Blog">
+                                            </a>
+                                          </td>
+                                          <td width="160" align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vYnJhbmRzLw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s7ta262249c" style="color:#296d91" target="_blank">
+                                              <img border="0" width="100%" style="border:0 none;display:inline-block;height:auto;line-height:100%;max-width:160px;min-width:100%;outline:none;text-decoration:none;width:100%" src="https://images.email.hibbett.com/nudges/hibbett/content/1e04f693f737ff50c8ed67ea1ed141cd/1a57ab25/images/f_brands.jpg" alt="Brands" title="Brands">
+                                            </a>
+                                          </td>
+                                          <td width="160" align="center" valign="top" style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vbGF1bmNoLWNhbGVuZGFyLw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s6ld96e12f6" style="color:#296d91" target="_blank">
+                                              <img border="0" width="100%" style="border:0 none;display:inline-block;height:auto;line-height:100%;max-width:160px;min-width:100%;outline:none;text-decoration:none;width:100%" src="https://images.email.hibbett.com/nudges/hibbett/content/1e04f693f737ff50c8ed67ea1ed141cd/1a57ab25/images/f_launch.jpg" alt="Launch" title="Launch">
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table bgcolor="#F7F7F7" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse!important;border-spacing:0;color:#333333;font-family:&#39;Roboto&#39;,&#39;Roboto Thin&#39;,&#39;Roboto Light&#39;,sans-serif,Arial,Helvitica!important;font-weight:normal;max-width:640px;width:100%" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="border:0px;border-collapse:collapse;border-spacing:0px;margin:0;padding:0px">
+                    <table align="center" width="100%" style="border-collapse:collapse!important;border-spacing:0;max-width:640px" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td align="center" class="m_1627244481568254605cont_padd" style="border:0px;border-collapse:collapse;border-spacing:0px;color:#333333;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:14px;font-weight:normal;line-height:19px;margin:0;padding:20px 0px 14px"> FOLLOW US ON SOCIAL </td>
+                        </tr>
+                        <tr>
+                          <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                            <table align="center" class="m_1627244481568254605cont_padd" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse!important;border-spacing:0;max-width:600px;padding:0px;text-align:center;width:100%" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td style="border:0px;border-collapse:collapse;margin:0;padding:0">
+                                    <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly90d2l0dGVyLmNvbS9oaWJiZXR0c3BvcnRz/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s7pc19e3cf7" style="color:#296d91" target="_blank">
+                                      <img src="https://mi.hibbett.com/p/rp/68ba0a999ad402bb.png?mi_u=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b&amp;mi_ecmp=Cancel%20Email%20w/o%20Code2026011103&amp;mi_ign=Cancel%20Email%20w/o%20Code2026011103" width="52" title="twitter" alt="twitter" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none">
+                                    </a>
+                                    <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0hpYmJldHRTcG9ydHM/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sap2ddf3274" style="color:#296d91" target="_blank">
+                                      <img src="https://mi.hibbett.com/p/rp/5e3e2f07f94f626f.png?mi_u=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b&amp;mi_ecmp=Cancel%20Email%20w/o%20Code2026011103&amp;mi_ign=Cancel%20Email%20w/o%20Code2026011103" width="52" title="Facebook" alt="Facebook" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none">
+                                    </a>
+                                    <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9oaWJiZXR0c3BvcnRzLw/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s3pc087a017" style="color:#296d91" target="_blank">
+                                      <img src="https://mi.hibbett.com/p/rp/f5d8dbb3c6918c8b.png?mi_u=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b&amp;mi_ecmp=Cancel%20Email%20w/o%20Code2026011103&amp;mi_ign=Cancel%20Email%20w/o%20Code2026011103" width="52" title="Instagram" alt="Instagram" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" class="m_1627244481568254605cont_padd" style="border:0px;border-collapse:collapse;border-spacing:0px;color:#9b9b9b;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:12px;font-weight:normal;line-height:16px;margin:0;padding:20px 0px">Hibbett Retail, Inc., LLC | 2700 Milan Court | Birmingham, AL 35211 | United States </td>
+                        </tr>
+                        <tr>
+                          <td align="center" class="m_1627244481568254605cont_padd" style="border:0px;border-collapse:collapse;border-spacing:0px;color:#333333;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:12px;font-weight:normal;line-height:16px;margin:0;padding:0px 0px 20px">
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly9ob3N0ZWQucHVzaHBsYW5ldC5jb20vaGliYmV0dC91bnN1Yg/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP2VuY2J1PVoyeGxibUZzYkdGbmNtOTFjR05BWjIxaGFXd3VZMjl0JmVuY2U9WjJ4bGJtRnNiR0ZuY205MWNHTkFaMjFoYVd3dVkyOXQmbWVzc2FnZV91aWQ9MTc2ODEwMzM1NjA0NWM5YmJkZTUyMzNiZCZtZXNzYWdlX3VpZD0xNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkJnV0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s9v44841b97" style="color:#333333;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:12px;font-weight:normal;line-height:16px;text-decoration:none" target="_blank">Unsubscribe</a> | <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vY3VzdG9tZXItc2VydmljZS1jZW50ZXIuaHRtbA/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/sfq5b6624e3" style="color:#333333;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:12px;font-weight:normal;line-height:16px;text-decoration:none" target="_blank">Contact Us</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" class="m_1627244481568254605cont_padd" style="border:0px;border-collapse:collapse;border-spacing:0px;color:#9b9b9b;font-family:&#39;Roboto&#39;,sans-serif,Arial,Helvitica!important;font-size:9px;font-weight:normal;line-height:14px;margin:0;padding:0px 0px 50px">
+                            <span style="font-size:9px">Please do not reply to this email. If you have questions, please visit our </span>
+                            <a href="https://e.email.hibbett.com/click?EZ2xlbmFsbGFncm91cGNAZ21haWwuY29t/CeyJtaWQiOiIxNzY4MTAzMzU2MDQ1YzliYmRlNTIzM2JkIiwiY3QiOiJoaWJiZXR0LTczOTE2Mjk3ODgxYjFiZDliMzE5MTc3OGE5Yjc3Y2YxLTAiLCJyZCI6ImdtYWlsLmNvbSJ9/VaHR0cHM6Ly93d3cuaGliYmV0dC5jb20vY3VzdG9tZXItc2VydmljZS1oZWxwLW1lbnUuaHRtbA/SWkhfZWhpYmJldHRfTkRCQU4wMTExMjAyNmMxMjI3OTg3YjA/LZWgx/qP3V0bV9zb3VyY2U9emV0YSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1PcmRlckNhbmNlbEVycm9yJmJ0X2VlPTY3bFNFblpOSnRaQzhYUmklMkJYVVRtT2dPR1hOWjBnZlltbFlZcUNrZXZuUlhIM3VFUlB1Snc0RVZ4Q2NuNlZNTSZidF90cz0xNzY4MTAzMzU2MDcz/gaWMdzw/JMDExMTIwMjZDMTIyNzk4N0Iw/s4vd0082d24" title="Customer Service Center" style="color:#296d91" target="_blank">
+                              <span style="font-size:9px">Customer Service Center</span>
+                            </a>
+                            <span style="font-size:9px">. Hibbett will never request credit card information or other confidential information via email. If you receive an email that appears to be from Hibbett asking for credit card information or other confidential information, do not respond. © 2026 Hibbett Retail, Inc </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+</div>

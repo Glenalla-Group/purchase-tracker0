@@ -355,6 +355,66 @@ def delete_retailer(retailer_id: int, db: Session = Depends(get_db)):
     }
 
 
+class RetailerBulkDeleteRequest(BaseModel):
+    """Model for bulk deleting retailers"""
+    ids: List[int]
+
+
+@router.delete("/")
+def bulk_delete_retailers(delete_data: RetailerBulkDeleteRequest, db: Session = Depends(get_db)):
+    """
+    Bulk delete retailers
+    
+    Request body should contain a list of retailer IDs to delete
+    """
+    try:
+        if not delete_data.ids:
+            return {
+                "status": -1,
+                "data": None,
+                "message": "No retailer IDs provided"
+            }
+        
+        # Find all retailers to delete
+        retailers_to_delete = db.query(Retailer).filter(Retailer.id.in_(delete_data.ids)).all()
+        
+        if not retailers_to_delete:
+            return {
+                "status": -1,
+                "data": None,
+                "message": "No retailers found with the provided IDs"
+            }
+        
+        deleted_count = len(retailers_to_delete)
+        
+        # Delete all found retailers
+        for retailer in retailers_to_delete:
+            db.delete(retailer)
+        
+        db.commit()
+        
+        logger.info(f"Bulk deleted {deleted_count} retailers: IDs={delete_data.ids}")
+        
+        return {
+            "status": 200,
+            "data": {
+                "deleted_count": deleted_count,
+                "deleted_ids": delete_data.ids
+            },
+            "message": f"Successfully deleted {deleted_count} retailer(s)"
+        }
+        
+    except Exception as e:
+        db.rollback()
+        error_msg = f"Error deleting retailers: {str(e)}"
+        logger.error(error_msg, exc_info=True)
+        return {
+            "status": -1,
+            "data": None,
+            "message": error_msg
+        }
+
+
 @router.get("/stats/summary")
 def get_retailers_summary(db: Session = Depends(get_db)):
     """

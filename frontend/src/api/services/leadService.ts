@@ -9,18 +9,18 @@ export interface AsinData {
 }
 
 export interface LeadSubmittalData {
-	submittedBy: string;
-	productName: string;
-	productSku: string;
-	retailerLink?: string;
-	retailerName: string;
-	amazonLink?: string;
+	submittedBy?: string;
+	productName?: string;
+	productSku?: string;
+	retailerLink: string;
+	retailerName?: string;
+	amazonLink: string;
 	uniqueId?: string;
 	ppu: string;
 	rsp: string;
 	margin: string;
-	pros: string;
-	cons: string;
+	pros?: string;
+	cons?: string;
 	otherNotes?: string;
 	promoCode?: string;
 	asins: AsinData[];
@@ -69,6 +69,7 @@ export interface Lead {
 	total_fee: number | null;
 	margin_using_rsp: number | null;
 	monitored: string | null;
+	status: string | null;
 	// ASINs are fetched separately from asin_bank table
 	asins?: AsinInLead[];
 }
@@ -91,6 +92,7 @@ export interface UpdateLeadData {
 	productName?: string;
 	retailerLink?: string;
 	amazonLink?: string;
+	uniqueId?: string;
 	purchased?: string;
 	purchaseMoreIfAvailable?: string;
 	monitored?: boolean;
@@ -102,12 +104,16 @@ export interface UpdateLeadData {
 	pairsPerLeadId?: number;
 	pairsPerSku?: number;
 	salesRank?: string;
+	ppu?: number;
+	rsp?: number;
+	margin?: number;
 	asin1BuyBox?: number;
 	asin1NewPrice?: number;
 	pickPackFee?: number;
 	referralFee?: number;
 	totalFee?: number;
 	promoCode?: string;
+	status?: string;
 }
 
 // ==================== Service ====================
@@ -130,7 +136,7 @@ class LeadService {
 		skip?: number;
 		limit?: number;
 		retailer?: string;
-		sourcer?: string;
+		product_name?: string;
 	}): Promise<LeadsResponse> {
 		return apiClient.get<LeadsResponse>({
 			url: '/api/v1/purchase-tracker/leads',
@@ -163,6 +169,43 @@ class LeadService {
 	async deleteLead(leadId: string): Promise<{ success: boolean; message: string }> {
 		return apiClient.delete<{ success: boolean; message: string }>({
 			url: `/api/v1/purchase-tracker/leads/${leadId}`,
+		});
+	}
+
+	/**
+	 * Add ASIN to a lead
+	 */
+	async addAsinToLead(leadId: string, asin: string, size: string, recommendedQuantity: number = 1): Promise<any> {
+		return apiClient.post<any>({
+			url: `/api/v1/purchase-tracker/leads/${leadId}/asins`,
+			data: {
+				asin,
+				size,
+				recommended_quantity: recommendedQuantity,
+			},
+		});
+	}
+
+	/**
+	 * Update ASIN at a position in a lead
+	 */
+	async updateAsinInLead(leadId: string, position: number, asin: string, size: string, recommendedQuantity: number): Promise<any> {
+		return apiClient.patch<any>({
+			url: `/api/v1/purchase-tracker/leads/${leadId}/asins/${position}`,
+			data: {
+				asin,
+				size,
+				recommended_quantity: recommendedQuantity,
+			},
+		});
+	}
+
+	/**
+	 * Delete ASIN at a position from a lead
+	 */
+	async deleteAsinFromLead(leadId: string, position: number): Promise<any> {
+		return apiClient.delete<any>({
+			url: `/api/v1/purchase-tracker/leads/${leadId}/asins/${position}`,
 		});
 	}
 }

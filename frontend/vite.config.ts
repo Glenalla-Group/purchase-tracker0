@@ -33,6 +33,11 @@ export default defineConfig(({ mode }) => {
 			open: true,
 			host: true,
 			port: 3001,
+			allowedHosts: [
+				"epilimnial-unaudaciously-joie.ngrok-free.dev",
+				".ngrok-free.dev",
+				".ngrok.io",
+			],
 			proxy: {
 				"/api": {
 					target: "http://localhost:3000",

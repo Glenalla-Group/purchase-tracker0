@@ -78,6 +78,27 @@ ENABLE_GMAIL_WATCH=true
 ENABLE_PURCHASE_TRACKER_API=true
 ENABLE_RETAILERS_API=true
 ENABLE_CHECKIN_API=true
+ENABLE_PTO_API=true
+ENABLE_HOLIDAYS_API=true
+ENABLE_TASKS_API=true
+ENABLE_RETAILER_ORDERS_API=true
+
+# Playwright Configuration
+PLAYWRIGHT_HEADLESS=true
+
+# =============================================================================
+# PREPWORX AUTOMATION CREDENTIALS
+# =============================================================================
+# PrepWorx account credentials for automatic inbound creation
+# These are used to login to PrepWorx platform for different shipping addresses
+
+# 595 Lloyd Lane PrepWorx Account
+PREPWORX_LLOYD_LANE_EMAIL=glenallagroupc@gmail.com
+PREPWORX_LLOYD_LANE_PASSWORD=your-password-here
+
+# 2025 Vista Ave PrepWorx Account
+PREPWORX_VISTA_AVE_EMAIL=griffin@glenallagroup.com
+PREPWORX_VISTA_AVE_PASSWORD=your-password-here
 
 
 

@@ -1,0 +1,798 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg705562396898880796"><u></u>
+      <div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
+          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;text-align:center;border:none!important;padding-top:15px">
+          <tbody>
+            <tr>
+              <td align="center">
+                <center>
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="600px"
+                    style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;text-align:left;border:none!important;width:600px!important">
+                    <tbody>
+                      <tr>
+                        <td style="background:#ffffff">
+
+
+
+                          <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                            align="center" width="100%" style="max-width:600px">
+                            <tbody>
+                              <tr>
+                                <td colspan="2" bgcolor="#F4F4F4" align="center" valign="top"
+                                  style="padding-top:10px;padding-bottom:10px">
+                                  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr width="100%">
+                                        <td align="center" valign="middle">
+                                          <a href="https://www.snipesusa.com/"
+                                            style="color:#0c0f0a;font-weight:bold;text-transform:none;text-decoration:none;font-size:14px"
+                                            target="_blank">Free shipping on orders over $100*</a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_705562396898880796mobile-block m_705562396898880796email-header-logo">
+                                  <a href="https://www.snipesusa.com" rel="”noopener" target="_blank">
+                                    <img
+                                      src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dw3a546acd/images/mail/snipes-logo.png?sfrm=png"
+                                      alt="Snipes Logo" aria-hidden="true" width="148" border="0" style="height:auto">
+                                  </a>
+                                </td>
+                                <td class="m_705562396898880796mobile-block m_705562396898880796email-header-menu">
+                                  <table role="presentation" aria-hidden="true" width="100%" border="0" cellpadding="0"
+                                    cellspacing="0">
+                                    <tbody>
+                                      <tr align="center" width="100%">
+                                        <td>
+                                          <table width="100%" align="center" border="0" cellpadding="0"
+                                            cellspacing="20%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center">
+                                                  <a href="https://www.snipesusa.com/new-arrivals"
+                                                    style="font-weight:bold;color:#000000;font-size:13px;text-transform:uppercase;text-decoration:none"
+                                                    target="_blank">New</a>
+                                                </td>
+                                                <td align="center">
+                                                  <a href="https://www.snipesusa.com/men"
+                                                    style="font-weight:bold;color:#000000;font-size:13px;text-transform:uppercase;text-decoration:none"
+                                                    target="_blank">Men&#39;s</a>
+                                                </td>
+                                                <td align="center">
+                                                  <a href="https://www.snipesusa.com/women"
+                                                    style="font-weight:bold;color:#000000;font-size:13px;text-transform:uppercase;text-decoration:none"
+                                                    target="_blank">Women&#39;s</a>
+                                                </td>
+                                                <td align="center">
+                                                  <a href="https://www.snipesusa.com/kids"
+                                                    style="font-weight:bold;color:#000000;font-size:13px;text-transform:uppercase;text-decoration:none"
+                                                    target="_blank">Kids&#39;</a>
+                                                </td>
+                                                <td align="center">
+                                                  <a href="https://www.snipesusa.com/sale"
+                                                    style="font-weight:bold;color:#000000;font-size:13px;text-transform:uppercase;text-decoration:none"
+                                                    target="_blank">Sale</a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="3" style="font-size:0;line-height:0">
+                                   
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="background:#ffffff;padding-bottom:15px">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          <table class="m_705562396898880796confirmation-email" cellpadding="0" cellspacing="0"
+                            border="0" align="center"
+                            style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;text-align:left;border:none!important">
+
+
+                            <tbody>
+                              <tr>
+                                <td class="m_705562396898880796image-wrapper">
+                                  <div>
+                                    <br>
+
+                                    <img
+                                      src="https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/BFKF_STG/on/demandware.static/-/Sites-snipesusa-Library/default/dw06df96d5/images/mail/edit-min.jpg"
+                                      alt="WE’VE GOT YOUR ORDER" style="width:100%">
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td class="m_705562396898880796wrapper">
+                                  <p
+                                    style="color:#232323;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:0;margin:15px 0">
+
+
+                                    Thanks, Griffin. We&#39;re on it!
+
+
+                                  </p>
+                                  <p
+                                    style="color:#232323;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:0;margin:15px 0">
+
+
+
+                                  </p>
+                                  <div>
+                                    <span style="font-size:14px">
+                                      Please be aware that your order could be delayed due to order volume. Your order
+                                      may also arrive in multiple packages, but there is no additional shipping cost to
+                                      you. We appreciate your patience and are striving to get your order on its way as
+                                      quickly as possible.
+                                    </span>
+                                    <p>
+                                      <span style="font-size:14px">As soon as your order processes, you will receive
+                                        email notifications with tracking details.</span>
+                                    </p>
+                                    <span style="font-size:14px">We appreciate you and thank you for gettin&#39; it from
+                                      SNIPES!</span>
+                                  </div>
+                                  <p></p>
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_705562396898880796wrapper" style="border-top:2px solid #f1eff0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  <p style="font-size:16px">
+                                    <strong>Here&#39;s what you ordered</strong>
+                                  </p>
+                                  <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
+                                    style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;text-align:left;border:none!important">
+                                    <tbody>
+
+                                      <tr>
+                                        <td class="m_705562396898880796tablecell-image-wrapper"
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+
+
+                                          <img class="m_705562396898880796tablecell-image"
+                                            src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipes-master-catalog/default/dwa235f332/images/hi-res/nike_fq8249-104_01.jpg?sw=140&amp;sh=176&amp;strip=false"
+                                            alt="Dunk Low Retro SE" title="Dunk Low Retro SE" width="119px"
+                                            style="padding-right:16px">
+                                        </td>
+                                        <td
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_705562396898880796mobile-block"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                                  <p style="font-weight:bold;margin:0">
+                                                    Dunk Low Retro SE
+                                                  </p>
+
+
+
+
+
+
+                                                  <span>Men&#39;s / </span>
+
+                                                  <span>9.5</span><br>
+
+                                                  <span>Quantity: 1</span><br>
+                                                  <span>SKU: 15693100033</span><br>
+                                                </td>
+                                                <td
+                                                  class="m_705562396898880796mobile-block m_705562396898880796price-section"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 15px 0 0;vertical-align:top;text-align:right">
+                                                  <strong>$69.99</strong><br>
+
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="m_705562396898880796tablecell-image-wrapper"
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+
+
+                                          <img class="m_705562396898880796tablecell-image"
+                                            src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipes-master-catalog/default/dwa235f332/images/hi-res/nike_fq8249-104_01.jpg?sw=140&amp;sh=176&amp;strip=false"
+                                            alt="Dunk Low Retro SE" title="Dunk Low Retro SE" width="119px"
+                                            style="padding-right:16px">
+                                        </td>
+                                        <td
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_705562396898880796mobile-block"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                                  <p style="font-weight:bold;margin:0">
+                                                    Dunk Low Retro SE
+                                                  </p>
+
+
+
+
+
+
+                                                  <span>Men&#39;s / </span>
+
+                                                  <span>10</span><br>
+
+                                                  <span>Quantity: 2</span><br>
+                                                  <span>SKU: 15693100034</span><br>
+                                                </td>
+                                                <td
+                                                  class="m_705562396898880796mobile-block m_705562396898880796price-section"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 15px 0 0;vertical-align:top;text-align:right">
+                                                  <strong>$139.98</strong><br>
+
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="m_705562396898880796tablecell-image-wrapper"
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+
+
+                                          <img class="m_705562396898880796tablecell-image"
+                                            src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipes-master-catalog/default/dwa235f332/images/hi-res/nike_fq8249-104_01.jpg?sw=140&amp;sh=176&amp;strip=false"
+                                            alt="Dunk Low Retro SE" title="Dunk Low Retro SE" width="119px"
+                                            style="padding-right:16px">
+                                        </td>
+                                        <td
+                                          style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_705562396898880796mobile-block"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 0;vertical-align:top;text-align:left">
+                                                  <p style="font-weight:bold;margin:0">
+                                                    Dunk Low Retro SE
+                                                  </p>
+
+
+
+
+
+
+                                                  <span>Men&#39;s / </span>
+
+                                                  <span>10.5</span><br>
+
+                                                  <span>Quantity: 1</span><br>
+                                                  <span>SKU: 15693100035</span><br>
+                                                </td>
+                                                <td
+                                                  class="m_705562396898880796mobile-block m_705562396898880796price-section"
+                                                  style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;padding:15px 15px 0 0;vertical-align:top;text-align:right">
+                                                  <strong>$69.99</strong><br>
+
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+
+                                    </tbody>
+
+
+
+                                  </table>
+
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_705562396898880796wrapper" style="border-top:2px solid #f1eff0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  <table width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          class="m_705562396898880796shipping-details-order m_705562396898880796mobile-block">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="m_705562396898880796desktop-block">
+                                                  <strong>Order Number</strong>
+                                                  <div style="margin-top:15px;padding-bottom:15px">
+                                                    <span>SNP22183213</span>
+                                                  </div>
+                                                </td>
+                                                <td class="m_705562396898880796desktop-block">
+                                                  <strong>Order Date</strong>
+                                                  <div style="margin-top:15px;padding-bottom:15px">
+                                                    <span>11/24/25</span>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td
+                                          class="m_705562396898880796shipping-details-address m_705562396898880796mobile-block">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td width="50%" style="vertical-align:baseline">
+                                                  <strong>Shipping Method</strong>
+                                                  <div style="margin-top:15px;padding-bottom:15px">
+                                                    <span>Shipping to Home</span>
+                                                  </div>
+                                                </td>
+                                                <td width="50%">
+
+
+                                                  <strong>Shipping Address</strong>
+
+
+
+
+
+
+                                                  <div style="margin-top:15px;padding-bottom:15px">
+                                                    <div style="clear:both;overflow:hidden;padding-bottom:0">
+                                                      <div
+                                                        style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;float:left">
+                                                        <div
+                                                          style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;padding-bottom:0">
+                                                          595 Lloyd Ln Ste D</div>
+
+                                                        <div
+                                                          style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;padding-bottom:0">
+                                                          Independence, OR 97351</div>
+                                                        <div>United States</div>
+
+                                                        <div style="clear:both;overflow:hidden;padding-bottom:0">
+                                                          <span>
+                                                            Phone:
+                                                            <a style="text-decoration:none;color:#232323"
+                                                              href="tel:3032108009" target="_blank">3032108009</a>
+                                                          </span>
+                                                        </div>
+
+                                                      </div>
+                                                    </div>
+
+                                                  </div>
+
+
+
+
+
+
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr class="m_705562396898880796shipping-details-notice">
+                                        <td colspan="2" style="padding:16px 0">
+                                          <p style="font-size:14px;color:#4b4d54;line-height:1.5">
+                                            <strong>Notice:</strong> Notice: Items in your order may ship separately.
+                                            View your order for shipping updates.
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="2" align="center" style="padding:16px 0">
+                                          <a href="https://www.snipesusa.com/track-my-order"
+                                            class="m_705562396898880796button-style" rel="”noopener"
+                                            target="_blank">View Order</a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_705562396898880796wrapper" style="border-top:2px solid #f1eff0">
+                                  <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
+                                    style="font-family:Helvetica,Arial,sans-serif;font-size:15px;color:#232323;text-align:left;border:none!important">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+
+
+
+
+
+
+                                          <table width="100%">
+                                            <tbody>
+
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;text-align:left;vertical-align:top;padding-bottom:10px">
+                                                  Subtotal
+                                                </td>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;width:100px;text-align:right;vertical-align:top;padding-bottom:10px">
+                                                  $279.96
+                                                </td>
+                                              </tr>
+
+
+
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;text-align:left;vertical-align:top;padding-bottom:10px">
+                                                  Shipping Method:
+
+
+
+                                                  Shipping to Home
+
+                                                </td>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;width:100px;text-align:right;vertical-align:top;padding-bottom:10px">
+
+                                                  $9.95
+
+                                                </td>
+                                              </tr>
+
+
+
+
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;text-align:left;vertical-align:top;padding-bottom:10px">
+                                                  Shipping Discount</td>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;width:100px;text-align:right;vertical-align:top;padding-bottom:10px">
+                                                  - $9.95</td>
+                                              </tr>
+
+
+
+
+
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;text-align:left;vertical-align:top;padding-bottom:10px">
+                                                  Sales Tax
+                                                </td>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;width:100px;text-align:right;vertical-align:top;padding-bottom:10px">
+
+                                                  $0.00
+
+                                                </td>
+                                              </tr>
+
+
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;text-align:left;vertical-align:top;padding-bottom:10px">
+                                                  Total</td>
+                                                <td
+                                                  style="font-family:Helvetica,Arial,sans-serif;color:#232323;font-size:14px;width:100px;text-align:right;vertical-align:top;padding-bottom:10px">
+                                                  $279.96</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+
+
+                                          <br>
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+
+
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="background-color:#f4f4f4">
+                          <center>
+
+
+
+                            <table align="center" bgcolor="#F4F4F4" cellpadding="0" cellspacing="0"
+                              style="text-align:center;padding:16px 0">
+                              <tbody>
+                                <tr>
+                                  <td colspan="4">
+                                    <p style="font-size:14px;font-weight:700">Get Help</p>
+                                  </td>
+                                </tr>
+                                <tr style="font-size:14px">
+                                  <td style="padding:0 16px">
+                                    <a href="https://www.snipesusa.com/orders" rel="noopener noreferrer"
+                                      class="m_705562396898880796link-style" target="_blank">Track Order</a>
+                                  </td>
+                                  <td style="padding:0 16px">
+                                    <a href="https://snipesusa.my.site.com/helpcenter/s/" rel="noopener noreferrer"
+                                      class="m_705562396898880796link-style" target="_blank">FAQs</a>
+                                  </td>
+                                  <td style="padding:0 16px">
+                                    <a href="https://snipesusa.my.site.com/helpcenter/s/topic/0TO4S000000c2OwWAI/returns"
+                                      rel="noopener noreferrer" class="m_705562396898880796link-style"
+                                      target="_blank">Return Policy</a>
+                                  </td>
+                                  <td style="padding:0 16px">
+                                    <a href="https://www.snipesusa.com/blog" rel="noopener noreferrer"
+                                      class="m_705562396898880796link-style" target="_blank">Blog</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="4" style="padding:32px 0">
+                                    <a href="https://snipesusa.my.site.com/helpcenter/s/contactsupport"
+                                      class="m_705562396898880796button-style" rel="noopener noreferrer"
+                                      target="_blank">Contact Us</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table width="100%" align="center" bgcolor="#FCFCFC">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <table align="center" cellpadding="0" cellspacing="0" style="text-align:center">
+                                      <tbody>
+                                        <tr>
+                                          <td colspan="3">
+                                            <p style="font-size:22px;font-weight:700;text-transform:uppercase">Stay in
+                                              the know</p>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3" align="center">
+                                            <p
+                                              style="font-size:14px;line-height:24px;color:#4b4d54;max-width:250px;margin-top:0">
+                                              Download the SNIPES app to shop the latest in streetwear, in-store raffle
+                                              access and more today</p>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td bgcolor="#f8f8f8" width="130" align="center">
+                                            <a href="https://apps.apple.com/au/app/kicksusa/id1042243508"
+                                              name="m_705562396898880796_AppStore" rel="noopener noreferrer"
+                                              target="_blank"><img
+                                                src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dw49f97704/images/mail/apple.png?sfrm=png"
+                                                width="130" alt="App Store"
+                                                style="border:0;width:100%;max-width:130px;max-height:45px;display:block">
+                                            </a>
+                                          </td>
+                                          <td bgcolor="#f8f8f8" width="15" align="center">
+                                          </td>
+                                          <td bgcolor="#f8f8f8" width="130" align="center">
+                                            <a href="https://play.google.com/store/apps/details?id=com.shopgate.android.app22760&amp;hl=en"
+                                              name="m_705562396898880796_GooglePlay" rel="noopener noreferrer"
+                                              target="_blank"><img
+                                                src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dwe7f75d4f/images/mail/google.png?sfrm=png"
+                                                width="130" alt="Google Play"
+                                                style="border:0;width:100%;max-width:130px;max-height:45px;display:block">
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3" align="center">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:16px" align="center">
+                                                    <a href="https://www.facebook.com/snipesusa"
+                                                      name="m_705562396898880796_social-fb" rel="noopener noreferrer"
+                                                      target="_blank"><img
+                                                        src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dwf22a895f/images/mail/icon-facebook.png?sfrm=png"
+                                                        width="22" alt="fb"
+                                                        style="border:0;width:100%;max-width:22px;max-height:22px;display:block;height:auto">
+                                                    </a>
+                                                  </td>
+                                                  <td style="padding:16px" align="center">
+                                                    <a href="https://www.instagram.com/snipes_usa"
+                                                      name="m_705562396898880796_social-ig" rel="noopener noreferrer"
+                                                      target="_blank"><img
+                                                        src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dwb915f672/images/mail/icon-instagram.png?sfrm=png"
+                                                        width="22" alt="ig"
+                                                        style="border:0;width:100%;max-width:22px;max-height:22px;display:block;height:auto">
+                                                    </a>
+                                                  </td>
+                                                  <td style="padding:16px" align="center">
+                                                    <a href="https://twitter.com/snipes_usa"
+                                                      name="m_705562396898880796_social-tw" rel="noopener noreferrer"
+                                                      target="_blank"><img
+                                                        src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dw2d580772/images/mail/icon-twitter.png?sfrm=png"
+                                                        width="22" alt="tw"
+                                                        style="border:0;width:100%;max-width:22px;max-height:22px;display:block;height:auto">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table align="center" bgcolor="#F4F4F4" cellpadding="0" cellspacing="0"
+                              style="padding:40px 0">
+                              <tbody>
+                                <tr>
+                                  <td align="center">
+                                    <img
+                                      src="https://www.snipesusa.com/dw/image/v2/BFKF_PRD/on/demandware.static/-/Sites-snipesusa-Library/default/dw37a490a6/images/mail/snipes-logo-black.png?sfrm=png"
+                                      alt="Snipes Logo" aria-hidden="true" width="86" border="0"
+                                      style="height:auto;margin-bottom:16px">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center">
+                                    <a href="https://www.snipesusa.com/store-locator.html" rel="noopener noreferrer"
+                                      class="m_705562396898880796link-style" target="_blank">Find a store near you!</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table width="100%" align="center">
+                              <tbody>
+                                <tr>
+                                  <td style="height:1px;background-color:#cccccc;padding:0"></td>
+                                </tr>
+                                <tr>
+                                  <td align="center" style="padding:16px 0">
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" style="padding-bottom:10px">
+                                            <span>@1998 - 2025 SNIPES USA</span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                          </center>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </center>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+  </div>
+</div>

@@ -1,9 +1,9 @@
 {
-	"name": "purchase-tracker",
+	"name": "ponderosacommerce-admin-panel",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.1.4",
 	"type": "module",
-	"homepage": "https://ponderosacommerce.com",
+	"homepage": "https://admin.ponderosacommerce.com",
 	"scripts": {
 		"dev": "vite --host",
 		"build": "tsc && vite build",

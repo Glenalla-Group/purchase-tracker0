@@ -5,17 +5,72 @@ Webhook endpoint for Gmail Pub/Sub notifications.
 import base64
 import json
 import logging
-from typing import Any, Dict
+from pathlib import Path
+from typing import Any, Dict, Optional
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Request, Query
+from googleapiclient.errors import HttpError
 
 from app.models.email import PubSubNotification
 from app.services.email_parser import EmailParser
 from app.services.gmail_service import GmailService
+from app.services.footlocker_parser import FootlockerEmailParser
+from app.services.champs_parser import ChampsEmailParser
+from app.services.hibbett_parser import HibbettEmailParser
+from app.services.dicks_parser import DicksEmailParser
+from app.services.dtlr_parser import DTLREmailParser
+from app.services.finishline_parser import FinishLineEmailParser
+from app.services.jdsports_parser import JDSportsEmailParser
+from app.services.urban_parser import UrbanOutfittersEmailParser
+from app.services.bloomingdales_parser import BloomingdalesEmailParser
+from app.services.anthropologie_parser import AnthropologieEmailParser
+from app.services.nike_parser import NikeEmailParser
+from app.services.carbon38_parser import Carbon38EmailParser
+from app.services.gazelle_parser import GazelleEmailParser
+from app.services.netaporter_parser import NetAPorterEmailParser
+from app.services.fit2run_parser import Fit2RunEmailParser
+from app.services.sns_parser import SNSEmailParser
+from app.services.adidas_parser import AdidasEmailParser
+from app.services.concepts_parser import ConceptsEmailParser
+from app.services.sneaker_parser import SneakerPoliticsEmailParser
+from app.services.orleans_parser import OrleansEmailParser
+from app.services.snipes_parser import SnipesEmailParser
+from app.services.shoepalace_parser import ShoepalaceEmailParser
+from app.services.endclothing_parser import ENDClothingEmailParser
+from app.services.shopwss_parser import ShopWSSEmailParser
 
 logger = logging.getLogger(__name__)
 
-router = APIRouter()
+router = APIRouter(prefix="/v1")
+
+# File path for persisting Gmail history ID (to process only new email arrivals)
+_GMAIL_HISTORY_ID_FILE = "gmail_history_id"
+
+
+def _get_history_id_path() -> Path:
+    """Return path to the history ID storage file."""
+    from app.config import get_settings
+    return get_settings().base_dir / f".{_GMAIL_HISTORY_ID_FILE}"
+
+
+def _load_stored_history_id() -> Optional[str]:
+    """Load the last stored history ID from file. Returns None if file doesn't exist."""
+    path = _get_history_id_path()
+    try:
+        if path.exists():
+            return path.read_text().strip() or None
+    except OSError as e:
+        logger.warning(f"Could not read history ID file: {e}")
+    return None
+
+
+def _save_history_id(history_id: str) -> None:
+    """Save history ID to file for next webhook invocation."""
+    path = _get_history_id_path()
+    try:
+        path.write_text(str(history_id))
+    except OSError as e:
+        logger.warning(f"Could not write history ID file: {e}")
 
 
 async def process_email_notification(message_id: str, gmail_service: GmailService = None) -> None:
@@ -89,82 +144,80 @@ async def process_email_notification(message_id: str, gmail_service: GmailServic
                 logger.warning("Failed to parse PrepWorx shipment data")
         
         # ============================================================
-        # CHECK FOR RETAILER ORDER CONFIRMATION EMAILS
+        # RETAILER EMAILS: Unified (retailer, email_type) classification
+        # Uses RetailerEmailClassifier for detection, registry for routing
         # ============================================================
+        from app.services.retailer_email_classifier import (
+            RetailerEmailClassifier,
+            ClassificationResult,
+            EmailType,
+        )
         from app.services.retailer_order_processor import RetailerOrderProcessor
-        from app.services.footlocker_parser import FootlockerEmailParser
-        from app.services.champs_parser import ChampsEmailParser
-        from app.services.dicks_parser import DicksEmailParser
-        from app.services.hibbett_parser import HibbettEmailParser
-        from app.services.shoepalace_parser import ShoepalaceEmailParser
-        from app.services.snipes_parser import SnipesEmailParser
-        from app.services.finishline_parser import FinishLineEmailParser
-        from app.services.shopsimon_parser import ShopSimonEmailParser
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
         
-        # Initialize parsers
-        retailer_parsers = {
-            'Footlocker': FootlockerEmailParser(),
-            'Champs': ChampsEmailParser(),
-            "Dick's": DicksEmailParser(),
-            'Hibbett': HibbettEmailParser(),
-            'Shoe Palace': ShoepalaceEmailParser(),
-            'Snipes': SnipesEmailParser(),
-            'Finish Line': FinishLineEmailParser(),
-            'Shop Simon': ShopSimonEmailParser()
-        }
+        classifier = RetailerEmailClassifier()
+        classification = classifier.classify(email_data)
         
-        # Check each retailer parser
-        for retailer_name, parser in retailer_parsers.items():
-            # Check if this email is from this retailer and is an order confirmation
-            is_retailer_email = False
-            
-            # Each parser has different method names, check accordingly
-            if hasattr(parser, 'is_footlocker_email') and parser.is_footlocker_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_champs_email') and parser.is_champs_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_dicks_email') and parser.is_dicks_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_hibbett_email') and parser.is_hibbett_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_shoepalace_email') and parser.is_shoepalace_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_snipes_email') and parser.is_snipes_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_finishline_email') and parser.is_finishline_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            elif hasattr(parser, 'is_shopsimon_email') and parser.is_shopsimon_email(email_data):
-                is_retailer_email = parser.is_order_confirmation_email(email_data)
-            
-            if is_retailer_email:
-                logger.info(f"🛒 Detected {retailer_name} order confirmation email")
+        if classification:
+            db = next(get_db())
+            try:
+                if classification.email_type == EmailType.SHIPPING:
+                    logger.info(f"📦 Detected {classification.display_name} shipping notification email")
+                    update_processor = RetailerOrderUpdateProcessor(db)
+                    result = update_processor.process_single_shipping_email(
+                        email_data=email_data,
+                        message_id=message_id,
+                        retailer_name=classification.retailer_id,
+                    )
+                    if result.get('success'):
+                        logger.info(
+                            f"✅ Processed {classification.display_name} shipping update: {result.get('order_number')} - "
+                            f"Updated {result.get('items_count', 0)} items, Tracking: {result.get('tracking_number')}"
+                        )
+                    else:
+                        logger.error(
+                            f"❌ Failed to process {classification.display_name} shipping update: {result.get('error')}"
+                        )
                 
-                # Process this retailer order
-                db = next(get_db())
-                try:
+                elif classification.email_type == EmailType.CANCELLATION:
+                    logger.info(f"❌ Detected {classification.display_name} cancellation notification email")
+                    update_processor = RetailerOrderUpdateProcessor(db)
+                    result = update_processor.process_single_cancellation_email(
+                        email_data=email_data,
+                        message_id=message_id,
+                        retailer_name=classification.retailer_id,
+                    )
+                    if result.get('success'):
+                        logger.info(
+                            f"✅ Processed {classification.display_name} cancellation update: {result.get('order_number')} - "
+                            f"Updated {result.get('items_count', 0)} items"
+                        )
+                    else:
+                        logger.error(
+                            f"❌ Failed to process {classification.display_name} cancellation update: {result.get('error')}"
+                        )
+                
+                elif classification.email_type == EmailType.CONFIRMATION:
+                    logger.info(f"🛒 Detected {classification.display_name} order confirmation email")
                     processor = RetailerOrderProcessor(db)
-                    
-                    # Call the appropriate processing method
                     result = processor.process_single_email(
                         email_data=email_data,
                         message_id=message_id,
-                        retailer_name=retailer_name.lower().replace(' ', '').replace("'", "")
+                        retailer_name=classification.retailer_id,
                     )
-                    
                     if result.get('success'):
                         logger.info(
-                            f"✅ Processed {retailer_name} order: {result.get('order_number')} - "
+                            f"✅ Processed {classification.display_name} order: {result.get('order_number')} - "
                             f"Created {result.get('items_count', 0)} purchase tracker records"
                         )
                     else:
                         logger.error(
-                            f"❌ Failed to process {retailer_name} order: {result.get('error')}"
+                            f"❌ Failed to process {classification.display_name} order: {result.get('error')}"
                         )
-                finally:
-                    db.close()
-                
-                # Skip general email parsing for retailer orders
-                return
+            finally:
+                db.close()
+            
+            return
         
         # ============================================================
         # GENERAL EMAIL PROCESSING (for non-PrepWorx emails)
@@ -199,7 +252,7 @@ async def process_email_notification(message_id: str, gmail_service: GmailServic
 async def gmail_webhook(
     request: Request,
     background_tasks: BackgroundTasks
-) -> Dict[str, str]:
+) -> Dict[str, Any]:
     """
     Webhook endpoint for Gmail Pub/Sub notifications.
     
@@ -218,10 +271,30 @@ async def gmail_webhook(
         Success response
     """
     try:
-        # Parse the Pub/Sub message first to get email info
-        body = await request.json()
+        # Get raw body first to check if it's empty
+        raw_body = await request.body()
+        
+        # Log the incoming request for debugging
+        logger.info(f"[WEBHOOK] Received request from {request.client.host if request.client else 'unknown'}")
+        logger.debug(f"[WEBHOOK] Headers: {dict(request.headers)}")
+        logger.debug(f"[WEBHOOK] Body length: {len(raw_body)} bytes")
+        
+        # Check if body is empty (ngrok interstitial page issue)
+        if not raw_body or len(raw_body) == 0:
+            logger.warning("[WEBHOOK] Received empty body - likely ngrok interstitial or health check")
+            return {"status": "200", "message": "Empty body received"}
+        
+        # Parse the Pub/Sub message
+        try:
+            body = json.loads(raw_body)
+        except json.JSONDecodeError as e:
+            logger.error(f"[WEBHOOK] Invalid JSON body: {e}")
+            logger.error(f"[WEBHOOK] Raw body (first 500 chars): {raw_body[:500]}")
+            return {"status": "400", "message": "Invalid JSON"}
         
         # Validate and decode to get email information
+        email_address = None
+        history_id = None
         try:
             notification = PubSubNotification(**body)
             decoded_data = base64.b64decode(notification.message.data).decode('utf-8')
@@ -235,84 +308,371 @@ async def gmail_webhook(
             
         except Exception as e:
             logger.warning(f"Could not decode notification data: {e}")
+            # If it's not a valid Pub/Sub notification, just acknowledge it
+            logger.info("[WEBHOOK] Not a valid Pub/Sub notification, acknowledging anyway")
         
-        # Check if auto-processing is enabled via environment variable
-        import os
-        auto_process_enabled = os.getenv('ENABLE_AUTO_EMAIL_PROCESSING', 'false').lower() == 'true'
+        # Check if auto-processing is enabled via settings
+        from app.config import get_settings
+        settings = get_settings()
+        auto_process_enabled = settings.enable_auto_email_processing
         
         if not auto_process_enabled:
             # Just acknowledge, don't process
-            return {"status": 200, "message": "Email logged but auto-processing disabled", "data": {}}
+            return {"status": "200", "message": "Email logged but auto-processing disabled"}
         
         logger.info("[AUTO-PROCESS] Processing email...")
         
         # Initialize Gmail service
         gmail_service = GmailService()
         
-        # Build search queries for all supported email types
-        search_queries = [
-            # PrepWorx inbound processed emails
-            {
-                'query': "from:beta@prepworx.io subject:(Inbound has been processed)",
-                'exclude_label': "PrepWorx/Processed",
-                'max_results': 5
-            },
-            # Retailer order confirmation emails
-            {
-                'query': "(from:accountservices@em.footlocker.com OR from:champs@em.champssports.com OR "
-                         "from:dickssportinggoods@order.email.dickssportinggoods.com OR "
-                         "from:hibbet@transact.hibbett.com OR from:orders@shoepalace.com OR "
-                         "from:noreply@snipesusa.com OR from:FinishLine@e.finishline.com OR "
-                         "from:Shop-Simon@e.shopsimon.com) subject:(order OR confirmation)",
-                'exclude_label': "Retailer-Orders/Processed",
-                'max_results': 10
-            }
-        ]
+        # Try history-based processing first (only new email arrivals, skip read/unread)
+        all_message_ids: list[str] = []
+        stored_history_id = _load_stored_history_id()
         
-        # Collect all unprocessed message IDs from all search queries
-        all_message_ids = []
-        for search_config in search_queries:
-            unprocessed_threads = gmail_service.list_messages_with_query(
-                query=search_config['query'],
-                max_results=search_config['max_results'],
-                exclude_label=search_config['exclude_label']
-            )
-            
-            # Extract individual messages from threads
-            for thread_id in unprocessed_threads:
-                try:
-                    # Get the thread to access all messages within it
-                    thread = gmail_service.service.users().threads().get(
-                        userId='me',
-                        id=thread_id
-                    ).execute()
-                    
-                    # Extract message IDs from the thread
-                    thread_messages = thread.get('messages', [])
-                    for msg in thread_messages:
-                        all_message_ids.append(msg['id'])
-                except Exception as e:
-                    logger.error(f"Error getting thread {thread_id}: {e}")
-                    # Fall back to treating it as a message ID
-                    all_message_ids.append(thread_id)
+        if stored_history_id:
+            try:
+                new_message_ids, new_history_id = gmail_service.get_new_message_ids_from_history(
+                    stored_history_id
+                )
+                _save_history_id(new_history_id)
+                if not new_message_ids:
+                    logger.debug("[AUTO-PROCESS] No new emails (was likely read/unread) - skipped")
+                    return {"status": "200", "message": "No new emails, skipped"}
+                # Filter to only emails matching our criteria (intersect with search)
+                interested_ids = _get_interested_message_ids(gmail_service)
+                all_message_ids = [mid for mid in new_message_ids if mid in interested_ids]
+                logger.info(f"[AUTO-PROCESS] History: {len(new_message_ids)} new, {len(all_message_ids)} match our criteria")
+            except HttpError as err:
+                status = getattr(getattr(err, "resp", None), "status", None)
+                if status == 404:
+                    logger.warning("[AUTO-PROCESS] History expired (404) - resyncing, skipping this notification")
+                    profile_hid = gmail_service.get_profile_history_id()
+                    if profile_hid:
+                        _save_history_id(profile_hid)
+                    return {"status": "200", "message": "History expired, resynced"}
+                raise
+        
+        # Fallback: no stored history (first run) or use search-based approach
+        if not all_message_ids:
+            all_message_ids = _get_interested_message_ids(gmail_service)
+            if history_id and not stored_history_id:
+                _save_history_id(history_id)
         
         if not all_message_ids:
-            logger.info("No new unprocessed emails found")
-            return {"status": 200, "message": "No unprocessed emails", "data": {}}
+            logger.debug("No new unprocessed emails found")
+            return {"status": "200", "message": "No unprocessed emails"}
         
         logger.info(f"Found {len(all_message_ids)} unprocessed messages to process")
         
-        # Process each new message in the background (reuse gmail_service)
         for message_id in all_message_ids:
             background_tasks.add_task(process_email_notification, message_id, gmail_service)
         
-        return {"status": 200, "message": "Notification received", "data": {}}
+        return {"status": "200", "message": "Notification received", "processed": len(all_message_ids)}
     
     except HTTPException:
         raise
     except Exception as e:
         logger.error(f"Error processing webhook: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+
+
+def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
+    """Get message IDs matching our processing criteria (search-based)."""
+    from app.services.revolve_parser import RevolveEmailParser
+    from app.services.asos_parser import ASOSEmailParser
+    footlocker_parser = FootlockerEmailParser()
+    champs_parser = ChampsEmailParser()
+    snipes_parser = SnipesEmailParser()
+    shoepalace_parser = ShoepalaceEmailParser()
+    endclothing_parser = ENDClothingEmailParser()
+    shopwss_parser = ShopWSSEmailParser()
+    dicks_parser = DicksEmailParser()
+    hibbett_parser = HibbettEmailParser()
+    dtlr_parser = DTLREmailParser()
+    finishline_parser = FinishLineEmailParser()
+    jdsports_parser = JDSportsEmailParser()
+    revolve_parser = RevolveEmailParser()
+    asos_parser = ASOSEmailParser()
+    
+    search_queries = [
+            # PrepWorx inbound processed emails
+            {
+                'query': "from:beta@prepworx.io subject:(Inbound has been processed) -label:PrepWorx/Processed -label:PrepWorx/Error",
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Retailer order confirmation emails
+            # Exclude Retailer-Updates/Processed: shipping/cancel emails match "order" in subject but are handled elsewhere
+            {
+                'query': f"(from:{footlocker_parser.order_from_email} OR from:champs@em.champssports.com OR "
+                         f"from:{snipes_parser.order_from_email} OR "
+                         f"from:{shoepalace_parser.order_from_email} OR "
+                         f"from:{endclothing_parser.order_from_email} OR "
+                         f"from:{shopwss_parser.order_from_email} OR "
+                         "from:dickssportinggoods@order.email.dickssportinggoods.com OR "
+                         "from:hibbet@transact.hibbett.com OR "
+                         "from:FinishLine@e.finishline.com OR "
+                         "from:Shop-Simon@e.shopsimon.com OR from:anthropologie@st.anthropologie.com OR "
+                         "from:nike@official.nike.com OR from:orders@asos.com) subject:(order OR confirmation) "
+                         "-label:Retailer-Orders/Processed -label:Retailer-Orders/Error -label:Retailer-Updates/Processed",
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Footlocker shipping notification emails
+            {
+                'query': (
+                    f'from:{footlocker_parser.update_from_email} '
+                    f'{footlocker_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Champs shipping notification emails
+            {
+                'query': (
+                    f'from:{champs_parser.update_from_email} '
+                    f'{champs_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Dick's shipping notification emails
+            {
+                'query': (
+                    f'from:{dicks_parser.shipping_from_email} '
+                    f'{dicks_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Hibbett shipping notification emails
+            {
+                'query': (
+                    f'from:{hibbett_parser.update_from_email} '
+                    f'{hibbett_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # DTLR shipping notification emails
+            {
+                'query': (
+                    f'from:{dtlr_parser.update_from_email} '
+                    f'{dtlr_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Finish Line shipping/update notification emails (incl. partial ship+cancel)
+            {
+                'query': (
+                    f'from:{finishline_parser.update_from_email} '
+                    f'{finishline_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # JD Sports shipping/update notification emails (same template as Finish Line)
+            {
+                'query': (
+                    f'from:{jdsports_parser.update_from_email} '
+                    f'{jdsports_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Revolve shipping notification emails (full and partial)
+            {
+                'query': (
+                    f'from:{revolve_parser.update_from_email} '
+                    f'{revolve_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # ASOS shipping notification emails (Your order's on its way!)
+            {
+                'query': (
+                    f'from:{asos_parser.update_from_email} '
+                    f'{asos_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Snipes shipping notification emails (Get Hyped! Your Order Has Shipped)
+            {
+                'query': (
+                    f'from:{snipes_parser.update_from_email} '
+                    f'{snipes_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Shoe Palace shipping notification emails (A shipment from order #SP... is on the way)
+            {
+                'query': (
+                    f'from:{shoepalace_parser.update_from_email} '
+                    f'{shoepalace_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # END Clothing shipping notification emails (Your END. order has shipped)
+            {
+                'query': (
+                    f'from:{endclothing_parser.update_from_email} '
+                    f'{endclothing_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # ShopWSS shipping notification emails (Order #xxx is about to ship! / partially shipped)
+            {
+                'query': (
+                    f'from:{shopwss_parser.update_from_email} '
+                    f'{shopwss_parser.shipping_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # ShopWSS cancellation notification emails (Order X has been canceled)
+            {
+                'query': (
+                    f'from:{shopwss_parser.update_from_email} '
+                    f'{shopwss_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Snipes cancellation notification emails (Cancelation Update)
+            {
+                'query': (
+                    f'from:{snipes_parser.update_from_email} '
+                    f'{snipes_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Footlocker cancellation notification emails
+            {
+                'query': (
+                    f'from:{footlocker_parser.update_from_email} '
+                    f'{footlocker_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Champs cancellation notification emails
+            {
+                'query': (
+                    f'from:{champs_parser.update_from_email} '
+                    f'{champs_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Dick's cancellation notification emails
+            {
+                'query': (
+                    f'from:{dicks_parser.cancellation_from_email} '
+                    f'{dicks_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Hibbett cancellation notification emails
+            {
+                'query': (
+                    f'from:{hibbett_parser.update_from_email} '
+                    f'{hibbett_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # DTLR cancellation notification emails
+            {
+                'query': (
+                    f'from:{dtlr_parser.update_from_email} '
+                    f'{dtlr_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Finish Line full cancellation notification emails
+            {
+                'query': (
+                    f'from:{finishline_parser.update_from_email} '
+                    f'{finishline_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # JD Sports full cancellation notification emails
+            {
+                'query': (
+                    f'from:{jdsports_parser.update_from_email} '
+                    f'{jdsports_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Revolve cancellation notification emails (type 1 + type 2)
+            {
+                'query': (
+                    f'{revolve_parser.cancellation_from_query} '
+                    f'{revolve_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            }
+    ]
+
+    # Deduplicate queries (in dev mode, Footlocker and Champs produce identical queries)
+    seen_queries = set()
+    unique_search_queries = []
+    for search_config in search_queries:
+        query_key = search_config['query'].strip()
+        if query_key not in seen_queries:
+            seen_queries.add(query_key)
+            unique_search_queries.append(search_config)
+
+    # Collect unprocessed message IDs from all search queries
+    result = []
+    seen = set()
+    for search_config in unique_search_queries:
+        message_ids = gmail_service.list_messages_with_query(
+            query=search_config['query'],
+            max_results=search_config['max_results'],
+            exclude_label=search_config['exclude_label']
+        )
+        for mid in message_ids:
+            if mid not in seen:
+                seen.add(mid)
+                result.append(mid)
+    return result
 
 
 @router.post("/gmail/process-prepworx")
@@ -387,6 +747,357 @@ async def process_prepworx_emails(
     
     except Exception as e:
         logger.error(f"Error processing PrepWorx emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-footlocker-shipping")
+async def process_footlocker_shipping_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Footlocker shipping notification emails.
+    
+    This endpoint searches for Footlocker shipping emails that haven't been processed yet
+    and updates the purchase tracker records with shipped quantities.
+    
+    Args:
+        max_emails: Maximum number of emails to process (default: 20, max: 100)
+    
+    Returns:
+        Processing results with counts and details
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+        
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING FOOTLOCKER SHIPPING EMAILS (max: {max_emails})")
+        logger.info("=" * 60)
+        
+        # Process emails synchronously
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            results = processor.process_footlocker_shipping_emails(max_emails=max_emails)
+            
+            logger.info("=" * 60)
+            logger.info(f"✅ COMPLETED: {results}")
+            logger.info("=" * 60)
+            
+            return {
+                "status": 200,
+                "message": f"Processed {results['processed']} Footlocker shipping emails",
+                "data": results
+            }
+        finally:
+            db.close()
+    
+    except Exception as e:
+        logger.error(f"Error processing Footlocker shipping emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-footlocker-cancellation")
+async def process_footlocker_cancellation_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Footlocker cancellation notification emails.
+    
+    This endpoint searches for Footlocker cancellation emails that haven't been processed yet
+    and updates the purchase tracker records with cancelled quantities.
+    
+    Args:
+        max_emails: Maximum number of emails to process (default: 20, max: 100)
+    
+    Returns:
+        Processing results with counts and details
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+        
+        logger.info("=" * 60)
+        logger.info(f"❌ PROCESSING FOOTLOCKER CANCELLATION EMAILS (max: {max_emails})")
+        logger.info("=" * 60)
+        
+        # Process emails synchronously
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            results = processor.process_footlocker_cancellation_emails(max_emails=max_emails)
+            
+            logger.info("=" * 60)
+            logger.info(f"✅ COMPLETED: {results}")
+            logger.info("=" * 60)
+            
+            return {
+                "status": 200,
+                "message": f"Processed {results['processed']} Footlocker cancellation emails",
+                "data": results
+            }
+        finally:
+            db.close()
+    
+    except Exception as e:
+        logger.error(f"Error processing Footlocker cancellation emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-footlocker-updates")
+async def process_footlocker_update_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Footlocker order update emails (both shipping and cancellation).
+    
+    This endpoint searches for both shipping and cancellation emails from Footlocker
+    that haven't been processed yet and updates the purchase tracker records accordingly.
+    
+    Args:
+        max_emails: Maximum number of emails to process per type (default: 20, max: 100)
+    
+    Returns:
+        Processing results with aggregated counts and details
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+        
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING FOOTLOCKER ORDER UPDATES (max: {max_emails} per type)")
+        logger.info("=" * 60)
+        
+        # Process emails synchronously
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            
+            # Process shipping emails
+            logger.info("Processing shipping emails...")
+            shipping_results = processor.process_footlocker_shipping_emails(max_emails=max_emails)
+            
+            # Process cancellation emails
+            logger.info("Processing cancellation emails...")
+            cancellation_results = processor.process_footlocker_cancellation_emails(max_emails=max_emails)
+            
+            # Aggregate results
+            total_results = {
+                'total_emails': shipping_results['total_emails'] + cancellation_results['total_emails'],
+                'processed': shipping_results['processed'] + cancellation_results['processed'],
+                'errors': shipping_results['errors'] + cancellation_results['errors'],
+                'error_messages': shipping_results['error_messages'] + cancellation_results['error_messages'],
+                'shipping': {
+                    'total_emails': shipping_results['total_emails'],
+                    'processed': shipping_results['processed'],
+                    'errors': shipping_results['errors']
+                },
+                'cancellation': {
+                    'total_emails': cancellation_results['total_emails'],
+                    'processed': cancellation_results['processed'],
+                    'errors': cancellation_results['errors']
+                }
+            }
+            
+            logger.info("=" * 60)
+            logger.info(f"✅ COMPLETED: {total_results}")
+            logger.info("=" * 60)
+            
+            return {
+                "status": 200,
+                "message": (
+                    f"Processed {total_results['processed']} Footlocker update emails "
+                    f"({total_results['shipping']['processed']} shipping, "
+                    f"{total_results['cancellation']['processed']} cancellation)"
+                ),
+                "data": total_results
+            }
+        finally:
+            db.close()
+    
+    except Exception as e:
+        logger.error(f"Error processing Footlocker update emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-hibbett-updates")
+async def process_hibbett_update_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Hibbett order update emails (shipping and cancellation).
+    Same pattern as Foot Locker.
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING HIBBETT ORDER UPDATES (max: {max_emails} per type)")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            shipping_results = processor.process_hibbett_shipping_emails(max_emails=max_emails)
+            cancellation_results = processor.process_hibbett_cancellation_emails(max_emails=max_emails)
+            total_results = {
+                'total_emails': shipping_results['total_emails'] + cancellation_results['total_emails'],
+                'processed': shipping_results['processed'] + cancellation_results['processed'],
+                'errors': shipping_results['errors'] + cancellation_results['errors'],
+                'error_messages': shipping_results['error_messages'] + cancellation_results['error_messages'],
+                'shipping': {'total_emails': shipping_results['total_emails'], 'processed': shipping_results['processed'], 'errors': shipping_results['errors']},
+                'cancellation': {'total_emails': cancellation_results['total_emails'], 'processed': cancellation_results['processed'], 'errors': cancellation_results['errors']}
+            }
+            logger.info("=" * 60)
+            logger.info(f"✅ COMPLETED: {total_results}")
+            logger.info("=" * 60)
+            return {
+                "status": 200,
+                "message": f"Processed {total_results['processed']} Hibbett update emails ({total_results['shipping']['processed']} shipping, {total_results['cancellation']['processed']} cancellation)",
+                "data": total_results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing Hibbett update emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-finishline-updates")
+async def process_finishline_update_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Finish Line order update emails (shipping and full cancellation).
+    Shipping emails may include partial ship+cancel in one email.
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING FINISH LINE ORDER UPDATES (max: {max_emails} per type)")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            shipping_results = processor.process_finishline_shipping_emails(max_emails=max_emails)
+            cancellation_results = processor.process_finishline_cancellation_emails(max_emails=max_emails)
+            total_results = {
+                'total_emails': shipping_results['total_emails'] + cancellation_results['total_emails'],
+                'processed': shipping_results['processed'] + cancellation_results['processed'],
+                'errors': shipping_results['errors'] + cancellation_results['errors'],
+                'error_messages': shipping_results['error_messages'] + cancellation_results['error_messages'],
+                'shipping': {'total_emails': shipping_results['total_emails'], 'processed': shipping_results['processed'], 'errors': shipping_results['errors']},
+                'cancellation': {'total_emails': cancellation_results['total_emails'], 'processed': cancellation_results['processed'], 'errors': cancellation_results['errors']}
+            }
+            return {
+                "status": 200,
+                "message": f"Processed {total_results['processed']} Finish Line update emails ({total_results['shipping']['processed']} shipping, {total_results['cancellation']['processed']} cancellation)",
+                "data": total_results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing Finish Line update emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-jdsports-updates")
+async def process_jdsports_update_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """Manually process JD Sports order update emails (shipping and full cancellation). Same template as Finish Line."""
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING JD SPORTS ORDER UPDATES (max: {max_emails} per type)")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            shipping_results = processor.process_jdsports_shipping_emails(max_emails=max_emails)
+            cancellation_results = processor.process_jdsports_cancellation_emails(max_emails=max_emails)
+            total_results = {
+                'total_emails': shipping_results['total_emails'] + cancellation_results['total_emails'],
+                'processed': shipping_results['processed'] + cancellation_results['processed'],
+                'errors': shipping_results['errors'] + cancellation_results['errors'],
+                'error_messages': shipping_results['error_messages'] + cancellation_results['error_messages'],
+                'shipping': {'total_emails': shipping_results['total_emails'], 'processed': shipping_results['processed'], 'errors': shipping_results['errors']},
+                'cancellation': {'total_emails': cancellation_results['total_emails'], 'processed': cancellation_results['processed'], 'errors': cancellation_results['errors']}
+            }
+            return {
+                "status": 200,
+                "message": f"Processed {total_results['processed']} JD Sports update emails ({total_results['shipping']['processed']} shipping, {total_results['cancellation']['processed']} cancellation)",
+                "data": total_results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing JD Sports update emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-shopwss-shipping")
+async def process_shopwss_shipping_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """Manually process ShopWSS shipping notification emails (Order #xxx is about to ship! / partially shipped)."""
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"📦 PROCESSING SHOPWSS SHIPPING EMAILS (max: {max_emails})")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            results = processor.process_shopwss_shipping_emails(max_emails=max_emails)
+            return {
+                "status": 200,
+                "message": f"Processed {results['processed']} ShopWSS shipping emails",
+                "data": results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing ShopWSS shipping emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-shopwss-cancellation")
+async def process_shopwss_cancellation_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """Manually process ShopWSS full order cancellation emails (Order X has been canceled)."""
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"❌ PROCESSING SHOPWSS CANCELLATION EMAILS (max: {max_emails})")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            results = processor.process_shopwss_cancellation_emails(max_emails=max_emails)
+            return {
+                "status": 200,
+                "message": f"Processed {results['processed']} ShopWSS cancellation emails",
+                "data": results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing ShopWSS cancellation emails: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 

@@ -7,6 +7,9 @@ DROP TABLE IF EXISTS oa_sourcing CASCADE;
 DROP TABLE IF EXISTS asin_bank CASCADE;
 DROP TABLE IF EXISTS retailers CASCADE;
 DROP TABLE IF EXISTS checkin CASCADE;
+DROP TABLE IF EXISTS password_reset_tokens CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXISTS user_roles CASCADE;
 
 -- Create retailers table FIRST (since oa_sourcing will reference it)
 CREATE TABLE retailers (
@@ -60,12 +63,101 @@ BEFORE UPDATE ON retailers
 FOR EACH ROW
 EXECUTE FUNCTION update_retailers_updated_at();
 
+-- Create user_roles table FIRST (since users will reference it)
+CREATE TABLE user_roles (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL UNIQUE,
+    description VARCHAR(200),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+COMMENT ON TABLE user_roles IS 'Stores available user roles for role-based access control';
+COMMENT ON COLUMN user_roles.name IS 'Role name (e.g., admin, user)';
+
+-- Insert default roles
+INSERT INTO user_roles (name, description) VALUES
+    ('admin', 'Administrator with full access'),
+    ('user', 'Can edit and view data');
+
+-- Create users table
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255),
+    role_id INTEGER NOT NULL REFERENCES user_roles(id),
+    
+    -- OAuth fields
+    google_id VARCHAR(255) UNIQUE,
+    oauth_provider VARCHAR(50),
+    
+    -- Metadata
+    is_active BOOLEAN DEFAULT TRUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    last_login TIMESTAMP
+);
+
+COMMENT ON TABLE users IS 'Stores user authentication and profile information';
+COMMENT ON COLUMN users.id IS 'Auto-incrementing primary key';
+COMMENT ON COLUMN users.username IS 'Username (unique)';
+COMMENT ON COLUMN users.email IS 'User email address (unique)';
+COMMENT ON COLUMN users.password IS 'Hashed password (nullable for OAuth-only users)';
+COMMENT ON COLUMN users.role_id IS 'Foreign key reference to user_roles table';
+COMMENT ON COLUMN users.google_id IS 'Google OAuth ID (unique)';
+COMMENT ON COLUMN users.oauth_provider IS 'OAuth provider (e.g., google, facebook)';
+COMMENT ON COLUMN users.is_active IS 'Whether the user account is active';
+COMMENT ON COLUMN users.last_login IS 'Last login timestamp';
+
+-- Indexes for users table
+CREATE INDEX idx_users_username ON users(username);
+CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_users_google_id ON users(google_id);
+CREATE INDEX idx_users_is_active ON users(is_active);
+
+-- Function to update users updated_at timestamp
+CREATE OR REPLACE FUNCTION update_users_updated_at()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = CURRENT_TIMESTAMP;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Trigger to automatically update updated_at
+CREATE TRIGGER trigger_update_users_updated_at
+BEFORE UPDATE ON users
+FOR EACH ROW
+EXECUTE FUNCTION update_users_updated_at();
+
+-- Create password_reset_tokens table
+CREATE TABLE password_reset_tokens (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    token VARCHAR(255) NOT NULL UNIQUE,
+    expires_at TIMESTAMP NOT NULL,
+    used BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+COMMENT ON TABLE password_reset_tokens IS 'Stores password reset tokens for user password recovery';
+COMMENT ON COLUMN password_reset_tokens.user_id IS 'Foreign key reference to users table';
+COMMENT ON COLUMN password_reset_tokens.token IS 'Unique reset token';
+COMMENT ON COLUMN password_reset_tokens.expires_at IS 'Token expiration timestamp';
+COMMENT ON COLUMN password_reset_tokens.used IS 'Whether the token has been used';
+
+-- Indexes for password_reset_tokens table
+CREATE INDEX idx_password_reset_tokens_user_id ON password_reset_tokens(user_id);
+CREATE INDEX idx_password_reset_tokens_token ON password_reset_tokens(token);
+CREATE INDEX idx_password_reset_tokens_expires_at ON password_reset_tokens(expires_at);
+
 -- Create asin_bank table
 CREATE TABLE asin_bank (
     id SERIAL PRIMARY KEY,
     lead_id VARCHAR(100) NOT NULL,
     size VARCHAR(50),
-    asin VARCHAR(100) NOT NULL
+    asin VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
 
 COMMENT ON TABLE asin_bank IS 'Stores all ASINs with their associated lead_id and size';
@@ -73,6 +165,7 @@ COMMENT ON COLUMN asin_bank.id IS 'Auto-incrementing primary key';
 COMMENT ON COLUMN asin_bank.lead_id IS 'Lead ID from OA sourcing sheet';
 COMMENT ON COLUMN asin_bank.size IS 'Product size';
 COMMENT ON COLUMN asin_bank.asin IS 'Amazon Standard Identification Number';
+COMMENT ON COLUMN asin_bank.created_at IS 'Timestamp when the ASIN was added to the bank';
 
 -- Indexes for asin_bank (PostgreSQL syntax)
 CREATE INDEX idx_asin_bank_lead_id ON asin_bank(lead_id);
@@ -240,7 +333,10 @@ CREATE TABLE purchase_tracker (
     
     -- Misc
     notes TEXT,
-    validation_bank VARCHAR(200)
+    validation_bank VARCHAR(200),
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 COMMENT ON TABLE purchase_tracker IS 'Tracks individual purchases with reference to OA sourcing';

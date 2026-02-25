@@ -25,6 +25,7 @@ interface DataTableProps<TData, TValue> {
 	onPaginationChange?: (pagination: PaginationState) => void;
 	manualPagination?: boolean;
 	loading?: boolean;
+	rowHeight?: number;
 }
 
 export function DataTable<TData, TValue>({
@@ -37,6 +38,7 @@ export function DataTable<TData, TValue>({
 	onPaginationChange,
 	manualPagination = false,
 	loading = false,
+	rowHeight = 30,
 }: DataTableProps<TData, TValue>) {
 	const [sorting, setSorting] = useState<SortingState>([]);
 	const [pagination, setPagination] = useState<PaginationState>({
@@ -67,6 +69,10 @@ export function DataTable<TData, TValue>({
 		pageCount,
 		columnResizeMode,
 		enableColumnResizing: true,
+		defaultColumn: {
+			minSize: 50,
+			maxSize: 1000,
+		},
 		state: {
 			sorting,
 			pagination,
@@ -80,30 +86,126 @@ export function DataTable<TData, TValue>({
 	return (
 		<div className="space-y-4">
 			{/* Table */}
-			<div className="rounded-md border overflow-hidden">
-				<div className="overflow-x-auto">
-					<table className="w-full">
+			<div className="rounded-md border overflow-hidden relative">
+				<div className="overflow-x-auto relative">
+					{table.getHeaderGroups().length > 0 && (() => {
+						const firstHeaderGroup = table.getHeaderGroups()[0];
+						const stickyIndices: number[] = [];
+						firstHeaderGroup.headers.forEach((header, index) => {
+							if ((header.column.columnDef.meta as any)?.sticky) {
+								stickyIndices.push(index);
+							}
+						});
+						
+						if (stickyIndices.length > 0) {
+							const firstStickyIndex = stickyIndices[0];
+							// Calculate total width of all sticky columns
+							let stickyColumnsWidth = 0;
+							for (let i = firstStickyIndex; i < firstHeaderGroup.headers.length; i++) {
+								stickyColumnsWidth += firstHeaderGroup.headers[i].getSize();
+							}
+							
+							return (
+								<div
+									className="sticky left-auto right-0 top-0 bottom-0 w-[2px] bg-gray-400 dark:bg-gray-500 z-[101] pointer-events-none"
+									style={{
+										right: `${stickyColumnsWidth}px`,
+										boxShadow: '0 0 2px rgba(0, 0, 0, 0.1)',
+									}}
+								/>
+							);
+						}
+						return null;
+					})()}
+					<table className="w-full border-collapse bg-background" style={{ tableLayout: 'auto', borderSpacing: 0 }}>
 						<thead>
-							{table.getHeaderGroups().map((headerGroup) => (
-								<tr key={headerGroup.id} className="border-b bg-muted/50">
-									{headerGroup.headers.map((header) => (
-										<th
-											key={header.id}
-											className="h-12 px-4 text-left align-middle font-medium text-muted-foreground relative"
-											style={{ width: header.getSize() }}
-										>
+								{table.getHeaderGroups().map((headerGroup) => {
+									// Find all sticky column indices and calculate their cumulative widths
+									const stickyIndices: number[] = [];
+									headerGroup.headers.forEach((header, index) => {
+										if ((header.column.columnDef.meta as any)?.sticky) {
+											stickyIndices.push(index);
+										}
+									});
+									
+									// Calculate right offset for each sticky column
+									const getStickyRightOffset = (index: number): number => {
+										if (!stickyIndices.includes(index)) return 0;
+										const stickyIndex = stickyIndices.indexOf(index);
+										// Sum widths of all sticky columns to the right of this one
+										let offset = 0;
+										for (let i = stickyIndex + 1; i < stickyIndices.length; i++) {
+											offset += headerGroup.headers[stickyIndices[i]].getSize();
+										}
+										return offset;
+									};
+									
+									const firstStickyIndex = stickyIndices[0];
+									
+									// Calculate total width of non-sticky columns for separator positioning
+									let nonStickyWidth = 0;
+									if (firstStickyIndex !== undefined && firstStickyIndex !== -1) {
+										for (let i = 0; i < firstStickyIndex; i++) {
+											nonStickyWidth += headerGroup.headers[i].getSize();
+										}
+									}
+									
+									return (
+									<tr key={headerGroup.id} className="border-b bg-muted/50">
+										{headerGroup.headers.map((header, index) => {
+											const isSticky = (header.column.columnDef.meta as any)?.sticky;
+											const isFirstSticky = isSticky && index === firstStickyIndex;
+											const rightOffset = isSticky ? getStickyRightOffset(index) : 0;
+											return (
+											<th
+												key={header.id}
+												className={`text-left font-medium text-muted-foreground relative ${
+													isSticky ? 'sticky z-[100]' : ''
+												} ${
+													isFirstSticky ? 'border-l-2 border-gray-400 dark:border-gray-500' : ''
+												}`}
+												style={{ 
+													width: `${header.getSize()}px`,
+													minWidth: `${header.getSize()}px`,
+													maxWidth: `${header.getSize()}px`,
+													right: isSticky ? `${rightOffset}px` : undefined,
+													backgroundColor: isSticky ? 'var(--muted)' : undefined,
+													boxShadow: isFirstSticky ? '-4px 0 8px -2px rgba(0, 0, 0, 0.15)' : undefined,
+													height: '48px',
+													paddingLeft: header.column.id === 'select' ? '0px' : '16px',
+													paddingRight: header.column.id === 'select' ? '0px' : '16px',
+													paddingTop: '12px',
+													paddingBottom: '12px',
+													verticalAlign: 'middle',
+													textAlign: header.column.id === 'select' ? 'center' : 'left',
+												}}
+											>
+											{isSticky && (
+												<div
+													className="absolute inset-0 pointer-events-none"
+													style={{
+														backgroundColor: 'var(--muted)',
+														zIndex: -1,
+														left: isFirstSticky ? '0px' : '-1px',
+														right: '-1px',
+													}}
+												/>
+											)}
 											{header.isPlaceholder ? null : (
 												<div
 													className={
 														header.column.getCanSort()
-															? "flex items-center gap-2 cursor-pointer select-none hover:text-foreground"
-															: ""
+															? "flex items-center gap-2 cursor-pointer select-none hover:text-foreground h-full"
+															: header.column.id === 'select' 
+																? "flex items-center justify-center h-full"
+																: "flex items-center h-full"
 													}
-													onClick={header.column.getToggleSortingHandler()}
+													onClick={header.column.getCanSort() ? header.column.getToggleSortingHandler() : undefined}
+													style={{ margin: 0 }}
 												>
 													{flexRender(header.column.columnDef.header, header.getContext())}
 													{header.column.getCanSort() && (
-														<span className="ml-auto">
+														<span className="ml-auto flex-shrink-0">
 															{{
 																asc: <Icon icon="mdi:arrow-up" size={16} />,
 																desc: <Icon icon="mdi:arrow-down" size={16} />,
@@ -115,17 +217,23 @@ export function DataTable<TData, TValue>({
 												</div>
 											)}
 											{/* Column Resizer */}
-											<div
-												onMouseDown={header.getResizeHandler()}
-												onTouchStart={header.getResizeHandler()}
-												className={`absolute right-0 top-0 h-full w-1 cursor-col-resize select-none touch-none hover:bg-primary ${
-													header.column.getIsResizing() ? "bg-primary" : ""
-												}`}
-											/>
+											{!isSticky && header.column.getCanResize() && (
+												<div
+													onMouseDown={header.getResizeHandler()}
+													onTouchStart={header.getResizeHandler()}
+													className={`absolute right-0 top-0 h-full w-1 cursor-col-resize select-none touch-none hover:bg-primary transition-colors ${
+														header.column.getIsResizing() ? "bg-primary w-2" : "bg-transparent"
+													}`}
+													style={{
+														userSelect: 'none',
+													}}
+												/>
+											)}
 										</th>
-									))}
-								</tr>
-							))}
+									)})}
+									</tr>
+									);
+								})}
 						</thead>
 						<tbody>
 							{loading ? (
@@ -137,18 +245,100 @@ export function DataTable<TData, TValue>({
 									</td>
 								</tr>
 							) : table.getRowModel().rows?.length ? (
-								table.getRowModel().rows.map((row) => (
+								table.getRowModel().rows.map((row) => {
+									// Find all sticky column indices and calculate their cumulative widths
+									const stickyIndices: number[] = [];
+									row.getVisibleCells().forEach((cell, index) => {
+										if ((cell.column.columnDef.meta as any)?.sticky) {
+											stickyIndices.push(index);
+										}
+									});
+									
+									// Calculate right offset for each sticky column
+									const getStickyRightOffset = (index: number): number => {
+										if (!stickyIndices.includes(index)) return 0;
+										const stickyIndex = stickyIndices.indexOf(index);
+										// Sum widths of all sticky columns to the right of this one
+										let offset = 0;
+										for (let i = stickyIndex + 1; i < stickyIndices.length; i++) {
+											offset += row.getVisibleCells()[stickyIndices[i]].column.getSize();
+										}
+										return offset;
+									};
+									
+									const firstStickyIndex = stickyIndices[0];
+									
+									return (
 									<tr
 										key={row.id}
-										className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+										className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted group"
+										style={{ height: `${rowHeight}px` }}
 									>
-										{row.getVisibleCells().map((cell) => (
-											<td key={cell.id} className="p-4 align-middle">
-												{flexRender(cell.column.columnDef.cell, cell.getContext())}
+										{row.getVisibleCells().map((cell, index) => {
+											const isSticky = (cell.column.columnDef.meta as any)?.sticky;
+											const isFirstSticky = isSticky && index === firstStickyIndex;
+											const rightOffset = isSticky ? getStickyRightOffset(index) : 0;
+											return (
+											<td 
+												key={cell.id} 
+												className={`relative ${
+													isSticky ? 'sticky z-[100]' : ''
+												} ${
+													isFirstSticky ? 'border-l-2 border-gray-400 dark:border-gray-500' : ''
+												}`}
+												style={{
+													width: `${cell.column.getSize()}px`,
+													minWidth: `${cell.column.getSize()}px`,
+													maxWidth: `${cell.column.getSize()}px`,
+													right: isSticky ? `${rightOffset}px` : undefined,
+													backgroundColor: isSticky ? 'var(--background)' : undefined,
+													boxShadow: isFirstSticky ? '-4px 0 8px -2px rgba(0, 0, 0, 0.15)' : undefined,
+													paddingLeft: cell.column.id === 'select' ? '0px' : '16px',
+													paddingRight: cell.column.id === 'select' ? '0px' : '16px',
+													paddingTop: '8px',
+													paddingBottom: '8px',
+													verticalAlign: 'middle',
+													textAlign: cell.column.id === 'select' ? 'center' : 'left',
+												}}
+												onMouseEnter={(e) => {
+													if (isSticky) {
+														e.currentTarget.style.backgroundColor = 'var(--muted)';
+														const bgDiv = e.currentTarget.querySelector('.sticky-bg-extension') as HTMLElement;
+														if (bgDiv) bgDiv.style.backgroundColor = 'var(--muted)';
+													}
+												}}
+												onMouseLeave={(e) => {
+													if (isSticky) {
+														e.currentTarget.style.backgroundColor = 'var(--background)';
+														const bgDiv = e.currentTarget.querySelector('.sticky-bg-extension') as HTMLElement;
+														if (bgDiv) bgDiv.style.backgroundColor = 'var(--background)';
+													}
+												}}
+											>
+											{cell.column.id === 'select' ? (
+												<div className="flex items-center justify-center h-full">
+													{flexRender(cell.column.columnDef.cell, cell.getContext())}
+												</div>
+											) : (
+												<>
+													{isSticky && (
+														<div
+															className="sticky-bg-extension absolute inset-0 pointer-events-none"
+															style={{
+																backgroundColor: 'var(--background)',
+																zIndex: -1,
+																left: isFirstSticky ? '0px' : '-1px',
+																right: '-1px',
+															}}
+														/>
+													)}
+													{flexRender(cell.column.columnDef.cell, cell.getContext())}
+												</>
+											)}
 											</td>
-										))}
+										)})}
 									</tr>
-								))
+								)})
 							) : (
 								<tr>
 									<td colSpan={columns.length} className="h-64 text-center">

@@ -53,17 +53,19 @@ def parse_date(date_str):
 
 
 def parse_datetime(datetime_str):
-    """Parse datetime string"""
+    """Parse datetime string, or date string (returns datetime at midnight)"""
     if not datetime_str or datetime_str.strip() == '':
         return None
-    
-    formats = ['%m/%d/%Y %H:%M', '%Y-%m-%d %H:%M:%S', '%m/%d/%Y %H:%M:%S']
+
+    formats = ['%m/%d/%Y %H:%M', '%Y-%m-%d %H:%M:%S', '%m/%d/%Y %H:%M:%S', '%Y-%m-%d', '%m/%d/%Y', '%m/%d/%y']
     for fmt in formats:
         try:
             return datetime.strptime(datetime_str.strip(), fmt)
         except ValueError:
             continue
-    return None
+
+    d = parse_date(datetime_str)
+    return datetime.combine(d, datetime.min.time()) if d else None
 
 
 def parse_boolean(value):
@@ -217,7 +219,7 @@ def import_purchase_tracker_csv(csv_file_path, db_session):
                 lead_id=lead_id or None,  # Denormalized for performance
                 
                 # Purchase metadata
-                date=parse_date(row.get('Date', '')),
+                date=parse_datetime(row.get('Date', '')),
                 platform=row.get('Platform', '').strip() or None,
                 order_number=row.get('Order Number', '').strip() or None,
                 # NOTE: supplier removed - same as oa_sourcing.retailer_name

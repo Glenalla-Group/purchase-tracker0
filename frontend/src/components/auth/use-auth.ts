@@ -31,7 +31,8 @@ export const useAuthCheck = (baseOn: "role" | "permission" = "permission") => {
 		if (!accessToken) {
 			return false;
 		}
-		return resourcePool.some((p) => p.code === item);
+		// Check both code and name (backend returns name for roles, code/name for permissions)
+		return resourcePool.some((p) => p.code === item || p.name === item);
 	};
 
 	// check if any item exists

@@ -9,6 +9,16 @@ import checkinService, { type CheckinItem } from "@/api/services/checkinService"
 import Icon from "@/components/icon/icon";
 import { DataTable } from "@/components/data-table";
 import type { ColumnDef, PaginationState } from "@tanstack/react-table";
+import { Checkbox } from "@/ui/checkbox";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogFooter,
+	DialogHeader,
+	DialogTitle,
+} from "@/ui/dialog";
+import { Label } from "@/ui/label";
 
 export default function Checkin() {
 	const [checkinData, setCheckinData] = useState<CheckinItem[]>([]);
@@ -21,10 +31,66 @@ export default function Checkin() {
 		pageIndex: 0,
 		pageSize: 10,
 	});
+	const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
+	const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
+	const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
+	const [editingCheckin, setEditingCheckin] = useState<CheckinItem | null>(null);
+	const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+	const [deleteCount, setDeleteCount] = useState(0);
+	const [newCheckin, setNewCheckin] = useState({
+		order_number: "",
+		item_name: "",
+		asin: "",
+		size: "",
+		quantity: 1,
+	});
+
+	// Handle checkbox selection
+	const handleSelectAll = (checked: boolean) => {
+		if (checked) {
+			const allIds = new Set(checkinData.map((item) => item.id));
+			setSelectedIds(allIds);
+		} else {
+			setSelectedIds(new Set());
+		}
+	};
+
+	const handleSelectRow = (id: number, checked: boolean) => {
+		const newSelectedIds = new Set(selectedIds);
+		if (checked) {
+			newSelectedIds.add(id);
+		} else {
+			newSelectedIds.delete(id);
+		}
+		setSelectedIds(newSelectedIds);
+	};
 
 	// Define table columns
 	const columns = useMemo<ColumnDef<CheckinItem>[]>(
 		() => [
+			{
+				id: "select",
+				header: () => {
+					const allSelected = checkinData.length > 0 && checkinData.every((item) => selectedIds.has(item.id));
+					return (
+						<Checkbox
+							checked={allSelected}
+							onCheckedChange={handleSelectAll}
+							aria-label="Select all"
+						/>
+					);
+				},
+				cell: ({ row }) => (
+					<Checkbox
+						checked={selectedIds.has(row.original.id)}
+						onCheckedChange={(checked) => handleSelectRow(row.original.id, checked as boolean)}
+						aria-label="Select row"
+					/>
+				),
+				size: 50,
+				minSize: 50,
+				maxSize: 50,
+			},
 			{
 				accessorKey: "id",
 				header: "No",
@@ -110,9 +176,28 @@ export default function Checkin() {
 						</div>
 					);
 				},
+			},
+			{
+				id: "actions",
+				header: "Actions",
+				size: 100,
+				minSize: 80,
+				maxSize: 120,
+				cell: ({ row }) => (
+					<div className="flex items-center justify-center gap-2">
+						<Button
+							size="sm"
+							variant="ghost"
+							onClick={() => handleEditClick(row.original)}
+							className="h-8 w-8 p-0"
+						>
+							<Icon icon="mdi:pencil" className="h-4 w-4" />
+						</Button>
+					</div>
+				),
 			}
 		],
-		[pagination.pageIndex, pagination.pageSize]
+		[pagination.pageIndex, pagination.pageSize, checkinData, selectedIds]
 	);
 
 	// Load checkin data from backend
@@ -145,6 +230,7 @@ export default function Checkin() {
 
 			setCheckinData(filteredData);
 			setTotal(searchItemName ? filteredData.length : (response.total || 0));
+			setSelectedIds(new Set()); // Clear selection when loading new data
 		} catch (error: any) {
 			console.error("Error loading checkin data:", error);
 			toast.error("Failed to load check-in data", {
@@ -152,6 +238,113 @@ export default function Checkin() {
 			});
 			setCheckinData([]);
 			setTotal(0);
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	// Handle edit click
+	const handleEditClick = (checkin: CheckinItem) => {
+		setEditingCheckin(checkin);
+		setIsEditDialogOpen(true);
+	};
+
+	// Handle bulk delete confirmation
+	const handleBulkDeleteConfirm = () => {
+		if (selectedIds.size === 0) {
+			toast.warning("No check-in records selected");
+			return;
+		}
+		setDeleteCount(selectedIds.size);
+		setDeleteDialogOpen(true);
+	};
+
+	// Handle bulk delete
+	const handleBulkDelete = async () => {
+		if (selectedIds.size === 0) return;
+
+		try {
+			setLoading(true);
+			const idsArray = Array.from(selectedIds);
+			await checkinService.bulkDeleteCheckins(idsArray);
+
+			toast.success(`Successfully deleted ${selectedIds.size} check-in record(s)`);
+			setSelectedIds(new Set());
+			setDeleteDialogOpen(false);
+			await loadCheckinData();
+		} catch (error: any) {
+			console.error("Error deleting check-ins:", error);
+			toast.error("Failed to delete check-in records", {
+				description: error?.message || "Please try again",
+			});
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	// Handle add check-in
+	const handleAddCheckin = async () => {
+		if (!newCheckin.order_number || !newCheckin.item_name || !newCheckin.quantity) {
+			toast.error("Order number, item name, and quantity are required");
+			return;
+		}
+
+		try {
+			setLoading(true);
+			await checkinService.createCheckin({
+				order_number: newCheckin.order_number,
+				item_name: newCheckin.item_name,
+				asin: newCheckin.asin || undefined,
+				size: newCheckin.size || undefined,
+				quantity: newCheckin.quantity,
+			});
+
+			toast.success("Check-in created successfully");
+			setIsAddDialogOpen(false);
+			setNewCheckin({
+				order_number: "",
+				item_name: "",
+				asin: "",
+				size: "",
+				quantity: 1,
+			});
+			await loadCheckinData();
+		} catch (error: any) {
+			console.error("Error creating check-in:", error);
+			toast.error("Failed to create check-in", {
+				description: error?.message || "Please try again",
+			});
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	// Handle edit check-in
+	const handleEditCheckin = async () => {
+		if (!editingCheckin) return;
+
+		if (!editingCheckin.order_number || !editingCheckin.item_name || !editingCheckin.quantity) {
+			toast.error("Order number, item name, and quantity are required");
+			return;
+		}
+
+		try {
+			setLoading(true);
+			await checkinService.updateCheckin(editingCheckin.id, {
+				order_number: editingCheckin.order_number,
+				item_name: editingCheckin.item_name,
+				quantity: editingCheckin.quantity,
+			});
+
+			toast.success("Check-in updated successfully");
+			setIsEditDialogOpen(false);
+			setEditingCheckin(null);
+			await loadCheckinData();
+		} catch (error: any) {
+			console.error("Error updating check-in:", error);
+			toast.error("Failed to update check-in", {
+				description: error?.message || "Please try again",
+			});
 		} finally {
 			setLoading(false);
 		}
@@ -293,15 +486,36 @@ export default function Checkin() {
 						</Title>
 					</CardTitle>
 					<CardAction>
-						<Button
-							size="sm"
-							variant="outline"
-							onClick={() => loadCheckinData()}
-							disabled={loading}
-						>
-							<Icon icon="mdi:refresh" className="mr-1" />
-							Refresh
-						</Button>
+						<div className="flex gap-2">
+							{selectedIds.size > 0 && (
+								<Button
+									size="sm"
+									variant="destructive"
+									onClick={handleBulkDeleteConfirm}
+									disabled={loading}
+								>
+									<Icon icon="mdi:delete" className="mr-1" />
+									Delete ({selectedIds.size})
+								</Button>
+							)}
+							<Button
+								size="sm"
+								onClick={() => setIsAddDialogOpen(true)}
+								disabled={loading}
+							>
+								<Icon icon="mdi:plus" className="mr-1" />
+								Add Check-in
+							</Button>
+							<Button
+								size="sm"
+								variant="outline"
+								onClick={() => loadCheckinData()}
+								disabled={loading}
+							>
+								<Icon icon="mdi:refresh" className="mr-1" />
+								Refresh
+							</Button>
+						</div>
 					</CardAction>
 				</CardHeader>
 				<CardContent>
@@ -318,6 +532,197 @@ export default function Checkin() {
 					/>
 				</CardContent>
 			</Card>
+
+			{/* Add Check-in Dialog */}
+			<Dialog open={isAddDialogOpen} onOpenChange={setIsAddDialogOpen}>
+				<DialogContent className="max-w-2xl">
+					<DialogHeader>
+						<DialogTitle>Add New Check-in</DialogTitle>
+						<DialogDescription>
+							Create a new check-in record. Order number, item name, and quantity are required.
+						</DialogDescription>
+					</DialogHeader>
+					<div className="grid gap-4 py-4">
+						<div className="grid gap-2">
+							<Label htmlFor="order_number">
+								Order Number <span className="text-red-500">*</span>
+							</Label>
+							<Input
+								id="order_number"
+								placeholder="Enter order number"
+								value={newCheckin.order_number}
+								onChange={(e) => setNewCheckin({ ...newCheckin, order_number: e.target.value })}
+							/>
+						</div>
+						<div className="grid gap-2">
+							<Label htmlFor="item_name">
+								Item Name <span className="text-red-500">*</span>
+							</Label>
+							<Input
+								id="item_name"
+								placeholder="Enter item name"
+								value={newCheckin.item_name}
+								onChange={(e) => setNewCheckin({ ...newCheckin, item_name: e.target.value })}
+							/>
+						</div>
+						<div className="grid grid-cols-2 gap-4">
+							<div className="grid gap-2">
+								<Label htmlFor="asin">ASIN (Optional)</Label>
+								<Input
+									id="asin"
+									placeholder="Enter ASIN"
+									value={newCheckin.asin}
+									onChange={(e) => setNewCheckin({ ...newCheckin, asin: e.target.value })}
+								/>
+							</div>
+							<div className="grid gap-2">
+								<Label htmlFor="size">Size (Optional)</Label>
+								<Input
+									id="size"
+									placeholder="Enter size"
+									value={newCheckin.size}
+									onChange={(e) => setNewCheckin({ ...newCheckin, size: e.target.value })}
+								/>
+							</div>
+						</div>
+						<div className="grid gap-2">
+							<Label htmlFor="quantity">
+								Quantity <span className="text-red-500">*</span>
+							</Label>
+							<Input
+								id="quantity"
+								type="number"
+								min="1"
+								placeholder="Enter quantity"
+								value={newCheckin.quantity}
+								onChange={(e) => setNewCheckin({ ...newCheckin, quantity: parseInt(e.target.value) || 1 })}
+							/>
+						</div>
+					</div>
+					<DialogFooter>
+						<Button variant="outline" onClick={() => setIsAddDialogOpen(false)} disabled={loading}>
+							Cancel
+						</Button>
+						<Button onClick={handleAddCheckin} disabled={loading}>
+							{loading ? "Creating..." : "Create Check-in"}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
+
+			{/* Edit Check-in Dialog */}
+			<Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+				<DialogContent className="max-w-2xl">
+					<DialogHeader>
+						<DialogTitle>Edit Check-in</DialogTitle>
+						<DialogDescription>
+							Update check-in information. Order number, item name, and quantity are required.
+						</DialogDescription>
+					</DialogHeader>
+					{editingCheckin && (
+						<div className="grid gap-4 py-4">
+							<div className="grid gap-2">
+								<Label htmlFor="edit-order_number">
+									Order Number <span className="text-red-500">*</span>
+								</Label>
+								<Input
+									id="edit-order_number"
+									placeholder="Enter order number"
+									value={editingCheckin.order_number || ""}
+									onChange={(e) =>
+										setEditingCheckin({ ...editingCheckin, order_number: e.target.value })
+									}
+								/>
+							</div>
+							<div className="grid gap-2">
+								<Label htmlFor="edit-item_name">
+									Item Name <span className="text-red-500">*</span>
+								</Label>
+								<Input
+									id="edit-item_name"
+									placeholder="Enter item name"
+									value={editingCheckin.item_name || ""}
+									onChange={(e) =>
+										setEditingCheckin({ ...editingCheckin, item_name: e.target.value })
+									}
+								/>
+							</div>
+							<div className="grid grid-cols-2 gap-4">
+								<div className="grid gap-2">
+									<Label htmlFor="edit-asin">ASIN (Read-only)</Label>
+									<Input
+										id="edit-asin"
+										value={editingCheckin.asin || "N/A"}
+										disabled
+										className="bg-gray-50"
+									/>
+								</div>
+								<div className="grid gap-2">
+									<Label htmlFor="edit-size">Size (Read-only)</Label>
+									<Input
+										id="edit-size"
+										value={editingCheckin.size || "N/A"}
+										disabled
+										className="bg-gray-50"
+									/>
+								</div>
+							</div>
+							<div className="grid gap-2">
+								<Label htmlFor="edit-quantity">
+									Quantity <span className="text-red-500">*</span>
+								</Label>
+								<Input
+									id="edit-quantity"
+									type="number"
+									min="1"
+									placeholder="Enter quantity"
+									value={editingCheckin.quantity}
+									onChange={(e) =>
+										setEditingCheckin({ ...editingCheckin, quantity: parseInt(e.target.value) || 1 })
+									}
+								/>
+							</div>
+						</div>
+					)}
+					<DialogFooter>
+						<Button
+							variant="outline"
+							onClick={() => {
+								setIsEditDialogOpen(false);
+								setEditingCheckin(null);
+							}}
+							disabled={loading}
+						>
+							Cancel
+						</Button>
+						<Button onClick={handleEditCheckin} disabled={loading}>
+							{loading ? "Updating..." : "Update Check-in"}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
+
+			{/* Delete Confirmation Dialog */}
+			<Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+				<DialogContent>
+					<DialogHeader>
+						<DialogTitle>Are you sure?</DialogTitle>
+						<DialogDescription>
+							This will permanently delete{" "}
+							<span className="font-semibold text-foreground">{deleteCount}</span> check-in record
+							{deleteCount !== 1 ? "s" : ""}. This action cannot be undone.
+						</DialogDescription>
+					</DialogHeader>
+					<DialogFooter>
+						<Button variant="outline" onClick={() => setDeleteDialogOpen(false)}>
+							Cancel
+						</Button>
+						<Button onClick={handleBulkDelete} variant="destructive" disabled={loading}>
+							{loading ? "Deleting..." : "Delete"}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
 		</div>
 	);
 }

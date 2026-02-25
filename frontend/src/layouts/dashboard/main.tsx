@@ -33,9 +33,17 @@ const Main = () => {
 	const { pathname } = useLocation();
 	const currentNavAuth = findAuthByPath(pathname);
 	const isLeadSubmittalPage = pathname.includes("lead-submittal");
+	
+	// Determine if we should check roles or permissions based on auth requirements
+	// If auth contains "admin" or other role names, check roles; otherwise check permissions
+	const shouldCheckRoles = currentNavAuth.some((auth) => ["admin", "user"].includes(auth.toLowerCase()));
 
 	return (
-		<AuthGuard checkAny={currentNavAuth} fallback={<Page403 />}>
+		<AuthGuard 
+			checkAny={currentNavAuth} 
+			baseOn={shouldCheckRoles ? "role" : "permission"}
+			fallback={<Page403 />}
+		>
 			<main
 				data-slot="slash-layout-main"
 				className={cn(

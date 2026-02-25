@@ -32,6 +32,26 @@ export const DB_MENU: Menu[] = [
 		path: "/analysis",
 		component: "/pages/dashboard/analysis",
 	},
+	{
+		id: "oa-sourcing",
+		parentId: "group_dashboard",
+		name: "sys.nav.oa-sourcing",
+		code: "oa-sourcing",
+		icon: "solar:file-text-bold-duotone",
+		type: MENU,
+		path: "/oa-sourcing",
+		component: "/pages/dashboard/oa-sourcing",
+	},
+	{
+		id: "purchase-tracker",
+		parentId: "group_dashboard",
+		name: "sys.nav.purchase-tracker",
+		code: "purchase-tracker",
+		icon: "solar:cart-check-bold-duotone",
+		type: MENU,
+		path: "/purchase-tracker",
+		component: "/pages/dashboard/purchase-tracker",
+	},
 
 	// group_pages
 	// management

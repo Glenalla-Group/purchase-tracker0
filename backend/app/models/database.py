@@ -111,6 +111,7 @@ class AsinBank(Base):
     lead_id = Column(String(100), nullable=False, index=True)
     size = Column(String(50))
     asin = Column(String(100), nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     
     # Relationships
     oa_sourcing_asin1 = relationship("OASourcing", foreign_keys="OASourcing.asin1_id", back_populates="asin1_ref")
@@ -224,6 +225,7 @@ class OASourcing(Base):
     margin_using_rsp = Column(Float)
     monitored = Column(Boolean)
     sourcer = Column(String(100))
+    status = Column(String(20), default='draft')  # 'draft' or 'complete'
     
     # Relationships
     retailer = relationship("Retailer", back_populates="oa_sourcing_leads")
@@ -267,30 +269,28 @@ class PurchaseTracker(Base):
     lead_id = Column(String(100), index=True)
     
     # Purchase metadata
-    date = Column(Date)
+    date = Column(DateTime)  # Purchase date and time (when the order was placed)
     platform = Column(String(100))
     order_number = Column(String(200))
-    # NOTE: supplier removed - same as oa_sourcing.retailer_name
-    # NOTE: unique_id removed - product unique_id belongs in oa_sourcing table
     
     # Quantities
-    og_qty = Column(Integer)
-    final_qty = Column(Integer)
+    og_qty = Column(Integer)       # Original Quantity - the quantity of the product for order confirmation
+    final_qty = Column(Integer)    # Final Quantity - the quantity of the product after shipping update/cancellation
     
     # Pricing (if different from planned - otherwise use oa_sourcing.ppu/rsp)
     rsp = Column(Float)  # Actual selling price if different from planned
     
     # Fulfillment tracking (NUMBERS not dates - like workflow stages: 1, 2, 3, etc.)
     address = Column(Text)
-    shipped_to_pw = Column(Integer)  # Number indicating stage/status
-    arrived = Column(Integer)  # Number indicating stage/status
-    checked_in = Column(Integer)  # Number indicating stage/status
-    shipped_out = Column(Integer)  # Number indicating stage/status
+    shipped_to_pw = Column(Integer, default=0)  # Number indicating stage/status, defaults to 0
+    arrived = Column(Integer, default=0)  # Number indicating stage/status, defaults to 0
+    checked_in = Column(Integer, default=0)  # Number indicating stage/status, defaults to 0
+    shipped_out = Column(Integer, default=0)  # Number indicating stage/status, defaults to 0
     delivery_date = Column(Date)  # Actual date field
     status = Column(String(100))
     location = Column(String(200))
     in_bound = Column(Boolean)
-    tracking = Column(String(200))
+    tracking = Column(String(200)) # Tracking number - the tracking number of the package
     
     # FBA fields
     outbound_name = Column(String(500))
@@ -317,6 +317,10 @@ class PurchaseTracker(Base):
     oa_sourcing = relationship("OASourcing", back_populates="purchase_trackers")
     asin_bank_ref = relationship("AsinBank")
     
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
     # Properties to access removed fields
     @property
     def ppu(self):
@@ -363,6 +367,15 @@ class PurchaseTracker(Base):
     def product_name(self):
         """Get product name from oa_sourcing"""
         return self.oa_sourcing.product_name if self.oa_sourcing else None
+    
+    @property
+    def brand(self):
+        """Extract brand (first word) from product name"""
+        product_name = self.product_name
+        if product_name:
+            # Get the first word from product name as brand
+            return product_name.split()[0] if product_name.split() else None
+        return None
     
     @property
     def sourced_by(self):
@@ -444,4 +457,146 @@ class Retailer(Base):
 
     def __repr__(self):
         return f"<Retailer(id={self.id}, name={self.name}, location={self.location})>"
+
+
+class PTORequest(Base):
+    """
+    PTO (Paid Time Off) Requests table - tracks employee time off requests
+    """
+    __tablename__ = 'pto_requests'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_id = Column(Integer, ForeignKey('users.id'), nullable=False, index=True)
+    
+    # PTO details
+    start_date = Column(Date, nullable=False, index=True)
+    end_date = Column(Date, nullable=False, index=True)
+    total_days = Column(Float, nullable=False)  # Can be partial days (e.g., 0.5)
+    request_type = Column(String(50), nullable=False)  # 'pto', 'sick', 'personal', 'holiday'
+    status = Column(String(50), default='pending', nullable=False)  # 'pending', 'approved', 'rejected', 'cancelled'
+    
+    # Additional information
+    reason = Column(Text, nullable=True)
+    notes = Column(Text, nullable=True)
+    approved_by_id = Column(Integer, ForeignKey('users.id'), nullable=True)
+    approved_at = Column(DateTime, nullable=True)
+    
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # Relationships
+    user = relationship("User", foreign_keys=[user_id], backref="pto_requests")
+    approved_by = relationship("User", foreign_keys=[approved_by_id])
+    
+    def __repr__(self):
+        return f"<PTORequest(id={self.id}, user_id={self.user_id}, start_date={self.start_date}, status={self.status})>"
+
+
+class Holiday(Base):
+    """
+    Holidays table - stores company holidays (US, PH, etc.)
+    """
+    __tablename__ = 'holidays'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String(200), nullable=False)
+    date = Column(Date, nullable=False, index=True)
+    country = Column(String(50), nullable=False)  # 'US', 'PH', 'BOTH', etc.
+    is_recurring = Column(Boolean, default=False, nullable=False)  # Recurring yearly
+    year = Column(Integer, nullable=True)  # NULL if recurring, specific year if one-time
+    
+    # Additional information
+    description = Column(Text, nullable=True)
+    
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    def __repr__(self):
+        return f"<Holiday(id={self.id}, name={self.name}, date={self.date}, country={self.country})>"
+
+
+class TaskColumn(Base):
+    """
+    Task Columns table - stores kanban board columns (e.g., "To Do", "In Progress", "Done")
+    """
+    __tablename__ = 'task_columns'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    title = Column(String(200), nullable=False)
+    position = Column(Integer, nullable=False, default=0)  # Order/position of column
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # Relationships
+    tasks = relationship("Task", back_populates="column", cascade="all, delete-orphan", order_by="Task.position")
+    
+    def __repr__(self):
+        return f"<TaskColumn(id={self.id}, title={self.title}, position={self.position})>"
+
+
+class TaskPriorityEnum(enum.Enum):
+    """Enum for task priority"""
+    LOW = "Low"
+    MEDIUM = "Medium"
+    HIGH = "High"
+
+
+class Task(Base):
+    """
+    Tasks table - stores individual tasks in the kanban board
+    """
+    __tablename__ = 'tasks'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    column_id = Column(Integer, ForeignKey('task_columns.id'), nullable=False, index=True)
+    
+    # Task details
+    title = Column(String(500), nullable=False)
+    description = Column(Text, nullable=True)
+    priority = Column(String(20), nullable=False, default=TaskPriorityEnum.MEDIUM.value)
+    
+    # User assignments
+    assignee_ids = Column(Text, nullable=True)  # JSON array of user IDs: "[1, 2, 3]"
+    
+    # Task metadata
+    tags = Column(Text, nullable=True)  # JSON array of tags: '["FrontEnd", "BackEnd"]'
+    due_date = Column(Date, nullable=True, index=True)
+    attachments = Column(Text, nullable=True)  # JSON array of attachment URLs
+    
+    # Position within column (for ordering)
+    position = Column(Integer, nullable=False, default=0)
+    
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # Relationships
+    column = relationship("TaskColumn", back_populates="tasks")
+    comments = relationship("TaskComment", back_populates="task", cascade="all, delete-orphan")
+    
+    def __repr__(self):
+        return f"<Task(id={self.id}, title={self.title}, column_id={self.column_id})>"
+
+
+class TaskComment(Base):
+    """
+    Task Comments table - stores comments on tasks
+    """
+    __tablename__ = 'task_comments'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    task_id = Column(Integer, ForeignKey('tasks.id'), nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey('users.id'), nullable=False, index=True)
+    content = Column(Text, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # Relationships
+    task = relationship("Task", back_populates="comments")
+    user = relationship("User", foreign_keys=[user_id])
+    
+    def __repr__(self):
+        return f"<TaskComment(id={self.id}, task_id={self.task_id}, user_id={self.user_id})>"
 

@@ -4,10 +4,20 @@ import { Input } from "@/ui/input";
 import { Title } from "@/ui/typography";
 import { useState, useEffect, useMemo } from "react";
 import { toast } from "sonner";
-import asinBankService, { type AsinBankItem } from "@/api/services/asinBankService";
+import asinBankService, { type AsinBankItem, type CreateAsinRequest } from "@/api/services/asinBankService";
 import Icon from "@/components/icon/icon";
 import { DataTable } from "@/components/data-table/data-table";
 import type { ColumnDef, PaginationState } from "@tanstack/react-table";
+import { Checkbox } from "@/ui/checkbox";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogFooter,
+	DialogHeader,
+	DialogTitle,
+} from "@/ui/dialog";
+import { Label } from "@/ui/label";
 
 export default function AsinBank() {
 	const [asinData, setAsinData] = useState<AsinBankItem[]>([]);
@@ -20,10 +30,62 @@ export default function AsinBank() {
 		pageIndex: 0,
 		pageSize: 10,
 	});
+	const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
+	const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
+	const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+	const [deleteCount, setDeleteCount] = useState(0);
+	const [newAsin, setNewAsin] = useState<CreateAsinRequest>({
+		lead_id: "",
+		asin: "",
+		size: "",
+	});
+
+	// Handle checkbox selection
+	const handleSelectAll = (checked: boolean) => {
+		if (checked) {
+			const allIds = new Set(asinData.map((item) => item.id));
+			setSelectedIds(allIds);
+		} else {
+			setSelectedIds(new Set());
+		}
+	};
+
+	const handleSelectRow = (id: number, checked: boolean) => {
+		const newSelectedIds = new Set(selectedIds);
+		if (checked) {
+			newSelectedIds.add(id);
+		} else {
+			newSelectedIds.delete(id);
+		}
+		setSelectedIds(newSelectedIds);
+	};
 
 	// Define table columns
 	const columns = useMemo<ColumnDef<AsinBankItem>[]>(
 		() => [
+			{
+				id: "select",
+				header: () => {
+					const allSelected = asinData.length > 0 && asinData.every((item) => selectedIds.has(item.id));
+					return (
+						<Checkbox
+							checked={allSelected}
+							onCheckedChange={handleSelectAll}
+							aria-label="Select all"
+						/>
+					);
+				},
+				cell: ({ row }) => (
+					<Checkbox
+						checked={selectedIds.has(row.original.id)}
+						onCheckedChange={(checked) => handleSelectRow(row.original.id, checked as boolean)}
+						aria-label="Select row"
+					/>
+				),
+				size: 50,
+				minSize: 50,
+				maxSize: 50,
+			},
 			{
 				accessorKey: "id",
 				header: "No",
@@ -66,9 +128,28 @@ export default function AsinBank() {
 				minSize: 150,
 				cell: ({ row }) => <span className="font-mono font-semibold">{row.original.asin}</span>,
 			},
+			{
+				accessorKey: "created_at",
+				header: "Created At",
+				size: 180,
+				minSize: 150,
+				maxSize: 250,
+				cell: ({ row }) => {
+					if (!row.original.created_at) {
+						return <span className="text-gray-400 italic">N/A</span>;
+					}
+					const date = new Date(row.original.created_at);
+					return (
+						<div className="flex flex-col">
+							<span className="text-sm">{date.toLocaleDateString()}</span>
+							<span className="text-xs text-gray-500">{date.toLocaleTimeString()}</span>
+						</div>
+					);
+				},
+			},
 		],
-		[pagination.pageIndex, pagination.pageSize]
-	);
+	[pagination.pageIndex, pagination.pageSize, asinData, selectedIds]
+);
 
 	// Load ASIN data from backend
 	const loadAsinData = async (newPagination?: PaginationState) => {
@@ -88,9 +169,68 @@ export default function AsinBank() {
 
 			setAsinData(response.items);
 			setTotal(response.total);
+			setSelectedIds(new Set()); // Clear selection when loading new data
 		} catch (error: any) {
 			console.error("Error loading ASIN data:", error);
 			toast.error("Failed to load ASIN data", {
+				description: error?.message || "Please try again",
+			});
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	// Handle bulk delete confirmation
+	const handleBulkDeleteConfirm = () => {
+		if (selectedIds.size === 0) {
+			toast.warning("No ASINs selected");
+			return;
+		}
+		setDeleteCount(selectedIds.size);
+		setDeleteDialogOpen(true);
+	};
+
+	// Handle bulk delete
+	const handleBulkDelete = async () => {
+		if (selectedIds.size === 0) return;
+
+		try {
+			setLoading(true);
+			const idsArray = Array.from(selectedIds);
+			await asinBankService.deleteAsins(idsArray);
+
+			toast.success(`Successfully deleted ${selectedIds.size} ASIN(s)`);
+			setSelectedIds(new Set());
+			setDeleteDialogOpen(false);
+			await loadAsinData();
+		} catch (error: any) {
+			console.error("Error deleting ASINs:", error);
+			toast.error("Failed to delete ASINs", {
+				description: error?.message || "Please try again",
+			});
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	// Handle add ASIN
+	const handleAddAsin = async () => {
+		if (!newAsin.lead_id || !newAsin.asin) {
+			toast.error("Lead ID and ASIN are required");
+			return;
+		}
+
+		try {
+			setLoading(true);
+			await asinBankService.createAsin(newAsin);
+
+			toast.success("ASIN created successfully");
+			setIsAddDialogOpen(false);
+			setNewAsin({ lead_id: "", asin: "", size: "" });
+			await loadAsinData();
+		} catch (error: any) {
+			console.error("Error creating ASIN:", error);
+			toast.error("Failed to create ASIN", {
 				description: error?.message || "Please try again",
 			});
 		} finally {
@@ -195,15 +335,36 @@ export default function AsinBank() {
 						</Title>
 					</CardTitle>
 					<CardAction>
-						<Button
-							size="sm"
-							variant="outline"
-							onClick={() => loadAsinData()}
-							disabled={loading}
-						>
-							<Icon icon="mdi:refresh" className="mr-1" />
-							Refresh
-						</Button>
+						<div className="flex gap-2">
+							{selectedIds.size > 0 && (
+								<Button
+									size="sm"
+									variant="destructive"
+									onClick={handleBulkDeleteConfirm}
+									disabled={loading}
+								>
+									<Icon icon="mdi:delete" className="mr-1" />
+									Delete ({selectedIds.size})
+								</Button>
+							)}
+							<Button
+								size="sm"
+								onClick={() => setIsAddDialogOpen(true)}
+								disabled={loading}
+							>
+								<Icon icon="mdi:plus" className="mr-1" />
+								Add ASIN
+							</Button>
+							<Button
+								size="sm"
+								variant="outline"
+								onClick={() => loadAsinData()}
+								disabled={loading}
+							>
+								<Icon icon="mdi:refresh" className="mr-1" />
+								Refresh
+							</Button>
+						</div>
 					</CardAction>
 				</CardHeader>
 				<CardContent>
@@ -220,6 +381,81 @@ export default function AsinBank() {
 					/>
 				</CardContent>
 			</Card>
+
+			{/* Add ASIN Dialog */}
+			<Dialog open={isAddDialogOpen} onOpenChange={setIsAddDialogOpen}>
+				<DialogContent>
+					<DialogHeader>
+						<DialogTitle>Add New ASIN</DialogTitle>
+						<DialogDescription>
+							Manually add a new ASIN to the ASIN Bank. Fill in the required fields below.
+						</DialogDescription>
+					</DialogHeader>
+					<div className="grid gap-4 py-4">
+						<div className="grid gap-2">
+							<Label htmlFor="lead_id">
+								Lead ID <span className="text-red-500">*</span>
+							</Label>
+							<Input
+								id="lead_id"
+								placeholder="Enter Lead ID"
+								value={newAsin.lead_id}
+								onChange={(e) => setNewAsin({ ...newAsin, lead_id: e.target.value })}
+							/>
+						</div>
+						<div className="grid gap-2">
+							<Label htmlFor="asin">
+								ASIN <span className="text-red-500">*</span>
+							</Label>
+							<Input
+								id="asin"
+								placeholder="Enter ASIN"
+								value={newAsin.asin}
+								onChange={(e) => setNewAsin({ ...newAsin, asin: e.target.value })}
+							/>
+						</div>
+						<div className="grid gap-2">
+							<Label htmlFor="size">Size (Optional)</Label>
+							<Input
+								id="size"
+								placeholder="Enter Size"
+								value={newAsin.size || ""}
+								onChange={(e) => setNewAsin({ ...newAsin, size: e.target.value })}
+							/>
+						</div>
+					</div>
+					<DialogFooter>
+						<Button variant="outline" onClick={() => setIsAddDialogOpen(false)} disabled={loading}>
+							Cancel
+						</Button>
+						<Button onClick={handleAddAsin} disabled={loading}>
+							{loading ? "Creating..." : "Create ASIN"}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
+
+			{/* Delete Confirmation Dialog */}
+			<Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+				<DialogContent>
+					<DialogHeader>
+						<DialogTitle>Are you sure?</DialogTitle>
+						<DialogDescription>
+							This will permanently delete{" "}
+							<span className="font-semibold text-foreground">{deleteCount}</span> ASIN
+							{deleteCount !== 1 ? "s" : ""}. This action cannot be undone.
+						</DialogDescription>
+					</DialogHeader>
+					<DialogFooter>
+						<Button variant="outline" onClick={() => setDeleteDialogOpen(false)}>
+							Cancel
+						</Button>
+						<Button onClick={handleBulkDelete} variant="destructive" disabled={loading}>
+							{loading ? "Deleting..." : "Delete"}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
 		</div>
 	);
 }

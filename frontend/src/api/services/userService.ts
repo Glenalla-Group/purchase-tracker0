@@ -23,12 +23,18 @@ export interface ResetPasswordReq {
 	new_password: string;
 }
 
+export interface UpdateProfileReq {
+	username?: string;
+	password?: string;
+}
+
 export enum UserApi {
 	SignIn = "/auth/signin",
 	SignUp = "/auth/signup",
 	Logout = "/auth/logout",
 	Refresh = "/auth/refresh",
 	User = "/user",
+	Profile = "/auth/user/profile",
 	ForgotPassword = "/auth/forgot-password",
 	ResetPassword = "/auth/reset-password",
 	GoogleLogin = "/auth/google/login",
@@ -38,6 +44,7 @@ const signin = (data: SignInReq) => apiClient.post<SignInRes>({ url: UserApi.Sig
 const signup = (data: SignUpReq) => apiClient.post<SignInRes>({ url: UserApi.SignUp, data });
 const logout = () => apiClient.get({ url: UserApi.Logout });
 const findById = (id: string) => apiClient.get<UserInfo[]>({ url: `${UserApi.User}/${id}` });
+const updateProfile = (data: UpdateProfileReq) => apiClient.put<UserInfo>({ url: UserApi.Profile, data });
 const forgotPassword = (data: ForgotPasswordReq) => apiClient.post({ url: UserApi.ForgotPassword, data });
 const resetPassword = (data: ResetPasswordReq) => apiClient.post({ url: UserApi.ResetPassword, data });
 
@@ -46,6 +53,7 @@ export default {
 	signup,
 	findById,
 	logout,
+	updateProfile,
 	forgotPassword,
 	resetPassword,
 };

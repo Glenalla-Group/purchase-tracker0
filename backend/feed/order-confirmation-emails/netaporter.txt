@@ -1,0 +1,574 @@
+<div style="margin:0;padding:0" bgcolor="white" dir="ltr" lang="EN">
+  <table align="center" width="100%" style="border:1px solid #cbcbcb;max-width:600px" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+      <tr>
+        <td>
+          <table style="border-collapse:collapse;border-spacing:0;max-width:600px;width:100%;background-color:#000" border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+            <tbody>
+              <tr>
+                <td style="vertical-align:middle;max-width:600px" width="100%" align="center">
+                  <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DATRT&amp;_ei_=EUnc9xWU4WOqXt5CZQQ9JCsaAWZodiv9wU_cgcm06XN4P02IzhOml8B-V5v2po-tNzid5xgJCSsqyjWxhJsCNrjUqnqvQlQA9ycp-5bYaU1F11eYqJYYyWD8m05FtdlBmzbxjs5SrgL89yUIuEYnDFBOQ9kRx3aprcJH9OQqog.&amp;_di_=iu1md3k180h8as4c815kofik76gtgnga77vagbc2f0ptb77gsfe0" style="text-decoration:none" target="_blank">
+                    <img src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/nap-Logo.png" height="" width="150" alt="NET-A-PORTER Logo" style="display:block;padding:16px 0px 16px 0px">
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div id="m_4874148313763978397menu-wrapper" style="max-width:600px;max-height:60px;margin:0 auto;padding:8px 0 16px 0;width:100%;background-color:#000" width="100%">
+            <table align="left" style="border-collapse:collapse;border-spacing:0;float:left;width:100%;max-width:600px;background-color:#000" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:12px;line-height:18px;color:#000000;width:40px" align="center"></td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000" align="center">
+                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTWT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0yl29crJtdZjHLhBATwEOXHwkLKtSGqbDveF7y01eFtIIaZ-0QqUD3PFaGIGpXij83xZ4iy6y0-Ym4b_5yy-W_vSfjoKwGm4tXjYeOqfPwgCIAN0bB7TD2CPPuhp.&amp;_di_=gcrnhoq4flrq75o2osn237au3dr4uk4gavb4toeup946ob9u3if0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#ffffff;text-decoration:none" target="_blank">New In</a>
+                  </td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000" align="center">
+                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTAT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0AzBay4oDK-ONf_9-8-WPra4IyQG2aMNRUHTx4TZJlkPoh_hPbTq-_ypliaG1NVarqelsoxiIvJ2HXFP1IFIzDjMQkRmz9gXqvlG4Ln8IkXvqi8UwDtpasse_5AgFLk.&amp;_di_=tr9fo2hd5m2qmbsutbhfajjolmaf3lj0lht58jase6mutq286ti0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#ffffff;text-decoration:none" target="_blank">Designers</a>
+                  </td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000" align="center">
+                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTCT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0B3ErSw1mrvuA2jxZt8nXN09rZX4r-6Hwli2ilI1Te1UsRr-PYvVIRUBTLv-tNneWF-d8vNuArZVYr6YVnDTdjmNpizUCO4XPXdFRJ63T9RLiNHHBjy589za-44.&amp;_di_=hvvvfkauvqg6oetojgjrj77k2orglh1q4oh99qkhs3vlnap503g0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#ffffff;text-decoration:none" target="_blank">Clothing</a>
+                  </td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000" align="center">
+                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCURT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0HS4SyMscStgS0F4srjvTXPoPi91PJt0Ro4w0CSVAMu-wH4urutzjcr8diDvUuvwaiP4o5JDpza1a86mswiIi_SZEv-HHJjeIUesfIz54EzG6aX7Cwo6kg.&amp;_di_=0l7mapsl3kqhoc0ljo7khjm2ps9h5k1vkbda1chchg99j9uogd6g" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#ffffff;text-decoration:none" target="_blank">Bags</a>
+                  </td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000" align="center">
+                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUTT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0D8cM8hS_GPFI-qDmBgQ3s8tD6JB1J3xYRNOAXrJqOn-Jxiwo5JzVHUm-6TEouQLd95cJ7_9xuA1ajHE9HbcpWPt5yXnlnerORpvlr51zDrtCJEfEA8ggrw.&amp;_di_=iaflcqlo6ok50vhovqmetd888a4qigkonshbh6q7m46gh7gpb1qg" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#ffffff;text-decoration:none" target="_blank">Shoes</a>
+                  </td>
+                  <td height="20" style="padding:0px 7px 16px 7px;vertical-align:middle;height:20px;font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:12px;line-height:18px;color:#000000;width:40px" align="center"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:5px 0px 24px 0px">
+          <table style="border-collapse:collapse!important;border-spacing:0" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td width="100%" style="width:100%;max-width:568px;padding:0px 16px 0px 16px" align="center">
+                  <table width="100%" style="width:100%;max-width:568px;padding:0px 16px 0px 16px" align="center">
+                    <tbody>
+                      <tr>
+                        <td class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1" style="padding:12px 0px 24px 0px">
+                          <p style="margin:0"> Order number: <a href="https://www.net-a-porter.com/en-us/account/orders/2411ZRV6V2538M" style="color:#111111;text-decoration:underline" target="_blank"> 2411ZRV6V2538M</a>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:16px 0px 0px 0px" class="m_4874148313763978397-heading-b3 m_4874148313763978397-color-bl-1"> Dear Griffin, </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:16px 0px 24px 0px" class="m_4874148313763978397-paragraph-4 m_4874148313763978397-color-gr-2">
+                          <p style="padding-bottom:24px;border-bottom:1px solid #cbcbcb50;margin:0"> Thank you for shopping at NET-A-PORTER. We’ll aim to deliver your purchase as quickly as possible but during periods of higher demand it may take longer to arrive. <br>
+                            <br> Here’s a reminder of what you’ve purchased:
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:16px 0px 0px 0px" class="m_4874148313763978397-color-bl-1">
+                          <table width="100%" style="max-width:568px;width:100%" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="m_4874148313763978397-label-5">
+                                  <p style="padding:8px 0px 0px 0px;margin:0;color:#838383;font-weight:normal"> STANDARD </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table width="100%" style="border-bottom:1px solid #cccbcb50">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top" style="padding-top:24px">
+                                          <a href="http://www.net-a-porter.com/shop/product/0400621816651?utm_content=product0&amp;utm_campaign=TRA_orderConfirmation_PROD_80931_netaporte.34602&amp;utm_source=transactional&amp;utm_medium=email_transactional" target="_blank">
+                                            <img src="https://www.net-a-porter.com/variants/images/1647597292414776/in/w96.jpg" alt="" width="96" height="128" border="0" align="middle" style="display:block;background-color:#f0f0f0">
+                                          </a>
+                                        </td>
+                                        <td width="100%" style="padding:24px 16px 24px 16px">
+                                          <table width="100%">
+                                            <tbody class="m_4874148313763978397-label-1">
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-3 m_4874148313763978397-color-bl-1">
+                                                  <a href="http://www.net-a-porter.com/shop/product/0400621816651?utm_content=product0&amp;utm_campaign=TRA_orderConfirmation_PROD_80931_netaporte.34602&amp;utm_source=transactional&amp;utm_medium=email_transactional" style="text-decoration:none;color:#000000" class="m_4874148313763978397-label-3 m_4874148313763978397-color-bl-1" target="_blank">NIKE</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="padding:0" class="m_4874148313763978397-label-1-description m_4874148313763978397-color-gr-2"> Dunk Low leather sneakers </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="padding:8px 0" class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2">
+                                                  <span>Black</span>
+                                                  <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                                  <span>US6</span>
+                                                  <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                                  <span>Qty: 5</span>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-1">
+                                                  <p class="m_4874148313763978397-color-bl-1">
+                                                    <span style="text-decoration:line-through">$575.00</span> 60% Off
+                                                  </p>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td valign="top" class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2"> Taxes: $0.00 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2"> Duties: $0.00 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-3 m_4874148313763978397-color-re-1"> $230.00 </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="100%" style="border-bottom:1px solid #cccbcb50">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top" style="padding-top:24px">
+                                          <a href="http://www.net-a-porter.com/shop/product/0400621816644?utm_content=product1&amp;utm_campaign=TRA_orderConfirmation_PROD_80931_netaporte.34602&amp;utm_source=transactional&amp;utm_medium=email_transactional" target="_blank">
+                                            <img src="https://www.net-a-porter.com/variants/images/1647597292414776/in/w96.jpg" alt="" width="96" height="128" border="0" align="middle" style="display:block;background-color:#f0f0f0">
+                                          </a>
+                                        </td>
+                                        <td width="100%" style="padding:24px 16px 24px 16px">
+                                          <table width="100%">
+                                            <tbody class="m_4874148313763978397-label-1">
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-3 m_4874148313763978397-color-bl-1">
+                                                  <a href="http://www.net-a-porter.com/shop/product/0400621816644?utm_content=product1&amp;utm_campaign=TRA_orderConfirmation_PROD_80931_netaporte.34602&amp;utm_source=transactional&amp;utm_medium=email_transactional" style="text-decoration:none;color:#000000" class="m_4874148313763978397-label-3 m_4874148313763978397-color-bl-1" target="_blank">NIKE</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="padding:0" class="m_4874148313763978397-label-1-description m_4874148313763978397-color-gr-2"> Dunk Low leather sneakers </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="padding:8px 0" class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2">
+                                                  <span>Black</span>
+                                                  <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                                  <span>US6.5</span>
+                                                  <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                                  <span>Qty: 5</span>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-1">
+                                                  <p class="m_4874148313763978397-color-bl-1">
+                                                    <span style="text-decoration:line-through">$575.00</span> 60% Off
+                                                  </p>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td valign="top" class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2"> Taxes: $0.00 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-1 m_4874148313763978397-color-gr-2"> Duties: $0.00 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="m_4874148313763978397-label-3 m_4874148313763978397-color-re-1"> $230.00 </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td style="padding:16px 0px 16px 0px">
+                                  <table width="100%" style="max-width:568px;width:100%">
+                                    <tbody class="m_4874148313763978397-color-bl-1">
+                                      <tr>
+                                        <td class="m_4874148313763978397-heading-b4 m_4874148313763978397-color-bl-1" colspan="2"> Order Summary </td>
+                                      </tr>
+                                      <tr height="16"></tr>
+                                      <tr class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1">
+                                        <td width="50%" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> Subtotal </td>
+                                        <td width="50%" align="end" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> $460.00 </td>
+                                      </tr>
+                                      <tr height="16"></tr>
+                                      <tr>
+                                        <td width="50%" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> Shipping </td>
+                                        <td width="50%" align="end" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> $0.00 </td>
+                                      </tr>
+                                      <tr height="16"></tr>
+                                      <tr>
+                                        <td width="50%" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> Shipping Tax </td>
+                                        <td width="50%" align="end" style="width:50%;max-width:258px;height:18px" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1"> $0.00 </td>
+                                      </tr>
+                                      <tr height="16"></tr>
+                                      <tr height="24"></tr>
+                                      <tr class="m_4874148313763978397-color-bl-1">
+                                        <td width="50%" style="width:50%;max-width:258px;height:18px;border-top:1px solid #cccbcb;padding-top:15px" class="m_4874148313763978397-label-1"> Total </td>
+                                        <td width="50%" align="end" style="width:50%;max-width:258px;height:18px;border-top:1px solid #cccbcb;padding-top:15px" class="m_4874148313763978397-label-1"> $460.00 </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="font-size:1px;line-height:1px;border-top:1px solid #cccbcb"></td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table width="100%" style="display:block;padding:24px 0px 24px 0px;border-bottom:1px solid #cccbcb50;width:100%;max-width:568px">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="padding-top:1px">
+                                          <img src="https://emails.net-a-porter.com/assets/responsysimages/netaporte/contentlibrary/!campaign_templates_prod/images/loyaltyrewards/bronze.png" alt="BronzeChip" width="16" height="16">
+                                        </td>
+                                        <td class="m_4874148313763978397-label-1" style="color:#000;padding:0 8px"> This purchase will bring you closer to the next Reward tier <br>
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTBSCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=34ej988fmskijlu91dkicacdmfnoss46im7r5vg4e8npg3761qc0" style="color:#000;display:block;padding-top:8px" target="_blank">Discover more</a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1">
+                                  <p class="m_4874148313763978397-label-5" style="padding-bottom:8px"> BILLED TO </p>
+                                  <div style="padding-bottom:24px"> AMERICAN_EXPRESS <strong>····</strong> 1018 </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-bottom:16px">
+                                  <table width="100%" style="max-width:532px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" width="50%" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1">
+                                          <p class="m_4874148313763978397-label-5" style="padding-bottom:8px"> SHIP TO </p>
+                                          <div style="padding-bottom:24px"> Mr Griffin Myers <br> 595 Lloyd Ln, STE D <br> Independence <br> US <br> 97351 </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top" align="" width="50%" class="m_4874148313763978397-label-1 m_4874148313763978397-color-bl-1">
+                                          <p class="m_4874148313763978397-label-5" style="padding-bottom:8px"> SHIPPING METHOD </p>
+                                          <div> Standard </div>
+                                        </td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="font-size:1px;line-height:1px;border-top:1px solid #cccbcb50"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%" style="width:100%;max-width:568px;padding:0px 16px 0px 16px" align="center">
+                  <table width="100%" style="width:100%;max-width:568px;padding:0px 16px 0px 16px" align="center">
+                    <tbody>
+                      <tr>
+                        <td class="m_4874148313763978397-paragraph-4 m_4874148313763978397-color-gr-2" style="padding:16px 0px 20px 0px">
+                          <p></p>
+                          <p>To help us make sure your order arrives on time, please check that:</p>
+                          <ul>
+                            <li>If this is your first order with us, your shipping address is either your billing or a corporate address. </li>
+                            <li>Your billing address matches the address shown on your card statement. </li>
+                            <li>Someone will be available to sign for your order at the above shipping address when it is delivered. If you’ve chosen to waive the signature, we will leave your purchase outside the delivery address. </li>
+                          </ul>
+                          <p></p>
+                          <p> Please note, if one or more items are coming from another location, the delivery time frame may be longer. Once your purchase is on its way, we’ll email you to let you know. In the meantime, if you need to make any changes, please contact us as soon as possible. <br>
+                            <br>
+                          </p>
+                          <p> We hope you love your new purchase. </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0px 0px 10px 0px" class="m_4874148313763978397-heading-b3 m_4874148313763978397-color-bl-1">
+                          <p style="margin:0">Kind regards,</p> Customer Care
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="center">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td style="padding:10px 0px 0px 0px;vertical-align:top;max-width:568px" align="center">
+                                  <table style="border-collapse:collapse;border-spacing:0;max-width:568px" border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:0px 0px 10px 0px;vertical-align:top;max-width:568px" align="center">
+                                          <table style="border-collapse:collapse;border-spacing:0;max-width:568px" border="0" cellpadding="0" cellspacing="0" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td style="vertical-align:top;max-width:568px" align="center">
+                                                  <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=rlueqrgfgqccv8dpo1otuq8s75gcq49el68g360coj3u3hcetuc0" target="_blank">
+                                                    <img src="https://emails.net-a-porter.com/assets/responsysimages/netaporte/contentlibrary/!campaign_templates_integ/images/Banner_Bestsellers_Desktop_EN.jpg" width="568" alt="" style="margin:0px;padding:0px;display:block" border="0">
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                  <div style="display:none;width:0;overflow:hidden;max-height:0;min-height:0;margin:0;padding:0;font-size:0;line-height:1px;height:0px">
+                                                    <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=rlueqrgfgqccv8dpo1otuq8s75gcq49el68g360coj3u3hcetuc0" target="_blank">
+                                                      <img src="https://emails.net-a-porter.com/assets/responsysimages/netaporte/contentlibrary/!campaign_templates_integ/images/Banner_Bestsellers_Mobile_EN.jpg" alt="" style="margin:0px;padding:0px;display:block;max-width:360px;width:100%" border="0" width="100%">
+                                                    </a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding:32px 0px 20px 0px">
+                          <p class="m_4874148313763978397-heading-b7 m_4874148313763978397-color-bl-1" style="margin:0;padding:38px 0px 0px 0px;border-top:1px solid #cbcbcb50">Help us do better</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding:0px 0px 0px 0px">
+                          <p class="m_4874148313763978397-heading-b8 m_4874148313763978397-color-bl-1" style="padding:0px 0px 8px 0px">1. <br>
+                          </p>
+                          <p class="m_4874148313763978397-heading-b8" style="padding:0px 0px 16px 0px">Is someone home? <br>
+                          </p>
+                          <p class="m_4874148313763978397-label-4 m_4874148313763978397-color-gr-2">By ensuring you’re available to receive your order, you can help our couriers reduce their carbon emissions <br>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding:20px 0px 00px 0px">
+                          <p style="width:44px;border-top:1px solid #cbcbcb50;line-height:1px;padding:0 0 20px;margin-top:10px">
+                            <br>
+                          </p>
+                          <p class="m_4874148313763978397-heading-b8 m_4874148313763978397-color-bl-1" style="padding:0px 0px 8px 0px">2. <br>
+                          </p>
+                          <p class="m_4874148313763978397-heading-b8" style="padding:0px 0px 16px 0px">Reuse and recycle <br>
+                          </p>
+                          <p class="m_4874148313763978397-label-4 m_4874148313763978397-color-gr-2">Our parcels are more than just packaging – they’re perfect for home storage and gift wrapping. If you can’t repurpose them, please recycle them <br>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding:20px 0px 10px 0px">
+                          <p style="width:44px;border-top:1px solid #cbcbcb50;line-height:1px;padding:0 0 20px;margin-top:10px">
+                            <br>
+                          </p>
+                          <p class="m_4874148313763978397-heading-b8 m_4874148313763978397-color-bl-1" style="padding:0px 0px 8px 0px">3. <br>
+                          </p>
+                          <p class="m_4874148313763978397-heading-b8" style="padding:0px 0px 16px 0px">Care &amp; repair <br>
+                          </p>
+                          <p class="m_4874148313763978397-label-4 m_4874148313763978397-color-gr-2">Every product in our offering is designed to last. By attending to your pieces with care and repairing where possible, you can extend their life span. <br>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0px 0px 24px 0px">
+                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DSBRRT&amp;_ei_=EMerZHZhtwjT-2ihqXE_siFvC85uDLEYzi81EyAd5OFOKNDfdC9xNxV4mpCtorysMJhOx7TeV754aDecJbg6TPFQbcBRRxzynqdvZxsKPAEPAg.&amp;_di_=2aio536id7s76vsco6qco9ugd9uspb4l7lrd06pafr4v8sbcgmr0" target="_blank">
+                            <img alt="Banner" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/OC_BANNER_EN.jpg" style="max-width:100%">
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr align="center">
+                <td valign="top" align="center">
+                  <div style="display:none;text-align:center;padding:15px 0 0 0">
+                    <div style="font-family:&#39;Noto Sans SC&#39;,sans-serif;font-size:14px;line-height:18px;color:#000000">
+                      <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTWT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0yl29crJtdZjHLhBATwEOXHwkLKtSGqbDveF7y01eFtIIaZ-0QqUD3PFaGIGpXij83xZ4iy6y0-Ym4b_5yy-W_vSfjoKwGm4tXjYeOqfPwgCIAN0bB7TD2CPPuhp.&amp;_di_=gcrnhoq4flrq75o2osn237au3dr4uk4gavb4toeup946ob9u3if0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none" target="_blank">New In</a>
+                    </div>
+                    <div style="font-family:&#39;Noto Sans SC&#39;,sans-serif;font-size:14px;line-height:18px;color:#000000">
+                      <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTAT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0AzBay4oDK-ONf_9-8-WPra4IyQG2aMNRUHTx4TZJlkPoh_hPbTq-_ypliaG1NVarqelsoxiIvJ2HXFP1IFIzDjMQkRmz9gXqvlG4Ln8IkXvqi8UwDtpasse_5AgFLk.&amp;_di_=tr9fo2hd5m2qmbsutbhfajjolmaf3lj0lht58jase6mutq286ti0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none" target="_blank">Designers</a>
+                    </div>
+                    <div style="font-family:&#39;Noto Sans SC&#39;,sans-serif;font-size:14px;line-height:18px;color:#000000">
+                      <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCTCT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0B3ErSw1mrvuA2jxZt8nXN09rZX4r-6Hwli2ilI1Te1UsRr-PYvVIRUBTLv-tNneWF-d8vNuArZVYr6YVnDTdjmNpizUCO4XPXdFRJ63T9RLiNHHBjy589za-44.&amp;_di_=hvvvfkauvqg6oetojgjrj77k2orglh1q4oh99qkhs3vlnap503g0" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none" target="_blank">Clothing</a>
+                    </div>
+                    <div style="font-family:&#39;Noto Sans SC&#39;,sans-serif;font-size:14px;line-height:18px;color:#000000">
+                      <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCURT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0HS4SyMscStgS0F4srjvTXPoPi91PJt0Ro4w0CSVAMu-wH4urutzjcr8diDvUuvwaiP4o5JDpza1a86mswiIi_SZEv-HHJjeIUesfIz54EzG6aX7Cwo6kg.&amp;_di_=0l7mapsl3kqhoc0ljo7khjm2ps9h5k1vkbda1chchg99j9uogd6g" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none" target="_blank">Bags</a>
+                    </div>
+                    <div style="font-family:&#39;Noto Sans SC&#39;,sans-serif;font-size:14px;line-height:18px;color:#000000">
+                      <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUTT&amp;_ei_=ESuZsHVdvACnS8d1uC0BtnXRRyeK-EURae8L4p2zOcRbuRM93dGab4FKYc1LMLmi0D8cM8hS_GPFI-qDmBgQ3s8tD6JB1J3xYRNOAXrJqOn-Jxiwo5JzVHUm-6TEouQLd95cJ7_9xuA1ajHE9HbcpWPt5yXnlnerORpvlr51zDrtCJEfEA8ggrw.&amp;_di_=iaflcqlo6ok50vhovqmetd888a4qigkonshbh6q7m46gh7gpb1qg" style="font-family:&#39;AkkuratPro-Regular&#39;,Arial,sans-serif;font-size:14px;line-height:18px;color:#000000;text-decoration:none" target="_blank">Shoes</a>
+                    </div>
+                  </div>
+                  <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-top:0;border-collapse:collapse!important;border-spacing:0;box-sizing:content-box">
+                    <tbody>
+                      <tr>
+                        <td valign="top" bgcolor="#f0f0f0">
+                          <table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0" bgcolor="#f0f0f0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td valign="top" align="center" style="padding:16px 16px 32px 16px" bgcolor="#f0f0f0">
+                                  <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0" bgcolor="#f0f0f0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="border-top:1px #cbcbcb solid;padding:20px 0 0 0;display:none" bgcolor="#f0f0f0"></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding:0px 0 0 0" bgcolor="#f0f0f0">
+                                          <p class="m_4874148313763978397-label-1-12b m_4874148313763978397-color-656565" style="padding:0px 0px 8px 0px;text-transform:uppercase">Need Help?</p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse!important;border-spacing:0;padding:16px 0px 0px 0px" bgcolor="#f0f0f0">
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#f0f0f0">
+                                          <div class="m_4874148313763978397inline-ftr-links m_4874148313763978397-label-1-12 m_4874148313763978397-color-gr-2" bgcolor="#f0f0f0">
+                                            <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DCDCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=pbt1u3h3mhiuo6ng40hbvj08j74stmvktn05vke7h5barcc0ij30" style="text-decoration:none;color:#656565;display:inline-block;padding:8px 0 0 0" target="_blank">Delivery</a>
+                                            <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                            <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDRRT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=hpe602qvtsn1go9pbjidns6n3dfrujtnp8fkaa2rghmmma3eh46g" style="text-decoration:none;color:#656565;display:inline-block;padding:8px 0 0 0" target="_blank">Exchanges &amp; Returns</a>
+                                            <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                            <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDRTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=eb9467cjp8ko74vhteuepdnkhg7oulajibqofikbn0gq7vstjjgg" style="text-decoration:none;color:#656565;display:inline-block;padding:8px 0 0 0" target="_blank">FAQs</a>
+                                            <img style="width:8px;height:8px" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/diamond.png">
+                                            <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDRWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=gsphavleghlk60r720a9uagegc66kgp8ra8bhgj0i8caeovsav00" style="text-decoration:none;color:#656565;display:inline-block;padding:8px 0 0 0" target="_blank">My Account</a>
+                                            <div class="m_4874148313763978397inline-ftr-links-after"></div>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="30%" cellspacing="0" cellpadding="0" border="0" align="left" style="border-collapse:collapse!important;border-spacing:0;padding:16px 0px 0px 0px;width:30%;float:left" bgcolor="#f0f0f0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:0 12px 0 0px" bgcolor="#f0f0f0">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDRAT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=thqe5mt8kb54r1l6bvjr8v81le310ja2j9lhd518tamco06me4o0" target="_blank">
+                                            <img border="0" alt="Facebook" height="16" width="16" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/facebook.png">
+                                          </a>
+                                        </td>
+                                        <td style="padding:0 12px 0 12px" bgcolor="#f0f0f0">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDRCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=sota0q2jjijscsmbb69o47sj29soc55roo5bgu14aa4bc6bt9mkg" target="_blank">
+                                            <img border="0" alt="Twitter" height="16" width="16" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/Twitter.png">
+                                          </a>
+                                        </td>
+                                        <td style="padding:0 12px 0 12px" bgcolor="#f0f0f0">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DATTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=r1tvlpjhkbbii3dt34dd04rae0di8is7nines8kg84v10n5t7l5g" target="_blank">
+                                            <img border="0" alt="YouTube" height="16" width="16" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/youtube.png">
+                                          </a>
+                                        </td>
+                                        <td style="padding:0 12px 0 12px" bgcolor="#f0f0f0">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUAT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=uhs0esav0jhth8tl7e02l5h1ltjaubfal39ak1se4r0kdv6nhrsg" target="_blank">
+                                            <img border="0" alt="Pinterest" height="16" width="16" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/Pinterest.png">
+                                          </a>
+                                        </td>
+                                        <td style="padding:0 12px 0 12px" bgcolor="#f0f0f0">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DATWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=m1k96m74gi5ms5k26s5b0f7frptv2po4qjgv18hnmlqpdh9rm2pg" target="_blank">
+                                            <img border="0" alt="Instagram" height="16" width="16" src="https://emails.net-a-porter.com/assets/responsysimages/content/netaporte/instagram.png">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse!important;border-spacing:0">
+                            <tbody>
+                              <tr>
+                                <td width="16" style="font-size:0;line-height:0;background-color:#ffffff"></td>
+                                <td class="m_4874148313763978397-label-4 m_4874148313763978397-color-gr-2">
+                                  <table cellspacing="0" cellpadding="0" width="100%" border="0" align="left" style="border-collapse:collapse!important;border-spacing:0;width:100%">
+                                    <tbody style="background-color:#ffffff">
+                                      <tr>
+                                        <td class="m_4874148313763978397-label-1-12b m_4874148313763978397-color-656565" valign="top" style="padding:24px 0 8px">CONTACT US</td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding-bottom:24px" class="m_4874148313763978397-label-1-12 m_4874148313763978397-color-656565"> Call <font color="#656565">+1 877 678 9627</font> 24 hours a day, seven days a week. </td>
+                                      </tr>
+                                      <tr>
+                                        <td height="1px" style="background-color:rgba(203,203,203,0.5)"></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_4874148313763978397-label-1-12b m_4874148313763978397-color-656565" valign="top" style="padding:24px 0 8px">get the net-a-porter app</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_4874148313763978397-label-1-12 m_4874148313763978397-color-656565" valign="top" style="padding:0px 0 10px">
+                                          <p>Download and enjoy our app, anytime, anywhere for iOS and Android devices.</p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding-bottom:24px">
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCUCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=ga6382fjkf0lf3bb87q9ifigdi96m33qkbbf19f38edtsft1d220" target="_blank">
+                                            <img src="https://emails.net-a-porter.com/assets/responsysimages/netaporte/contentlibrary/!campaign_templates_integ/images/app_store.png">
+                                          </a>
+                                          <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DTCWRT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=b9hi5okv43hinomaebnmgn3ap3k8i56b1dgkea78s0crhpha93u0" target="_blank">
+                                            <img src="https://emails.net-a-porter.com/assets/responsysimages/netaporte/contentlibrary/!campaign_templates_integ/images/google_play.png">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td height="1px" style="background-color:rgba(203,203,203,0.5)"></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_4874148313763978397-label-1-12 m_4874148313763978397-color-656565" valign="top" style="padding:24px 0 32px">
+                                          <p>NET-A-PORTER is a trading name of YNAP Corporation, <br>an affiliate of YOOX NET-A-PORTER GROUP S.p.A. </p>
+                                          <p>Office: 100 5TH AVENUE – 12TH FLOOR, <br>NEW YORK NY 10011 </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="m_4874148313763978397-label-1-12 m_4874148313763978397-color-656565" valign="top" align="center" style="width:480px;height:40px;text-align:center">
+                                          <span dir="ltr">© 1999 - 2025 <a href="https://emails.net-a-porter.com/pub/acc?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXtpKX%3DDSRT&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmEUXIpGK7bWuHBaKAuUVhoLnfEVIGsoP-Akn7zDZmGKuvZ5X2Mpu3HMGy-jL-zr2RKTy8Wlg.&amp;_di_=g6p5e2p0rt3p02i8grevn718u4uegtc0moqchq6kds2d1ads9jb0" class="m_4874148313763978397-color-gr-2" style="color:#656565" target="_blank">NET-A-PORTER.COM</a>
+                                          </span>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td width="16" style="font-size:0;line-height:0;background-color:#ffffff"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table cellpadding="0" cellspacing="0" style="border:0px;padding:0px;margin:0px;display:none;float:left">
+    <tbody>
+      <tr>
+        <td height="1" style="font-size:1px;line-height:1px;padding:0px">
+          <br>
+          <img src="https://emails.net-a-porter.com/pub/as?_ri_=X0Gzc2X%3DBQjkPkSSBQGylJdNCnKC0ECBzfOYbSYIAk8Cqw2nTzfpwXHl6zfn4zaKbfDzeAdVXHkMX%3Dw&amp;_ei_=EUlaGGF4SNMvxFF7KucKuWPfzhOkHUiCcK_-6XgGVNpREar5E5XsWP5KbvxYOzetBb9r-5RZwl-Ax7Mc_g4.&amp;_di_=5or0rqpi5k4fqld6af5j1j2l1oelt8s7c5su8nmh2ufc06q8gmg0">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>

@@ -1,0 +1,1191 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg-5938586286895090546"><u></u>
+      <div>
+        <center>
+          <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"
+            class="m_-5938586286895090546wrapper" bgcolor="#E5E5E5"
+            style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-family:&#39;Archivo&#39;,Arial,sans-serif">
+            <tbody>
+              <tr>
+                <td align="center" valign="top">
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546mobileOff">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0">
+                          <p
+                            style="color:#2e2e2e;font-family:Arial,sans-serif;font-size:12px;margin:8px 0;display:none">
+                            Your order is being processed now
+                          </p>
+
+                          <div style="height:0px;font-size:0px;display:hidden;overflow:hidden;margin:0;padding:0">
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" align="center"
+                    style="max-width:640px;width:100%;padding:0" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0">
+                          <table role="presentation" aria-hidden="true">
+                            <tbody>
+                              <tr>
+                                <td height="20" style="font-size:20px;line-height:20px"> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0"
+                            align="center" style="max-width:600px;width:100%">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="padding:0">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc2/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dsryHVnp5p2tEpGY7Ag-31xZ2MTviJK87_AozGHNV03SiGrsrHT-k-IM4e2LQLl73g-hMoflsRS93aFsk03xgC4GQU2RAZ7_vkKOAIMcmGPbTEDlQ_Mcb9EtCW1PFZ5BPoQPFoEWU7OxLXn7aCOKGxuD4BCzPu-4G37ygwxTGFRw1SlcIQ5FYiJYdMjqM00n7MsojHPpvmkvmyasDtVSILQmoeTlF71StieouIHre0YuDzTAJhzkA4oDc_y9OXdVpBqQsz5aNPr7bz-gjOS1KgjRCRARiLrmU3cyk6E7RZ3SzkzNzyWauLmZyuOAZCopOpnZySSzTFZZv2AfFsaqKSo="
+                                    style="color:inherit;text-decoration:none" target="_blank">
+                                    <img
+                                      src="http://images.harmony.epsilon.com/ContentHandler/images?id=7b69e150-7148-4599-8dd2-535c3eb1d4c0"
+                                      width="116" height="auto" style="border:none;display:block" border="0"
+                                      class="m_-5938586286895090546logo" alt=" Dick&#39;s ">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table role="presentation" aria-hidden="true">
+                            <tbody>
+                              <tr>
+                                <td height="24" style="font-size:24px;line-height:24px;margin:0;padding:0"> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" align="center"
+                    class="m_-5938586286895090546wrapper" bgcolor="#FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" class="m_-5938586286895090546mobile16">
+                          <img
+                            src="https://dsg.images.harmony.epsilon.com/_phoenix/triggers/header_animations/20_EMAIL_ANI_order_confirmed.gif"
+                            alt=" " width="608" height="auto"
+                            style="color:#1a1a1a;background-color:#ffffff;font-family:sans-serif;font-size:12px;line-height:16px;text-align:center;margin:0;padding:0;border:none;display:block"
+                            border="0" class="m_-5938586286895090546img">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="24" style="font-size:24px;line-height:24px;margin:0;padding:0"> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 0 24px">
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+
+                                  <h1 class="m_-5938586286895090546copyMargin16"
+                                    style="color:#2e2e2e;font-weight:400;font-size:24px;line-height:28px;letter-spacing:0.5px;margin:0 0 24px">
+                                    <b>We’re getting your order ready!</b>
+                                  </h1>
+
+                                  <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                                    class="m_-5938586286895090546wrapper">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top" style="padding:0">
+
+                                          <h2 class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:20px;line-height:24px;letter-spacing:1px;margin:0 0 16px">
+                                            <strong>Hi GRIFFIN,</strong>
+                                          </h2>
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:16px;line-height:24px;letter-spacing:0.5px;margin:0px 0 0">
+                                            We are processing your order now and will send updates as items are ready to
+                                            ship.
+                                          </p>
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 56px">
+
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper" bgcolor="E0F1EE">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="width:526px;padding:0">
+                                  <h2 class="m_-5938586286895090546copyMargin16"
+                                    style="color:#2e2e2e;font-weight:400;font-size:24px;line-height:32px;letter-spacing:0.5px;margin:24px 56px">
+                                    <strong>ORDER SUMMARY</strong>
+                                  </h2>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top" style="width:526px;padding:0px 0 32px">
+
+                                  <table width="526" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="max-width:526px;width:100%">
+
+                                    <tbody>
+                                      <tr>
+                                        <td width="40%" align="left" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Order Number
+                                          </p>
+                                        </td>
+                                        <td width="60%" align="right" valign="top">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc3/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g3dRD1DWLuCNsU0foB2POmbdc7FebO0jKTub_ix-hp8MN5RYPmO6hedlSSABrdJCBwnI-wynRui1exWTisURuqkQxHMYdP9Urzxmq8UeJsdh8C002M14U3MFKozCxK6debaJWxsJ1vufIiVXNlYzdpOWPaLaCN1Nb1MrBNMhQd6QFIKWFmOqSG0pWpHyp0clOwBj3J-3fRcz6QXbD2qKix8Wyt8iiuwuoj70hXVx4ffF3aS3l9UtszYm37VZ7hqKMXqpWUVWJWZrmslngfr-94qXoyHoUiQb2hCpZ12ITr2Md65TFmvoW58vBBRPlMpYCNpbnMAtGfd5A2xxpullfrCWdqlE2w9gIKG0ezUM9i0sde-wN73VXXtHtv3Sw9Ckgke2iJHfI2rUaiNUC1wGtBuOAc6NoQdijYUzHBFP0VMNO3cF-r74RzdGGMPuRpJaCmzmSsLM9HlR-iKNF6DLrPMIQqTzq1POee9noLh1YEVA9S8UDLnWF1QXT5A_eiHyvQKm403aTZYEBABl30h9mH3P-d5mF3kc="
+                                            style="color:inherit;text-decoration:underline" target="_blank">
+                                            <p class="m_-5938586286895090546copyMargin16"
+                                              style="color:#006554;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px">
+                                              40023070370
+                                            </p>
+                                          </a>
+                                        </td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td width="40%" align="left" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Order Date
+                                          </p>
+                                        </td>
+                                        <td width="60%" align="right" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px">
+                                            09/22/25
+                                          </p>
+                                        </td>
+                                      </tr>
+
+
+
+
+                                      <tr>
+                                        <td width="50%" align="left" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Order Subtotal
+                                          </p>
+                                        </td>
+                                        <td width="50%" align="right" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px">
+                                            $161.96
+                                          </p>
+                                        </td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td width="50%" align="left" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Estimated Shipping
+                                          </p>
+                                        </td>
+                                        <td width="50%" align="right" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px">
+                                            $8.99
+                                          </p>
+                                        </td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td width="50%" align="left" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Estimated Tax
+                                          </p>
+                                        </td>
+                                        <td width="50%" align="right" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px">
+                                            $0.00
+                                          </p>
+                                        </td>
+                                      </tr>
+
+
+
+
+                                    </tbody>
+                                  </table>
+
+
+                                  <table role="presentation" width="455" class="m_-5938586286895090546wrapper"
+                                    style="margin:0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="0"
+                                          style="border-bottom:1px solid #cccccc;font-size:0px;line-height:0px;padding:0">
+                                           </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                  <table width="526" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="max-width:526px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="60%" align="left" valign="top" style="padding:16px 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#006554;font-weight:400;font-size:14px;line-height:18px;margin:0 36px;margin-right:0px!important">
+                                            <span id="m_-5938586286895090546ordAdjDesc">Free Shipping Applied!</span>
+                                          </p>
+                                        </td>
+                                        <td width="40%" align="right" valign="top" style="padding:16px 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#006554;font-weight:400;font-size:14px;line-height:18px;margin:0 36px">
+                                            $8.99
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+
+                                  <table role="presentation" width="455" class="m_-5938586286895090546wrapper"
+                                    style="margin:0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="0"
+                                          style="border-bottom:1px solid #cccccc;font-size:0px;line-height:0px;padding:0">
+                                           </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table width="526" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="max-width:526px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="60%" align="left" valign="top" style="padding:16px 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#006554;font-weight:400;font-size:14px;line-height:18px;margin:0 36px;margin-right:0px!important">
+                                            Gift Card(s) Total
+                                          </p>
+                                        </td>
+                                        <td width="40%" align="right" valign="top" style="padding:16px 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#006554;font-weight:400;font-size:14px;line-height:18px;margin:0 36px">
+                                            $161.96
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                  <table role="presentation" width="455" class="m_-5938586286895090546wrapper"
+                                    style="margin:0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="0"
+                                          style="border-bottom:1px solid #cccccc;font-size:0px;line-height:0px;padding:0">
+                                           </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table width="526" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="max-width:526px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="60%" align="left" valign="top" style="padding:16px 0 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px;margin-right:0px!important">
+                                            <b>Estimated Order Total</b>
+                                          </p>
+                                        </td>
+                                        <td width="40%" align="right" valign="top" style="padding:16px 0">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px">
+                                            <b>$161.96</b>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td width="60%" align="left" valign="top" style="padding:0 0 24px">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Charged to
+                                            ValueLink
+                                          </p>
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 12px;margin-right:0px!important">
+                                            Ending in
+                                            xxxxxxxxxxxx0264
+                                          </p>
+                                        </td>
+                                        <td width="40%" align="right" valign="top">
+                                          <p class="m_-5938586286895090546copyMargin16"
+                                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px">
+                                            $0.00
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="2">
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td width="30%" align="left" valign="top" style="padding:0 0 24px">
+                                                  <p class="m_-5938586286895090546copyMargin16"
+                                                    style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px 16px;margin-right:0px!important">
+                                                    Billing Address
+                                                  </p>
+                                                </td>
+                                                <td width="70%" align="right" valign="top" style="padding:0 0 24px">
+                                                  <p class="m_-5938586286895090546copyMargin16"
+                                                    style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;margin:0 36px">
+                                                    595 Lloyd Ln STE D<br> Independence, OR 97351-2125
+                                                  </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table role="presentation" class="m_-5938586286895090546button" align="center"
+                                    border="0" cellpadding="0" cellspacing="0"
+                                    style="background-color:#006554;border-radius:0px;overflow:hidden;margin:0 32px">
+                                    <tbody>
+                                      <tr>
+                                        <td width="100%" height="44" align="center"
+                                          style="font-size:14px;line-height:20px;text-align:center;color:#ffffff;background-color:inherit;border-radius:0px">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc4/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g3dRD1DWLuCNsU0foB2POmbdc7FebO0jKTub_ix-hp8MN5RYPmO6hedlSSABrdJCBwnI-wynRui1exWTisURuqkQxHMYdP9Urzxmq8UeJsdh8C002M14U3MFKozCxK6debaJWxsJ1vufIiVXNlYzdpOWPaLaCN1Nb1MrBNMhQd6QFIKWFmOqSG0pWpHyp0clOwBj3J-3fRcz6QXbD2qKix8Wyt8iiuwuoj70hXVx4ffF3aS3l9UtszYm37VZ7hqKMXqpWUVWJWZrmslngfr-94qXoyHoUiQb2hCpZ12ITr2Md65TFmvoW58vBBRPlMpY-6AOKo3d80jVohx4ha4Bcu-3fugNyS6nw7J_O6OE5l4IKg7Bxg3aWy1s7SnQi5Le-ONGmVxFY6jn53Kq3yay91lsD8U_ECIfILt2bHFv6yBh1QLHbgLaYMgNy9rOlNu5qxpSVpnsgB8n-O4rqO1HB-e77lfHk72BoiPPMPuoQnS905a6QsLUYBPChs6_sx6yBJnchazxAaw=="
+                                            style="color:#ffffff;text-decoration:none;width:100%;display:block;padding-top:12px;padding-bottom:12px"
+                                            target="_blank">
+                                            <span
+                                              style="display:inline-block;padding-top:0px;padding-right:24px;padding-bottom:0px;padding-left:24px;color:#ffffff">
+                                              <strong>VIEW ORDER ONLINE</strong>
+                                            </span></a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="width:640px;padding:24px 0 24px">
+
+                          <h2 class="m_-5938586286895090546copyMargin16"
+                            style="color:#2e2e2e;font-weight:400;font-size:24px;line-height:32px;letter-spacing:1.5px;margin:0 56px">
+                            <b>Order Details</b>
+                          </h2>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 56px 16px"
+                          class="m_-5938586286895090546mobile16">
+
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper" bgcolor="005343">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="padding:12px 16px"
+                                  class="m_-5938586286895090546mobile16">
+                                  <table width="494" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="10%" align="left" valign="top">
+                                          <img
+                                            src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/icon_truck.png"
+                                            alt=" " width="20"
+                                            style="color:#2e2e2e;background-color:none;font-family:sans-serif;font-size:14px;line-height:18px;margin:0;padding:0;border:none;display:block"
+                                            border="0">
+                                        </td>
+                                        <td width="90%" align="left" valign="top">
+                                          <p
+                                            style="color:#ffffff;font-weight:400;font-size:14px;line-height:18px;margin:0">
+                                            Item(s) being shipped
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+
+
+
+
+
+
+
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td style="width:10px;background-color:#112b45"></td>
+                                <td
+                                  style="width:35px;text-align:right;background-color:#e2eef3;color:#2e2e2e;padding:12px">
+                                  <img
+                                    src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/icon_alert_info.png"
+                                    alt=" " width="20"
+                                    style="color:#2e2e2e;background-color:none;font-family:sans-serif;font-size:14px;line-height:18px;margin:0;padding:0;border:none;display:block"
+                                    border="0">
+                                </td>
+                                <td
+                                  style="width:466px;text-align:left;font-weight:400;font-size:14px;background-color:#e2eef3;color:#2e2e2e;padding:12px">
+                                  <b>Multiple packages</b>
+                                  <br> Orders with multiple items may ship in more than one package.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 56px 24px"
+                          class="m_-5938586286895090546mobile16">
+                          <table role="presentation" align="center" width="526" cellpadding="0" cellspacing="0"
+                            border="0" class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="left" valign="top">
+
+
+                                  <p
+                                    style="color:#2e2e2e;font-weight:400;font-size:16px;line-height:20px;letter-spacing:0.5px;margin:0 0 4px">
+                                    <b>Ships to</b>
+                                  </p>
+                                  <p
+                                    style="color:#2e2e2e;font-weight:400;font-size:16px;line-height:24px;letter-spacing:0.5px;margin:0">
+                                    595 Lloyd Ln STE D<br> Independence, OR 97351-2125
+                                  </p>
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 32px" class="m_-5938586286895090546mobile16">
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="width:526px;padding:0px 16px"
+                                  class="m_-5938586286895090546mobile">
+
+
+
+                                  <table role="presentation" aria-hidden="true">
+                                    <tbody>
+                                      <tr>
+                                        <td height="16" style="font-size:16px;line-height:16px;margin:0;padding:0"> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table role="presentation" width="526" cellspacing="0" cellpadding="0" border="0"
+                                    align="center" style="max-width:526px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="20%" align="center" valign="top" style="padding:0;text-align:center">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc5/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QueT_MPNPZjOOgixOmmY4teRme84mjXY7AsCEs5BCtUMzn_P2xroHjjLNnR-TA1vONNejJWMETnHnFtFaW58bV1hQoWvvudA3bP3dAU0OGQlycpV9ivdzcqhOwBj3J-3fRcz6QXbD2qKix8Wyt8iiuwuoj70hXVx4ffF3aS3l9UtszYm37VZ7hqKMXqpWUVWJWZrmslngfr-94qXoyHoUiQb2hCpZ12ITr2Md65TFmvoW58vBBRPlMpY-6AOKo3d80jVohx4ha4Bcu-3fugNyS6nw7J_O6OE5l4IKg7Bxg3aWy1s7SnQi5Le-ONGmVxFY6jn53Kq3yay91lsD8U_ECIfILt2bHFv6yBh1QLHbgLaYMgNy9rOlNu5qxpSVpnsgBxRUP-UoKGSe8XxriSaGhj_ckzlix4FpM3Jw_-1Rsy-S0_4ti_vq-ImBJnchazxAaw=="
+                                            style="color:#1a1a1a;text-decoration:none" target="_blank">
+                                            <img
+                                              src="https://dks.scene7.com/is/image/dkscdn/22MAZWCLDMNSTRCLVFTW_White_Flame?$DSG_ShoppingCart$"
+                                              alt=" " width="105" style="min-width:72px;display:block;border:none">
+                                          </a>
+                                        </td>
+
+                                        <td dir="ltr" width="100%" align="left" valign="top"
+                                          style="padding:0 16px 0;text-align:left">
+
+
+                                          <p
+                                            style="color:#1b1818;font-weight:400;font-size:14px;line-height:19.60px;margin:0 0 4px">
+                                            <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc6/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QueT_MPNPZjOOgixOmmY4teRme84mjXY7AsCEs5BCtUMzn_P2xroHjjLNnR-TA1vONNejJWMETnHnFtFaW58bV1hQoWvvudA3bP3dAU0OGQlycpV9ivdzcqhOwBj3J-3fRcz6QXbD2qKix8Wyt8iiuwuoj70hXVx4ffF3aS3l9UtszYm37VZ7hqKMXqpWUVWJWZrmslngfr-94qXoyHoUiQb2hCpZ12ITr2Md65TFmvoW58vBBRPlMpY-6AOKo3d80jVohx4ha4Bcu-3fugNyS6nw7J_O6OE5l4IKg7Bxg3aWy1s7SnQi5Le-ONGmVxFY6jn53Kq3yay91lsD8U_ECIfILt2bHFv6yBh1QLHbgLaYMgNy9rOlNu5qxpSVpnsgB6As4xAwt_Qnf1Hh2jjZhDcu7WZQ-zXHgorgGa6ZSU_HbGEVTLFXiAGBJnchazxAaw=="
+                                              style="color:#000000;text-decoration:underline" target="_blank">
+                                              <b>On Women&#39;s Cloudmonster Shoes</b>
+                                            </a>
+                                          </p>
+
+
+
+                                          <p
+                                            style="color:#6b6b6b;font-size:12px;line-height:16px;margin:0 0 4px;font-family:Archivo,Arial sans serif;font-weight:400;line-height:16.80px;word-wrap:break-word">
+                                            <strong>SKU:</strong> 25390004
+                                          </p>
+
+
+
+
+                                          <p
+                                            style="color:#006554;font-size:12px;line-height:16px;margin:0 0 4px;font-weight:600;line-height:16.80px;word-wrap:break-word">
+                                            <strong>Est. Delivery:</strong> Wed, 09/24 - Fri, 09/26
+                                          </p>
+
+
+
+
+
+
+
+
+
+
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Color</strong>: White/Flame
+                                          </p>
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Shoe Size</strong>: 8.0
+                                          </p>
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Shoe Width</strong>: Medium/B
+                                          </p>
+
+
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table role="presentation" aria-hidden="true">
+                                    <tbody>
+                                      <tr>
+                                        <td height="16" style="font-size:16px;line-height:16px"> </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                  <table role="presentation" width="526" class="m_-5938586286895090546wrapper"
+                                    style="margin:0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="0"
+                                          style="border-bottom:1px solid #cccccc;font-size:0px;line-height:0px;padding:0">
+                                           </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                                  <table role="presentation" aria-hidden="true">
+                                    <tbody>
+                                      <tr>
+                                        <td height="16" style="font-size:16px;line-height:16px;margin:0;padding:0"> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table role="presentation" width="526" cellspacing="0" cellpadding="0" border="0"
+                                    align="center" style="max-width:526px;width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="20%" align="center" valign="top" style="padding:0;text-align:center">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc7/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QuUt6sCYzhsbAEFvPVw_fm8MggDrctglT41pWhVL4lv0tGNFW7i1jJirPvxXfU3p3w_iyIr9e60yrFWwRIrypKRQ_cvalf2Y0F7iD3VFkdluZoYLEhC7r81XKS5dQb4zDGE7AGPcn7d9FzPpBdsPaoqLHxbK3yKK7C6iPvSFdXHh98XdpLeX1S2zNibftVnuGooxeqlZRVYlZmuayWeB-v73ipejIehSJBvaEKlnXYhOvYx3rlMWa-hbny8EFE-Uylj7oA4qjd3zSNWiHHiFrgFy77d-6A3JLqfDsn87o4TmXggqDsHGDdpbLWztKdCLkt7440aZXEVjqOfncqrfJrL3WWwPxT8QIh8gu3ZscW_rIGHVAsduAtpgyA3L2s6U27mrGlJWmeyAHFFQ_5SgoZJ7xfGuJJoaGP9yTOWLHgWkzcnD_7VGzL5LT_i2L--r4iYEmdyFrPEBr"
+                                            style="color:#1a1a1a;text-decoration:none" target="_blank">
+                                            <img
+                                              src="https://dks.scene7.com/is/image/dkscdn/22NIKMRFRC107LV8NMNSB_Navy_White?$DSG_ShoppingCart$"
+                                              alt=" " width="105" style="min-width:72px;display:block;border:none">
+                                          </a>
+                                        </td>
+
+                                        <td dir="ltr" width="100%" align="left" valign="top"
+                                          style="padding:0 16px 0;text-align:left">
+
+
+                                          <p
+                                            style="color:#1b1818;font-weight:400;font-size:14px;line-height:19.60px;margin:0 0 4px">
+                                            <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc8/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QuUt6sCYzhsbAEFvPVw_fm8MggDrctglT41pWhVL4lv0tGNFW7i1jJirPvxXfU3p3w_iyIr9e60yrFWwRIrypKRQ_cvalf2Y0F7iD3VFkdluZoYLEhC7r81XKS5dQb4zDGE7AGPcn7d9FzPpBdsPaoqLHxbK3yKK7C6iPvSFdXHh98XdpLeX1S2zNibftVnuGooxeqlZRVYlZmuayWeB-v73ipejIehSJBvaEKlnXYhOvYx3rlMWa-hbny8EFE-Uylj7oA4qjd3zSNWiHHiFrgFy77d-6A3JLqfDsn87o4TmXggqDsHGDdpbLWztKdCLkt7440aZXEVjqOfncqrfJrL3WWwPxT8QIh8gu3ZscW_rIGHVAsduAtpgyA3L2s6U27mrGlJWmeyAHoCzjEDC39Cd_UeHaONmENy7tZlD7NceCiuAZrplJT8dsYRVMsVeIAYEmdyFrPEBr"
+                                              style="color:#000000;text-decoration:underline" target="_blank">
+                                              <b>Nike Men&#39;s Air Force 1 &#39;07 LV8 Shoes</b>
+                                            </a>
+                                          </p>
+
+
+
+                                          <p
+                                            style="color:#6b6b6b;font-size:12px;line-height:16px;margin:0 0 4px;font-family:Archivo,Arial sans serif;font-weight:400;line-height:16.80px;word-wrap:break-word">
+                                            <strong>SKU:</strong> 25985214
+                                          </p>
+
+
+
+
+                                          <p
+                                            style="color:#006554;font-size:12px;line-height:16px;margin:0 0 4px;font-weight:600;line-height:16.80px;word-wrap:break-word">
+                                            <strong>Est. Delivery:</strong> Wed, 09/24 - Fri, 09/26
+                                          </p>
+
+
+
+
+
+
+
+
+
+
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Color</strong>: Navy/White
+                                          </p>
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Shoe Size</strong>: 9.0
+                                          </p>
+                                          <p style="color:#797979;font-size:12px;line-height:16px;margin:0 0 4px">
+                                            <strong>Shoe Width</strong>: Medium/D
+                                          </p>
+
+
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table role="presentation" aria-hidden="true">
+                                    <tbody>
+                                      <tr>
+                                        <td height="16" style="font-size:16px;line-height:16px"> </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 32px" class="m_-5938586286895090546mobile16">
+                          <table role="presentation" width="526" class="m_-5938586286895090546wrapper" style="margin:0">
+                            <tbody>
+                              <tr>
+                                <td height="0"
+                                  style="border-bottom:1px solid #cccccc;font-size:0px;line-height:0px;padding:0"> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 56px 24px"
+                          class="m_-5938586286895090546mobile16">
+                          <br>
+                          <table role="presentation" width="526" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td style="width:10px;background-color:#ffa203"></td>
+                                <td
+                                  style="width:20px;text-align:right;background-color:#fff8e2;color:#2e2e2e;padding:12px">
+                                  <img
+                                    src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/triggers/dks/img/icon_alert_dks.png"
+                                    alt=" " width="20"
+                                    style="color:#2e2e2e;background-color:none;font-family:sans-serif;font-size:14px;line-height:18px;margin:0;padding:0;border:none;display:block"
+                                    border="0">
+                                </td>
+                                <td
+                                  style="width:466px;text-align:left;font-weight:400;font-size:14px;background-color:#fff8e2;color:#2e2e2e;padding:12px">
+                                  <b>Need to return in store?</b>
+                                  <br> Simply bring this email with you as your receipt for in store returns.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" align="center"
+                    class="m_-5938586286895090546wrapper" bgcolor="#FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 0 0">
+                          <hr
+                            style="margin:0px 0 8px 0;border-width:0px;width:40px;height:2px;background-color:#bb5811;color:#bb5811">
+                          <p class="m_-5938586286895090546copyMargin16"
+                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;letter-spacing:0.5px;margin:0 32px 0">
+                            If you did not make this purchase, please contact as soon as possible using one of the
+                            methods below.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="FFFFFF">
+
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 0 32px">
+
+                          <h2
+                            style="color:#2e2e2e;font-weight:400;font-size:24px;line-height:28px;letter-spacing:0.5px;margin:24px 32px 16px">
+                            <b>Need to get in touch?</b>
+                          </h2>
+                          <hr style="border-width:0px;width:40px;height:2px;background-color:#bb5811;color:#bb5811">
+                          <p class="m_-5938586286895090546copyMargin16"
+                            style="color:#2e2e2e;font-weight:400;font-size:14px;line-height:20px;letter-spacing:0.5px;margin:0px 32px 0">
+                            We’re here to assist you in any way we can.
+                          </p>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" align="center"
+                    class="m_-5938586286895090546wrapper" style="max-width:640px" bgcolor="#FFFFFF">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="padding:0 0 40px">
+                          <table role="presentation" width="400" cellspacing="0" cellpadding="0" border="0"
+                            align="center" style="max-width:400px;width:100%">
+                            <tbody>
+                              <tr>
+                                <td width="33%" align="center" valign="top"
+                                  style="padding:0px 8px 0px 16px;text-align:center">
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcc9/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QuTgTKs4U7J7-5A8dtmqr4eiuvJpzvFoxMjy2QyHfD33EvWIL2slBcOPP5Gqnx_RiVoYCilOUNz83e4FPAMah9Af59RgkamC0mQKvhxZUQu4PbW1O-rc69NznhbPVoddkOv_McsD_23NtUxBky_h5jIuOBCybnoMH4qxRWlckbb5pJUIsDUUBQcrfp07yZU5SSWHfeAXJZuq4xiqvkTKJ2Wtx20iOJSTw1zfM-UQOafXPLhPwYJov-p-tshJiV-3QYxvF17YFXT0j4pQqAVE4Glo5IQlExjnWj0aLuVUPMR3MloavGljU9wFfTf9iye_9_RU_lcnpcJkrWlsYHAJC7A4aMiJk-Et9vw=="
+                                            style="text-decoration:none" target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/triggers/dks/img/icon_chat_dks.png"
+                                              alt=" " width="20"
+                                              style="color:#2e2e2e;background-color:#ffffff;font-family:sans-serif;font-size:14px;line-height:18px;margin:0 0 12px;padding:0;border:none;display:block"
+                                              border="0">
+
+                                            <p
+                                              style="color:#006554;font-weight:800;font-size:14px;line-height:20px;letter-spacing:0.5px;margin:0px 0px 8px">
+                                              <b><u>Chat Now</u></b>
+                                            </p>
+                                            <p
+                                              style="color:#2e2e2e;font-weight:400;font-size:10px;line-height:16px;letter-spacing:0px;margin:0">
+                                              Available 8am-midnight
+                                            </p>
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td width="33%" align="center" valign="top" style="padding:0px 8px;text-align:center">
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcca/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUVqO5iWM7DQy5kRuG88MgQnmY3zDjFsNOK62egPLDnLJ0WHwDQjMWjufwOhyqEFdxGjOHTdb8w-EEi-2McmvDYtVjYcqU9otjBHnHFLFxleuU53DQt7CaoexBZccJgvSv2m1Jr5Piz352gpkoqr_RhQIbL6eKioQtFtyAnwE8OjnUDq_NwqFABqkdB7-LVToPXC-wC6Ge7KoEuLfhnaXnZvL6dcRGdoWNw-syFJ49zRakmMk16-UZAxlWvzfh7zBSj40MEwD0oaVraOOS6j5CavXZXz5H03wFni3-yOkxR6AC-FbaWQwPYmTKK66DbWbsB9eyU-2xCof3-EpPvqI5hVK53PzMzvlT1rVNQewrmuQ="
+                                            style="text-decoration:none" target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/triggers/dks/img/icon_call_dks.png"
+                                              alt=" " width="20"
+                                              style="color:#2e2e2e;background-color:#ffffff;font-family:sans-serif;font-size:14px;line-height:18px;margin:0 0 12px;padding:0;border:none;display:block"
+                                              border="0">
+
+                                            <p
+                                              style="color:#006554;font-weight:800;font-size:14px;line-height:20px;letter-spacing:0.5px;margin:0px 0px 8px">
+                                              <b><u>Call Us</u></b>
+                                            </p>
+                                          </a>
+                                          <p
+                                            style="color:#2e2e2e;font-weight:400;font-size:10px;line-height:16px;letter-spacing:0px;margin:0">
+                                            <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcca/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUVqO5iWM7DQy5kRuG88MgQnmY3zDjFsNOK62egPLDnLJ0WHwDQjMWjufwOhyqEFdxGjOHTdb8w-EEi-2McmvDYtVjYcqU9otjBHnHFLFxleuU53DQt7CaoexBZccJgvSv2m1Jr5Piz352gpkoqr_RhQIbL6eKioQtFtyAnwE8OjnUDq_NwqFABqkdB7-LVToPXC-wC6Ge7KoEuLfhnaXnZvL6dcRGdoWNw-syFJ49zRakmMk16-UZAxlWvzfh7zBSj40MEwD0oaVraOOS6j5CavXZXz5H03wFni3-yOkxR6AC-FbaWQwPYmTKK66DbWbsB9eyU-2xCof3-EpPvqI5hVK53PzMzvlT1rVNQewrmuQ="
+                                              style="text-decoration:none" target="_blank">
+                                            </a><a
+                                              style="color:#2e2e2e;text-decoration:none;display:inline;margin:0;padding:0">
+                                              877-846-9997
+                                            </a>
+                                          </p>
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td width="33%" align="center" valign="top"
+                                  style="padding:0px 16px 0px 8px;text-align:center">
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="width:100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bccb/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQxcMMAdQtDu3zvHuUd9sTu98qNcTXw0QuTgTKs4U7J7-5A8dtmqr4eiuvJpzvFoxMjy2QyHfD33EvWIL2slBcOPP5Gqnx_RiVoYCilOUNz83e4FPAMah9Af59RgkamC0mQKvhxZUQu4PbW1O-rc69NznhbPVoddkOv_McsD_23NtUxBky_h5jIuOBCybnoMH4hFVXA8bVyfQJUIsDUUBQcrfp07yZU5SSWHfeAXJZuq4xiqvkTKJ2Wtx20iOJSTw1zfM-UQOafXPLhPwYJov-p-tshJiV-3QYxvF17YFXT0j4pQqAVE4Glo5IQlExjnWj_z_cBnsIgtjvIs3m8wHppC8BAbfNOxkcfUVCn5aSdDkoR0wD9yy1FMaMiJk-Et9vw=="
+                                            style="text-decoration:none" target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/triggers/dks/img/icon_help_dks.png"
+                                              alt=" " width="20"
+                                              style="color:#2e2e2e;background-color:#ffffff;font-family:sans-serif;font-size:14px;line-height:18px;margin:0 0 12px;padding:0;border:none;display:block"
+                                              border="0">
+
+                                            <p
+                                              style="color:#006554;font-weight:800;font-size:14px;line-height:20px;letter-spacing:0.5px;margin:0px 0px 8px">
+                                              <b><u>Help Desk</u></b>
+                                            </p>
+                                            <p
+                                              style="color:#2e2e2e;font-weight:400;font-size:10px;line-height:16px;letter-spacing:0px;margin:0">
+                                              Online Support
+                                            </p>
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                  <table width="640" cellpadding="0" cellspacing="0" border="0" class="m_-5938586286895090546wrapper"
+                    bgcolor="F9F9F9">
+                    <tbody>
+                      <tr>
+                        <th align="center" valign="top" class="m_-5938586286895090546center">
+                          <table width="600" cellpadding="0" cellspacing="0" border="0" align="center"
+                            class="m_-5938586286895090546container">
+
+                            <tbody>
+                              <tr>
+                                <td width="120" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bccc/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dpje4J5IMs1rru4mhQgaqT_D2IaEqro26hKRmOwIPt9cWdjE74iSvO_wKMxhzVdN0ohq7Kx0_pPiDOHti0C5e94PoTKH5bEUvd2hbJNN8YAuBkFNkQGe_75CjgCDHJhj20xA5UPzHG_RLQltTxWeQT6EDxaBFlOzsZ-KUDu4wkcpg-AQsz7vuBt-8oMMUxhUcNUpXCEORWIiWHTI6jNNJ-zLKIxz6b5pL5smrA7VUiC0JqHk5Re9UrYnqLiB63tGLg80wCYc5AOKA3P8vTl3VaQakLM-WjT6-28_oIzktSoIQRlNIAr7NHUacouPrGYELITVwECAQbzGLsbGtm9cYWqZ2ckks0xWWb9gHxbGqikq"
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">SHOP BY SPORT</span>
+                                  </a>
+                                </td>
+                                <td width="90" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bccd/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dmI2UtQ9S_xhZ5rp0aqmDvGuvJpzvFoxMjy2QyHfD33EvWIL2slBcOPP5Gqnx_RiVoYCilOUNz83e4FPAMah9Af59RgkamC0mQKvhxZUQu4PbW1O-rc69NznhbPVoddkOv_McsD_23NtUxBky_h5jIuOBCybnoMH4iTMWk90ctTwJUIsDUUBQcrfp07yZU5SSWHfeAXJZuq4xiqvkTKJ2Wtx20iOJSTw1zfM-UQOafXPLhPwYJov-p-tshJiV-3QYxvF17YFXT0j4pQqAVE4Glo5IQlExjnWj8_sTQCYTkLhgU5kLemj4SPwKAp8UT7rySpMQvZgR2q0mX4xbNFtwXAaMiJk-Et9vw=="
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">FOOTWEAR</span>
+                                  </a>
+                                </td>
+                                <td width="80" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcce/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dpkdzDEUN42oiEXlWB-mqblVboqQgkuT3lbNGHguSB-BzBet9WoVuQhjw9KiMLqeGa16wX_4ySbQE8cTyd6hBYQLzj1nWplgv8KbJdKUIgZlDpGN8SZ7jngBnKFxggtaCMLzjDWRdYCIHi4c6PhY5dhiKj5Awt7-l0jtTXx9UPbbFxH_slso0ONLHXvsDe91V17R7b90sPQpIJHtoiR3yNq1GojVAtcBrQbjgHOjaEHYo2FMxwRT9FTDTt3Bfq--Ec3RhjD7kaSWgps5krCzPR5UfoijRegy6zzCEKk86tTzUmlerNYOH5P2VZA_m5E9W0PbvWWyZhd2xyJF-ZAx5R1CLBD7prrlWx9z_neZhd5H"
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">APPAREL</span>
+                                  </a>
+                                </td>
+                                <td width="100" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bccf/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-drCojxkRI8W7KNfTb-YlD3MAB5n78Tbpv1bNGHguSB-BzBet9WoVuQhjw9KiMLqeGa16wX_4ySbQE8cTyd6hBYQLzj1nWplgv8KbJdKUIgZlDpGN8SZ7jngBnKFxggtaCMLzjDWRdYCIHi4c6PhY5dhiKj5Awt7-l0jtTXx9UPbbzt77dzytbudLHXvsDe91V17R7b90sPQpIJHtoiR3yNq1GojVAtcBrQbjgHOjaEHYo2FMxwRT9FTDTt3Bfq--Ec3RhjD7kaSWgps5krCzPR5UfoijRegy6zzCEKk86tTzCk52JM6p8xD6-X1XHdHGZl2xkaPqz_qZBY0-Fhbk5_NG9DiaeVkxEB9z_neZhd5H"
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">ACCESSORIES</span>
+                                  </a>
+                                </td>
+                                <td width="90" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd0/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dh8EWmGNwNGBzk5Ht9iIdJWuvJpzvFoxMjy2QyHfD33EvWIL2slBcOPP5Gqnx_RiVoYCilOUNz83e4FPAMah9Af59RgkamC0mQKvhxZUQu4PbW1O-rc69NznhbPVoddkOv_McsD_23NtUxBky_h5jIuOBCybnoMH4lx0l0y0X2OIJUIsDUUBQcrfp07yZU5SSWHfeAXJZuq4xiqvkTKJ2Wtx20iOJSTw1zfM-UQOafXPLhPwYJov-p-tshJiV-3QYxvF17YFXT0j4pQqAVE4Glo5IQlExjnWj1196QmYAlBDas2T9nrvUrqH2UQaLs78rEz9haIfyBo27LrtUU6yXCgaMiJk-Et9vw=="
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">FAN SHOP</span>
+                                  </a>
+                                </td>
+                                <td width="100" class="m_-5938586286895090546mobile50" align="center" valign="top">
+                                  <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd1/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dgPCQv6x_jH6G2x7LmLcg_AwjMvOyxutZxeHZ5lOf3h85HgeD9LGhqpWzRh4LkgfgcwXrfVqFbkIY8PSojC6nhmtesF_-Mkm0BPHE8neoQWEC849Z1qZYL_CmyXSlCIGZQ6RjfEme454AZyhcYILWgjC84w1kXWAiB4uHOj4WOXYYio-QMLe_pdI7U18fVD224iCDubt2Bs5JUIsDUUBQcrfp07yZU5SSWHfeAXJZuq4xiqvkTKJ2Wtx20iOJSTw1zfM-UQOafXPLhPwYJov-p-tshJiV-3QYxvF17YFXT0j4pQqAVE4Glo5IQlExjnWj-P7KOAbbQKVT3OrjD5rpS_RvRP9tnP6RQvGSr5BQTHRkt833HhIhFUaMiJk-Et9vw=="
+                                    style="font-family:&#39;Archivo&#39;,Arial,sans-serif!important;font-size:14px;font-weight:700;display:inline-block;text-decoration:none;line-height:36px;margin:10px 0;width:auto;color:#333333"
+                                    target="_blank">
+                                    <span class="m_-5938586286895090546addressLink">CLEARANCE</span>
+                                  </a>
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table role="presentation" align="center" width="640" cellpadding="0" cellspacing="0" border="0"
+                    class="m_-5938586286895090546wrapper" bgcolor="F9F9F9">
+                    <tbody>
+                      <tr>
+                        <td align="CENTER" style="padding:16px 0" valign="top">
+
+                          <table role="presentation" align="center" width="640" cellpadding="0" cellspacing="0"
+                            border="0" class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="CENTER" style="padding:16px 0" valign="top">
+                                  <h2 class="m_-5938586286895090546copyMargin16"
+                                    style="color:#2e2e2e;font-weight:400;font-size:24px;line-height:32px;letter-spacing:1.5px;margin:0 56px 16px">
+                                    <b>Follow Us</b>
+                                    <hr
+                                      style="margin:5px 0 12px 0px;border-width:0px;width:40px;height:2px;background-color:#bb5811;color:#bb5811">
+                                  </h2>
+                                  <table role="presentation" width="260" cellspacing="0" cellpadding="0" border="0"
+                                    align="center"
+                                    style="border-collapse:collapse;border:0;border-color:#333333;max-width:260px;width:260px">
+                                    <tbody>
+                                      <tr>
+                                        <td width="37" align="center" valign="top">
+
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd2/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQ7ZRgrlAbrXXxCNrgb3ONdhvFQw_KCNWiW2ejRjY-RIW6k9pEUqT9a1pzsLuXV8nVEL3Z_Slendq9Kquf3f226NJanCA5gopNauum6NgZR0kdGtmTC5Dm6D1Coz5BgG49Y3rmKqpwyzufSl_BnTSCYyxyBlgrYAwZyf9b6hvymxEI5vuRceuM6AwrWmsk2AglHS6knbX5muZu-3fugNyS6nw7J_O6OE5l4IKg7Bxg3aWy1s7SnQi5Le-ONGmVxFY6jn53Kq3yay91lsD8U_ECIfILt2bHFv6yBh1QLHbgLaYMgNy9rOlNu5qxpSVpnsgB1hcvkqQRoqhzO8vZrWr4xHVdWEy8VawDbAvmOkC8_GR8ZMiUfEgBXmBJnchazxAaw=="
+                                            target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/social_youtube.png"
+                                              alt="Youtube." width="26" height="26" border="0"
+                                              style="max-width:26px;font-size:0px;background-color:none">
+                                          </a>
+                                        </td>
+                                        <td width="37" align="center" valign="top">
+
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd3/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQwbnejJLGIlt-F7GRtOljBlDzyu3VaVxNlbNGHguSB-BzBet9WoVuQhjw9KiMLqeGa16wX_4ySbQE8cTyd6hBYQLzj1nWplgv8KbJdKUIgZlDpGN8SZ7jngBnKFxggtaCMLzjDWRdYCIHi4c6PhY5dhiKj5Awt7-l0jtTXx9UPbbP7uoDCRp0x8lQiwNRQFByt-nTvJlTlJJYd94Bclm6rjGKq-RMonZa3HbSI4lJPDXN8z5RA5p9c8uE_Bgmi_6n62yEmJX7dBjG8XXtgVdPSPilCoBUTgaWjkhCUTGOdaP6p7pX2_czp6X_s5CvqeDzQQkGqreU7dJc0usSQE43naPCxqOMbb10BoyImT4S32_"
+                                            target="_blank">
+                                            <img
+                                              src="http://images.harmony.epsilon.com/ContentHandler/images?id=507335d2-385d-48b6-811b-7a1bd6878027"
+                                              alt="Twitter." width="26" height="26" border="0"
+                                              style="max-width:26px;font-size:0px;background-color:none">
+                                          </a>
+                                        </td>
+                                        <td width="37" align="center" valign="top">
+
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd4/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQ73M5Cxo6Sxl9ZWl3MTBraQjbFNH6Adjzpm3XOxXmztIjMURDs5JWh4SkZjsCD7fXFnYxO-Ikrzv8CjMYc1XTdKIauysdP6T4gzh7YtAuXveD6Eyh-WxFL3doWyTTfGALgZBTZEBnv--Qo4AgxyYY9tMQOVD8xxv0S0JbU8VnkE-hA8WgRZTs7HsNgmHSqlBugqxXO3h2HcHa8caYagoe5NznmjEYqEUrrEQS_caKgjzOTHq06YRJwScrvq5UfsmdoBB0GtUZdUffV5Q8Z6myDXSGek0Ne5k7va0qGkGKTGvHsVaD9p-9vNlvbq1z7m6T3lNljX40bETzF_V_RV4FOQQR1Mlx1c5nveO3M-QjU_I0SfqhLmVh5tFp0B5dGKYyw=="
+                                            target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/social_facebook.png"
+                                              alt="Facebook." width="26" height="26" border="0"
+                                              style="max-width:26px;font-size:0px;background-color:none">
+                                          </a>
+                                        </td>
+                                        <td width="37" align="center" valign="top">
+
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd5/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQ2tc478oCc5U5WPqz1Noact5_89R3kSbrYzFEQ7OSVoeEpGY7Ag-31xZ2MTviJK87_AozGHNV03SiGrsrHT-k-IM4e2LQLl73g-hMoflsRS93aFsk03xgC4GQU2RAZ7_vkKOAIMcmGPbTEDlQ_Mcb9EtCW1PFZ5BPoQPFoEWU7OxTMyPx10FVAoKsVzt4dh3B2vHGmGoKHuTc55oxGKhFK6xEEv3GioI8zkx6tOmEScEnK76uVH7JnaAQdBrVGXVH31eUPGepsg10hnpNDXuZO72tKhpBikxrx7FWg_afvbzZb26tc-5uk8ZxcRfytExMSR-O-jEPzS5yLpGcim0I0wLPfkaXzI4Xfa3Ro29ISknRadAeXRimMs="
+                                            target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/social_pinterest.png"
+                                              alt="Pinterest." width="26" height="26" border="0"
+                                              style="max-width:26px;font-size:0px;background-color:none">
+                                          </a>
+                                        </td>
+                                        <td width="37" align="center" valign="top">
+
+                                          <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd6/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3eaFHlkq5FQzOckjwN9HwkRKsmsIuSHs2DAod0UKNPUxIm6x54WCpoCh-0vPhQH3shqVbAJPkiuJKQMhWmxNmI4gA3BG4FVSTS27YaRXYUNEwOq5qR1aZ7SqniZal9HoCJ9WObtZxfESDrvkImRUGViPWnT09SDfNqAGHz64my1o2pMbRF0pizb9C33S87yxOudFlAw22M5a7t7CZFvMD2Sx177A3vdVde0e2_dLD0KSCR7aIkd8jatRqI1QLXAa0G44Bzo2hB2KNhTMcEU_RUw07dwX6vvhHN0YYw-5GkloKbOZKwsz0eVH6Io0XoMus8whCpPOrU83pHb0memNR3AWyP1bl4NrVvTtbSpQJ-Mr4X-_RkgDRNxXF5W1nKx4gfc_53mYXeRw=="
+                                            target="_blank">
+                                            <img
+                                              src="https://dsg.images.harmony.epsilon.com/_phoenix/_dev/ext_comm_imghost/DSG/social_instagram.png"
+                                              alt="Instagram." width="26" height="26" border="0"
+                                              style="max-width:26px;font-size:0px;background-color:none">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
+                          <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="padding:16px 0 24px">
+                                  <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                                    class="m_-5938586286895090546container">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <p
+                                            style="color:#2e2e2e!important;font-size:12px;line-height:20px;font-weight:400;margin:0 10px">
+                                            <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd7/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-djBZhINzEq_8MynFl-z1E-yz5M1Tw4YSzi5vA-F83QhfK62egPLDnLJ0WHwDQjMWjufwOhyqEFdxGjOHTdb8w-EEi-2McmvDYtVjYcqU9otjBHnHFLFxleuU53DQt7CaoexBZccJgvSv2m1Jr5Piz352gpkoqr_RhQIbL6eKioQtFtyAnwE8OjnNLK1slhhcHV0XJmgUnzhVZnuwCvSGEJv9Hv-m3suiHc-wnTneEvNzZOEzalSZev01Qf5N_5e5AaJFOYMQeBK-UPgjeDzDU1k6K7TLiW_UVJtSG56JVf10PoVHFAMpSUiA8ZvDKvzmjj9C6JAawxakuBhR9IiQGlIebReIQ8zZAh_wEqqW-_mXb5H9f7cP4X5O5idML7XOwA=="
+                                              style="display:inline;text-decoration:underline!important;color:#2e2e2e"
+                                              target="_blank">Returns &amp; Exchanges</a>
+                                              <a style="color:#2e2e2e!important">|</a>  
+                                            <a href="http://notifications.dcsg.com/T/v610000019971923d06b4a15396914cc654/6ee1f9acc46b47030000021ef3a0bcd8/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b?__dU__=v0G4RBKTXg2Gs8NEX0-RpwlL2_Q96sIof5wvgkGa1VsPIAdb-6PwUuXUbOES4DYwVKlEBH4wAjEqvhvBlpUfxLCgwho1v8uViS&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF7xBTQTseRe5MY4snxpqFCM8LUzRDyg-dgKR4Kg7pKMXpd_0V8DZlyG0GMSAQjzDHCGpVsAk-SK4kpAyFabE2YjiADcEbgVVJNLbthpFdhQ0TA6rmpHVpntKqeJlqX0egIn1Y5u1nF8RIOu-QiZFQZWI9adPT1IN82oAYfPribLWjakxtEXSmLNv0LfdLzvLE650WUDDbYzlSc-uOTVQyYNLHXvsDe91V17R7b90sPQpIJHtoiR3yNq1GojVAtcBrQbjgHOjaEHYo2FMxwRT9FTDTt3Bfq--Ec3RhjD7kaSWgps5krCzPR5UfoijRegy6zzCEKk86tTzFQJAXpZGnxC-Pgh7Th15uLpj-q0Hsmn-ql-70U3yWsnoKnLgzvdjux9z_neZhd5H"
+                                              style="display:inline;text-decoration:underline!important;color:#2e2e2e"
+                                              target="_blank">Privacy Policy</a>
+                                              <a style="color:#2e2e2e!important">|</a>  
+                                            <a href="http://notifications.dcsg.com/H/2/v610000019971923d06b4a15396914cc654/6ee1f9ac-c46b-4703-8e55-882f21e9ed5b/HTML"
+                                              style="display:inline;text-decoration:underline!important;color:#2e2e2e"
+                                              target="_blank">View Web Version</a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                            class="m_-5938586286895090546wrapper">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top" style="padding:0 0 16px">
+                                  <table role="presentation" width="600" cellpadding="0" cellspacing="" border="0"
+                                    class="m_-5938586286895090546container">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <p
+                                            style="color:#2e2e2e!important;font-size:14px;line-height:18px;margin:0 0 4px;padding:0">
+                                            <b>DICK’S Sporting Goods</b>
+                                          </p>
+                                          <p
+                                            style="color:#2e2e2e!important;font-size:14px;line-height:18px;margin:0;padding:0">
+                                            345 Court Street, Coraopolis, PA 15108<br><a
+                                              style="color:#2e2e2e;font-size:14px;line-height:18px;text-decoration:none">1-877-846-9997</a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+        <img
+          src="http://notifications.dcsg.com/O/AQEAAZcF2gAndjYxMDAwMDAxOS05NzE5LTIzZDAtNmI0YS0xNTM5NjkxNGNjNjU02gAkNmVlMWY5YWMtYzQ2Yi00NzAzLTAwMDAtNGM1YTQyOTYzYWEx2gAkMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwAw0eDRZC5tuFGzmz1v0RpG-BGqXIK431siRBRV3BwSOsua8"
+          style="display:none;max-height:0px;font-size:0px;overflow:hidden">
+      </div>
+    </div>
+  </div>
+</div>

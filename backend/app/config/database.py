@@ -1,19 +1,18 @@
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.pool import QueuePool
-import os
 import logging
 from typing import Generator
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
+from app.config.settings import get_settings
 
 # Setup logging
 logger = logging.getLogger(__name__)
 
-# Database configuration from environment variables
-DATABASE_URL = os.getenv('DATABASE_URL')
+# Get settings (pydantic-settings automatically loads .env files)
+settings = get_settings()
+
+# Database configuration from settings
+DATABASE_URL = settings.database_url
 
 if not DATABASE_URL:
     raise ValueError(
@@ -22,12 +21,12 @@ if not DATABASE_URL:
         "See .env.example for reference."
     )
 
-# Get additional database settings from environment
-DB_POOL_SIZE = int(os.getenv('DB_POOL_SIZE', '5'))
-DB_MAX_OVERFLOW = int(os.getenv('DB_MAX_OVERFLOW', '10'))
-DB_POOL_TIMEOUT = int(os.getenv('DB_POOL_TIMEOUT', '30'))
-DB_POOL_RECYCLE = int(os.getenv('DB_POOL_RECYCLE', '3600'))
-DB_ECHO = os.getenv('DB_ECHO', 'False').lower() == 'true'
+# Get additional database settings from settings
+DB_POOL_SIZE = settings.db_pool_size
+DB_MAX_OVERFLOW = settings.db_max_overflow
+DB_POOL_TIMEOUT = settings.db_pool_timeout
+DB_POOL_RECYCLE = settings.db_pool_recycle
+DB_ECHO = settings.db_echo
 
 # Create engine with connection pooling
 engine = create_engine(

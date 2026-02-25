@@ -1,0 +1,223 @@
+<div>
+  <table border="0" style="border:1px solid #efefef" cellspacing="5" cellpadding="0" width="730">
+    <tbody>
+      <tr>
+        <td>
+          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+              <tr>
+                <td>
+                  <div style="height:8px"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table border="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" width="99%">
+                          <div style="width:4px"></div>
+                          <img src="https://www.shoepalace.com/cdn/shop/files/SP.Stacked.Black_1_500x.png?v=1613146383" width="100" height="47" border="0" align="absmiddle">
+                        </td>
+                        <td>
+                          <div style="width:10px"></div>
+                        </td>
+                        <td valign="top">
+                          <div class="m_-3052907957102604158nowrap">
+                            <div style="display:table-cell;vertical-align:top">
+                              <b>Order #: </b>
+                            </div>
+                            <div style="display:table-cell;vertical-align:top">SP1893166</div>
+                          </div>
+                          <div class="m_-3052907957102604158nowrap">
+                            <div style="display:table-cell;vertical-align:top">
+                              <b>Order Date: </b>09/19/2025
+                            </div>
+                          </div>
+                          <div class="m_-3052907957102604158nowrap">
+                            <div style="display:table-cell;vertical-align:top">
+                              <b>Cancel Reason: </b>Inventory Stock
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="height:8px"></div>
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#EFEFEF" height="48">
+                  <span class="m_-3052907957102604158header" style="padding-left:5px">
+                    <b>Order Cancelation Notification</b>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="height:8px"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left">
+                          <div class="m_-3052907957102604158fontMedium" style="padding:15px 5px"> Dear Griffin Myers, <br>
+                            <br>
+                            <div>Thank you for placing an order with us at <a href="http://shoepalace.com" target="_blank">shoepalace.com</a>. We regret to inform you that the item you ordered is currently on backorder and has been cancelled by the vendor. We sincerely apologize for any inconvenience this may have caused. </div>
+                            <br>
+                            <div>Please rest assured that you have not been charged for any products that were not shipped out. However, it may take your bank 3-5 business days to release the pending authorization.</div>
+                            <br>
+                            <div>Once again, we apologize for any inconvenience caused by this cancellation. If you have any further questions or concerns, please do not hesitate to contact our customer support team.</div>
+                            <br>
+                            <div> If you have any questions about your order, please contact a <a href="https://www.shoepalace.com/pages/contact-us?mnid=contactus" target="_blank">Customer Service</a> or call us toll free at <a href="tel:+1%20(888)%20772-5223" target="_blank">(888) 772-5223</a>. Please do not reply to this email as it does not accommodate replies. </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table border="0" width="100%" cellpadding="5" cellspacing="0">
+                    <tbody>
+                      <tr bgcolor="#EFEFEF">
+                        <td align="left" valign="top" width="400">
+                          <b>ITEM DESCRIPTION</b>
+                        </td>
+                        <td align="left" valign="top" width="100">
+                          <b>ITEM PRICE</b>
+                        </td>
+                        <td align="left" valign="top" width="100">
+                          <b>QTY</b>
+                        </td>
+                        <td align="right" valign="top" width="100">
+                          <b>TOTAL</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>1127895-BBLC - CLIFTON 9 BLK/BLK</b>
+                          <br>
+                          <b>Color=BLK Size=10</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 89.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">89.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>1127895-BBLC - CLIFTON 9 BLK/BLK</b>
+                          <br>
+                          <b>Color=BLK Size=10</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 89.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">89.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>1127895-BBLC - CLIFTON 9 BLK/BLK</b>
+                          <br>
+                          <b>Color=BLK Size=10</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 89.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">89.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>DD1873-600 - WM DUNK LOW PNK/SAIL</b>
+                          <br>
+                          <b>Color=PNK Size=7</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 53.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">53.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>DD1873-600 - WM DUNK LOW PNK/SAIL</b>
+                          <br>
+                          <b>Color=PNK Size=7</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 53.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">53.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" width="400">
+                          <b>61.97729 - CLOUDMONSTER PUR/PUR</b>
+                          <br>
+                          <b>Color=PURPLE Size=12</b>
+                        </td>
+                        <td align="left" valign="top" width="100"> 89.99 </td>
+                        <td align="left" valign="top" width="100">1</td>
+                        <td align="right" valign="top" width="100">89.99</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="border-top:1px solid #cccccc">
+                          <div style="width:1px;height:1px"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td valign="top">
+                          <div style="width:550px"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="height:8px"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

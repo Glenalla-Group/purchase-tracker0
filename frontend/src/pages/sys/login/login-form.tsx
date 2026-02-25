@@ -34,6 +34,14 @@ export function LoginForm({ className, ...props }: React.ComponentPropsWithoutRe
 	if (loginState !== LoginStateEnum.LOGIN) return null;
 
 	const handleFinish = async (values: SignInReq) => {
+		// Track login button click event
+		if (typeof window !== "undefined" && typeof gtag !== "undefined") {
+			gtag("event", "login_attempt", {
+				event_category: "authentication",
+				event_label: "email_password",
+			});
+		}
+
 		setLoading(true);
 		try {
 			await signIn(values);
@@ -41,6 +49,9 @@ export function LoginForm({ className, ...props }: React.ComponentPropsWithoutRe
 			toast.success(t("sys.login.loginSuccessTitle"), {
 				closeButton: true,
 			});
+		} catch (error: any) {
+			// Error toast is already shown by apiClient interceptor
+			// Just catch the error to prevent unhandled promise rejection
 		} finally {
 			setLoading(false);
 		}

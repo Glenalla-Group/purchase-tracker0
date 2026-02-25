@@ -108,6 +108,16 @@ class CheckinService {
 	}
 
 	/**
+	 * Bulk delete check-ins by IDs
+	 */
+	async bulkDeleteCheckins(ids: number[]): Promise<{ deleted_count: number; deleted_ids: number[] }> {
+		return apiClient.delete<{ deleted_count: number; deleted_ids: number[] }>({
+			url: '/api/v1/checkin/',
+			data: { ids },
+		});
+	}
+
+	/**
 	 * Get summary statistics
 	 */
 	async getSummary(): Promise<CheckinSummary> {

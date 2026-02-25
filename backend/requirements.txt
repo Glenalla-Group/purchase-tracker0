@@ -21,6 +21,7 @@ email-validator==2.1.0
 
 # Utilities
 httpx==0.25.1
+requests==2.31.0
 
 # Database
 sqlalchemy==2.0.23
@@ -28,6 +29,11 @@ psycopg2-binary==2.9.9
 alembic==1.13.0
 
 # Authentication
-bcrypt==4.1.2
+bcrypt==3.2.2
 passlib==1.7.4
 
+# Browser automation
+selenium==4.16.0
+
+# Background job scheduling
+APScheduler==3.10.4

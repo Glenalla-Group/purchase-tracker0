@@ -1,0 +1,280 @@
+<div style="margin:0">
+  <table style="height:100%!important;width:100%!important;border-spacing:0;border-collapse:collapse">
+    <tbody>
+      <tr>
+        <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+          <table class="m_-7792202586726149334header" style="width:100%;border-spacing:0;border-collapse:collapse;margin:40px 0 20px">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                  <center>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_-7792202586726149334shop-name__cell" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <img src="https://cdn.shopify.com/s/files/1/1563/9833/email_settings/OrleansShoes.PNG?19918" alt="Orleans Shoe Co." width="180">
+                                  </td>
+                                  <td class="m_-7792202586726149334order-number__cell" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;text-transform:uppercase;font-size:14px;color:#999" align="right">
+                                    <span style="font-size:16px"> Order #103812 </span>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;border-width:0">
+                  <center>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h2 style="font-weight:normal;font-size:24px;margin:0 0 10px">Thank you for your purchase! </h2>
+                            <p style="color:#777;line-height:150%;font-size:16px;margin:0">Hi Griffin, we&#39;re getting your order ready to be shipped. We will notify you when it has been sent.</p>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px">
+                              <tbody>
+                                <tr>
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <table class="m_-7792202586726149334button m_-7792202586726149334main-action-cell" style="border-spacing:0;border-collapse:collapse;float:left;margin-right:15px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;border-radius:4px" align="center" bgcolor="#1990C6">
+                                            <a href="https://orleansshoes.com/_t/c/A1030004-183410FB336738F8-34AD7A38?l=AAC52mYB0NTKtepr3Lhnh3S8WUM9ugyBbT%2BR8K3T7SdngyGsf7mgXbAPb7Kxk82PFoHz4gEfI%2FjnUVm3MkzehB1YXUAHw706a5qsnIlEr6ZY070MBQG2UrlCHaPexnV%2BUMWJbyubjHvYCqyrIZRjCHt4gN2vi2fHDWKjCMj1O3j1BagwBDMkF5WE6AKRoREzLKXDZo8jOWhfVL36OQjUUyYe%2B7UyoqqmqFZ8qSjtMvWrTkLQlQQUBm93abpgkiBptwJju766RxsCB7kS2pQ0hlq4QHgK8%2BBRdtaBf5bFDuSiaEnelkr4mbdb41atnLfU8hcuoYxlH5gAyGMYxseNrzv6veVHAcMSF81s&amp;c=AADiXujbFdiHeDcHAT0zf9DM13tfKssbarDTf%2F0%2Fk2duYu2qwljI911GIeRXH7btkYmGz5U0LbOZ2tUo%2FBDSlNlFfxhsf5mAGmBjWQVSGXUlA4bMJA6%2F2%2Ff0JpUcCitCUPD%2Frcp13LcKx6DheXP4Y%2BrPXx%2BDLGkOYbZAAVwKnjb2El2V3ipYwyUYj4cmZFwBTCAWKFWIcG3%2FQ8CWBiuAlEe3hRegOoMTM452DUuRBQB0eSQP7CMtcC%2Fib5a2J2Wt1HIXFBP2HkIMcbSzBMYBulyp1eLQRqoO58%2BZHIkmBMDuWtdUmiRJW6LRaqEQ0bIIklDmwvAnLkmOS8HHi5wqS%2BxkCCE%2FxxYxEeVOQ%2FCOXaAx%2F%2BSa5xlFzX1bT%2FvqsXsfcToPnqIs884wEmkGLe0muG0nA4y1i1cjrWagxQtet538KV9nH9AnkqZQs3xEzJrkHxG8PnoxEnuRW6BsPYFfpWociA%3D%3D" class="m_-7792202586726149334button__text" style="font-size:16px;text-decoration:none;display:block;color:#fff;padding:20px 25px" target="_blank">View your order</a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class="m_-7792202586726149334secondary-action-cell" style="border-spacing:0;border-collapse:collapse;margin-top:19px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;border-radius:4px" align="center">
+                                            <a href="https://orleansshoes.com/_t/c/A1030004-183410FB336738F8-34AD7A38?l=AAAPrVBQpHUyruLmSu24cJksNOl4oui568%2BxTupglhjm1Pn3Ys2ZQFSrOtKFi2ilSyydshS9ZQayaCess%2BBfb6zlzsNZeSiuJwlywTB8%2BcqVhoJ0%2BVFcC1564iBOSopufpmpry12QLXw7fpkdl3oBeRUSZQvoCgkcXvJmtOVKL5KCwsgdd4cw5nXuJ9nX%2BZkAd5nEfjsUXtK2%2BfC3zO2FZOvog%3D%3D&amp;c=AABKNcmHTZ0tnNa%2BdvglfOTv0W9uX4v6dzSB0L5M73Xt9OkhAXn%2BhjXOSJhS24tm5hal%2FmWI2KSUdsiTw9uQC%2FDe0I6vV52Ptk6V238gb8s%2BgTwzZ6UkoHr%2F%2BI%2Bhw5P3az4x7%2B92hdRt3y4yjTFH2ZYHnF3dMno4mrxXaG4GQ7AYxZrrr4kIdIr2kwNMCH5Bjg%2F7kmGIpNK2lTyixjvTcj4iow%2BL1%2F5r9u%2FAV3YOG%2F2%2FOigzAAVsoKPJ%2B1tfJja7RWQn%2BmqE00BVGqG9EsmBiPC5JbW7fqXNFHkK6ETmOZ3frltzxheD6a0wtZijfZVUwZ2pltlXED96%2BG0qIFe6M6bwCZWyLxfgcGxQhbqoESmcr6Ra5%2F%2FMsZQUyIAUFriwTlaDnOo1ZHJelVjYR%2FhaTWXGivD7PdKsXKpEqkyssi5giIYeQ3n70IsC9YOtVzuFkwg1jNHH4rN6XUJ8NgLLeBpTMQ%3D%3D" style="font-size:16px;text-decoration:none;display:block;color:#1990c6;padding:20px 25px" target="_blank">
+                                              <span class="m_-7792202586726149334or" style="font-size:16px;color:#999;display:inline-block;margin-right:10px">or</span> Visit our store </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:40px 0">
+                  <center>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h3 style="font-weight:normal;font-size:20px;margin:0 0 25px">Order summary</h3>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr style="width:100%">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/1563/9833/products/O6_15a34896-b598-4985-a6e2-03cf6cafbbdf_compact_cropped.jpg?v=1665779427" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">On Women&#39;s Cloudgo Rose Magnet - 6.5 M × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">6.5 M</span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right">$169.90</p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:15px;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                              <tbody>
+                                <tr>
+                                  <td class="m_-7792202586726149334subtotal-spacer" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:40%"></td>
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Discount (bigeasy10)</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$-16.99</strong>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Subtotal</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$152.91</strong>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Shipping</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$0.00</strong>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px;border-top-width:2px;border-top-color:#e5e5e5;border-top-style:solid">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:20px 0 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Total</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:20px 0 0" align="right">
+                                            <strong style="font-size:24px;color:#555">$152.91 USD</strong>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:40px 0">
+                  <center>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h3 style="font-weight:normal;font-size:20px;margin:0 0 25px">Customer information</h3>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_-7792202586726149334customer-info__item" valign="top" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Shipping address</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0"> Griffin Myers <br>595 Lloyd Ln <br>STE D <br>Independence, Oregon 97351 <br>
+                                    </p>
+                                  </td>
+                                  <td class="m_-7792202586726149334customer-info__item" valign="top" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Billing address</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0"> Griffin Myers <br> 595 Lloyd Lane <br>ste d <br>Independence, Oregon 97351 </p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_-7792202586726149334customer-info__item" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%" valign="top">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Shipping method</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0">Express</p>
+                                  </td>
+                                  <td class="m_-7792202586726149334customer-info__item" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%" valign="top">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Payment method</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0">
+                                      <img src="https://cdn.shopify.com/s/shopify/notifications/american%20express.png" height="24" style="height:24px;display:inline-block;margin-right:10px;margin-top:5px">
+                                      <span style="font-size:16px">Ending in 1000 — <strong style="font-size:16px;color:#555">$152.91</strong>
+                                      </span>
+                                    </p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:35px 0">
+                  <center>
+                    <table class="m_-7792202586726149334container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <p style="color:#999;line-height:150%;font-size:14px;margin:0">If you have any questions, reply to this email or contact us at <a href="mailto:customerservice@orleansshoes.com" style="font-size:14px;text-decoration:none;color:#1990c6" target="_blank">customerservice@orleansshoes.com</a>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/spacer-1a26dfd5c56b21ac888f9f1610ef81191b571603cb207c6c0f564148473cab3c.png" class="m_-7792202586726149334spacer" height="1" style="min-width:600px;height:0">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+</div>

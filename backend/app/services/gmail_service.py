@@ -41,40 +41,97 @@ class GmailService:
         token_path = self.settings.base_dir / self.settings.gmail_token_path
         credentials_path = self.settings.base_dir / self.settings.gmail_credentials_path
         
+        logger.debug("=" * 60)
+        logger.debug("Gmail Authentication - Starting")
+        logger.debug(f"Token path: {token_path}")
+        logger.debug(f"Credentials path: {credentials_path}")
+        
         # Load token if it exists
         if token_path.exists():
+            logger.debug(f"✓ Found existing token file: {token_path}")
             self.creds = Credentials.from_authorized_user_file(
                 str(token_path), 
                 self.settings.gmail_scopes_list
             )
+        else:
+            logger.warning(f"⚠ Token file not found: {token_path}")
         
         # If credentials are invalid or don't exist, authenticate
         if not self.creds or not self.creds.valid:
             if self.creds and self.creds.expired and self.creds.refresh_token:
-                logger.info("Refreshing expired credentials")
-                self.creds.refresh(Request())
+                logger.debug("⟳ Refreshing expired credentials...")
+                try:
+                    self.creds.refresh(Request())
+                    logger.debug("✓ Credentials refreshed successfully")
+                except Exception as e:
+                    logger.error(f"✗ Failed to refresh credentials: {e}")
+                    raise
             else:
                 if not credentials_path.exists():
+                    logger.error(f"✗ Credentials file not found at {credentials_path}")
                     raise FileNotFoundError(
                         f"Credentials file not found at {credentials_path}. "
                         "Please download credentials.json from Google Cloud Console."
                     )
                 
-                logger.info("Running OAuth flow for new credentials")
+                logger.debug("⟳ Running OAuth flow for new credentials...")
+                logger.warning("⚠ This requires user interaction (browser-based authentication)")
                 flow = InstalledAppFlow.from_client_secrets_file(
                     str(credentials_path), 
                     self.settings.gmail_scopes_list
                 )
                 self.creds = flow.run_local_server(port=0)
+                logger.debug("✓ OAuth flow completed successfully")
             
             # Save credentials for future use
             with open(token_path, 'w') as token:
                 token.write(self.creds.to_json())
-            logger.info(f"Credentials saved to {token_path}")
+            logger.debug(f"✓ Credentials saved to {token_path}")
+        else:
+            logger.debug("✓ Using existing valid credentials")
         
         # Build the service
-        self.service = build('gmail', 'v1', credentials=self.creds)
-        logger.debug("Gmail service initialized successfully")
+        try:
+            self.service = build('gmail', 'v1', credentials=self.creds)
+            logger.debug("✓ Gmail service initialized successfully")
+            logger.debug("=" * 60)
+        except Exception as e:
+            logger.error(f"✗ Failed to build Gmail service: {e}")
+            logger.info("=" * 60)
+            raise
+    
+    def test_connection(self) -> bool:
+        """
+        Test Gmail API connection by getting user profile.
+        
+        Returns:
+            True if connection is successful, False otherwise
+        """
+        try:
+            profile = self.service.users().getProfile(userId='me').execute()
+            email_address = profile.get('emailAddress', 'Unknown')
+            messages_total = profile.get('messagesTotal', 0)
+            threads_total = profile.get('threadsTotal', 0)
+            
+            logger.info("=" * 60)
+            logger.info("✅ Gmail API Connection Test - SUCCESS")
+            logger.info(f"   Email: {email_address}")
+            logger.info(f"   Total Messages: {messages_total}")
+            logger.info(f"   Total Threads: {threads_total}")
+            logger.info("=" * 60)
+            return True
+        except HttpError as error:
+            logger.error("=" * 60)
+            logger.error("❌ Gmail API Connection Test - FAILED")
+            logger.error(f"   Error: {error}")
+            logger.error("=" * 60)
+            return False
+        except Exception as e:
+            logger.error("=" * 60)
+            logger.error("❌ Gmail API Connection Test - FAILED")
+            logger.error(f"   Unexpected error: {e}")
+            logger.error("=" * 60)
+            return False
     
     def get_message(self, message_id: str, format: str = 'full') -> Optional[Dict[str, Any]]:
         """
@@ -93,7 +150,7 @@ class GmailService:
                 id=message_id,
                 format=format
             ).execute()
-            logger.info(f"Successfully retrieved message {message_id}")
+            logger.debug(f"Retrieved message {message_id}")
             return message
         except HttpError as error:
             logger.error(f"Error retrieving message {message_id}: {error}")
@@ -262,6 +319,70 @@ class GmailService:
             logger.info("Watch stopped successfully")
         except HttpError as error:
             logger.error(f"Error stopping watch: {error}")
+
+    def get_new_message_ids_from_history(
+        self,
+        start_history_id: str,
+        label_id: Optional[str] = None,
+    ) -> tuple[List[str], str]:
+        """
+        Fetch history and return message IDs from messagesAdded events only.
+        Only returns messages that were newly added (new email arrivals), not
+        label changes like read/unread.
+
+        Args:
+            start_history_id: History ID to start from (from previous notification)
+            label_id: Optional label filter (default: INBOX to match watch scope)
+
+        Returns:
+            Tuple of (list of new message IDs, new history ID to store)
+
+        Raises:
+            HttpError: On API errors (e.g. 404 when history expired)
+        """
+        label_id = label_id or 'INBOX'
+        all_message_ids: List[str] = []
+        page_token = None
+        latest_history_id = start_history_id
+
+        while True:
+            request_params: Dict[str, Any] = {
+                'userId': 'me',
+                'startHistoryId': start_history_id,
+                'historyTypes': ['messageAdded'],
+                'labelId': label_id,
+            }
+            if page_token:
+                request_params['pageToken'] = page_token
+
+            response = (
+                self.service.users()
+                .history()
+                .list(**request_params)
+                .execute()
+            )
+
+            for record in response.get('history', []):
+                for msg_added in record.get('messagesAdded', []):
+                    msg = msg_added.get('message', {})
+                    if msg.get('id'):
+                        all_message_ids.append(msg['id'])
+
+            latest_history_id = response.get('historyId', latest_history_id)
+            page_token = response.get('nextPageToken')
+            if not page_token:
+                break
+
+        return all_message_ids, latest_history_id
+
+    def get_profile_history_id(self) -> Optional[str]:
+        """Get current history ID from user profile (for resync after expiration)."""
+        try:
+            profile = self.service.users().getProfile(userId='me').execute()
+            return profile.get('historyId')
+        except HttpError as error:
+            logger.error(f"Error getting profile historyId: {error}")
+            return None
     
     def get_or_create_label(self, label_name: str) -> Optional[Dict[str, Any]]:
         """
@@ -329,6 +450,31 @@ class GmailService:
             logger.error(f"Error adding label to message: {error}")
             return False
     
+    def remove_label_from_message(self, message_id: str, label_id: str) -> bool:
+        """
+        Remove a label from a Gmail message.
+        
+        Args:
+            message_id: Gmail message ID
+            label_id: Label ID to remove
+        
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            self.service.users().messages().modify(
+                userId='me',
+                id=message_id,
+                body={'removeLabelIds': [label_id]}
+            ).execute()
+            
+            logger.debug(f"Removed label {label_id} from message {message_id}")
+            return True
+        
+        except HttpError as error:
+            logger.error(f"Error removing label from message: {error}")
+            return False
+    
     def list_messages_with_query(
         self,
         query: str,
@@ -351,7 +497,7 @@ class GmailService:
             if exclude_label:
                 query = f"{query} -label:{exclude_label}"
             
-            logger.info(f"Searching Gmail with query: {query}")
+            logger.debug(f"Searching Gmail with query: {query}")
             
             results = self.service.users().messages().list(
                 userId='me',
@@ -362,7 +508,7 @@ class GmailService:
             messages = results.get('messages', [])
             message_ids = [msg['id'] for msg in messages]
             
-            logger.info(f"Found {len(message_ids)} messages matching query")
+            logger.debug(f"Found {len(message_ids)} messages matching query")
             return message_ids
         
         except HttpError as error:

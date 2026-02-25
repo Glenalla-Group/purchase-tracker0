@@ -1,0 +1,554 @@
+<div style="margin:0">
+  <table style="height:100%!important;width:100%!important;border-spacing:0;border-collapse:collapse">
+    <tbody>
+      <tr>
+        <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+          <table class="m_304739720196750922header" style="width:100%;border-spacing:0;border-collapse:collapse;margin:40px 0 20px">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                  <center>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_304739720196750922shop-name__cell" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <h1 style="font-weight:normal;font-size:30px;color:#333;margin:0">
+                                      <a href="https://sneakerpolitics.com/_t/c/A1020004-1829A24BB96DF19E-9020A189?l=AACpJSHX485LoQk%2BCkOYXz0FFZzf8rmBn1yO8HWx9Gmmm4xfrrixoHRE%2BbMtZnGLRNQKQ10kwRulhEs5A95eLNMu6yiAzvtijrNVDavDWoYWApX6185r7XB2jByyfW0s9K46K1fnfFMkobQfADglNkFhvvEkhUN8cS17lOG%2BbptSBTvFLL7sUj9gMMuqKFAWmFuA1MDcfEI1ZV0pOvQxYjcbAL02fg%3D%3D&amp;c=AAB6y8KRXfp61ioghlsaIQH1ivl1qhdQ9K7pZTAalvSh8NN3eTErIJST%2B9jXXMJ4rdbJ7hKCbQcj7wUsPZaqJ6l8zv4Wn3DT3C73q3DFE907RuExUMD1Ctzwp%2FCgT%2BKMT2S94BBOHnesEcI6F1u0AYtrDemL%2FIXkHjWZluicbtvfACJGZgl7bJRCVm%2BK0TtWXTJN6taTRWV6Kx3dSPhYeZ7IuHrHfTFPYCHnFhFCqXj7XyE%2BP6kdAr1HXATKueUXJXcjYKG4UUPr7sh0LXqwdiSZMJzB38nwzQKVyMmbnn%2B9p%2BuVSWqunB6FWoN6sN0sShBmr6mXO3OvN5c4yXSkTDUDpESePFRI6vF9twfon9DcD1a0%2BWcLNLpccje2GojZ25ES65Ecs%2FdRsedPABGr%2FkoMBu01a2s1rJx7LLeHqjnis4BJ3jwQDffus1HuFDpagnp1FzfrZNh0VSlyo8%2F4NJ2FMxvR" style="font-size:30px;color:#333;text-decoration:none" target="_blank">Sneaker Politics</a>
+                                    </h1>
+                                  </td>
+                                  <td class="m_304739720196750922order-number__cell" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;text-transform:uppercase;font-size:14px;color:#999" align="right">
+                                    <span style="font-size:16px"> Order #536510 </span>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;border-width:0">
+                  <center>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h2 style="font-weight:normal;font-size:24px;margin:0 0 10px">Thank you for your purchase! </h2>
+                            <p style="color:#777;line-height:150%;font-size:16px;margin:0"> Hi Griffin, we&#39;re getting your order ready to be shipped. We will notify you when it has been sent. </p>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px">
+                              <tbody>
+                                <tr>
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;line-height:0em"></td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <table class="m_304739720196750922button m_304739720196750922main-action-cell" style="border-spacing:0;border-collapse:collapse;float:left;margin-right:15px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;border-radius:4px" align="center" bgcolor="#1990C6">
+                                            <a href="https://sneakerpolitics.com/_t/c/A1020004-1829A24BB96DF19E-9020A189?l=AAATECgIU5PuEViPfE3Bfj6UjBZVH7AxWB7iAvN1vZtb1lka4ZUbhZXhLGYumTMPHCWamGqlsDi5l4JFH9mQFzpXi4eWRuJPcsm%2B8lLLNeE7y%2BaoCwVHxjiCoy37oj8qn4%2FZ7TOfoy7yo9YEW3w%2BDg8YhFyhzvCshYp3zvAIV3iUbpfeDu27cDOkNMvwxK5Xa9ummhNv9fAMgPIWLZH7gK%2FG5iv5YR7ndM2jK3Sg9EXtyUGhCiPNtL98IPtBDBqfqureJP9%2FLoWBweKO9LV2boBkGtlk%2BYrLLE0cPImYepCq%2FeaYeX%2BA25maLyOlswpO8nOYZ2%2B9vJaj5Q3gbRLu7ulC8mlwNp9jpvMmGIk%3D&amp;c=AAAggcuUyasjDRgMCbVXSmse3EQfvbztwZTQa7qxJsQ2XnIQz3gsj10y%2FVj6iN0BOBMqASN4j3EMxtx%2BtptjpPkEs4hgUvoMOsLEKw5O%2FK2f6%2F8vbBb6asiA7243vxCdOswVhCJ9qp2wVbRkwD8Z28DY3JqHg2eZ3s6l7fJn9Tela9I8abVWvZT2xmwo6uNIT%2F2LYrG3BbF12Fym9I1jYXJcVS2TeHOQCc2IWXgYCLuNL6eV8pxtAC73Jq4uWRFfRJUQjrSwFxF7rDJv17R37XOGn9vltpTCXgeib06lMiAjdOEwf9cjK2Sy5mhsWo0cmAB8BwfrPDBDMDQHza7zj6ILviWXtIupAn7BKw%2FlOnHWamPClHcrKTgn76Rvi0u3JUgYZ6Rr0i0hbqJpJ4v63YRmjGSUID13Kev%2FQFpTIFNCUd2h4J9LGGMZY47VI6V8Q8LqehmGlZsovY7IdXA0aO51ejA%2B" class="m_304739720196750922button__text" style="font-size:16px;text-decoration:none;display:block;color:#fff;padding:20px 25px" target="_blank">View your order</a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:40px 0">
+                  <center>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h3 style="font-weight:normal;font-size:20px;margin:0 0 25px">Order summary</h3>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr style="width:100%">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">9</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">9.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">10</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">10.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">11</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 1</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">11.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$9.90) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$49.50</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $39.60 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_FQ8903-002_PHSLH000-2000_compact_cropped.jpg?v=1727110018" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Killshot 2 - Black/White × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">12</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$19.80) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$99.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $79.20 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_HV0826-247_PHSLH000-2000_compact_cropped.jpg?v=1730130907" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Women&#39;s Nike Zoom Vomero 5 - Khaki/Phantom × 1</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">W8</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$17.60) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$88.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $70.40 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_HV0826-247_PHSLH000-2000_compact_cropped.jpg?v=1730130907" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Women&#39;s Nike Zoom Vomero 5 - Khaki/Phantom × 2</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">W7.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$35.20) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$176.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $140.80 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px;padding-bottom:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/products/Sneaker-Politics-OC-CloudSurferFrost-131-113610-WB-1_compact_cropped.jpg?v=1678214355" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Women&#39;s On Cloudsurfer - White/Frost × 1</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">W5.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$17.60) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$88.00</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $70.40 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style="width:100%;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-top:15px">
+                                    <table style="border-spacing:0;border-collapse:collapse">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                            <img src="https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_HJ9094-012_PHSLH000-2000_compact_cropped.jpg?v=1721922486" align="left" width="60" height="60" style="margin-right:15px;border-radius:8px;border:1px solid #e5e5e5">
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:100%">
+                                            <span style="font-size:16px;font-weight:600;line-height:1.4;color:#555">Nike Air Force 1 &#39;07 LV8 - Light Iron Ore/Gym Red × 1</span>
+                                            <br>
+                                            <span style="font-size:14px;color:#999;font-weight:400">10.5</span>
+                                            <br>
+                                            <span style="font-size:14px;display:block;line-height:1.4;margin:1px 0 0">
+                                              <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/discounttag-23d3dd52a101179fb1461daaba6b77388b99b6154de85840a5245b8d3930a68e.png" width="18" height="18" style="vertical-align:middle;margin-right:6px">
+                                              <span style="font-size:14px"> MG20 (-$13.99) </span>
+                                            </span>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;white-space:nowrap">
+                                            <del style="font-size:14px;display:block;text-align:right;color:#999">$69.99</del>
+                                            <p style="color:#555;line-height:150%;font-size:16px;font-weight:600;margin:4px 0 0 15px" align="right"> $56.00 </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:15px;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+                              <tbody>
+                                <tr>
+                                  <td class="m_304739720196750922subtotal-spacer" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;width:40%"></td>
+                                  <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                                    <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Subtotal</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$852.40</strong>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Shipping</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$15.00</strong>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Taxes</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:2px 0" align="right">
+                                            <strong style="font-size:16px;color:#555">$0.00</strong>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px;border-top-width:2px;border-top-color:#e5e5e5;border-top-style:solid">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:20px 0 0">
+                                            <p style="color:#777;line-height:1.2em;font-size:16px;margin:4px 0 0">
+                                              <span style="font-size:16px">Total</span>
+                                            </p>
+                                          </td>
+                                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:20px 0 0" align="right">
+                                            <strong style="font-size:24px;color:#555">$867.40 USD</strong>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <p style="color:#777;line-height:1.1;font-size:16px;margin:10px 0 0" align="right"> You saved <span style="font-size:16px;color:#555">$213.09</span>
+                                    </p>
+                                    <table style="width:100%;border-spacing:0;border-collapse:collapse;margin-top:20px">
+                                      <tbody>
+                                        <tr>
+                                          <td colspan="2" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;border-bottom-width:1px;border-bottom-color:#e5e5e5;border-bottom-style:solid;height:1px;padding:0"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="2" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;height:10px"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:40px 0">
+                  <center>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <h3 style="font-weight:normal;font-size:20px;margin:0 0 25px">Customer information</h3>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_304739720196750922customer-info__item" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%" valign="top">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Shipping address</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0">Griffin Myers <br>595 Lloyd Ln <br>STE D <br>Independence OR 97351 <br>United States </p>
+                                  </td>
+                                  <td class="m_304739720196750922customer-info__item" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%" valign="top">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Billing address</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0">Griffin Myers <br>58 Glenalla Place <br>Castle Rock CO 80108 <br>United States </p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table style="width:100%;border-spacing:0;border-collapse:collapse">
+                              <tbody>
+                                <tr>
+                                  <td class="m_304739720196750922customer-info__item" style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding-bottom:40px;width:50%" valign="top">
+                                    <h4 style="font-weight:500;font-size:16px;color:#555;margin:0 0 5px">Shipping method</h4>
+                                    <p style="color:#777;line-height:150%;font-size:16px;margin:0">Flat Rate</p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border-spacing:0;border-collapse:collapse;border-top-width:1px;border-top-color:#e5e5e5;border-top-style:solid">
+            <tbody>
+              <tr>
+                <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif;padding:35px 0">
+                  <center>
+                    <table class="m_304739720196750922container" style="width:560px;text-align:left;border-spacing:0;border-collapse:collapse;margin:0 auto">
+                      <tbody>
+                        <tr>
+                          <td style="font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Roboto&quot;,&quot;Oxygen&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Fira Sans&quot;,&quot;Droid Sans&quot;,&quot;Helvetica Neue&quot;,sans-serif">
+                            <p style="color:#999;line-height:150%;font-size:14px;margin:0">If you have any questions, reply to this email or contact us at <a href="mailto:contact@sneakerpolitics.com" style="font-size:14px;text-decoration:none;color:#1990c6" target="_blank">contact@sneakerpolitics.com</a>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/spacer-1a26dfd5c56b21ac888f9f1610ef81191b571603cb207c6c0f564148473cab3c.png" class="m_304739720196750922spacer" height="1" style="min-width:600px;height:0">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+</div>

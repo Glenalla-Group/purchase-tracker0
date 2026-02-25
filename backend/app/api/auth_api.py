@@ -58,6 +58,27 @@ class SignUpRequest(BaseModel):
         return v
 
 
+class UpdateProfileRequest(BaseModel):
+    """Update profile request"""
+    username: Optional[str] = None
+    password: Optional[str] = None
+    
+    @validator('username')
+    def username_must_be_valid(cls, v):
+        if v is not None:
+            if len(v) < 3:
+                raise ValueError('Username must be at least 3 characters long')
+            if len(v) > 100:
+                raise ValueError('Username must be less than 100 characters')
+        return v
+    
+    @validator('password')
+    def password_must_be_strong(cls, v):
+        if v is not None and len(v) < 6:
+            raise ValueError('Password must be at least 6 characters long')
+        return v
+
+
 class UserInfoResponse(BaseModel):
     """User information response"""
     id: int
@@ -382,6 +403,64 @@ async def get_user(user_id: int, db: Session = Depends(get_db)):
     user_info = format_user_response(user)
     
     return {"status": 200, "data": user_info}
+
+
+@router.put("/user/profile")
+async def update_profile(
+    request: UpdateProfileRequest,
+    authorization: Optional[str] = Header(None),
+    db: Session = Depends(get_db),
+):
+    """
+    Update current user's profile (username and/or password).
+    """
+    # Import here to avoid circular import (auth_dependencies imports ACTIVE_TOKENS from this module)
+    from app.utils.auth_dependencies import authenticate_user
+    
+    # Authenticate user using the dependency
+    current_user = authenticate_user(authorization, db)
+    
+    logger.info(f"User {current_user['username']} updating profile")
+    
+    # Get the current user
+    user = db.query(User).filter(User.id == current_user["id"]).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    
+    # Update username if provided
+    if request.username is not None:
+        new_username = request.username.strip()
+        if new_username != user.username:
+            # Check if username already exists
+            existing_user = db.query(User).filter(User.username == new_username).first()
+            if existing_user:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Username already exists"
+                )
+            user.username = new_username
+    
+    # Update password if provided
+    if request.password is not None:
+        new_password = request.password.strip()
+        user.password = hash_password(new_password)
+    
+    # Update timestamp
+    user.updated_at = datetime.utcnow()
+    
+    db.commit()
+    db.refresh(user)
+    
+    # Format updated user info
+    user_info = format_user_response(user)
+    
+    logger.info(f"User {user.id} profile updated")
+    
+    return {
+        "status": 200,
+        "message": "Profile updated successfully",
+        "data": user_info
+    }
 
 
 @router.post("/forgot-password")

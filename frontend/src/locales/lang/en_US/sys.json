@@ -141,7 +141,9 @@
 		"lead-submittal": "Lead Submittal",
 		"oa-sourcing": "OA Sourcing",
 		"asin-bank": "ASIN Bank",
-		"retailers": "Retailers"
+		"retailers": "Retailers",
+		"accounts": "Accounts",
+		"user-management": "Management"
 	},
 		"settings": {
 			"accordion": "Accordion Menu",

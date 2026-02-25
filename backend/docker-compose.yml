@@ -10,10 +10,12 @@ services:
       - HOST=0.0.0.0
       - PORT=8000
       - DEBUG=True
+      - ENVIRONMENT=local  # Set to 'production' for AWS deployment
     env_file:
       - .env
     volumes:
-      # Mount credentials and token (so they persist)
+      # Local development: Mount credentials directly
+      # In production (AWS ECS), remove these and use Secrets Manager
       - ./credentials.json:/app/credentials.json:ro
       - ./token.json:/app/token.json
       # Mount logs

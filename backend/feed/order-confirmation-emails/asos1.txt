@@ -1,0 +1,1079 @@
+<div dir="ltr"><br><br>
+  <div class="gmail_quote gmail_quote_container">
+    <div class="msg-219108389592105855"><u></u>
+      <div marginheight="0" marginwidth="0" style="min-width:100%;background-color:#f5f5f2">
+        <table role="presentation" width="640" border="0" cellpadding="0" cellspacing="0" bgcolor="#F5F5F2"
+          align="center" style="table-layout:fixed;margin:0 auto">
+          <tbody>
+            <tr>
+              <td height="24" style="color:transparent;font-size:24px;line-height:24px">
+                <font
+                  style="font-size:1px!important;line-height:1px!important;font-family:Arial;color:transparent;max-height:0;max-width:0;opacity:0;overflow:hidden">
+                  Hi <span style="text-transform:capitalize">Griffin</span>, your order has been received. </font>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table role="presentation" width="640" border="0" cellpadding="0" cellspacing="0" align="center"
+          style="table-layout:fixed;background-color:#ffffff">
+          <tbody>
+            <tr>
+              <td>
+                <table role="presentation" width="640" height="64" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#2d2d2d">
+                  <tbody>
+                    <tr>
+                      <td width="640" height="64" align="center"><a
+                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEItZRyaFY5VHMOlC1tCiNgH4w4JJneV0gMygNJofP-2BrRmjUn5jwcuw3FUAGjIgtwybt3ImBcMj3jf4T8BFx98iU3kbSmRtVbCvCU3EtquZgcKWFk1uZuY5N8iZeyZ7-2F2mZVT6q-2FET79Vl5NFZ56iWl1Y5MOU_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoDHZK6SVauVwnLmXV4uD3H3OtVjLn80sT-2FvBvHFiY31z-2Fjo31hOnjN6pEPMv7LvnXWF-2BM83J8OR0FuV-2Fb4AiA9kS3QtmS2XiC3cfR2AYh0a5IEteTvzvKG22P-2Bm4RBcPz4ca9fopLRyWdZcIhEHjY7boAqyhfuqmqfbnxdgQ3sG0VPNs7cZmAYO6a-2F6m9gPpjlP3eJ2debE20ZIeZB80e7w-3D-3D"
+                          target="_blank"> <img align="center" width="100" height="30"
+                            src="https://images.asos-media.com/notification/content/images/asoslogo.png" alt="ASOS"
+                            border="0" style="display:block"> </a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#ffffff">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="40"> </td>
+                      <td width="560">
+                        <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <h1
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:28px;line-height:36px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  It’s ordered!</h1>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  Hi <span style="text-transform:capitalize">Griffin</span>, your order has been
+                                  received.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h2
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Your order</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0"
+                                  align="center" style="background-color:#eeeeee">
+                                  <tbody>
+                                    <tr>
+                                      <td aria-hidden="true" width="20"> </td>
+                                      <td width="520">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                          border="0" align="center">
+                                          <tbody>
+                                            <tr>
+                                              <td aria-hidden="true" height="24"
+                                                style="font-size:24px;line-height:24px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                                  Order No.: 1020417339</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                                  Order date: Monday 01 December 2025</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="24"
+                                                style="font-size:24px;line-height:24px"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                      <td aria-hidden="true" width="20"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h2
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Shipping details</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0;text-transform:capitalize">
+                                  Griffin Myers</p>
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  595 Lloyd Lane</p>
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  SUITE D</p>
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  Oregon</p>
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  97351 Independence, United States</p>
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  3032108009</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#006e3b;padding:0;margin:0">
+                                  Estimated delivery date: Wednesday 10 December 2025</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  Shipping method: Standard Shipping</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="110" valign="top"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuhHxZoTlfMs9I-2BNi5qNR8NnxmbeFugJcF8DUAG1oanhLg4avcA6cdbFud0Q2Rg8SQ7Z16SD8buo-2Ff2hW-2BqRUDBp3BztxXkc2KkqJO0AIeDL66GbzaI9hPTnEdNHbHmtYon4XQvnrVe4zg1Qy6Zv-2FaNcGRsLLcIVNhfcmCaH2w-2FTSID-2FHyPXbHnUo6nyyKQf6M-3D3aTP_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoXxltxPjfzc9lfmjA-2FDW3SvLgAcBy0eGjDG-2B1HWyegjIJd0XTHRLD0a5BMwVbfooHR1XmZYOqFzF0v4-2BooxZ-2FLzgd-2Bf4Y2OLj7a2tFG4mj88kP-2B7Ey5CG-2B2IFsx9UXZlukbSSVunJVcPMdTzqxqFDPavHT3jSUWWXN1XFf7CfZmimZZ1XIjUfzeYtXHzKdSdUWxcst103eR79nNXyzdMQtQ-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/products/adidas-originals-gazelle-bold-sneakers-in-light-blue/207405156-1-lightblue"
+                                            width="110" border="0" style="display:block"
+                                            alt="adidas Originals Gazelle Bold sneakers in light blue"> </a></td>
+                                      <td aria-hidden="true" width="20"> </td>
+                                      <td width="430" valign="top">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                          border="0">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:14px;line-height:20px;color:#2d2d2d;padding:0;margin:0">
+                                                  <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuhHxZoTlfMs9I-2BNi5qNR8NnxmbeFugJcF8DUAG1oanhLg4avcA6cdbFud0Q2Rg8SQ7Z16SD8buo-2Ff2hW-2BqRUDBp3BztxXkc2KkqJO0AIeDL66GbzaI9hPTnEdNHbHmtYon4XQvnrVe4zg1Qy6Zv-2FaNcGRsLLcIVNhfcmCaH2w-2FTSID-2FHyPXbHnUo6nyyKQf6M-3Da1GD_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoS3gyvnV7tO3c2UketiuiGZVsRq-2BcQMuWK8XHsoDtv5AV73esmALJPWvVjzVpkw64l1zKD5xR-2B29rzaG1Wq0gw8eHwg3d6z5EtPovUPd7w1NO09a35rNYUKo6asTHjIij0-2F9PlCO6FgpQJNwlu6ykYWS04NUvbU8JSkPmtQhPpAlIESxNTeTexUPbnXQFvdqtshQMoVdHi55-2FG2iHKKQVFQ-3D-3D"
+                                                    style="color:#2d2d2d;text-decoration:none" target="_blank"> adidas
+                                                    Originals Gazelle Bold sneakers in light blue </a></p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="6" style="font-size:6px;line-height:6px"> 
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p style="font-size:14px;line-height:20px;padding:0;margin:0"><span
+                                                    style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-weight:bold;color:#d01345">$84.00</span>  <span
+                                                    style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;color:#2d2d2d;text-decoration:line-through">$120.00</span>
+                                                </p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="12"
+                                                style="font-size:12px;line-height:12px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:18px;color:#2d2d2d;padding:0;margin:0">
+                                                  LIGHT BLUE / WOMENS 6 - MENS 5 / Qty 1</p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="110" valign="top"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuhHxZoTlfMs9I-2BNi5qNR8NnxmbeFugJcF8DUAG1oanhLg4avcA6cdbFud0Q2Rg8SQ7Z16SD8buo-2Ff2hW-2BqRUDBp3BztxXkc2KkqJO0AIeDL66GbzaI9hPTnEdNHbHmtYon4XQvnrVe4zg1Qy6Zv-2FaNcGRsLLcIVNhfcmCaH2w-2FTSrU4W7sidtlV3GUXfjMJd0-3DoJUZ_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoPQf6-2F7dsn-2BpAUoX7Mv8h3VJlIM-2Bn9gKoWIZ0Yhjzvsqf0bfjuxWOD-2BbeOid7eTT4v5g-2FWfz8cjNwrHErheYK2JCT-2FqrQOvcnc9bj5HZWdUfc7PnZCPxj0M92mzw-2BrMjQb4Y6V5ExtbZ-2FqzYv-2B127VQnrCNGsxeXFCL2Khi6Yok5oJNEjz6qwmz-2Bn1TEmaiG-2F3E2O493u-2BoMq6uF3F8uYmA-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/products/adidas-originals-gazelle-bold-sneakers-in-light-blue/207405156-1-lightblue"
+                                            width="110" border="0" style="display:block"
+                                            alt="adidas Originals Gazelle Bold sneakers in light blue"> </a></td>
+                                      <td aria-hidden="true" width="20"> </td>
+                                      <td width="430" valign="top">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                          border="0">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:14px;line-height:20px;color:#2d2d2d;padding:0;margin:0">
+                                                  <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuhHxZoTlfMs9I-2BNi5qNR8NnxmbeFugJcF8DUAG1oanhLg4avcA6cdbFud0Q2Rg8SQ7Z16SD8buo-2Ff2hW-2BqRUDBp3BztxXkc2KkqJO0AIeDL66GbzaI9hPTnEdNHbHmtYon4XQvnrVe4zg1Qy6Zv-2FaNcGRsLLcIVNhfcmCaH2w-2FTSrU4W7sidtlV3GUXfjMJd0-3DHhLc_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLod6fMqaCGgOABSCRVDo37-2FfpnOfLKQBwpUi5qv5jS64pff8DIKD7Re2GSqlw5UR5CsWZST8KnCknKKE72CNNfEip2BhM55CDMo6lgdTumtmW4eb8ZZMfU-2Fp6BMlMblfhei06iMrzeMAjC0qf2FJGCthajdHmVxPdMOcAuS1TuwIupbYsgT3JXnbYoFZ7nLPE-2Bo3mutaGhmx6UC-2FaXo8KJtQ-3D-3D"
+                                                    style="color:#2d2d2d;text-decoration:none" target="_blank"> adidas
+                                                    Originals Gazelle Bold sneakers in light blue </a></p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="6" style="font-size:6px;line-height:6px"> 
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p style="font-size:14px;line-height:20px;padding:0;margin:0"><span
+                                                    style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-weight:bold;color:#d01345">$84.00</span>  <span
+                                                    style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;color:#2d2d2d;text-decoration:line-through">$120.00</span>
+                                                </p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="12"
+                                                style="font-size:12px;line-height:12px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:18px;color:#2d2d2d;padding:0;margin:0">
+                                                  LIGHT BLUE / WOMENS 7 - MENS 6 / Qty 2</p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="65%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Sub-total</p>
+                                      </td>
+                                      <td width="35%" align="right">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          $252.00</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td aria-hidden="true" height="6" style="font-size:6px;line-height:6px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td width="65%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Discount</p>
+                                      </td>
+                                      <td width="35%" align="right">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          -$75.60</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td aria-hidden="true" height="6" style="font-size:6px;line-height:6px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td width="65%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Delivery</p>
+                                      </td>
+                                      <td width="35%" align="right">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Free</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td aria-hidden="true" height="6" style="font-size:6px;line-height:6px"> </td>
+                                    </tr>
+                                    <tr>
+                                      <td width="65%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Sales tax</p>
+                                      </td>
+                                      <td width="35%" align="right">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          $0.00</p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="65%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          Total</p>
+                                      </td>
+                                      <td align="right" width="35%">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          $176.40</p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h2
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Payment details</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td aria-hidden="true" width="50" align="left"><img
+                                          src="https://assets.asosservices.com/asos-finance/images/paymentmethods/amex.png"
+                                          width="34" style="display:block" alt="American Express"></td>
+                                      <td align="left">
+                                        <p
+                                          style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                          American Express</p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" align="center" style="border-top:solid #dddddd 1px;font-size:1px"> 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h2
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Changed your mind?</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h3
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:18px;line-height:24px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Canceling an order</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  We’re not able to make changes to your order, but you do have the option to cancel
+                                  it. <a
+                                    href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuB70X-2B6bWP-2FeOTmRBh-2BXMjNF6-2FijwLLuE-2BuEyZX7ZgJJWU3zgfpUkDUHzC75Dr5XgeIMhGNdIHSh9W7m61TJyZeBjgFI8REBh-2Bkd8x-2B3b-2FdbAOc6gsqDgw-2FCg-2FuYxZFAnGUQ-2B19u9VOkvduya-2B5ZYCvj7K2rr9bn4qGuwELnMxCtUf-2FBe8T7GWiYNyE9JXF9goGBz8xYqsMxQ-2BIIlnau2H7SwgVTPDa4UddyewF6EJqw-3D-3DRVNA_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoKqBFj-2FMgkagzEgKFFaivp-2FSWKqHFaUyz-2Bc6kcXCLra78qiFXIRVf33bAOqGlbOSYhk-2BkHAw0q1-2FgJ1-2BxgzfRrITK6zEC6j7L-2FERfpvEkPha60pwzHSMjld4qGw-2Bdv5GE4YJDhL4PNlDytwGABaU3chANkuzAmyHIGIClWtSblJN59F3QPiz80T-2FSlKGCooETMpHB-2FkLfyRuTfIkqhwPz6w-3D-3D"
+                                    style="text-decoration:underline;color:#000000" target="_blank">Find out
+                                    more</a>. Go to your order from the button below and follow the instructions.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="264" align="center" cellpadding="0" cellspacing="0"
+                                  border="0" style="max-width:264px">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" width="264"
+                                        style="background-color:#2d2d2d;padding-top:12px;padding-bottom:12px;max-width:264px">
+                                        <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet3cvjQkFmik5sxcJAnDAwNsXWqgfJvCBLMxt07g6E17lbex-2FAkV9-2FQ3LG9zRNw0duVAfsSJRc5vFIZbnzMUbeOj5ddIRZDM5c1JDnVoYQVo1bOEgPfbM-2BXREqO0h-2BNKhiRD-2BmMHDGu9RaVdldBwuyYwYPSWVW30nzA64dwfkSovDex3IHXpFSTGAp3ch3TEKpQ-3D-3DF6W7_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoq2Mhva6jDTPYPHFTd2wtG2y46OLEmKOQ0Hy2zzRGQXv5Em7MPWn62yNnEPknBEVBFo8teNjouPETHnfj104s6vKXLY9bz38SInV4b5-2BavyJ6ZBv6hKqZJFZxAY2iKbf-2BY6dL-2FIw2g5-2FnDwFyNcSZ44S-2FOoFUYyuAJJ2MDARRpwXk-2B85mrsY1REM93YU20jhb6Q85vnDBkeEkvpCI0SBBOQ-3D-3D"
+                                          style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:14px;font-weight:bold;text-align:center;text-transform:uppercase;text-decoration:none;color:#ffffff"
+                                          target="_blank"> View order </a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h3
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:18px;line-height:24px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Returning an order</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  You also have the option to return any unwanted items*. However, for hygiene reasons
+                                  there are some items that we can’t accept back and these will be sent back to you.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  Have questions about your returns? Check out our <a
+                                    href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuGUrrsIiFW1j2b7q6Gvuf-2BY8DpOK7xSCrvMGsbQzFpBSE4ou5LY-2BpLIVd6I9gVaXxeQKMoUTrCxuGQoINYiHtkIScEKWsRswoIIBe9I0p3UEcKGAHSzg9LZFRQ-2BgtQ6BnvZf5RQ73Xm8yA058K2MVry07c9c5jzs1qiVk70rj1XkzFndBveKzNT-2FyuyMQkGlIOzxDIqFKLqEfTVkQ1JVlS-_pr_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoQdBHM0KLAFVf5-2FyUwVTlSObYAQSDD184mvYvFtztkz3YhEJAsDYoKr6u3QrQMCGQGkamYlCIUFCYC5vtQaUxoaJmics9eqxyKfOpO5hFVcLOdNQYivDSe1LL3Gxw3KcwJzCf4VViuKvNcc7udJeU7OBSQDvFaRI8HtYWH68geNmVyrK8bY52Z8Y2A8oeh6TWCd9q2x92dcW4YcV6C8tLMw-3D-3D"
+                                    style="text-decoration:underline;color:#2d2d2d" target="_blank">fair usage
+                                    policy</a>.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="264" align="center" cellpadding="0" cellspacing="0"
+                                  border="0" style="max-width:264px">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" width="264"
+                                        style="background-color:#ffffff;border:2px solid #dddddd;padding-top:12px;padding-bottom:12px;max-width:264px">
+                                        <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIspGfmeXFY3JKyE5XkWmGlTJ4ONFZU6au1i-2FnICARtNn4BzBlLBWJQGLoa8n84uwfJ7-2BGZfxtq5jRm5hxkXyARBdmTst9-2BiPdGY9uXQTEwo1F8n1xorn02PSI5qWwYqPyHxecvOIFP6cTgyOgn77b4Rql6nuw-2FtWxKd28h5-2BALNKg-3D-3DX5Zm_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoPNeSLqWFSvnZ3diuxM5K5xAHjH9eqo06QtPtX5yqEXx-2BTlZAmWIT-2Boc-2FMhaeak-2FxUD-2BLofppX6PIWzA0qWeoQ2wFeliayr8daiP1osN5GV4FbRdTQ08GYvYgcXQyB2lY0e-2Fztbhbxvoif7yauo9IYIwEYYM-2BXbGQ8x-2B78-2BLlmnI7Kg-2BJL1TEKyqQcSbYnwACEFH7t34yOau8p6SF-2BT-2FieQ-3D-3D"
+                                          style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:14px;font-weight:bold;text-align:center;text-transform:uppercase;text-decoration:none;color:#000000"
+                                          target="_blank"> Return information </a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0"
+                                  align="center" style="background-color:#2d2d2d">
+                                  <tbody>
+                                    <tr>
+                                      <td width="20"> </td>
+                                      <td width="520">
+                                        <table role="presentation" width="520" cellpadding="0" cellspacing="0"
+                                          border="0" align="center">
+                                          <tbody>
+                                            <tr>
+                                              <td aria-hidden="true" height="32"
+                                                style="font-size:32px;line-height:32px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center">
+                                                <h2
+                                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#ffffff;letter-spacing:0.1px;padding:0;margin:0">
+                                                  Get more with the ASOS app</h2>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="24"
+                                                style="font-size:24px;line-height:24px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#ffffff;padding:0;margin:0">
+                                                  Wanna get real time updates on your orders and returns? What about
+                                                  getting notified when your fave sell-outs are back in stock? AND how
+                                                  about a personalized edit of things we think you’ll love? Sounds good,
+                                                  doesn’t it!? Go get the app!</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="32"
+                                                style="font-size:32px;line-height:32px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td>
+                                                <table role="presentation" width="520" align="center" cellpadding="0"
+                                                  cellspacing="0" border="0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="right" width="254"><a
+                                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMetwjemch6AIYAyjzoElAS8OmOFeJgWrv8B11LtosDNfO7FmmPA41El5Ff5PE7hqdL6w-3D-3DwdTW_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLocZWi96wYk2MbEzCwN1OG2Ju1GXbG3yBB7epHuNiOQAV4LuwSatgK6aW1Z668ujL27bwFzGTVmx8xZNGn0I802WllaVel46ZdLJjxp8Rtb7J2Vc-2F-2BfWNArD9WOs49m5-2BdIXqaIzDD91Q38YJeah-2FwDpIRZTx2Jx3ImBiQNuFRHCezJCBmnZS2gwfUaznX84IWyJfMj0KU0JaOWAGUDkxGBA-3D-3D"
+                                                          target="_blank"> <img
+                                                            src="https://images.asos-media.com/notification/content/images/appstore-en.png"
+                                                            height="44"
+                                                            style="width:auto!important;max-height:44px!important;display:block"
+                                                            border="0" alt=""> </a></td>
+                                                      <td width="12"> </td>
+                                                      <td align="left" width="254"><a
+                                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet0npki0KbJoRiwAH7fU-2FR5GNqBgjnnsFhmQYgf7IncicFjXl5gnvuCkh3h4SeZT6LAQ9eBEioA173Q7lmImOgSw-3DKOMA_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoOpkJHqA-2B0sVB5mvaZQG0e6Z85GUFxrRANHvR0C2q2i3N4bWgPFBTQmR7S55Sc7rkt1Qrm-2FYvomG85hSoSZ256Ll1tDmsfVEgwenpA5ZU87CiCMIjxPW80fVVAWUV3pGBFq-2BoeL2mjXQjVsLk2Tl1Ng63Ia0suB8OrmZc8ZG9obB3fUCaBtH0U69cHtfz7Hxhh2DhQa-2FjGWSBLDvLKronVA-3D-3D"
+                                                          target="_blank"> <img
+                                                            src="https://images.asos-media.com/notification/content/images/googleplay-en.png"
+                                                            height="44"
+                                                            style="width:auto!important;max-height:44px!important;display:block"
+                                                            border="0" alt=""> </a></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="32"
+                                                style="font-size:32px;line-height:32px"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                      <td width="20"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr aria-hidden="true">
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center"><img
+                                          src="https://images.asos-media.com/notification/content/images/asos-noise-strip.png"
+                                          width="560" style="display:block" border="0" alt=""></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0"
+                                  align="center" style="background-color:#9cf0e0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="20"> </td>
+                                      <td width="520">
+                                        <table role="presentation" width="520" cellpadding="0" cellspacing="0"
+                                          border="0" align="center">
+                                          <tbody>
+                                            <tr>
+                                              <td aria-hidden="true" height="24"
+                                                style="font-size:24px;line-height:24px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center">
+                                                <h2
+                                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:20px;line-height:28px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                                  Stay in the loop</h2>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="12"
+                                                style="font-size:12px;line-height:12px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center">
+                                                <p
+                                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#000000;padding:0;margin:0">
+                                                  Be first in line to grab the stuff you love for less, get exclusive
+                                                  deals, and all the best just-landed looks. If that product you’re into
+                                                  comes back in stock, get a heads-up so you can add to bag pronto.</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="12"
+                                                style="font-size:12px;line-height:12px"> </td>
+                                            </tr>
+                                            <tr>
+                                              <td>
+                                                <table role="presentation" width="264" align="center" cellpadding="0"
+                                                  cellspacing="0" border="0" style="max-width:264px">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center" width="264"
+                                                        style="border:2px solid #000000;padding-top:10px;padding-bottom:10px;max-width:264px">
+                                                        <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet3cvjQkFmik5sxcJAnDAwNsqYJ4k-2B5drXbn3gbAo2LjU-2F-2BQ95-2BGoxG44AVe02HmcpLTBFPTNxIRWmPSXgPcyd8yPxdboY4WigAr6NFfYdYdmJ4V7ksq6Eiqql-2B34MmSZF42rWZa94z8GHNX3KBcK8F3F-2FhIHKXO328-2FDtouYx1Q0AM9pj-2FjIRtDxh8wUF5FH2w-3D-3DUnN5_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoeoyZbQYXm15S0cqH8UNIlO-2B2qvVD2Pr0IA-2BjhGm8eFUDAnKQ5KAlhEFxmcXoFKMvzaUtEK5o3GvjqpbzqE-2F1Atvc5f-2BzOmY4ci1aL2drHaZoZXBZhK6IDAPlYIwDjrNvuvJcgmfdIlwFfHGxbOMgtPRkIltQZCsdmMTp1-2Bi91LDjuXjtnqFXz87frypN8blgVm3VaC1YzO0ZZxY3XSzvkg-3D-3D"
+                                                          style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:14px;font-weight:bold;text-align:center;text-transform:uppercase;text-decoration:none;color:#000000"
+                                                          target="_blank"> Hit me up </a></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td aria-hidden="true" height="24"
+                                                style="font-size:24px;line-height:24px"> </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                      <td width="20"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;padding:0;margin:0">
+                                  Thanks,</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:16px;line-height:22px;color:#2d2d2d;font-weight:bold;padding:0;margin:0">
+                                  The ASOS team</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="40"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#eeeeee">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="40"> </td>
+                      <td width="560">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="left">
+                                <h3
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:18px;line-height:24px;color:#000000;letter-spacing:0.1px;padding:0;margin:0">
+                                  Help pages</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <th width="270">
+                                        <table role="presentation" width="264" align="center" cellpadding="0"
+                                          cellspacing="0" border="0" style="max-width:264px">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" width="264"
+                                                style="background-color:#ffffff;border:2px solid #dddddd;padding-top:10px;padding-bottom:10px;max-width:264px">
+                                                <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIvVdFOgD4yapxXWQV0pAri78wTLHpl4rK7M3fT2xMvpiKPibjcOfZAiKK849EqsQ3k1HJlMCvN6kvsJT3M-2BuwwUx5OMFxeVdqkmeNon70drkDorXzpNaaK9X4kKVgSgOGnIf6kmUMbtDnThdc0uYXDSzjU-2Fq-2BZdko7xfFBsoryWPQ-3D-3DLki4_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLo2l16CpauJRcysnlMoS8vZhbQ6ptlGQZyyX0sczsrJ7zeFZtYcJAsYb-2FiApk3ZlNgLl2zQC0urHaPpK7zBwY5SjUo7H9stskfhRkXQLzsVa2IF5iemtJLGC4byMyF0u7yQBtut3YdEMFZPLZ2-2FMd-2F-2FkMn3PRB-2By6CT3pLqqY23xXoJBrLhxK4Sp9Rnhxv6aZpzUy7ziDaWjK40ly0xIcW-2Bg-3D-3D"
+                                                  style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:14px;font-weight:bold;text-align:center;text-transform:uppercase;text-decoration:none;color:#000000"
+                                                  target="_blank"> Delivery </a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </th>
+                                      <th width="20">
+                                        <table role="presentation" width="0" cellpadding="0" cellspacing="0" border="0">
+                                          <tbody>
+                                            <tr>
+                                              <td aria-hidden="true" height="8" style="font-size:8px;line-height:8px"> 
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </th>
+                                      <th width="270">
+                                        <table role="presentation" width="264" align="center" cellpadding="0"
+                                          cellspacing="0" border="0" style="max-width:264px">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" width="264"
+                                                style="background-color:#ffffff;border:2px solid #dddddd;padding-top:10px;padding-bottom:10px;max-width:264px">
+                                                <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIt0EF4o0FeHKMMcU4ALus6UTjIyQ-2BD4M1bROhgymdbIGHhpAGi2Tj4RQX9OA3xxM2WBgSKzgQ9HIPNDmu7u9hphcAIUmzSOjR5A-2FR17IgHdesr3qR74-2ByxG8gpd7dNrM3m-2F3tcsJP2tAkCDDBCfw9EpGjHbgqIZPD-2B4luqHBbt-2BjQ-3D-3DhvZb_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLobdJcARfjqhU6wLR92h2J5fZixnOJVl-2FiY0vsnHjSAXWp28cvB2eBC-2BZugmnVkxztni2oFILgy498AYGftpGHwAiOKOO6b6jJRXfUH-2F8zQxeQsOv5cPyEIZc20hmVPgm0KX1rX75a0aUKNzcbebwHbEHW-2B64ziZn0x2dPqYOGK7H0ug4TI8KdXHmauPaLBdMAqXIsuBr16h3xvOIbGJK8wg-3D-3D"
+                                                  style="font-family:&#39;FuturaPTHeavy-Reg&#39;,Futura-Bold,Arial,sans-serif;font-size:14px;font-weight:bold;text-align:center;text-transform:uppercase;text-decoration:none;color:#000000"
+                                                  target="_blank"> Customer Care </a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="24" style="font-size:24px;line-height:24px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="40"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr aria-hidden="true">
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#2d2d2d">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="20"> </td>
+                      <td width="600">
+                        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <h3
+                                  style="font-family:&#39;ASOS Sans Display&#39;,Futura,Arial,sans-serif;font-size:18px;line-height:24px;color:#ffffff;letter-spacing:0.1px;padding:0;margin:0">
+                                  Get the app</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0"
+                                  border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="right" width="294"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMetwjemch6AIYAyjzoElAS8OmOFeJgWrv8B11LtosDNfO7FmmPA41El5Ff5PE7hqdL6w-3D-3D2xdy_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoVUu7F-2FFErqq0irLVtIMpJLdMRgZq4ldfel7bThiaqAWgdXrot51-2BqJCtrKxjuBe493nhLgx7E1LPDjn8BGhK-2FFbYSe796QGMLcyeiSBM4xCSv1MV-2BdzLQ5pvaq6hPYvUbq-2FYbf9eOvP3l3VFIyLQILxweof1lk2TH1xixysGM51-2FSktmKdT2SobeMLvDBysvVhey87pbfcAmZqqKk8Fw3w-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/appstore-en.png"
+                                            height="44"
+                                            style="width:auto!important;max-height:44px!important;display:block"
+                                            border="0" alt=""> </a></td>
+                                      <td width="12"> </td>
+                                      <td align="left" width="294"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet0npki0KbJoRiwAH7fU-2FR5GNqBgjnnsFhmQYgf7IncicFjXl5gnvuCkh3h4SeZT6LAQ9eBEioA173Q7lmImOgSw-3DIvJu_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoBZ7FEVKb4X7LQF8QzMcgHoQYqNbFUs9Kk1T5MfEapkbmFXgHKZlBoBe8fAUtC8BOJ8UDkHCoEtDpv4InUpDOAQve-2F-2BGOF5JwH03bWA15dH0mLr2f76ddItnfW5AOZ7TLyHg-2B6wN3x7pzXVy4GU6AerktG-2Fnq3uMoqiiTcYW8o6J1UF-2BZT34h8lzwliw7FJfsePF82QKzUaT0qqWirsUTJA-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/googleplay-en.png"
+                                            height="44"
+                                            style="width:auto!important;max-height:44px!important;display:block"
+                                            border="0" alt=""> </a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="20"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#2d2d2d">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="20"> </td>
+                      <td width="600">
+                        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:16px;color:#ffffff;padding:0;margin:0">
+                                  *Please see website <a
+                                    href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIuBvhS5LjBBU7GEDU4n-2BBbAEudBj-2BJ57cGulsoqtbAv4lYtsGlaX1-2F0InwgZgZQyeKgFeGwJdF883qRLsetcMf2BuHcb7A8jYb2KE-2Buqgg2i9JVDyyo1Xyt-2Fhojpp4-2BgbPONWzvW5Rf5sLJK69ZkjfyBTbcXcKaunbArG34YDcc-2FA-3D-3DmWdU_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoHLpDHooGrvnpRD-2Ba2dKvymR8daChSd8IzN0P-2BHNSg4Won59tJtAWdqXMIFGZhtlzYRFgeHxlMZqa9AEg-2BC7Sc6KwUSVRXyLljyH9tzSVjFEc1-2Bmn8NrhE2wli9jcrUXZ5FrmlSmJXckClWUoYlI-2F5-2BbMMdCicsca-2FoY0hnz3KPld-2BoKauijTBCypEn3HgehC9vZQQKEsGssngLXFSfusjA-3D-3D"
+                                    style="color:#ffffff;text-decoration:underline" target="_blank">T&amp;Cs</a> for
+                                  more details on returns and refunds, and for the refunds window applicable to your
+                                  jurisdiction.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:16px;color:#ffffff;padding:0;margin:0">
+                                  This inbox is not attended so please don’t reply to this email. This is a service
+                                  email. You will receive these no matter what your marketing communication preferences
+                                  are.</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="12" style="font-size:12px;line-height:12px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:16px;color:#ffffff;padding:0;margin:0">
+                                  <a href="#m_-219108389592105855_" style="color:#ffffff;text-decoration:none"> ASOS Plc
+                                    (Company No. 04006623) and ASOS.com Limited (Company No. 03584121) are registered in
+                                    England and Wales. Registered office: Greater London House, Hampstead Road, London
+                                    NW1 7FB. For customers in the EEA only; ASOS.com (Netherlands branch), having Dutch
+                                    Trade Register number (KVK-nummer, Handelsregisternummer) 000052657604. </a></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="20"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr aria-hidden="true">
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#2d2d2d">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="20"> </td>
+                      <td width="600">
+                        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td width="600" align="center">
+                                <table role="presentation" width="162" cellpadding="0" cellspacing="0" border="0"
+                                  align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet5Cz0u6PDvrjZBhzsgPxgjTLgRqoQDFt4sRQGGljHVAk0Qf6_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLomWnrY1mPQo3FplWVxtPSvK7aZUy97W-2FqoGF1wcBAdg-2FuJmUKO-2FnWrYFcZmE84F9m7R1vT8aNIUuRgd-2FzpkpNDu2v05hhQqvJKw-2BArGYk8NXTnHWSNBCFZbz2-2F0US9y9s2dpgQ6BJuSPbJAVyiy1D2XCVZ9DSPfy3qEAfWnXKOk-2BLppnRTxwpwHJRslt4k8hh3Txqmfr629pHFy9PJA0q1g-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/icon-facebook.png"
+                                            width="30" style="display:block" border="0" alt=""> </a></td>
+                                      <td width="14"> </td>
+                                      <td align="center"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet5M6D0HHdiwhX8ZlU6KdGXsm0Db4Z0HI5xEmxXguRTdniyQc_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLog0-2F8zjzpi-2BOhYG09nmorJ0lqwDIPBa0vxP0ysKZ-2Br5bQtBDT1oACFHUcaGylD8UWdD999WR-2FzK4O0nDS0Zhs6gmzHS3UXIsnwgKkOvP-2BeFo6vE-2BLUJPw96Kb5Dxr7AfEUXE4XcqjeNMOX5zUBOkAen2kxW5TFBDFI7x8a9a7-2FOX-2Fq0d8DexNKGjrOxORZbPDWuItsKPkLVdDb7IGGYyviw-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/icon-instagram.png"
+                                            width="30" style="display:block" border="0" alt=""> </a></td>
+                                      <td width="14"> </td>
+                                      <td align="center"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet88vOfXiUymgX9NywYNXgFyUVO83qciqnp4wiUj5JEs4gnE1SfG-2Fpqb4-2B2RUGxNT4Q-3D-3D7tYy_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoW3EbCenSn-2FG0kLCquSnfECaKfgzxlWqtFNjkJmesnudo-2F3zIT42ZdHqngwgVH4No-2Fatg9F19xQTp99-2B9a29yDkehirfmcKjw-2B-2FjQq53o92jcWVzsB6qQwOuuK4R-2FwzTuWCMgnLYjskxwCKpSKLvSTEQykvPuCpNIHK1dCErYvqcLKyh6ia4Fe5XhQBoytFAqXvTz3mMPT27PK-2BRbjnhsGQ-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/icon-snapchat.png"
+                                            width="30" style="display:block" border="0" alt=""> </a></td>
+                                      <td width="14"> </td>
+                                      <td align="center"><a
+                                          href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet1MVTlcVUp1RYfAvV4tKbZOrnP0nlCQyGp1hPMn9lFQsrDWb_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoIDvcq-2BW3ADeZ24XOfxw-2BwtVgU5RAHLdBlxelO1UINI3md4nEb0th-2F0cuxbZ3sFW1bcv1rClEB99I44gS85aBEqBqcEHG591-2BvhvkSg4t31zfXBuQ9FO2rIMoo1Nfpiz32c2RMTjQVgqzsaBZJrReTKDkhoBJU3odgGOxWkYNv7ZawHZTtC8bZCBFIk-2FVBjGK8Pmep-2BoJkTjgg5PLIJy4lw-3D-3D"
+                                          target="_blank"> <img
+                                            src="https://images.asos-media.com/notification/content/images/icon-tiktok-white.png"
+                                            width="30" style="display:block" border="0" alt=""> </a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="20"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
+                  style="background-color:#2d2d2d">
+                  <tbody>
+                    <tr>
+                      <td aria-hidden="true" width="20"> </td>
+                      <td width="600">
+                        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                          align="center">
+                          <tbody>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <p
+                                  style="font-family:&#39;FuturaPTBook-Reg&#39;,Futura,Arial,sans-serif;font-size:12px;line-height:16px;color:#ffffff;padding:0;margin:0">
+                                  <a href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet8Up9FpTJyYw02xAAF-2FEEIt0EF4o0FeHKMMcU4ALus6UTjIyQ-2BD4M1bROhgymdbIGHhpAGi2Tj4RQX9OA3xxM2WBgSKzgQ9HIPNDmu7u9hphcAIUmzSOjR5A-2FR17IgHdesr3qR74-2ByxG8gpd7dNrM3m-2F3tcsJP2tAkCDDBCfw9EpGjHbgqIZPD-2B4luqHBbt-2BjQ-3D-3D8ALS_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLo2o3tqJD87ODqDAqdglv-2FvYDuYz-2Bhhrk5QkCbIIL6N7x844SrJywRmOrfepMe3pzSe-2Fqh5Qf9UTQ5-2F9idu6FEqjurz9vmE3sGUY5pqQ4nuMlon8Es4GA4u5FoImzskPseCd4UDc2YN3Le1ATSJKtiFOWRPGtf0SaVA-2B6MzTDNbRy1xwXr0O4Q72cZvtG8gDdAtRgqN-2B0kOEwYE7Ibg13YYw-3D-3D"
+                                    style="color:#ffffff;text-decoration:underline" target="_blank">Help &amp;
+                                    Contact</a> | <a
+                                    href="https://click.asos.com/ls/click?upn=u001.sLYRYlG1q87tbiwfyBMet4hBvINEysbf7oVeDjeXdX9Wf-2BKRshL8jRifi90Lx1iZwP4qgxUBzhQMsuzLRt7Kxc9g81WIblg4bzzJndDgzJDltQGMeXXtCdt4SZ2gDm3Y-2BO3l0RlbWECYrnQcoB7gocDDWnVphjB3uORl7wRPpat-2BnoZD85U4-2FYGtchA2TaIbM0F6_piVeWsaygt-2B-2Fr2GBf8bgVvEcLTAi2kdXIYD5MJgjJjYCh4V62J4AKfp1W7qJWF-2BR8pmNXFv9VT3ACw7mwf83n4Ih2DwVHXqI7LCPwOsMuxx5tZGWz251bMqN5BgoBLU1auIlEjUjW-2FTWpAXwhRCOxcQt6qoUdGEP9QbD51lZmnxQJIZ7mM6ZP9BzU8P7mYZR9G9UZtcCx46cgsy2wPngzcIbn9a207K6ChdgN0SAYND91zHb5wdkhDLibk39j4y-2F6qkhwsBvyg7q9ZQJUpL4G0-2FkHBrIPkK0p4c5HHc-2BvAu9PCloGy5vSMsiYCcXGqnnb-2BdMbYcBBBHsqMSlthp2ADB-2F9y-2B3y6VUnJE9bc8y9rE3n-2FVBRBCVi-2BXhrSLJYzLoMKg45RaDsHt-2BDt21dJJbDM-2BgWeT2fg432CPGraKaQ-2FDx2dnd3NwI4172g6bmNFrCqH8BmthxX4aYCucs-2BIFAyR8viEAAccM3swZ3-2FzmF557Kg36ozfxeMX-2FMRsi9tzwPUV5n9mGEtYgScGMm-2BE9nckzoEWPOLSknMUlm7i0sYwLF0A1UP8PBGrYnFkRTeGYXfDt1fd48T4mQhLU8a4OsmA-3D-3D"
+                                    style="color:#ffffff;text-decoration:underline" target="_blank">Privacy Policy</a>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td aria-hidden="true" height="32" style="font-size:32px;line-height:32px"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td aria-hidden="true" width="20"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table aria-hidden="true" role="presentation" width="640" border="0" cellpadding="0" cellspacing="0"
+          bgcolor="#F5F5F2" align="center" style="table-layout:fixed;margin:0 auto">
+          <tbody>
+            <tr>
+              <td height="24" style="font-size:24px;line-height:24px"> </td>
+            </tr>
+          </tbody>
+        </table><img
+          src="https://click.asos.com/wf/open?upn=u001.8y8JzyITPbTnfC-2BqvYF-2BSreSiuYQhBqFe9EMA6Pe7-2F7SSoK1zqZUz8d25v2ft9EQhc-2Fyk66gi3LTmO-2BzRAqXeFPgfIiqPZoatNkaM6ULQ5b1IQsyrdSz3xxTmEDZxHsvRi2FVyKXsL-2FW3KOL96N4Vuk4LOymH0b-2F7WujBXSHNbMz6EW45dWQI0rFc8OCLG0IMTnZfL-2Fe0LIPycScdmHZL-2BqHeqb-2BNWBYtL4g8-2FBVM2lwTRb1N0BYsuYSJaYe-2FdEYcK6zGIt2PmCwzJ5GlAJ7ZBIKkFPrhya05BkpGCmPMm60Ds8B9tIQhxwdQ2soH4Q1Djp5qNYZoCSUARH2xIbV2YpyKwN9h0e90pckUh4N8GZf5bE84fEsfvmvNpWDQKWOrnIvC1UYHOwjBhn042L3M0lg-2BIwE0o2oNs95H3q5EQYm-2FKi2CgaCM3i6ufMbkp-2B9np7z1cEDoJhZP-2BZjrOFgWjC7Ft59vfiQdFWmymdcj-2BHjt6fCaEYFv0iorLDdZ3pwdosj0FM7CAn8qstQr8nrFrMmbOhMi6-2F8GKR80NRn3sf5aNozW5iiZuD40TaktqQvL3SlSXbFGhCg-2BmwojryamQ-3D-3D"
+          alt="" width="1" height="1" border="0"
+          style="height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important">
+      </div>
+    </div>
+  </div>
+</div>

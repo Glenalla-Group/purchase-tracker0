@@ -101,6 +101,16 @@ class RetailerService {
 	}
 
 	/**
+	 * Bulk delete retailers by IDs
+	 */
+	async bulkDeleteRetailers(ids: number[]): Promise<{ deleted_count: number; deleted_ids: number[] }> {
+		return apiClient.delete<{ deleted_count: number; deleted_ids: number[] }>({
+			url: '/api/v1/retailers/',
+			data: { ids },
+		});
+	}
+
+	/**
 	 * Get summary statistics
 	 */
 	async getSummary(): Promise<RetailerSummary> {

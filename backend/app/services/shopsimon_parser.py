@@ -23,6 +23,8 @@ from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
 
 from app.models.email import EmailData
+from app.utils.address_utils import normalize_shipping_address
+from app.config.settings import get_settings
 
 logger = logging.getLogger(__name__)
 
@@ -32,12 +34,20 @@ class ShopSimonOrderItem(BaseModel):
     size: str = Field(..., description="Size of the product")
     quantity: int = Field(..., description="Quantity of the product")
     product_name: Optional[str] = Field(None, description="Name of the product")
+    
+    def __repr__(self):
+        if self.product_name and len(self.product_name) > 50:
+            product_display = self.product_name[:50] + "..."
+        else:
+            product_display = self.product_name or "Unknown"
+        return f"<ShopSimonOrderItem(unique_id={self.unique_id}, size={self.size}, qty={self.quantity}, product={product_display})>"
 
 
 class ShopSimonOrderData(BaseModel):
     order_number: str = Field(..., description="The order number")
     items: List[ShopSimonOrderItem] = Field(..., description="List of items in the order")
     items_count: int = Field(0, description="Total number of items in the order")
+    shipping_address: str = Field("", description="Normalized shipping address")
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -45,16 +55,61 @@ class ShopSimonOrderData(BaseModel):
 
 
 class ShopSimonEmailParser:
+    # Email identification - Order Confirmation (Production)
     SHOPSIMON_FROM_EMAIL = "onlinesupport@shopsimon.com"
-    SUBJECT_ORDER_PATTERN = "your shopsimon order is confirmed"
+    SUBJECT_ORDER_PATTERN = r"your shopsimon order is confirmed"
+    
+    # Email identification - Development (forwarded emails)
+    DEV_SHOPSIMON_ORDER_FROM_EMAIL = "glenallagroupc@gmail.com"
+    DEV_SUBJECT_ORDER_PATTERN = r"Fwd:\s*your shopsimon order is confirmed"
+
+    def __init__(self):
+        """Initialize the ShopSimon email parser."""
+        self.settings = get_settings()
+    
+    @property
+    def order_from_email(self) -> str:
+        """Get the appropriate from email address based on environment."""
+        if self.settings.is_development:
+            return self.DEV_SHOPSIMON_ORDER_FROM_EMAIL
+        return self.SHOPSIMON_FROM_EMAIL
+    
+    @property
+    def order_subject_pattern(self) -> str:
+        """Get the appropriate subject pattern (regex) for matching based on environment."""
+        if self.settings.is_development:
+            return self.DEV_SUBJECT_ORDER_PATTERN
+        return self.SUBJECT_ORDER_PATTERN
+    
+    @property
+    def order_subject_query(self) -> str:
+        """Get the appropriate subject pattern for Gmail queries (non-regex) based on environment."""
+        if self.settings.is_development:
+            # For Gmail queries, search for "your shopsimon order is confirmed" in forwarded emails
+            # The regex pattern will further filter to match "Fwd:\s*your shopsimon order is confirmed"
+            return "your shopsimon order is confirmed"
+        # For production, use the exact phrase
+        return "your shopsimon order is confirmed"
 
     def is_shopsimon_email(self, email_data: EmailData) -> bool:
         """Check if email is from ShopSimon"""
-        return self.SHOPSIMON_FROM_EMAIL in email_data.sender.lower()
+        sender_lower = email_data.sender.lower()
+        
+        # In development, check for forwarded emails from dev email address
+        if self.settings.is_development:
+            if self.DEV_SHOPSIMON_ORDER_FROM_EMAIL.lower() in sender_lower:
+                return True
+        
+        # In production, check for ShopSimon email
+        return self.SHOPSIMON_FROM_EMAIL.lower() in sender_lower
 
     def is_order_confirmation_email(self, email_data: EmailData) -> bool:
         """Check if email is an order confirmation"""
-        return self.SUBJECT_ORDER_PATTERN in email_data.subject.lower()
+        subject_lower = email_data.subject.lower()
+        pattern = self.order_subject_pattern
+        
+        # Use regex matching for subject pattern
+        return bool(re.search(pattern, subject_lower, re.IGNORECASE))
 
     def parse_email(self, email_data: EmailData) -> Optional[ShopSimonOrderData]:
         """
@@ -94,7 +149,12 @@ class ShopSimonEmailParser:
             for item in items:
                 logger.debug(f"  - {item}")
             
-            return ShopSimonOrderData(order_number=order_number, items=items)
+            # Extract shipping address
+            shipping_address = self._extract_shipping_address(soup)
+            if shipping_address:
+                logger.info(f"Extracted shipping address: {shipping_address}")
+            
+            return ShopSimonOrderData(order_number=order_number, items=items, shipping_address=shipping_address)
         
         except Exception as e:
             logger.error(f"Error parsing ShopSimon email: {e}", exc_info=True)
@@ -212,7 +272,10 @@ class ShopSimonEmailParser:
         except Exception as e:
             logger.error(f"Error extracting ShopSimon items: {e}", exc_info=True)
         
-        logger.info(f"ShopSimon extracted {len(items)} items total")
+        # Log items with ID, size, and quantity (product names come from OA Sourcing table)
+        if items:
+            items_summary = [f"(ID: {item.unique_id}, Size: {item.size}, Qty: {item.quantity})" for item in items]
+            logger.info(f"[ShopSimon] Extracted {len(items)} items: {', '.join(items_summary)}")
         return items
 
     def _find_product_rows(self, soup: BeautifulSoup) -> List:
@@ -220,30 +283,30 @@ class ShopSimonEmailParser:
         Find product rows in the email HTML.
         
         ShopSimon specific structure:
-        - Products are in <tr class="order-list__item">
-        - Each row contains product image, title, and price
+        - Products are in <span> tags with specific styling:
+          style="text-transform:capitalize;font-size:16px;font-weight:600;line-height:1.4;color:#555"
+        - Product images from cdn.shopify.com
         
         Returns:
             List of BeautifulSoup elements containing product information
         """
         product_rows = []
         
-        # Look for ShopSimon specific product rows
-        # Pattern: <tr class="order-list__item">
-        product_rows = soup.find_all('tr', class_='order-list__item')
+        # Look for ShopSimon product spans with specific styling
+        # Pattern: <span style="...font-size:16px;font-weight:600...">Product Name</span>
+        all_spans = soup.find_all('span', style=lambda x: x and 'font-size:16px' in x and 'font-weight:600' in x)
         
-        if product_rows:
-            logger.debug(f"Found {len(product_rows)} product rows using class 'order-list__item'")
-            return product_rows
+        for span in all_spans:
+            span_text = span.get_text(strip=True)
+            # Check if this looks like a product (contains size pattern)
+            if re.search(r'US\s+\d+|×\s*\d+', span_text, re.IGNORECASE):
+                # Find the parent row containing this product span
+                parent_row = span.find_parent('tr')
+                if parent_row and parent_row not in product_rows:
+                    product_rows.append(parent_row)
+                    logger.debug(f"Found product span: {span_text[:100]}")
         
-        # Fallback: Look for rows containing order-list__item-title
-        rows_with_titles = soup.find_all('span', class_='order-list__item-title')
-        for title_span in rows_with_titles:
-            parent_row = title_span.find_parent('tr')
-            if parent_row and parent_row not in product_rows:
-                product_rows.append(parent_row)
-        
-        logger.debug(f"Found {len(product_rows)} potential product containers")
+        logger.debug(f"Found {len(product_rows)} potential product rows")
         return product_rows
 
     def _extract_shopsimon_product_details(self, element) -> Optional[dict]:
@@ -251,32 +314,42 @@ class ShopSimonEmailParser:
         Extract product details from a ShopSimon product element.
         
         ShopSimon HTML structure:
-        - Product title: <span class="order-list__item-title">Men's adidas Adilette 22 Slides - US 7 / crystal white / crystal white / core bla× 3</span>
+        - Product title: <span style="...font-size:16px;font-weight:600...">Men's adidas Adilette 22 Slides - US 7 / crystal white / crystal white / core bla× 3</span>
         - Format: "Product Name - US Size / color / color / color× Multiplier"
         - Size: Extracted from "US 7" part
-        - Quantity: Always 1 (ignore × multiplier)
-        - Unique ID: Generated from product name + multiplier number
-          Example: "Men's adidas Adilette 22 Slides" + "× 3" -> "mens-adidas-adilette-22-slides-3"
+        - Quantity: Extracted from "× 3" multiplier (not always present)
+        - Unique ID: Generated from product name
+          Example: "Men's adidas Adilette 22 Slides" -> "SS-Mens adidas Adilette 22 Slides"
+        - Brand: Extracted from "Brand: adidas" in a div below the product name
         
         Returns:
             Dictionary with unique_id, size, quantity, product_name or None
         """
         try:
             details = {
-                'quantity': 1  # Always 1 for ShopSimon
+                'quantity': 1  # Default to 1
             }
             
-            # Find product title span
-            title_span = element.find('span', class_='order-list__item-title')
+            # Find product title span (has font-size:16px and font-weight:600)
+            title_span = element.find('span', style=lambda x: x and 'font-size:16px' in x and 'font-weight:600' in x)
             if not title_span:
                 logger.warning("Product title span not found")
                 return None
             
             full_title = title_span.get_text(strip=True)
+            # Clean up extra whitespace and newlines
+            full_title = re.sub(r'\s+', ' ', full_title).strip()
             logger.debug(f"Found full title: {full_title}")
             
             # Parse the title format: "Product Name - US Size / colors× Multiplier"
             # Example: "Men's adidas Adilette 22 Slides - US 7 / crystal white / crystal white / core bla× 3"
+            
+            # Extract multiplier/quantity from "× 3" pattern FIRST
+            multiplier_match = re.search(r'×\s*(\d+)', full_title)
+            if multiplier_match:
+                quantity = int(multiplier_match.group(1))
+                details['quantity'] = quantity
+                logger.debug(f"Extracted quantity: {quantity}")
             
             # Extract product name (everything before " - US")
             product_name_match = re.match(r'^(.+?)\s*-\s*US\s+', full_title)
@@ -304,27 +377,25 @@ class ShopSimonEmailParser:
                     details['size'] = size_match2.group(1)
                     logger.debug(f"Extracted size (fallback): {details['size']}")
             
-            # Extract multiplier number from "× 3" pattern
-            multiplier_match = re.search(r'×\s*(\d+)', full_title)
-            multiplier = ''
-            if multiplier_match:
-                multiplier = multiplier_match.group(1)
-                logger.debug(f"Extracted multiplier: {multiplier}")
+            # Try to extract brand from the element
+            brand = None
+            brand_div = element.find('div', string=lambda x: x and 'Brand:' in x)
+            if brand_div:
+                brand_text = brand_div.get_text(strip=True)
+                brand_match = re.search(r'Brand:\s*(.+)', brand_text)
+                if brand_match:
+                    brand = brand_match.group(1).strip()
+                    logger.debug(f"Extracted brand: {brand}")
             
-            # Generate unique_id from product name + multiplier
-            # Format: "mens-adidas-adilette-22-slides-3"
+            # Generate unique_id: SS-{Product Name}
+            # Format: "SS-Mens adidas Adilette 22 Slides"
             if details.get('product_name'):
-                # Convert product name to slug format
-                unique_id = details['product_name'].lower()
-                # Remove special characters and replace spaces with hyphens
-                unique_id = re.sub(r'[^\w\s-]', '', unique_id)
-                unique_id = re.sub(r'[-\s]+', '-', unique_id)
-                unique_id = unique_id.strip('-')
+                product_name_clean = details['product_name']
+                # Remove possessive apostrophes
+                product_name_clean = product_name_clean.replace("'s", "s")
+                product_name_clean = product_name_clean.replace("'", "")
                 
-                # Append multiplier if found
-                if multiplier:
-                    unique_id = f"{unique_id}-{multiplier}"
-                
+                unique_id = f"SS-{product_name_clean}"
                 details['unique_id'] = unique_id
                 logger.debug(f"Generated unique_id: {unique_id}")
             
@@ -362,4 +433,58 @@ class ShopSimonEmailParser:
         if 'one size' in size.lower():
             return 'OS'
         return size
+    
+    def _extract_shipping_address(self, soup: BeautifulSoup) -> str:
+        """
+        Extract shipping address from email and normalize it.
+        
+        ShopSimon email structure:
+        - <h4>Shipping address</h4>
+        - <p>Name<br>Street Address<br>City State ZIP<br>Country</p>
+        
+        Args:
+            soup: BeautifulSoup object of email HTML
+        
+        Returns:
+            Normalized shipping address or empty string
+        """
+        try:
+            # Method 1: Find h4 with "Shipping address" then get the next p tag
+            shipping_headers = soup.find_all('h4', string=re.compile(r'Shipping\s+address', re.IGNORECASE))
+            
+            for header in shipping_headers:
+                # Find the next p tag after this h4
+                address_p = header.find_next('p')
+                if address_p:
+                    # Get the text and split by line breaks
+                    address_text = address_p.get_text(separator='\n', strip=True)
+                    address_lines = [line.strip() for line in address_text.split('\n') if line.strip()]
+                    
+                    # Skip the name (first line) and look for street address
+                    for line in address_lines[1:]:  # Skip first line (name)
+                        # Look for street address pattern (starts with number)
+                        if re.match(r'^\d+\s+', line):
+                            # This looks like a street address
+                            normalized = normalize_shipping_address(line)
+                            if normalized:
+                                logger.debug(f"Extracted ShopSimon shipping address: {line} -> {normalized}")
+                                return normalized
+            
+            # Method 2: Fallback - search text for known address patterns
+            text = soup.get_text()
+            
+            # Look for "595 Lloyd Ln" pattern
+            lloyd_match = re.search(r'(595\s+Lloyd\s+Ln)', text, re.IGNORECASE)
+            if lloyd_match:
+                street_line = lloyd_match.group(1).strip()
+                normalized = normalize_shipping_address(street_line)
+                if normalized:
+                    logger.debug(f"Extracted ShopSimon shipping address (pattern): {street_line} -> {normalized}")
+                    return normalized
+            
+            return ""
+        
+        except Exception as e:
+            logger.error(f"Error extracting shipping address: {e}")
+            return ""
 

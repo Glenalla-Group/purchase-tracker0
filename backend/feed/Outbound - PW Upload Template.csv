@@ -1,0 +1,8 @@
+Reference Name,Workflow Name,Shipment Notes
+Example Name,STA (0/0/0000 00:00 AM),
+Name,ASIN,UPC,Multipack / Bundle,Number of Units,Notes
+Item 1 Name,Item 1 ASIN,Item 1 UPC,None,10,Item 1 Notes
+Item 2 Name,Item 2 ASIN,Item 2 UPC,None,20,Item 2 Notes
+Item 3 Name,Item 3 ASIN,Item 3 UPC,Bundle,30,Item 3 Notes
+Item 4 Name,Item 4 ASIN,Item 4 UPC,Multipack,40,Item 4 Notes
+Item 5 Name,Item 5 ASIN,Item 5 UPC,None,50,Item 5 Notes
