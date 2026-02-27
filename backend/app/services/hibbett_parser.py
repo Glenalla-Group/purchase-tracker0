@@ -583,6 +583,75 @@ class HibbettEmailParser:
             logger.error(f"Error parsing Hibbett shipping email: {e}", exc_info=True)
             return None
 
+    def parse_shipping_email_partial(self, email_data: EmailData) -> Optional[dict]:
+        """
+        Best-effort parse for Hibbett shipping when full parse fails or when email lacks
+        unique_id/size (no product images with style code in shipping emails).
+        Returns partial data for manual review queue.
+        Shipping emails have Product #, product name, color, quantity - but NO Size, NO unique_id.
+        """
+        try:
+            html_content = email_data.html_content
+            if not html_content:
+                return None
+            soup = BeautifulSoup(html_content, 'lxml')
+            order_number = self._extract_order_number(soup)
+            if not order_number:
+                return None
+            items = self._extract_shipping_items_partial(soup)
+            if not items:
+                return None
+            return {
+                'order_number': order_number,
+                'items': items,
+                'missing_fields': ['unique_id', 'size'],
+                'subject': email_data.subject or '',
+            }
+        except Exception as e:
+            logger.error(f"Error in parse_shipping_email_partial: {e}", exc_info=True)
+            return None
+
+    def _extract_shipping_items_partial(self, soup: BeautifulSoup) -> List[dict]:
+        """
+        Extract shipping items without unique_id/size for manual review.
+        Uses Cost Summary subtotal and PRICE to calculate actual quantity (displayed qty may be wrong).
+        """
+        items = []
+        try:
+            subtotal = self._extract_cost_summary_subtotal(soup)
+            sections = self._find_shipping_product_sections(soup)
+            for section in sections:
+                try:
+                    product_name = self._extract_product_name_from_shipping_section(section)
+                    product_number = self._extract_product_number_from_shipping_section(section)
+                    color = self._extract_color_from_shipping_section(section)
+                    price_per_unit = self._extract_price_from_shipping_section(section)
+                    displayed_quantity = self._extract_quantity_from_shipping_section(section)
+                    if not price_per_unit and subtotal:
+                        price_per_unit = subtotal
+                    actual_quantity = 1
+                    if price_per_unit and subtotal:
+                        calculated_qty = round(subtotal / price_per_unit)
+                        if calculated_qty > 0:
+                            actual_quantity = calculated_qty
+                    elif subtotal:
+                        actual_quantity = 1
+                    else:
+                        actual_quantity = displayed_quantity
+                    if product_name and product_name != "Unknown Product":
+                        items.append({
+                            'product_name': product_name,
+                            'product_number': product_number,
+                            'color': color,
+                            'quantity': actual_quantity,
+                        })
+                except Exception as e:
+                    logger.debug(f"Skip section in partial extract: {e}")
+                    continue
+        except Exception as e:
+            logger.error(f"Error in _extract_shipping_items_partial: {e}")
+        return items
+
     def parse_cancellation_email(self, email_data: EmailData) -> Optional[HibbettCancellationData]:
         """
         Parse Hibbett cancellation notification email.

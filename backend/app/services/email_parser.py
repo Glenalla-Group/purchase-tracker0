@@ -58,7 +58,12 @@ class EmailParser:
                 # Parse plain text
                 extracted_info.extracted_data = self._extract_from_text(content)
             
-            logger.info(f"Successfully parsed email {email_data.message_id}")
+            # Only consider successful if we extracted meaningful order data
+            if not extracted_info.order_number and not extracted_info.total_amount:
+                extracted_info.extraction_successful = False
+                extracted_info.error_message = "No order data found"
+            else:
+                logger.info(f"Successfully parsed email {email_data.message_id}")
             return extracted_info
         
         except Exception as e:

@@ -101,6 +101,7 @@ export default function PurchaseTracker() {
 	const [searchOrderNumber, setSearchOrderNumber] = useState("");
 	const [searchProductName, setSearchProductName] = useState("");
 	const [searchAsin, setSearchAsin] = useState("");
+	const [searchRetailer, setSearchRetailer] = useState("");
 
 	// Manual purchase dialog state
 	const [showManualDialog, setShowManualDialog] = useState(false);
@@ -482,6 +483,7 @@ export default function PurchaseTracker() {
 				product_name: searchProductName || undefined,
 				asin: searchAsin || undefined,
 				order_number: searchOrderNumber || undefined,
+				supplier: searchRetailer || undefined,
 			});
 
 			// Validate response structure
@@ -505,16 +507,16 @@ export default function PurchaseTracker() {
 			setSelectedIds(new Set()); // Clear selection when loading new data
 		} catch (error: any) {
 			console.error("Error loading purchase data:", error);
-			
+
 			// Set empty state on error
 			setPurchaseData([]);
 			setTotal(0);
-			
+
 			// Show user-friendly error message
-			const errorMessage = error?.response?.data?.message || 
-								error?.message || 
-								"Failed to load purchase data";
-			
+			const errorMessage = error?.response?.data?.message ||
+				error?.message ||
+				"Failed to load purchase data";
+
 			toast.error("Failed to load purchase data", {
 				description: errorMessage,
 			});
@@ -546,6 +548,7 @@ export default function PurchaseTracker() {
 		setSearchOrderNumber("");
 		setSearchProductName("");
 		setSearchAsin("");
+		setSearchRetailer("");
 		const newPagination = { ...pagination, pageIndex: 0 };
 		setPagination(newPagination);
 		setTimeout(() => loadPurchaseData(newPagination), 0);
@@ -556,7 +559,7 @@ export default function PurchaseTracker() {
 		setSelectedPurchase(purchase);
 		setDetailDrawerOpen(true);
 		setIsEditMode(false);
-		
+
 		// Populate form with current values
 		editForm.reset({
 			og_qty: purchase.og_qty || undefined,
@@ -591,14 +594,14 @@ export default function PurchaseTracker() {
 			setIsSaving(true);
 			await purchaseTrackerService.updatePurchase(selectedPurchase.id, data);
 			console.log("[handleSaveChanges] - data", data);
-			
+
 			// Fetch the updated purchase record to refresh the drawer
 			const updatedPurchase = await purchaseTrackerService.getPurchaseById(selectedPurchase.id);
 			console.log("[handleSaveChanges] - updatedPurchase", updatedPurchase);
-			
+
 			// Update the selected purchase state with fresh data
 			setSelectedPurchase(updatedPurchase);
-			
+
 			// Update the form with fresh data
 			editForm.reset({
 				og_qty: updatedPurchase.og_qty || undefined,
@@ -620,17 +623,17 @@ export default function PurchaseTracker() {
 				audited: updatedPurchase.audited || false,
 				notes: updatedPurchase.notes || "",
 			});
-			
+
 			toast.success("Purchase updated successfully");
 			setIsEditMode(false);
-			
+
 			// Update the record in the current page's data if it exists
-			setPurchaseData(prevData => 
-				prevData.map(item => 
+			setPurchaseData(prevData =>
+				prevData.map(item =>
 					item.id === selectedPurchase.id ? updatedPurchase : item
 				)
 			);
-			
+
 			// Refresh the list in the background to ensure consistency
 			// This preserves the current pagination state
 			loadPurchaseData();
@@ -664,8 +667,8 @@ export default function PurchaseTracker() {
 
 			if (totalProcessed > 0) {
 				toast.success(`Successfully processed ${totalProcessed} orders!`, {
-					description: totalSkipped > 0 
-						? `Skipped ${totalSkipped} duplicate(s)` 
+					description: totalSkipped > 0
+						? `Skipped ${totalSkipped} duplicate(s)`
 						: "Purchase records created from retailer emails",
 				});
 
@@ -688,13 +691,13 @@ export default function PurchaseTracker() {
 			}
 		} catch (error: any) {
 			console.error("Error processing retailer orders:", error);
-			
+
 			// Extract meaningful error message
-			const errorMessage = error?.response?.data?.message || 
-								error?.response?.data?.detail ||
-								error?.message || 
-								"Failed to process retailer orders";
-			
+			const errorMessage = error?.response?.data?.message ||
+				error?.response?.data?.detail ||
+				error?.message ||
+				"Failed to process retailer orders";
+
 			toast.error("Failed to process retailer orders", {
 				description: errorMessage,
 			});
@@ -703,93 +706,93 @@ export default function PurchaseTracker() {
 		}
 	};
 
-	const handleProcessRetailerOrders = async (retailer: string) => {
-		setProcessingOrders(true);
-		try {
-			toast.info(`Processing ${retailer} orders...`, {
-				description: `Searching for order confirmation emails from ${retailer}`,
-			});
+	// const handleProcessRetailerOrders = async (retailer: string) => {
+	// 	setProcessingOrders(true);
+	// 	try {
+	// 		toast.info(`Processing ${retailer} orders...`, {
+	// 			description: `Searching for order confirmation emails from ${retailer}`,
+	// 		});
 
-			let result;
-			switch (retailer) {
-				case 'footlocker':
-					result = await retailerOrderService.processFootlockerOrders(1);
-					break;
-				case 'champs':
-					result = await retailerOrderService.processChampsOrders(1);
-					break;
-				case 'dicks':
-					result = await retailerOrderService.processDicksOrders(1);
-					break;
-				case 'hibbett':
-					result = await retailerOrderService.processHibbettOrders(1);
-					break;
-				case 'shoepalace':
-					result = await retailerOrderService.processShoePalaceOrders(1);
-					break;
-				case 'snipes':
-					result = await retailerOrderService.processSnipesOrders(1);
-					break;
-				case 'finishline':
-					result = await retailerOrderService.processFinishLineOrders(1);
-					break;
-				case 'shopsimon':
-					result = await retailerOrderService.processShopSimonOrders(1);
-					break;
-				default:
-					throw new Error(`Unknown retailer: ${retailer}`);
-			}
+	// 		let result;
+	// 		switch (retailer) {
+	// 			case 'footlocker':
+	// 				result = await retailerOrderService.processFootlockerOrders(1);
+	// 				break;
+	// 			case 'champs':
+	// 				result = await retailerOrderService.processChampsOrders(1);
+	// 				break;
+	// 			case 'dicks':
+	// 				result = await retailerOrderService.processDicksOrders(1);
+	// 				break;
+	// 			case 'hibbett':
+	// 				result = await retailerOrderService.processHibbettOrders(1);
+	// 				break;
+	// 			case 'shoepalace':
+	// 				result = await retailerOrderService.processShoePalaceOrders(1);
+	// 				break;
+	// 			case 'snipes':
+	// 				result = await retailerOrderService.processSnipesOrders(1);
+	// 				break;
+	// 			case 'finishline':
+	// 				result = await retailerOrderService.processFinishLineOrders(1);
+	// 				break;
+	// 			case 'shopsimon':
+	// 				result = await retailerOrderService.processShopSimonOrders(1);
+	// 				break;
+	// 			default:
+	// 				throw new Error(`Unknown retailer: ${retailer}`);
+	// 		}
 
-			// Validate result structure
-			if (!result) {
-				throw new Error("Invalid response from server");
-			}
+	// 		// Validate result structure
+	// 		if (!result) {
+	// 			throw new Error("Invalid response from server");
+	// 		}
 
-			const totalProcessed = result.processed || 0;
-			const totalSkipped = result.skipped_duplicate || 0;
-			const totalEmails = result.total_emails || 0;
-			const errors = result.errors || 0;
+	// 		const totalProcessed = result.processed || 0;
+	// 		const totalSkipped = result.skipped_duplicate || 0;
+	// 		const totalEmails = result.total_emails || 0;
+	// 		const errors = result.errors || 0;
 
-			if (totalProcessed > 0) {
-				toast.success(`Successfully processed ${totalProcessed} ${retailer} orders!`, {
-					description: totalSkipped > 0 
-						? `Skipped ${totalSkipped} duplicate(s)` 
-						: "Purchase records created from retailer emails",
-				});
+	// 		if (totalProcessed > 0) {
+	// 			toast.success(`Successfully processed ${totalProcessed} ${retailer} orders!`, {
+	// 				description: totalSkipped > 0
+	// 					? `Skipped ${totalSkipped} duplicate(s)`
+	// 					: "Purchase records created from retailer emails",
+	// 			});
 
-				// Reload purchase data to show new entries
-				setTimeout(() => {
-					loadPurchaseData();
-				}, 2000);
-			} else if (totalEmails === 0) {
-				toast.info(`No unprocessed ${retailer} emails found`, {
-					description: "All order emails have been processed",
-				});
-			} else if (errors > 0) {
-				toast.warning(`No ${retailer} orders were processed`, {
-					description: result.error_messages?.[0] || "Check the logs for details",
-				});
-			} else {
-				toast.info(`No new ${retailer} orders to process`, {
-					description: "All available emails have been processed",
-				});
-			}
-		} catch (error: any) {
-			console.error(`Error processing ${retailer} orders:`, error);
-			
-			// Extract meaningful error message
-			const errorMessage = error?.response?.data?.message || 
-								error?.response?.data?.detail ||
-								error?.message || 
-								`Failed to process ${retailer} orders`;
-			
-			toast.error(`Failed to process ${retailer} orders`, {
-				description: errorMessage,
-			});
-		} finally {
-			setProcessingOrders(false);
-		}
-	};
+	// 			// Reload purchase data to show new entries
+	// 			setTimeout(() => {
+	// 				loadPurchaseData();
+	// 			}, 2000);
+	// 		} else if (totalEmails === 0) {
+	// 			toast.info(`No unprocessed ${retailer} emails found`, {
+	// 				description: "All order emails have been processed",
+	// 			});
+	// 		} else if (errors > 0) {
+	// 			toast.warning(`No ${retailer} orders were processed`, {
+	// 				description: result.error_messages?.[0] || "Check the logs for details",
+	// 			});
+	// 		} else {
+	// 			toast.info(`No new ${retailer} orders to process`, {
+	// 				description: "All available emails have been processed",
+	// 			});
+	// 		}
+	// 	} catch (error: any) {
+	// 		console.error(`Error processing ${retailer} orders:`, error);
+
+	// 		// Extract meaningful error message
+	// 		const errorMessage = error?.response?.data?.message ||
+	// 			error?.response?.data?.detail ||
+	// 			error?.message ||
+	// 			`Failed to process ${retailer} orders`;
+
+	// 		toast.error(`Failed to process ${retailer} orders`, {
+	// 			description: errorMessage,
+	// 		});
+	// 	} finally {
+	// 		setProcessingOrders(false);
+	// 	}
+	// };
 
 	// Handle processing Footlocker shipping/cancellation updates
 	const handleProcessFootlockerUpdates = async () => {
@@ -829,12 +832,12 @@ export default function PurchaseTracker() {
 			}
 		} catch (error: any) {
 			console.error("Error processing Footlocker updates:", error);
-			
-			const errorMessage = error?.response?.data?.message || 
-								error?.response?.data?.detail ||
-								error?.message || 
-								"Failed to process Footlocker updates";
-			
+
+			const errorMessage = error?.response?.data?.message ||
+				error?.response?.data?.detail ||
+				error?.message ||
+				"Failed to process Footlocker updates";
+
 			toast.error("Failed to process Footlocker updates", {
 				description: errorMessage,
 			});
@@ -940,7 +943,7 @@ export default function PurchaseTracker() {
 			if (success && totalRecords > 0) {
 				const addressCount = Object.keys(processedByAddress).length;
 				const description = `Processed ${totalRecords} records across ${addressCount} address(es)`;
-				
+
 				toast.success(`Inbound creation completed!`, {
 					description: description,
 					duration: 5000,
@@ -961,7 +964,7 @@ export default function PurchaseTracker() {
 			}
 		} catch (error: any) {
 			console.error("Error processing inbound creation:", error);
-			
+
 			// Check if it's a timeout error
 			if (error?.code === 'ECONNABORTED' || error?.message?.includes('timeout')) {
 				toast.error("Request timeout", {
@@ -969,11 +972,11 @@ export default function PurchaseTracker() {
 					duration: 10000,
 				});
 			} else {
-				const errorMessage = error?.response?.data?.message || 
-									error?.response?.data?.detail ||
-									error?.message || 
-									"Failed to process inbound creation";
-				
+				const errorMessage = error?.response?.data?.message ||
+					error?.response?.data?.detail ||
+					error?.message ||
+					"Failed to process inbound creation";
+
 				toast.error("Failed to process inbound creation", {
 					description: errorMessage,
 				});
@@ -1027,12 +1030,12 @@ export default function PurchaseTracker() {
 			}
 		} catch (error: any) {
 			console.error("Error processing outbound creation:", error);
-			
-			const errorMessage = error?.response?.data?.message || 
-								error?.response?.data?.detail ||
-								error?.message || 
-								"Failed to process outbound creation";
-			
+
+			const errorMessage = error?.response?.data?.message ||
+				error?.response?.data?.detail ||
+				error?.message ||
+				"Failed to process outbound creation";
+
 			toast.error("Failed to process outbound creation", {
 				description: errorMessage,
 			});
@@ -1056,7 +1059,7 @@ export default function PurchaseTracker() {
 	// Handle manual form submission
 	const handleManualSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
-		
+
 		// Validate form
 		if (!manualFormData.unique_id || !manualFormData.size || !manualFormData.qty || !manualFormData.order_number) {
 			toast.error("All fields are required", {
@@ -1068,29 +1071,29 @@ export default function PurchaseTracker() {
 		setIsSubmittingManual(true);
 		try {
 			const result = await purchaseTrackerService.createManualPurchase(manualFormData);
-			
+
 			setCreatedPurchaseData(result);
 			toast.success("Purchase created successfully!", {
 				description: `Purchase tracker record created for ${result.product_name}`,
 			});
-			
+
 			// Reload purchase data to show new entry
 			setTimeout(() => {
 				loadPurchaseData();
 			}, 1000);
-			
+
 			// Close dialog after a short delay
 			setTimeout(() => {
 				setShowManualDialog(false);
 			}, 2000);
 		} catch (error: any) {
 			console.error("Error creating manual purchase:", error);
-			
-			const errorMessage = error?.response?.data?.message || 
-								error?.response?.data?.detail ||
-								error?.message || 
-								"Failed to create purchase";
-			
+
+			const errorMessage = error?.response?.data?.message ||
+				error?.response?.data?.detail ||
+				error?.message ||
+				"Failed to create purchase";
+
 			toast.error("Failed to create purchase", {
 				description: errorMessage,
 			});
@@ -1125,7 +1128,15 @@ export default function PurchaseTracker() {
 					</CardTitle>
 				</CardHeader>
 				<CardContent>
-					<div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-4">
+						<Input
+							placeholder="Retailer Name"
+							value={searchRetailer}
+							onChange={(e) => setSearchRetailer(e.target.value)}
+							onKeyDown={(e) => {
+								if (e.key === "Enter") handleSearch();
+							}}
+						/>
 						<Input
 							placeholder="Order Number"
 							value={searchOrderNumber}
@@ -1221,8 +1232,8 @@ export default function PurchaseTracker() {
 								Process Outbound Creation
 							</Button>
 						</div>
-						
-						{/* Individual Retailer Buttons */}
+
+						{/* Individual Retailer Buttons
 						<div className="flex flex-wrap gap-2">
 							<Button
 								onClick={() => handleProcessRetailerOrders('footlocker')}
@@ -1254,61 +1265,58 @@ export default function PurchaseTracker() {
 								<Icon icon="mdi:store" className="mr-1" />
 								Dick's Sporting Goods
 							</Button>
-						<Button
-							onClick={() => handleProcessRetailerOrders('hibbett')}
-							variant="outline"
-							size="sm"
-							className="bg-purple-50 hover:bg-purple-100 border-purple-200"
-							disabled={processingOrders || loading}
-						>
-							<Icon icon="mdi:store" className="mr-1" />
-							Hibbett Sports
-						</Button>
-						<Button
-							onClick={() => handleProcessRetailerOrders('shoepalace')}
-							variant="outline"
-							size="sm"
-							className="bg-pink-50 hover:bg-pink-100 border-pink-200"
-							disabled={processingOrders || loading}
-						>
-							<Icon icon="mdi:store" className="mr-1" />
-							Shoe Palace
-						</Button>
-						<Button
-							onClick={() => handleProcessRetailerOrders('snipes')}
-							variant="outline"
-							size="sm"
-							className="bg-red-50 hover:bg-red-100 border-red-200"
-							disabled={processingOrders || loading}
-						>
-							<Icon icon="mdi:store" className="mr-1" />
-							Snipes
-						</Button>
-						<Button
-							onClick={() => handleProcessRetailerOrders('finishline')}
-							variant="outline"
-							size="sm"
-							className="bg-yellow-50 hover:bg-yellow-100 border-yellow-200"
-							disabled={processingOrders || loading}
-						>
-							<Icon icon="mdi:store" className="mr-1" />
-							Finish Line
-						</Button>
-						<Button
-							onClick={() => handleProcessRetailerOrders('shopsimon')}
-							variant="outline"
-							size="sm"
-							className="bg-teal-50 hover:bg-teal-100 border-teal-200"
-							disabled={processingOrders || loading}
-						>
-							<Icon icon="mdi:store" className="mr-1" />
-							ShopSimon
-						</Button>
+							<Button
+								onClick={() => handleProcessRetailerOrders('hibbett')}
+								variant="outline"
+								size="sm"
+								className="bg-purple-50 hover:bg-purple-100 border-purple-200"
+								disabled={processingOrders || loading}
+							>
+								<Icon icon="mdi:store" className="mr-1" />
+								Hibbett Sports
+							</Button>
+							<Button
+								onClick={() => handleProcessRetailerOrders('shoepalace')}
+								variant="outline"
+								size="sm"
+								className="bg-pink-50 hover:bg-pink-100 border-pink-200"
+								disabled={processingOrders || loading}
+							>
+								<Icon icon="mdi:store" className="mr-1" />
+								Shoe Palace
+							</Button>
+							<Button
+								onClick={() => handleProcessRetailerOrders('snipes')}
+								variant="outline"
+								size="sm"
+								className="bg-red-50 hover:bg-red-100 border-red-200"
+								disabled={processingOrders || loading}
+							>
+								<Icon icon="mdi:store" className="mr-1" />
+								Snipes
+							</Button>
+							<Button
+								onClick={() => handleProcessRetailerOrders('finishline')}
+								variant="outline"
+								size="sm"
+								className="bg-yellow-50 hover:bg-yellow-100 border-yellow-200"
+								disabled={processingOrders || loading}
+							>
+								<Icon icon="mdi:store" className="mr-1" />
+								Finish Line
+							</Button>
+							<Button
+								onClick={() => handleProcessRetailerOrders('shopsimon')}
+								variant="outline"
+								size="sm"
+								className="bg-teal-50 hover:bg-teal-100 border-teal-200"
+								disabled={processingOrders || loading}
+							>
+								<Icon icon="mdi:store" className="mr-1" />
+								ShopSimon
+							</Button>
+						</div> */}
 					</div>
-				</div>
-				<p className="text-xs text-muted-foreground mt-2">
-					Automatically processes order confirmation emails from all supported retailers (Footlocker, Champs Sports, Dick's Sporting Goods, Hibbett Sports, Shoe Palace, Snipes, Finish Line, ShopSimon, etc.)
-				</p>
 				</CardContent>
 			</Card>
 
@@ -1342,9 +1350,9 @@ export default function PurchaseTracker() {
 							<Icon icon="mdi:plus" className="mr-1" />
 							Add Purchase
 						</Button>
-						<Button 
+						<Button
 							size="sm"
-							onClick={() => loadPurchaseData()} 
+							onClick={() => loadPurchaseData()}
 							variant="outline"
 							disabled={loading}
 						>
@@ -1363,17 +1371,17 @@ export default function PurchaseTracker() {
 							</p>
 						</div>
 					) : ( */}
-						<DataTable
-							columns={columns}
-							data={purchaseData}
-							pageCount={pageCount}
-							pageIndex={pagination.pageIndex}
-							pageSize={pagination.pageSize}
-							totalItems={total}
-							onPaginationChange={handlePaginationChange}
-							manualPagination={true}
-							loading={loading}
-						/>
+					<DataTable
+						columns={columns}
+						data={purchaseData}
+						pageCount={pageCount}
+						pageIndex={pagination.pageIndex}
+						pageSize={pagination.pageSize}
+						totalItems={total}
+						onPaginationChange={handlePaginationChange}
+						manualPagination={true}
+						loading={loading}
+					/>
 					{/* )} */}
 				</CardContent>
 			</Card>
@@ -1410,18 +1418,18 @@ export default function PurchaseTracker() {
 											<div>
 												<span className="text-muted-foreground">Created:</span>
 												<p className="font-medium">
-												{selectedPurchase.created_at ? (() => {
-													const { date, time } = formatDateTime(selectedPurchase.created_at);
-													return (
-														<>
-															{date}
-															{time && (
-																<span className="text-muted-foreground ml-1">{time}</span>
-															)}
-														</>
-													);
-												})() : "-"}
-											</p>
+													{selectedPurchase.created_at ? (() => {
+														const { date, time } = formatDateTime(selectedPurchase.created_at);
+														return (
+															<>
+																{date}
+																{time && (
+																	<span className="text-muted-foreground ml-1">{time}</span>
+																)}
+															</>
+														);
+													})() : "-"}
+												</p>
 											</div>
 											<div>
 												<span className="text-muted-foreground">Lead ID:</span>
@@ -1442,6 +1450,10 @@ export default function PurchaseTracker() {
 											<div>
 												<span className="text-muted-foreground">Size:</span>
 												<p className="font-medium">{selectedPurchase.size || "-"}</p>
+											</div>
+											<div>
+												<span className="text-muted-foreground">Unique ID:</span>
+												<p className="font-medium font-mono text-sm">{selectedPurchase.unique_id || "-"}</p>
 											</div>
 											<div>
 												<span className="text-muted-foreground">ASIN:</span>
@@ -1816,7 +1828,7 @@ export default function PurchaseTracker() {
 							Create a purchase tracker record by providing the unique ID, size, quantity, and order number.
 						</DialogDescription>
 					</DialogHeader>
-					
+
 					{!createdPurchaseData ? (
 						<form onSubmit={handleManualSubmit}>
 							<div className="grid gap-4 py-4">
@@ -1828,14 +1840,14 @@ export default function PurchaseTracker() {
 										id="unique_id"
 										placeholder="e.g., HJ7395"
 										value={manualFormData.unique_id}
-										onChange={(e) => setManualFormData({...manualFormData, unique_id: e.target.value})}
+										onChange={(e) => setManualFormData({ ...manualFormData, unique_id: e.target.value })}
 										required
 									/>
 									<p className="text-xs text-muted-foreground">
 										The product unique ID from OA Sourcing table
 									</p>
 								</div>
-								
+
 								<div className="grid gap-2">
 									<Label htmlFor="size">
 										Size <span className="text-red-500">*</span>
@@ -1844,11 +1856,11 @@ export default function PurchaseTracker() {
 										id="size"
 										placeholder="e.g., 10, 9.5"
 										value={manualFormData.size}
-										onChange={(e) => setManualFormData({...manualFormData, size: e.target.value})}
+										onChange={(e) => setManualFormData({ ...manualFormData, size: e.target.value })}
 										required
 									/>
 								</div>
-								
+
 								<div className="grid gap-2">
 									<Label htmlFor="qty">
 										Quantity <span className="text-red-500">*</span>
@@ -1859,11 +1871,11 @@ export default function PurchaseTracker() {
 										min="1"
 										placeholder="1"
 										value={manualFormData.qty}
-										onChange={(e) => setManualFormData({...manualFormData, qty: parseInt(e.target.value) || 1})}
+										onChange={(e) => setManualFormData({ ...manualFormData, qty: parseInt(e.target.value) || 1 })}
 										required
 									/>
 								</div>
-								
+
 								<div className="grid gap-2">
 									<Label htmlFor="order_number">
 										Order Number <span className="text-red-500">*</span>
@@ -1872,23 +1884,23 @@ export default function PurchaseTracker() {
 										id="order_number"
 										placeholder="e.g., P7382827751142612992"
 										value={manualFormData.order_number}
-										onChange={(e) => setManualFormData({...manualFormData, order_number: e.target.value})}
+										onChange={(e) => setManualFormData({ ...manualFormData, order_number: e.target.value })}
 										required
 									/>
 								</div>
 							</div>
-							
+
 							<DialogFooter>
-								<Button 
-									type="button" 
-									variant="outline" 
+								<Button
+									type="button"
+									variant="outline"
 									onClick={() => setShowManualDialog(false)}
 									disabled={isSubmittingManual}
 								>
 									Cancel
 								</Button>
-								<Button 
-									type="submit" 
+								<Button
+									type="submit"
 									disabled={isSubmittingManual}
 								>
 									{isSubmittingManual ? "Creating..." : "Create Purchase"}

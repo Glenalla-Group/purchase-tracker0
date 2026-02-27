@@ -156,6 +156,35 @@ class GmailService:
             logger.error(f"Error retrieving message {message_id}: {error}")
             return None
     
+    def get_message_sender(self, message_id: str) -> Optional[str]:
+        """
+        Fetch only the From header for a message (metadata-only, no body).
+
+        Use this to cheaply check who sent an email before deciding whether
+        to fetch the full message body.
+
+        Args:
+            message_id: The ID of the message to inspect
+
+        Returns:
+            The raw 'From' header value (e.g. 'ASOS <orders@asos.com>'), or None on error
+        """
+        try:
+            message = self.service.users().messages().get(
+                userId='me',
+                id=message_id,
+                format='metadata',
+                metadataHeaders=['From'],
+            ).execute()
+            headers = {
+                h['name']: h['value']
+                for h in message.get('payload', {}).get('headers', [])
+            }
+            return headers.get('From', '')
+        except HttpError as error:
+            logger.error(f"Error fetching sender for message {message_id}: {error}")
+            return None
+
     def parse_message_to_email_data(self, message: Dict[str, Any]) -> EmailData:
         """
         Parse Gmail API message format to EmailData model.
@@ -406,7 +435,6 @@ class GmailService:
                     return label
             
             # Create label if it doesn't exist
-            logger.info(f"Creating label: {label_name}")
             label_object = {
                 'name': label_name,
                 'messageListVisibility': 'show',

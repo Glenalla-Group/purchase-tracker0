@@ -1255,6 +1255,7 @@ def get_all_purchases(
     product_name: Optional[str] = None,
     asin: Optional[str] = None,
     order_number: Optional[str] = None,
+    supplier: Optional[str] = None,
     db: Session = Depends(get_db)
 ):
     """
@@ -1280,10 +1281,14 @@ def get_all_purchases(
         end_of_day = datetime.combine(end_date, datetime.max.time())
         query = query.filter(PurchaseTracker.date <= end_of_day)
     
+    if product_name or supplier:
+        # Join OASourcing when filtering by product_name or supplier (retailer)
+        query = query.join(OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id)
     if product_name:
-        # Filter by product_name from oa_sourcing relationship
-        query = query.join(OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id)\
-            .filter(OASourcing.product_name.ilike(f"%{product_name}%"))
+        query = query.filter(OASourcing.product_name.ilike(f"%{product_name}%"))
+    if supplier:
+        query = query.join(Retailer, OASourcing.retailer_id == Retailer.id)\
+            .filter(Retailer.name.ilike(f"%{supplier}%"))
     
     if asin:
         # Filter by asin from asin_bank relationship
@@ -1322,6 +1327,7 @@ def get_all_purchases(
                     "order_number": p.order_number,
                     "sourced_by": p.sourced_by,  # From oa_sourcing via property
                     "supplier": p.supplier,  # From retailer via oa_sourcing
+                    "unique_id": p.oa_sourcing.unique_id if p.oa_sourcing else None,  # Retailer product ID (e.g. style code)
                     
                     # Quantities
                     "og_qty": p.og_qty,
@@ -1414,6 +1420,9 @@ def get_purchase_by_id(purchase_id: int, db: Session = Depends(get_db)):
             # Fields from asin_bank (via properties)
             "asin": purchase.asin,  # property → asin_bank
             "size": purchase.size,  # property → asin_bank
+            
+            # Retailer product identifier (from oa_sourcing)
+            "unique_id": purchase.oa_sourcing.unique_id if purchase.oa_sourcing else None,
             
             # Purchase-specific fields
             "order_number": purchase.order_number,

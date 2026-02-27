@@ -81,9 +81,12 @@ class SnipesEmailParser:
     SUBJECT_SHIPPING_PATTERN = r"get hyped! your order has shipped"
     DEV_SUBJECT_SHIPPING_PATTERN = r"(?:Fwd:\s*)?Get Hyped! Your Order Has Shipped"
 
-    # Cancellation (same from as shipping)
+    # Cancellation - partial (extractable) and full (manual input)
     SUBJECT_CANCELLATION_PATTERN = r"cancelation\s+update|cancellation\s+update"
     DEV_SUBJECT_CANCELLATION_PATTERN = r"(?:Fwd:\s*)?Cancelation Update"
+    # Full cancellation: "Update on Your SNIPES Order" - no extractable data, needs manual order_number
+    SUBJECT_FULL_CANCELLATION_PATTERN = r"update\s+on\s+your\s+snipes\s+order"
+    DEV_SUBJECT_FULL_CANCELLATION_PATTERN = r"(?:Fwd:\s*)?Update on Your SNIPES Order"
 
     def __init__(self):
         """Initialize the Snipes email parser."""
@@ -143,8 +146,10 @@ class SnipesEmailParser:
             # Shipping subject "Get Hyped! Your Order Has Shipped" is Snipes-specific
             if "your order has shipped" in subject:
                 return True
-            # Cancellation subject "Cancelation Update" is Snipes-specific
+            # Cancellation subject "Cancelation Update" or "Update on Your SNIPES Order" is Snipes-specific
             if "cancelation update" in subject or "cancellation update" in subject:
+                return True
+            if "update on your snipes order" in subject:
                 return True
             return False
         
@@ -167,15 +172,29 @@ class SnipesEmailParser:
         """Subject query for Gmail cancellation search (typo: Cancelation)."""
         return 'subject:"Cancelation Update"'
 
+    @property
+    def full_cancellation_subject_query(self) -> str:
+        """Subject query for Gmail full cancellation search (no extractable data)."""
+        return 'subject:"Update on Your SNIPES Order"'
+
     def is_shipping_email(self, email_data: EmailData) -> bool:
         """Check if email is a Snipes shipping notification."""
         subject_lower = (email_data.subject or "").lower()
         return bool(re.search(self.SUBJECT_SHIPPING_PATTERN, subject_lower, re.IGNORECASE))
 
     def is_cancellation_email(self, email_data: EmailData) -> bool:
-        """Check if email is a Snipes cancellation notification."""
+        """Check if email is a Snipes cancellation notification (partial or full)."""
         subject_lower = (email_data.subject or "").lower()
-        return bool(re.search(self.SUBJECT_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE))
+        if re.search(self.SUBJECT_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE):
+            return True
+        if re.search(self.SUBJECT_FULL_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE):
+            return True
+        return False
+
+    def is_full_cancellation_email(self, email_data: EmailData) -> bool:
+        """Check if email is Snipes full cancellation (Update on Your SNIPES Order - no extractable data)."""
+        subject_lower = (email_data.subject or "").lower()
+        return bool(re.search(self.SUBJECT_FULL_CANCELLATION_PATTERN, subject_lower, re.IGNORECASE))
 
     def parse_cancellation_email(self, email_data: EmailData) -> Optional[SnipesCancellationData]:
         """

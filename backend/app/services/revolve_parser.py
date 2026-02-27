@@ -342,7 +342,7 @@ class RevolveEmailParser:
             soup = BeautifulSoup(html_content, 'lxml')
             
             # Order number from body (type 1 has "order #341221096"; type 2 does not)
-            order_number = self._extract_order_number_from_html(soup)
+            order_number = self._extract_order_number_from_html(soup, html_content)
             if not order_number:
                 logger.warning(
                     "Order number not found in Revolve cancellation email - "
@@ -365,17 +365,82 @@ class RevolveEmailParser:
             logger.error(f"Error parsing Revolve cancellation email: {e}", exc_info=True)
             return None
 
-    def _extract_order_number_from_html(self, soup: BeautifulSoup) -> Optional[str]:
-        """Extract order number from email body (e.g. 'order #341221096')."""
+    def parse_cancellation_email_partial(
+        self, email_data: EmailData
+    ) -> Optional[Dict]:
+        """
+        Best-effort parse for Revolve cancellation when full parse fails.
+        Returns partial data for manual review queue.
+        
+        Type 1 ("An item from your order was cancelled"): order# in body, unique_id may be missing.
+        Type 2 ("An item in your order is out of stock"): unique_id from product, order# missing.
+        
+        Returns:
+            dict with order_number (or None), items (list of {unique_id, size, product_name, quantity}),
+            missing_fields (['order_number'] or ['unique_id']), subject; or None if nothing extractable.
+        """
         try:
+            html_content = email_data.html_content
+            if not html_content:
+                return None
+            soup = BeautifulSoup(html_content, 'lxml')
+            order_number = self._extract_order_number_from_html(soup, html_content)
+            items = self._extract_items(soup)
+            items_with_uid = [i for i in items if i.unique_id]
+            missing = []
+            if not order_number and items_with_uid:
+                missing = ['order_number']
+            elif order_number and (not items or not items_with_uid):
+                missing = ['unique_id']
+            else:
+                return None
+            items_payload = [
+                {
+                    'unique_id': i.unique_id,
+                    'size': i.size,
+                    'product_name': i.product_name,
+                    'quantity': i.quantity,
+                }
+                for i in items_with_uid
+            ]
+            if not missing:
+                return None
+            return {
+                'order_number': order_number,
+                'items': items_payload,
+                'missing_fields': missing,
+                'subject': email_data.subject or '',
+            }
+        except Exception as e:
+            logger.error(f"Error in parse_cancellation_email_partial: {e}", exc_info=True)
+            return None
+
+    def _extract_order_number_from_html(
+        self, soup: BeautifulSoup, html_content: Optional[str] = None
+    ) -> Optional[str]:
+        """Extract order number from email body (e.g. 'order #341221096').
+        Searches visible text, raw HTML, and link hrefs (mailtrk ref format)."""
+        try:
+            # 1. Body text: "order #341221096" or "entire order #341221096"
             text = soup.get_text()
             match = re.search(r'order\s*#\s*(\d+)', text, re.IGNORECASE)
             if match:
                 return match.group(1)
-            # Also try mailtrk path format: 341221096-20251230102331
-            match = re.search(r'/(\d{9,})-\d{14}/', text)
-            if match:
-                return match.group(1)
+            # 2. Raw HTML (in case get_text strips structure)
+            if html_content:
+                match = re.search(r'order\s*#\s*(\d+)', html_content, re.IGNORECASE)
+                if match:
+                    return match.group(1)
+                # 3. Mailtrk/ref format in links: .../341221096-20251230102331
+                match = re.search(r'/(\d{9,})-\d{14}', html_content)
+                if match:
+                    return match.group(1)
+            # 4. Fallback: search in link hrefs (order number in tracking URLs)
+            for a in soup.find_all('a', href=True):
+                href = a.get('href', '')
+                match = re.search(r'/(\d{9,})-\d{14}', href)
+                if match:
+                    return match.group(1)
             return None
         except Exception as e:
             logger.error(f"Error extracting order number from HTML: {e}")

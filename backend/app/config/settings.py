@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     """
     
     # Environment Configuration (must be set as system env var, not in .env)
-    environment: str = "development"  # "development" or "production"
-     
+    environment: str = "production"  # "development" or "production"
+    
     # Server Configuration
     host: str = "0.0.0.0"
     port: int = 8000
@@ -73,7 +73,7 @@ class Settings(BaseSettings):
     enable_tasks_api: bool = True
     enable_retailer_orders_api: bool = True
     enable_gmail_watch: bool = True
-    enable_auto_email_processing: bool = False
+    enable_auto_email_processing: bool = True
     
     # Playwright Configuration
     playwright_headless: bool = True

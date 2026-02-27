@@ -21,6 +21,7 @@ export function getFrontendDashboardRoutes(): RouteObject[] {
 			children: [
 				{ path: "calendar-and-pto", element: Component("/pages/teams/calendar-and-pto") },
 				{ path: "tasks", element: Component("/pages/teams/tasks") },
+				{ path: "notification", element: Component("/pages/teams/notification") },
 			],
 		},
 		

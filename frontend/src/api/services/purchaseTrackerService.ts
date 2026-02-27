@@ -13,6 +13,7 @@ export interface PurchaseTrackerItem {
 	asin: string | null;
 	order_number: string | null;
 	supplier: string | null;  // Retailer name from oa_sourcing
+	unique_id: string | null;  // Retailer product ID (e.g. style code, SKU)
 	og_qty: number | null;
 	final_qty: number | null;
 	cancelled_qty: number | null;
@@ -88,6 +89,7 @@ class PurchaseTrackerService {
 		product_name?: string;
 		asin?: string;
 		order_number?: string;
+		supplier?: string;
 	}): Promise<PurchaseTrackerResponse> {
 		return apiClient.get<PurchaseTrackerResponse>({
 			url: '/api/v1/purchase-tracker/purchases',

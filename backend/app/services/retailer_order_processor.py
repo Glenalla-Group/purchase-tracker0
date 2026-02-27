@@ -51,8 +51,8 @@ class RetailerOrderProcessor:
     """Service for processing retailer order confirmation emails"""
     
     # Gmail labels for tracking processed emails
-    PROCESSED_LABEL = "Retailer-Orders/Processed"
-    ERROR_LABEL = "Retailer-Orders/Error"
+    PROCESSED_LABEL = "Retailer-Order/Processed"
+    ERROR_LABEL = "Retailer-Order/Error"
     
     def __init__(self, db_session: Session):
         """

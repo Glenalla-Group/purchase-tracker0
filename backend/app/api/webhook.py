@@ -38,6 +38,7 @@ from app.services.snipes_parser import SnipesEmailParser
 from app.services.shoepalace_parser import ShoepalaceEmailParser
 from app.services.endclothing_parser import ENDClothingEmailParser
 from app.services.shopwss_parser import ShopWSSEmailParser
+from app.services.shopsimon_parser import ShopSimonEmailParser
 
 logger = logging.getLogger(__name__)
 
@@ -129,7 +130,8 @@ async def process_email_notification(message_id: str, gmail_service: GmailServic
                         logger.info(
                             f"✅ Stored PrepWorx checkin: Shipment {result['shipment_number']} - "
                             f"Stored {result['stored_count']}/{result['total_items']} items, "
-                            f"Skipped {result['skipped_count']} duplicates"
+                            f"Skipped {result['skipped_count']} duplicates, "
+                            f"PurchaseTracker updated {result.get('pt_updated_count', 0)}"
                         )
                     else:
                         logger.error(
@@ -142,6 +144,11 @@ async def process_email_notification(message_id: str, gmail_service: GmailServic
                 return
             else:
                 logger.warning("Failed to parse PrepWorx shipment data")
+        
+        # Skip other PrepWorx emails (outbound, etc.) - we only process "Inbound processed"
+        if prepworx_parser.is_prepworx_email(email_data):
+            logger.info(f"Skipped email {message_id}: PrepWorx email (not Inbound processed type)")
+            return
         
         # ============================================================
         # RETAILER EMAILS: Unified (retailer, email_type) classification
@@ -239,9 +246,8 @@ async def process_email_notification(message_id: str, gmail_service: GmailServic
             # TODO: Trigger any additional processing (notifications, webhooks, etc.)
             
         else:
-            logger.warning(
-                f"Failed to extract information from email {message_id}: "
-                f"{extracted_info.error_message}"
+            logger.info(
+                f"Skipped email {message_id}: {extracted_info.error_message or 'no order data'}"
             )
     
     except Exception as e:
@@ -338,10 +344,34 @@ async def gmail_webhook(
                 if not new_message_ids:
                     logger.debug("[AUTO-PROCESS] No new emails (was likely read/unread) - skipped")
                     return {"status": "200", "message": "No new emails, skipped"}
-                # Filter to only emails matching our criteria (intersect with search)
-                interested_ids = _get_interested_message_ids(gmail_service)
-                all_message_ids = [mid for mid in new_message_ids if mid in interested_ids]
-                logger.info(f"[AUTO-PROCESS] History: {len(new_message_ids)} new, {len(all_message_ids)} match our criteria")
+
+                # Filter to known retailer/PrepWorx senders only.
+                # For each new message ID we do a cheap metadata-only fetch (From header only)
+                # so we never waste a full body fetch on unrelated personal/spam emails.
+                known_senders = _get_known_sender_addresses()
+                filtered_ids = []
+                for msg_id in new_message_ids:
+                    from_header = gmail_service.get_message_sender(msg_id) or ""
+                    if _is_known_sender(from_header, known_senders):
+                        filtered_ids.append(msg_id)
+                    else:
+                        logger.debug(
+                            f"[AUTO-PROCESS] Skipping unrelated message {msg_id} "
+                            f"from: {from_header!r}"
+                        )
+
+                if not filtered_ids:
+                    logger.info(
+                        f"[AUTO-PROCESS] {len(new_message_ids)} new email(s) arrived but "
+                        f"none are from known retailers/PrepWorx — skipping"
+                    )
+                    return {"status": "200", "message": "No relevant emails, skipped"}
+
+                logger.info(
+                    f"[AUTO-PROCESS] History: {len(new_message_ids)} new email(s), "
+                    f"{len(filtered_ids)} from known senders"
+                )
+                all_message_ids = filtered_ids
             except HttpError as err:
                 status = getattr(getattr(err, "resp", None), "status", None)
                 if status == 404:
@@ -352,17 +382,25 @@ async def gmail_webhook(
                     return {"status": "200", "message": "History expired, resynced"}
                 raise
         
-        # Fallback: no stored history (first run) or use search-based approach
-        if not all_message_ids:
-            all_message_ids = _get_interested_message_ids(gmail_service)
-            if history_id and not stored_history_id:
+        # No stored history (first run / after container restart) → just initialize
+        # the history ID from this notification and skip processing.
+        # This prevents a surprise backfill of old emails whenever the container
+        # restarts. Any emails missed during downtime can be caught up via the
+        # manual processing endpoints.
+        if not stored_history_id:
+            if history_id:
                 _save_history_id(history_id)
-        
+                logger.info(
+                    "[AUTO-PROCESS] No stored history ID — initialized from notification, "
+                    "skipping this notification to avoid backfill"
+                )
+            return {"status": "200", "message": "History ID initialized, skipping first notification"}
+
         if not all_message_ids:
-            logger.debug("No new unprocessed emails found")
-            return {"status": "200", "message": "No unprocessed emails"}
+            logger.debug("No new emails to process")
+            return {"status": "200", "message": "No emails to process"}
         
-        logger.info(f"Found {len(all_message_ids)} unprocessed messages to process")
+        logger.info(f"Processing {len(all_message_ids)} new email(s)")
         
         for message_id in all_message_ids:
             background_tasks.add_task(process_email_notification, message_id, gmail_service)
@@ -374,6 +412,85 @@ async def gmail_webhook(
     except Exception as e:
         logger.error(f"Error processing webhook: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+
+
+def _get_known_sender_addresses() -> set[str]:
+    """
+    Return a set of lowercase email addresses (or address fragments) that belong
+    to known retailers or PrepWorx.
+
+    Used to filter history-based message IDs before doing expensive full-body
+    fetches — any message whose From header does not contain one of these strings
+    is silently dropped.
+    """
+    from app.services.revolve_parser import RevolveEmailParser
+    from app.services.asos_parser import ASOSEmailParser
+    from app.services.on_parser import OnEmailParser
+    from app.services.prepworx_parser import PrepWorxEmailParser
+
+    footlocker_parser = FootlockerEmailParser()
+    champs_parser = ChampsEmailParser()
+    snipes_parser = SnipesEmailParser()
+    shoepalace_parser = ShoepalaceEmailParser()
+    endclothing_parser = ENDClothingEmailParser()
+    shopwss_parser = ShopWSSEmailParser()
+    dicks_parser = DicksEmailParser()
+    hibbett_parser = HibbettEmailParser()
+    dtlr_parser = DTLREmailParser()
+    finishline_parser = FinishLineEmailParser()
+    jdsports_parser = JDSportsEmailParser()
+    revolve_parser = RevolveEmailParser()
+    asos_parser = ASOSEmailParser()
+    shopsimon_parser = ShopSimonEmailParser()
+    anthropologie_parser = AnthropologieEmailParser()
+    nike_parser = NikeEmailParser()
+    urban_parser = UrbanOutfittersEmailParser()
+    bloomingdales_parser = BloomingdalesEmailParser()
+    carbon38_parser = Carbon38EmailParser()
+    gazelle_parser = GazelleEmailParser()
+    netaporter_parser = NetAPorterEmailParser()
+    fit2run_parser = Fit2RunEmailParser()
+    sns_parser = SNSEmailParser()
+    adidas_parser = AdidasEmailParser()
+    concepts_parser = ConceptsEmailParser()
+    sneaker_parser = SneakerPoliticsEmailParser()
+    orleans_parser = OrleansEmailParser()
+    on_parser = OnEmailParser()
+    prepworx_parser = PrepWorxEmailParser()
+
+    addresses: set[str] = set()
+
+    # PrepWorx
+    addresses.add(prepworx_parser.PREPWORX_FROM_EMAIL.lower())
+
+    # Retailers — order confirmation senders (env-aware)
+    for parser in [
+        footlocker_parser, champs_parser, snipes_parser, shoepalace_parser,
+        endclothing_parser, shopwss_parser, dicks_parser, hibbett_parser,
+        dtlr_parser, finishline_parser, jdsports_parser, revolve_parser,
+        asos_parser, shopsimon_parser, anthropologie_parser, nike_parser,
+        urban_parser, bloomingdales_parser, carbon38_parser, gazelle_parser,
+        netaporter_parser, fit2run_parser, sns_parser, adidas_parser,
+        concepts_parser, sneaker_parser, orleans_parser, on_parser,
+    ]:
+        addresses.add(parser.order_from_email.lower())
+
+    # Extra shipping/cancellation senders that differ from the order sender
+    addresses.add(footlocker_parser.update_from_email.lower())
+    addresses.add(footlocker_parser.kids_update_from_email.lower())
+    addresses.add(dicks_parser.shipping_from_email.lower())
+    addresses.add(revolve_parser.REVOLVE_CANCEL_OUTOFSTOCK_FROM.lower())
+    addresses.add(shoepalace_parser.SHOEPALACE_CANCELLATION_FROM_EMAIL.lower())
+    addresses.add(shopwss_parser.SHOPWSS_PARTIAL_CANCEL_FROM_EMAIL.lower())
+    addresses.add(snipes_parser.SNIPES_SHIPPING_FROM_EMAIL.lower())
+
+    return addresses
+
+
+def _is_known_sender(from_header: str, known_senders: set[str]) -> bool:
+    """Return True if the From header contains any known sender address."""
+    from_lower = from_header.lower()
+    return any(addr in from_lower for addr in known_senders)
 
 
 def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
@@ -393,6 +510,52 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
     jdsports_parser = JDSportsEmailParser()
     revolve_parser = RevolveEmailParser()
     asos_parser = ASOSEmailParser()
+    shopsimon_parser = ShopSimonEmailParser()
+    anthropologie_parser = AnthropologieEmailParser()
+    nike_parser = NikeEmailParser()
+    urban_parser = UrbanOutfittersEmailParser()
+    bloomingdales_parser = BloomingdalesEmailParser()
+    carbon38_parser = Carbon38EmailParser()
+    gazelle_parser = GazelleEmailParser()
+    netaporter_parser = NetAPorterEmailParser()
+    fit2run_parser = Fit2RunEmailParser()
+    sns_parser = SNSEmailParser()
+    adidas_parser = AdidasEmailParser()
+    concepts_parser = ConceptsEmailParser()
+    sneaker_parser = SneakerPoliticsEmailParser()
+    orleans_parser = OrleansEmailParser()
+    
+    # Order confirmation: use parser.order_from_email (env-aware) - must match classifier/processor
+    order_confirmation_froms = [
+        footlocker_parser.order_from_email,
+        champs_parser.order_from_email,
+        snipes_parser.order_from_email,
+        shoepalace_parser.order_from_email,
+        endclothing_parser.order_from_email,
+        shopwss_parser.order_from_email,
+        dicks_parser.order_from_email,
+        hibbett_parser.order_from_email,
+        finishline_parser.order_from_email,
+        shopsimon_parser.order_from_email,
+        anthropologie_parser.order_from_email,
+        nike_parser.order_from_email,
+        asos_parser.order_from_email,
+        dtlr_parser.order_from_email,
+        jdsports_parser.order_from_email,
+        revolve_parser.order_from_email,
+        urban_parser.order_from_email,
+        bloomingdales_parser.order_from_email,
+        carbon38_parser.order_from_email,
+        gazelle_parser.order_from_email,
+        netaporter_parser.order_from_email,
+        fit2run_parser.order_from_email,
+        sns_parser.order_from_email,
+        adidas_parser.order_from_email,
+        concepts_parser.order_from_email,
+        sneaker_parser.order_from_email,
+        orleans_parser.order_from_email,
+    ]
+    order_confirmation_from_query = " OR ".join(f"from:{addr}" for addr in order_confirmation_froms)
     
     search_queries = [
             # PrepWorx inbound processed emails
@@ -402,19 +565,13 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'max_results': 1
             },
             # Retailer order confirmation emails
-            # Exclude Retailer-Updates/Processed: shipping/cancel emails match "order" in subject but are handled elsewhere
+            # Exclude shipping/cancel labels so those emails are not misclassified as order confirmations
+            # Uses parser.order_from_email (identical to classifier/processor) - env-aware for dev/prod
             {
-                'query': f"(from:{footlocker_parser.order_from_email} OR from:champs@em.champssports.com OR "
-                         f"from:{snipes_parser.order_from_email} OR "
-                         f"from:{shoepalace_parser.order_from_email} OR "
-                         f"from:{endclothing_parser.order_from_email} OR "
-                         f"from:{shopwss_parser.order_from_email} OR "
-                         "from:dickssportinggoods@order.email.dickssportinggoods.com OR "
-                         "from:hibbet@transact.hibbett.com OR "
-                         "from:FinishLine@e.finishline.com OR "
-                         "from:Shop-Simon@e.shopsimon.com OR from:anthropologie@st.anthropologie.com OR "
-                         "from:nike@official.nike.com OR from:orders@asos.com) subject:(order OR confirmation) "
-                         "-label:Retailer-Orders/Processed -label:Retailer-Orders/Error -label:Retailer-Updates/Processed",
+                'query': f"({order_confirmation_from_query}) subject:(order OR confirmation) "
+                         "-label:Retailer-Order/Processed -label:Retailer-Order/Error "
+                         "-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review "
+                         "-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review",
                 'exclude_label': None,
                 'max_results': 1
             },
@@ -423,7 +580,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{footlocker_parser.update_from_email} '
                     f'{footlocker_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -433,7 +590,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{champs_parser.update_from_email} '
                     f'{champs_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -443,7 +600,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{dicks_parser.shipping_from_email} '
                     f'{dicks_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -453,7 +610,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{hibbett_parser.update_from_email} '
                     f'{hibbett_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -463,7 +620,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{dtlr_parser.update_from_email} '
                     f'{dtlr_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -473,7 +630,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{finishline_parser.update_from_email} '
                     f'{finishline_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -483,7 +640,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{jdsports_parser.update_from_email} '
                     f'{jdsports_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -493,7 +650,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{revolve_parser.update_from_email} '
                     f'{revolve_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -503,7 +660,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{asos_parser.update_from_email} '
                     f'{asos_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -513,7 +670,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{snipes_parser.update_from_email} '
                     f'{snipes_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -523,7 +680,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{shoepalace_parser.update_from_email} '
                     f'{shoepalace_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -533,7 +690,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{endclothing_parser.update_from_email} '
                     f'{endclothing_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -543,27 +700,37 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{shopwss_parser.update_from_email} '
                     f'{shopwss_parser.shipping_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Shipping/Processed -label:Retailer-Shipping/Error -label:Retailer-Shipping/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
             },
-            # ShopWSS cancellation notification emails (Order X has been canceled)
+            # ShopWSS cancellation (full + partial Cancelled Order Notification)
             {
                 'query': (
-                    f'from:{shopwss_parser.update_from_email} '
+                    f'{shopwss_parser.cancellation_from_query} '
                     f'{shopwss_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
             },
-            # Snipes cancellation notification emails (Cancelation Update)
+            # Snipes cancellation notification emails (Cancelation Update - partial)
             {
                 'query': (
                     f'from:{snipes_parser.update_from_email} '
                     f'{snipes_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
+                ),
+                'exclude_label': None,
+                'max_results': 1
+            },
+            # Snipes full cancellation (Update on Your SNIPES Order - no extractable data, manual review)
+            {
+                'query': (
+                    f'from:{snipes_parser.update_from_email} '
+                    f'{snipes_parser.full_cancellation_subject_query} '
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -573,7 +740,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{footlocker_parser.update_from_email} '
                     f'{footlocker_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -583,7 +750,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{champs_parser.update_from_email} '
                     f'{champs_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -593,7 +760,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{dicks_parser.cancellation_from_email} '
                     f'{dicks_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -603,7 +770,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{hibbett_parser.update_from_email} '
                     f'{hibbett_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -613,7 +780,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{dtlr_parser.update_from_email} '
                     f'{dtlr_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -623,7 +790,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{finishline_parser.update_from_email} '
                     f'{finishline_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -633,7 +800,7 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'from:{jdsports_parser.update_from_email} '
                     f'{jdsports_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -643,7 +810,17 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
                 'query': (
                     f'{revolve_parser.cancellation_from_query} '
                     f'{revolve_parser.cancellation_subject_query} '
-                    f'-label:Retailer-Updates/Processed -label:Retailer-Updates/Error'
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
+                ),
+                'exclude_label': None,
+                'max_results': 5
+            },
+            # Shoe Palace cancellation (Order Cancelation Notification: Items cancelled for Order)
+            {
+                'query': (
+                    f'{shoepalace_parser.cancellation_from_query} '
+                    f'{shoepalace_parser.cancellation_subject_query} '
+                    f'-label:Retailer-Cancel/Processed -label:Retailer-Cancel/Error -label:Retailer-Cancel/Manual-Review'
                 ),
                 'exclude_label': None,
                 'max_results': 1
@@ -668,6 +845,13 @@ def _get_interested_message_ids(gmail_service: GmailService) -> list[str]:
             max_results=search_config['max_results'],
             exclude_label=search_config['exclude_label']
         )
+        # Debug: log Revolve cancellation search (helps diagnose "no signal" issues)
+        q = search_config['query']
+        if 'was cancelled' in q and 'is out of stock' in q:
+            logger.info(
+                f"[REVOLVE-CANCEL] Gmail search found {len(message_ids)} messages | "
+                f"from={revolve_parser.cancellation_from_query}"
+            )
         for mid in message_ids:
             if mid not in seen:
                 seen.add(mid)
@@ -961,6 +1145,42 @@ async def process_hibbett_update_emails(
             db.close()
     except Exception as e:
         logger.error(f"Error processing Hibbett update emails: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/gmail/process-snipes-cancellations")
+async def process_snipes_cancellation_emails(
+    max_emails: int = Query(20, description="Maximum number of emails to process", ge=1, le=100)
+) -> Dict[str, Any]:
+    """
+    Manually process Snipes cancellation emails (partial and full).
+    Partial: "Cancelation Update" - auto-processed.
+    Full: "Update on Your SNIPES Order" - queued for manual review (no extractable data).
+    """
+    try:
+        from app.services.retailer_order_update_processor import RetailerOrderUpdateProcessor
+        from app.config.database import get_db
+
+        logger.info("=" * 60)
+        logger.info(f"❌ PROCESSING SNIPES CANCELLATION EMAILS (max: {max_emails})")
+        logger.info("=" * 60)
+
+        db = next(get_db())
+        try:
+            processor = RetailerOrderUpdateProcessor(db)
+            results = processor.process_snipes_cancellation_emails(max_emails=max_emails)
+            logger.info("=" * 60)
+            logger.info(f"✅ COMPLETED: {results}")
+            logger.info("=" * 60)
+            return {
+                "status": 200,
+                "message": f"Processed {results['processed']} Snipes cancellations, {results['queued']} queued for manual review",
+                "data": results
+            }
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error processing Snipes cancellation emails: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 

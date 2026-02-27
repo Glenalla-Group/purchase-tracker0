@@ -69,6 +69,8 @@ class ShoepalaceEmailParser:
     # Email identification - Cancellation (Production)
     SHOEPALACE_CANCELLATION_FROM_EMAIL = "customerservice@shoepalace.com"
     SUBJECT_CANCELLATION_PATTERN = r"order.*cancel|cancel.*notification|cancellation"
+    # "Order Cancelation Notification: Items cancelled for Order SP2020112" - items table, no unique_id in email
+    SUBJECT_CANCELLATION_ITEMS_PATTERN = r"order\s+cancelation\s+notification|items\s+cancelled\s+for\s+order"
     
     # Email identification - Development (forwarded emails)
     DEV_SHOEPALACE_ORDER_FROM_EMAIL = "glenallagroupc@gmail.com"
@@ -109,6 +111,18 @@ class ShoepalaceEmailParser:
         if self.settings.is_development:
             return 'subject:"A shipment from order"'
         return 'subject:"A shipment from order"'
+
+    @property
+    def cancellation_from_query(self) -> str:
+        """Gmail from query for cancellation emails."""
+        if self.settings.is_development:
+            return f'from:{self.DEV_SHOEPALACE_ORDER_FROM_EMAIL}'
+        return f'from:{self.SHOEPALACE_CANCELLATION_FROM_EMAIL}'
+
+    @property
+    def cancellation_subject_query(self) -> str:
+        """Subject query for Gmail cancellation search."""
+        return 'subject:("Order Cancelation Notification" OR "Items cancelled for Order")'
 
     def is_shoepalace_email(self, email_data: EmailData) -> bool:
         """
@@ -327,46 +341,108 @@ class ShoepalaceEmailParser:
     def parse_cancellation_email(self, email_data: EmailData) -> Optional[ShoepalaceCancellationData]:
         """
         Parse Shoe Palace cancellation notification email.
-        
-        Args:
-            email_data: EmailData object containing email information
-        
-        Returns:
-            ShoepalaceCancellationData object or None if parsing fails
+        For "Order Cancelation Notification: Items cancelled for Order" format, returns None
+        (use parse_cancellation_email_partial - unique_id from email doesn't match purchase tracker).
         """
         try:
+            subject = (email_data.subject or "").lower()
+            if re.search(self.SUBJECT_CANCELLATION_ITEMS_PATTERN, subject):
+                return None  # Use parse_cancellation_email_partial - no usable unique_id in email
             html_content = email_data.html_content
-            
             if not html_content:
                 logger.error("No HTML content in Shoe Palace cancellation email")
                 return None
-            
             soup = BeautifulSoup(html_content, 'lxml')
-            
-            # Extract order number from cancellation email format: "Order #: SP1893166"
             order_number = self._extract_cancellation_order_number(soup)
             if not order_number:
                 logger.error("Failed to extract order number from Shoe Palace cancellation email")
                 return None
-            
             logger.info(f"Extracted Shoe Palace cancellation order number: {order_number}")
-            
-            # Extract cancelled items
             items = self._extract_cancellation_items(soup)
-            
             if not items:
                 logger.warning(f"No cancelled items found in Shoe Palace cancellation email for order {order_number}")
                 return None
-            
             logger.info(f"Successfully extracted {len(items)} cancelled items from Shoe Palace cancellation order {order_number}")
-            for item in items:
-                logger.debug(f"  - {item}")
-            
             return ShoepalaceCancellationData(order_number=order_number, items=items)
-        
         except Exception as e:
             logger.error(f"Error parsing Shoe Palace cancellation email: {e}", exc_info=True)
             return None
+
+    def parse_cancellation_email_partial(self, email_data: EmailData) -> Optional[dict]:
+        """
+        Parse Shoe Palace "Order Cancelation Notification: Items cancelled for Order" email.
+        Extracts order_number + items with product_name, size, quantity. No unique_id in email.
+        Returns dict for manual review: {order_number, items, subject, missing_fields}.
+        """
+        try:
+            html_content = email_data.html_content
+            subject = email_data.subject or ""
+            if not html_content:
+                return None
+            soup = BeautifulSoup(html_content, "lxml")
+            order_number = self._extract_cancellation_order_number(soup)
+            if not order_number:
+                return None
+            items = self._extract_partial_cancellation_items(soup)
+            if not items:
+                return None
+            return {
+                "order_number": order_number,
+                "subject": subject,
+                "items": items,
+                "missing_fields": ["unique_id"],
+            }
+        except Exception as e:
+            logger.error(f"Error parsing Shoe Palace partial cancellation: {e}", exc_info=True)
+            return None
+
+    def _extract_partial_cancellation_items(self, soup: BeautifulSoup) -> List[dict]:
+        """Extract items from Order Cancelation Notification table. Returns [{product_name, size, quantity}].
+        Sums quantities for same product_name+size (e.g. 3 rows of CLIFTON Size=10 Qty=1 -> 1 item Qty=3)."""
+        raw_items: List[dict] = []
+        try:
+            header_row = soup.find('tr', string=re.compile(r'ITEM\s+DESCRIPTION', re.IGNORECASE))
+            if not header_row:
+                header_tds = soup.find_all('td', string=re.compile(r'ITEM\s+DESCRIPTION', re.IGNORECASE))
+                if header_tds:
+                    header_row = header_tds[0].find_parent('tr')
+            if not header_row:
+                return []
+            for row in header_row.find_all_next('tr'):
+                row_text = row.get_text(strip=True)
+                if not row_text or 'ITEM DESCRIPTION' in row_text or 'ITEM PRICE' in row_text or 'QTY' in row_text:
+                    continue
+                if not re.search(r'\d+-[A-Z]+', row_text):
+                    continue
+                tds = row.find_all('td')
+                if len(tds) < 3:
+                    continue
+                product_lines = [l.strip() for l in tds[0].get_text().split('\n') if l.strip()]
+                product_name = product_lines[0] if product_lines else ""
+                size = ""
+                for line in product_lines:
+                    m = re.search(r'Size\s*=\s*([^\s]+)', line, re.IGNORECASE)
+                    if m:
+                        size = m.group(1).strip()
+                        break
+                quantity = 1
+                qty_m = re.search(r'(\d+)', tds[2].get_text(strip=True))
+                if qty_m:
+                    quantity = int(qty_m.group(1))
+                if product_name and size:
+                    raw_items.append({"product_name": product_name, "size": size, "quantity": quantity})
+            # Sum quantities for same product_name+size
+            summed: dict = {}
+            for it in raw_items:
+                key = (it["product_name"], it["size"])
+                if key not in summed:
+                    summed[key] = {**it}
+                else:
+                    summed[key]["quantity"] += it["quantity"]
+            return list(summed.values())
+        except Exception as e:
+            logger.error(f"Error extracting partial cancellation items: {e}", exc_info=True)
+            return []
 
     def _extract_shipping_order_number(self, subject: str) -> Optional[str]:
         """
@@ -916,7 +992,15 @@ class ShoepalaceEmailParser:
                         item = self._extract_cancellation_item_from_row(row)
                         if item:
                             items.append(item)
-                return items
+                # Sum quantities for same unique_id+size
+                summed: dict = {}
+                for item in items:
+                    key = (item.unique_id, item.size)
+                    if key not in summed:
+                        summed[key] = item
+                    else:
+                        summed[key].quantity += item.quantity
+                return list(summed.values())
             
             # Get all rows after the header row
             all_rows = header_row.find_all_next('tr')
@@ -939,6 +1023,16 @@ class ShoepalaceEmailParser:
                 except Exception as e:
                     logger.error(f"Error processing cancellation row: {e}")
                     continue
+            
+            # Sum quantities for same unique_id+size
+            summed: dict = {}
+            for item in items:
+                key = (item.unique_id, item.size)
+                if key not in summed:
+                    summed[key] = item
+                else:
+                    summed[key].quantity += item.quantity
+            items = list(summed.values())
             
             # Log items with ID, size, and quantity
             if items:

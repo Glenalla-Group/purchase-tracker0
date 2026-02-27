@@ -91,7 +91,7 @@ from app.services.snipes_parser import (
     SnipesShippingData,
     SnipesCancellationData,
 )
-from app.models.database import AsinBank, OASourcing, PurchaseTracker
+from app.models.database import AsinBank, EmailManualReview, OASourcing, PurchaseTracker
 from app.models.email import EmailData
 from app.utils.purchase_status import calculate_status_and_location
 
@@ -101,7 +101,14 @@ logger = logging.getLogger(__name__)
 class RetailerOrderUpdateProcessor:
     """Service for processing retailer order update emails (shipping/cancellation)"""
     
-    # Gmail labels for tracking processed update emails
+    # Gmail labels - separate by email type
+    SHIPPING_PROCESSED_LABEL = "Retailer-Shipping/Processed"
+    SHIPPING_ERROR_LABEL = "Retailer-Shipping/Error"
+    SHIPPING_MANUAL_REVIEW_LABEL = "Retailer-Shipping/Manual-Review"
+    CANCEL_PROCESSED_LABEL = "Retailer-Cancel/Processed"
+    CANCEL_ERROR_LABEL = "Retailer-Cancel/Error"
+    CANCEL_MANUAL_REVIEW_LABEL = "Retailer-Cancel/Manual-Review"
+    # Legacy labels kept for backward-compatible duplicate detection
     PROCESSED_LABEL = "Retailer-Updates/Processed"
     ERROR_LABEL = "Retailer-Updates/Error"
     
@@ -130,7 +137,14 @@ class RetailerOrderUpdateProcessor:
         self.endclothing_parser = ENDClothingEmailParser()
         self.shopwss_parser = ShopWSSEmailParser()
         
-        # Ensure labels exist
+        # Ensure type-specific labels exist
+        self.shipping_processed_label = self.gmail_service.get_or_create_label(self.SHIPPING_PROCESSED_LABEL)
+        self.shipping_error_label = self.gmail_service.get_or_create_label(self.SHIPPING_ERROR_LABEL)
+        self.shipping_manual_review_label = self.gmail_service.get_or_create_label(self.SHIPPING_MANUAL_REVIEW_LABEL)
+        self.cancel_processed_label = self.gmail_service.get_or_create_label(self.CANCEL_PROCESSED_LABEL)
+        self.cancel_error_label = self.gmail_service.get_or_create_label(self.CANCEL_ERROR_LABEL)
+        self.cancel_manual_review_label = self.gmail_service.get_or_create_label(self.CANCEL_MANUAL_REVIEW_LABEL)
+        # Legacy labels for backward-compatible duplicate detection
         self.processed_label = self.gmail_service.get_or_create_label(self.PROCESSED_LABEL)
         self.error_label = self.gmail_service.get_or_create_label(self.ERROR_LABEL)
     
@@ -158,7 +172,7 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
                 f'subject:"{FootlockerEmailParser.SUBJECT_SHIPPING_PATTERN}" '
-                f'-label:{self.PROCESSED_LABEL}'
+                f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
             
             message_ids = self.gmail_service.list_messages_with_query(
@@ -196,7 +210,7 @@ class RetailerOrderUpdateProcessor:
                         logger.error(error_msg)
                         results['errors'] += 1
                         results['error_messages'].append(error_msg)
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                         continue
                     
                     # Process the shipping update
@@ -205,19 +219,19 @@ class RetailerOrderUpdateProcessor:
                     if success:
                         logger.info(f"Successfully processed shipping update for order {shipping_data.order_number}")
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'shipping')
                     else:
                         logger.error(f"Failed to process shipping update for order {shipping_data.order_number}: {error_msg}")
                         results['errors'] += 1
                         results['error_messages'].append(error_msg)
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                 
                 except Exception as e:
                     error_msg = f"Error processing message {message_id}: {str(e)}"
                     logger.error(error_msg, exc_info=True)
                     results['errors'] += 1
                     results['error_messages'].append(error_msg)
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
         
         except Exception as e:
             error_msg = f"Fatal error in Footlocker shipping email processing: {str(e)}"
@@ -233,16 +247,16 @@ class RetailerOrderUpdateProcessor:
         results = {'total_emails': 0, 'processed': 0, 'errors': 0, 'error_messages': []}
         try:
             query = (
-                f'from:{self.shopwss_parser.update_from_email} '
+                f'{self.shopwss_parser.cancellation_from_query} '
                 f'{self.shopwss_parser.shipping_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             logger.info(f"Found {len(message_ids)} unprocessed ShopWSS shipping emails")
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'shipping'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -256,20 +270,20 @@ class RetailerOrderUpdateProcessor:
                     if not shipping_data:
                         results['errors'] += 1
                         results['error_messages'].append('Failed to parse ShopWSS shipping data')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                         continue
                     success, error_msg = self._process_shopwss_shipping_update(shipping_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'shipping')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
         except Exception as e:
             error_msg = f"Fatal error in ShopWSS shipping email processing: {str(e)}"
             logger.error(error_msg, exc_info=True)
@@ -283,16 +297,16 @@ class RetailerOrderUpdateProcessor:
         results = {'total_emails': 0, 'processed': 0, 'errors': 0, 'error_messages': []}
         try:
             query = (
-                f'from:{self.shopwss_parser.update_from_email} '
+                f'{self.shopwss_parser.cancellation_from_query} '
                 f'{self.shopwss_parser.cancellation_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             logger.info(f"Found {len(message_ids)} unprocessed ShopWSS cancellation emails")
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'cancellation'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -304,22 +318,50 @@ class RetailerOrderUpdateProcessor:
                         continue
                     cancellation_data = self.shopwss_parser.parse_cancellation_email(email_data)
                     if not cancellation_data:
-                        results['errors'] += 1
-                        results['error_messages'].append('Failed to parse ShopWSS cancellation data')
-                        self._add_error_label(message_id)
+                        partial = self.shopwss_parser.parse_cancellation_email_partial(email_data)
+                        if partial:
+                            try:
+                                existing = self.db.query(EmailManualReview).filter(
+                                    EmailManualReview.gmail_message_id == message_id
+                                ).first()
+                                if not existing:
+                                    entry = EmailManualReview(
+                                        gmail_message_id=message_id,
+                                        retailer='shopwss',
+                                        email_type='cancellation',
+                                        subject=partial.get('subject', '') or email_data.subject,
+                                        extracted_order_number=partial.get('order_number'),
+                                        extracted_items=partial.get('items', []),
+                                        missing_fields=','.join(partial.get('missing_fields', [])),
+                                        error_reason='ShopWSS partial cancellation: unique_id not in email - needs manual entry',
+                                        status='pending',
+                                    )
+                                    self.db.add(entry)
+                                    self.db.commit()
+                                    logger.info(
+                                        f"Queued ShopWSS partial cancellation for manual review: message_id={message_id}"
+                                    )
+                            except Exception as e:
+                                logger.warning(f"Failed to enqueue ShopWSS partial cancellation: {e}")
+                                self.db.rollback()
+                            self._add_manual_review_label(message_id, 'cancellation')
+                        else:
+                            results['errors'] += 1
+                            results['error_messages'].append('Failed to parse ShopWSS cancellation data')
+                            self._add_error_label(message_id, 'cancellation')
                         continue
                     success, error_msg = self._process_shopwss_cancellation_update(cancellation_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'cancellation')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
         except Exception as e:
             error_msg = f"Fatal error in ShopWSS cancellation email processing: {str(e)}"
             logger.error(error_msg, exc_info=True)
@@ -338,14 +380,14 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.finishline_parser.update_from_email} '
                 f'{self.finishline_parser.shipping_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             logger.info(f"Found {len(message_ids)} unprocessed Finish Line shipping emails")
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'shipping'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -356,20 +398,20 @@ class RetailerOrderUpdateProcessor:
                     shipping_data = self.finishline_parser.parse_shipping_email(email_data)
                     if not shipping_data:
                         results['errors'] += 1
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                         continue
                     success, error_msg = self._process_finishline_shipping_update(shipping_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'shipping')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"Finish Line shipping processing complete: {results}")
@@ -383,13 +425,13 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.finishline_parser.update_from_email} '
                 f'{self.finishline_parser.cancellation_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'cancellation'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -400,20 +442,20 @@ class RetailerOrderUpdateProcessor:
                     cancellation_data = self.finishline_parser.parse_cancellation_email(email_data)
                     if not cancellation_data:
                         results['errors'] += 1
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                         continue
                     success, error_msg = self._process_finishline_cancellation_update(cancellation_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'cancellation')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"Finish Line cancellation processing complete: {results}")
@@ -427,13 +469,13 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.jdsports_parser.update_from_email} '
                 f'{self.jdsports_parser.shipping_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'shipping'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -444,20 +486,20 @@ class RetailerOrderUpdateProcessor:
                     shipping_data = self.jdsports_parser.parse_shipping_email(email_data)
                     if not shipping_data:
                         results['errors'] += 1
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                         continue
                     success, error_msg = self._process_finishline_shipping_update(shipping_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'shipping')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'shipping')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"JD Sports shipping processing complete: {results}")
@@ -471,13 +513,13 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.jdsports_parser.update_from_email} '
                 f'{self.jdsports_parser.cancellation_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'cancellation'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -488,20 +530,20 @@ class RetailerOrderUpdateProcessor:
                     cancellation_data = self.jdsports_parser.parse_cancellation_email(email_data)
                     if not cancellation_data:
                         results['errors'] += 1
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                         continue
                     success, error_msg = self._process_finishline_cancellation_update(cancellation_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'cancellation')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"JD Sports cancellation processing complete: {results}")
@@ -515,13 +557,13 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.hibbett_parser.update_from_email} '
                 f'{self.hibbett_parser.shipping_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'shipping'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -531,21 +573,93 @@ class RetailerOrderUpdateProcessor:
                         continue
                     shipping_data = self.hibbett_parser.parse_shipping_email(email_data)
                     if not shipping_data:
+                        partial = self.hibbett_parser.parse_shipping_email_partial(email_data)
+                        if partial:
+                            try:
+                                existing = self.db.query(EmailManualReview).filter(
+                                    EmailManualReview.gmail_message_id == message_id
+                                ).first()
+                                if not existing:
+                                    extracted_items = [
+                                        {
+                                            'product_name': it.get('product_name'),
+                                            'product_number': it.get('product_number'),
+                                            'color': it.get('color'),
+                                            'quantity': it.get('quantity', 1),
+                                        }
+                                        for it in partial.get('items', [])
+                                    ]
+                                    entry = EmailManualReview(
+                                        gmail_message_id=message_id,
+                                        retailer='hibbett',
+                                        email_type='shipping',
+                                        subject=partial.get('subject', '') or email_data.subject,
+                                        extracted_order_number=partial.get('order_number'),
+                                        extracted_items=extracted_items,
+                                        missing_fields=','.join(partial.get('missing_fields', ['unique_id', 'size'])),
+                                        error_reason='Hibbett shipping: no unique_id/size in email - needs manual entry',
+                                        status='pending',
+                                    )
+                                    self.db.add(entry)
+                                    self.db.commit()
+                                    logger.info(f"📋 Queued Hibbett shipping for manual review: message_id={message_id}")
+                            except Exception as e:
+                                logger.warning(f"Failed to enqueue Hibbett shipping for manual review: {e}")
+                                self.db.rollback()
+                            self._add_manual_review_label(message_id, 'shipping')
+                        else:
+                            self._add_error_label(message_id, 'shipping')
                         results['errors'] += 1
-                        self._add_error_label(message_id)
                         continue
                     success, error_msg = self._process_hibbett_shipping_update(shipping_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'shipping')
                     else:
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                # Preserve unique_id/size - data is complete, failure was no matching records
+                                extracted_items = [
+                                    {
+                                        'unique_id': it.unique_id,
+                                        'size': it.size,
+                                        'product_name': it.product_name,
+                                        'product_number': it.product_number,
+                                        'color': it.color,
+                                        'quantity': it.quantity,
+                                    }
+                                    for it in shipping_data.items
+                                ]
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='hibbett',
+                                    email_type='shipping',
+                                    subject=email_data.subject or '',
+                                    extracted_order_number=shipping_data.order_number,
+                                    extracted_items=extracted_items,
+                                    missing_fields='',  # Data complete - can resolve without feeding in
+                                    error_reason=error_msg or 'No matching records - process order confirmation first, then resolve',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                logger.info(f"📋 Queued Hibbett shipping for manual review (no matches): message_id={message_id}")
+                                self._add_manual_review_label(message_id, 'shipping')
+                            else:
+                                self._add_error_label(message_id, 'shipping')
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue Hibbett shipping for manual review: {e}")
+                            self.db.rollback()
+                            self._add_error_label(message_id, 'shipping')
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"Hibbett shipping processing complete: {results}")
@@ -559,13 +673,13 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{self.hibbett_parser.update_from_email} '
                 f'{self.hibbett_parser.cancellation_subject_query} '
-                f'-label:{self.PROCESSED_LABEL} -label:{self.ERROR_LABEL}'
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
             message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
             results['total_emails'] = len(message_ids)
             for message_id in message_ids:
                 try:
-                    if self._is_email_processed(message_id):
+                    if self._is_email_processed(message_id, 'cancellation'):
                         continue
                     message = self.gmail_service.get_message(message_id)
                     if not message:
@@ -576,20 +690,20 @@ class RetailerOrderUpdateProcessor:
                     cancellation_data = self.hibbett_parser.parse_cancellation_email(email_data)
                     if not cancellation_data:
                         results['errors'] += 1
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                         continue
                     success, error_msg = self._process_hibbett_cancellation_update(cancellation_data)
                     if success:
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'cancellation')
                     else:
                         results['errors'] += 1
                         results['error_messages'].append(error_msg or 'Unknown error')
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                 except Exception as e:
                     results['errors'] += 1
                     results['error_messages'].append(str(e))
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
         except Exception as e:
             results['error_messages'].append(str(e))
         logger.info(f"Hibbett cancellation processing complete: {results}")
@@ -619,7 +733,7 @@ class RetailerOrderUpdateProcessor:
             query = (
                 f'from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
                 f'subject:"{FootlockerEmailParser.SUBJECT_CANCELLATION_PATTERN}" '
-                f'-label:{self.PROCESSED_LABEL}'
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
             
             message_ids = self.gmail_service.list_messages_with_query(
@@ -657,7 +771,7 @@ class RetailerOrderUpdateProcessor:
                         logger.error(error_msg)
                         results['errors'] += 1
                         results['error_messages'].append(error_msg)
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                         continue
                     
                     # Process the cancellation update
@@ -666,19 +780,19 @@ class RetailerOrderUpdateProcessor:
                     if success:
                         logger.info(f"Successfully processed cancellation update for order {cancellation_data.order_number}")
                         results['processed'] += 1
-                        self._add_processed_label(message_id)
+                        self._add_processed_label(message_id, 'cancellation')
                     else:
                         logger.error(f"Failed to process cancellation update for order {cancellation_data.order_number}: {error_msg}")
                         results['errors'] += 1
                         results['error_messages'].append(error_msg)
-                        self._add_error_label(message_id)
+                        self._add_error_label(message_id, 'cancellation')
                 
                 except Exception as e:
                     error_msg = f"Error processing message {message_id}: {str(e)}"
                     logger.error(error_msg, exc_info=True)
                     results['errors'] += 1
                     results['error_messages'].append(error_msg)
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
         
         except Exception as e:
             error_msg = f"Fatal error in Footlocker cancellation email processing: {str(e)}"
@@ -686,6 +800,78 @@ class RetailerOrderUpdateProcessor:
             results['error_messages'].append(error_msg)
         
         logger.info(f"Footlocker cancellation processing complete: {results}")
+        return results
+
+    def process_snipes_cancellation_emails(self, max_emails: int = 20) -> dict:
+        """
+        Process Snipes cancellation emails (partial and full).
+        Partial: "Cancelation Update" - extractable data.
+        Full: "Update on Your SNIPES Order" - no extractable data, queued for manual review.
+        """
+        logger.info(f"Starting Snipes cancellation email processing (max {max_emails} emails)")
+        results = {'total_emails': 0, 'processed': 0, 'errors': 0, 'error_messages': [], 'queued': 0}
+        try:
+            query = (
+                f'from:{self.snipes_parser.update_from_email} '
+                f'({self.snipes_parser.cancellation_subject_query} OR {self.snipes_parser.full_cancellation_subject_query}) '
+                f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
+            )
+            message_ids = self.gmail_service.list_messages_with_query(query=query, max_results=max_emails)
+            results['total_emails'] = len(message_ids)
+            for message_id in message_ids:
+                try:
+                    if self._is_email_processed(message_id, 'cancellation'):
+                        continue
+                    message = self.gmail_service.get_message(message_id)
+                    if not message:
+                        continue
+                    email_data = self.gmail_service.parse_message_to_email_data(message)
+                    if not self.snipes_parser.is_cancellation_email(email_data):
+                        continue
+                    cancellation_data = self.snipes_parser.parse_cancellation_email(email_data)
+                    if not cancellation_data:
+                        if self.snipes_parser.is_full_cancellation_email(email_data):
+                            try:
+                                existing = self.db.query(EmailManualReview).filter(
+                                    EmailManualReview.gmail_message_id == message_id
+                                ).first()
+                                if not existing:
+                                    entry = EmailManualReview(
+                                        gmail_message_id=message_id,
+                                        retailer='snipes',
+                                        email_type='cancellation',
+                                        subject=email_data.subject or '',
+                                        extracted_order_number=None,
+                                        extracted_items=[],
+                                        missing_fields='order_number',
+                                        error_reason='Snipes full cancellation: no extractable data - enter order number manually',
+                                        status='pending',
+                                    )
+                                    self.db.add(entry)
+                                    self.db.commit()
+                                    results['queued'] += 1
+                                    logger.info(f"📋 Queued Snipes full cancellation for manual review: message_id={message_id}")
+                            except Exception as e:
+                                logger.warning(f"Failed to enqueue Snipes full cancellation: {e}")
+                                self.db.rollback()
+                        results['errors'] += 1
+                        self._add_error_label(message_id, 'cancellation')
+                        continue
+                    success, error_msg = self._process_snipes_cancellation_update(cancellation_data)
+                    if success:
+                        results['processed'] += 1
+                        self._add_processed_label(message_id, 'cancellation')
+                    else:
+                        results['errors'] += 1
+                        results['error_messages'].append(error_msg or 'Unknown error')
+                        self._add_error_label(message_id, 'cancellation')
+                except Exception as e:
+                    results['errors'] += 1
+                    results['error_messages'].append(str(e))
+                    self._add_error_label(message_id, 'cancellation')
+        except Exception as e:
+            results['error_messages'].append(str(e))
+        logger.info(f"Snipes cancellation processing complete: {results}")
         return results
     
     def _recalculate_status_and_location(self, record: PurchaseTracker) -> None:
@@ -707,12 +893,13 @@ class RetailerOrderUpdateProcessor:
         except Exception as e:
             logger.error(f"Error recalculating status/location for record {record.id}: {e}")
     
-    def _is_email_processed(self, message_id: str) -> bool:
+    def _is_email_processed(self, message_id: str, email_type: str = 'shipping') -> bool:
         """
-        Check if an email has already been processed by checking for the processed label.
+        Check if an email has already been processed.
         
         Args:
             message_id: Gmail message ID
+            email_type: 'shipping' or 'cancellation'
         
         Returns:
             True if email has been processed, False otherwise
@@ -723,9 +910,22 @@ class RetailerOrderUpdateProcessor:
                 return False
             
             label_ids = message.get('labelIds', [])
-            processed_label_id = self.processed_label['id'] if self.processed_label else None
             
-            if processed_label_id and processed_label_id in label_ids:
+            # Check new type-specific processed label
+            if email_type == 'cancellation':
+                new_label = self.cancel_processed_label
+                new_label_name = self.CANCEL_PROCESSED_LABEL
+            else:
+                new_label = self.shipping_processed_label
+                new_label_name = self.SHIPPING_PROCESSED_LABEL
+            
+            if new_label and new_label['id'] in label_ids:
+                logger.info(f"Email {message_id} has already been processed (has {new_label_name} label)")
+                return True
+            
+            # Backward compat: also check legacy Retailer-Updates/Processed
+            legacy_id = self.processed_label['id'] if self.processed_label else None
+            if legacy_id and legacy_id in label_ids:
                 logger.info(f"Email {message_id} has already been processed (has {self.PROCESSED_LABEL} label)")
                 return True
             
@@ -754,7 +954,7 @@ class RetailerOrderUpdateProcessor:
             Dictionary with processing results
         """
         # Check if email has already been processed
-        if self._is_email_processed(message_id):
+        if self._is_email_processed(message_id, 'shipping'):
             logger.info(f"Skipping already processed email {message_id}")
             return {
                 'success': True,
@@ -768,13 +968,13 @@ class RetailerOrderUpdateProcessor:
             if retailer_name == 'footlocker' or retailer_name == 'kidsfootlocker':
                 shipping_data = self.footlocker_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse shipping data'}
                 
                 success, error_msg = self._process_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -782,18 +982,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'champs':
                 shipping_data = self.champs_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse shipping data'}
                 
                 success, error_msg = self._process_champs_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -801,18 +1001,59 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'hibbett':
                 shipping_data = self.hibbett_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
-                    return {'success': False, 'error': 'Failed to parse shipping data'}
+                    partial = self.hibbett_parser.parse_shipping_email_partial(email_data)
+                    queued = False
+                    if partial:
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                extracted_items = [
+                                    {
+                                        'product_name': it.get('product_name'),
+                                        'product_number': it.get('product_number'),
+                                        'color': it.get('color'),
+                                        'quantity': it.get('quantity', 1),
+                                    }
+                                    for it in partial.get('items', [])
+                                ]
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='hibbett',
+                                    email_type='shipping',
+                                    subject=partial.get('subject', '') or email_data.subject,
+                                    extracted_order_number=partial.get('order_number'),
+                                    extracted_items=extracted_items,
+                                    missing_fields=','.join(partial.get('missing_fields', ['unique_id', 'size'])),
+                                    error_reason='Hibbett shipping: no unique_id/size in email - needs manual entry',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                queued = True
+                                logger.info(
+                                    f"📋 Queued Hibbett shipping for manual review: message_id={message_id}"
+                                )
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue Hibbett shipping for manual review: {e}")
+                            self.db.rollback()
+                    self._add_manual_review_label(message_id, 'shipping')
+                    return {
+                        'success': False,
+                        'error': 'Failed to parse Hibbett shipping data',
+                        'queued_for_manual_review': queued,
+                    }
                 
                 success, error_msg = self._process_hibbett_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -820,18 +1061,64 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
-                    return {'success': False, 'error': error_msg}
+                    # Process failed (e.g. no matching records) - queue for manual review
+                    queued = False
+                    try:
+                        existing = self.db.query(EmailManualReview).filter(
+                            EmailManualReview.gmail_message_id == message_id
+                        ).first()
+                        if not existing:
+                            # Preserve unique_id/size - data is complete, failure was no matching records
+                            extracted_items = [
+                                {
+                                    'unique_id': it.unique_id,
+                                    'size': it.size,
+                                    'product_name': it.product_name,
+                                    'product_number': it.product_number,
+                                    'color': it.color,
+                                    'quantity': it.quantity,
+                                }
+                                for it in shipping_data.items
+                            ]
+                            entry = EmailManualReview(
+                                gmail_message_id=message_id,
+                                retailer='hibbett',
+                                email_type='shipping',
+                                subject=email_data.subject or '',
+                                extracted_order_number=shipping_data.order_number,
+                                extracted_items=extracted_items,
+                                missing_fields='',  # Data complete - can resolve without feeding in
+                                error_reason=error_msg or 'No matching records - process order confirmation first, then resolve',
+                                status='pending',
+                            )
+                            self.db.add(entry)
+                            self.db.commit()
+                            queued = True
+                            logger.info(
+                                f"📋 Queued Hibbett shipping for manual review (no matches): message_id={message_id}"
+                            )
+                            self._add_manual_review_label(message_id, 'shipping')
+                        else:
+                            self._add_error_label(message_id, 'shipping')
+                    except Exception as e:
+                        logger.warning(f"Failed to enqueue Hibbett shipping for manual review: {e}")
+                        self.db.rollback()
+                        self._add_error_label(message_id, 'shipping')
+                    return {
+                        'success': False,
+                        'error': error_msg,
+                        'queued_for_manual_review': queued,
+                    }
             elif retailer_name == 'dicks':
                 shipping_data = self.dicks_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse shipping data'}
                 
                 success, error_msg = self._process_dicks_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -839,18 +1126,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'dtlr':
                 shipping_data = self.dtlr_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse shipping data'}
                 
                 success, error_msg = self._process_dtlr_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -858,18 +1145,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'finishline':
                 shipping_data = self.finishline_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse Finish Line shipping data'}
                 
                 success, error_msg = self._process_finishline_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     items_count = len(shipping_data.items)
                     if shipping_data.cancellation_items:
                         items_count += len(shipping_data.cancellation_items)
@@ -881,18 +1168,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': items_count
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'jdsports':
                 shipping_data = self.jdsports_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse JD Sports shipping data'}
                 
                 success, error_msg = self._process_finishline_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     items_count = len(shipping_data.items)
                     if shipping_data.cancellation_items:
                         items_count += len(shipping_data.cancellation_items)
@@ -904,18 +1191,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': items_count
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'revolve':
                 shipping_data = self.revolve_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse Revolve shipping data'}
                 
                 success, error_msg = self._process_revolve_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -923,18 +1210,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'asos':
                 shipping_data = self.asos_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse ASOS shipping data'}
                 
                 success, error_msg = self._process_asos_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -942,18 +1229,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'snipes':
                 shipping_data = self.snipes_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse Snipes shipping data'}
                 
                 success, error_msg = self._process_snipes_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -961,18 +1248,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'shoepalace':
                 shipping_data = self.shoepalace_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse Shoe Palace shipping data'}
                 
                 success, error_msg = self._process_shoepalace_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -980,18 +1267,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'endclothing':
                 shipping_data = self.endclothing_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse END Clothing shipping data'}
                 
                 success, error_msg = self._process_endclothing_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -999,18 +1286,18 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'shopwss':
                 shipping_data = self.shopwss_parser.parse_shipping_email(email_data)
                 if not shipping_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': 'Failed to parse ShopWSS shipping data'}
                 
                 success, error_msg = self._process_shopwss_shipping_update(shipping_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'shipping')
                     return {
                         'success': True,
                         'order_number': shipping_data.order_number,
@@ -1018,14 +1305,14 @@ class RetailerOrderUpdateProcessor:
                         'items_count': len(shipping_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
             else:
                 return {'success': False, 'error': f'Retailer {retailer_name} not supported for shipping updates yet'}
         
         except Exception as e:
             logger.error(f"Error processing single shipping email: {e}", exc_info=True)
-            self._add_error_label(message_id)
+            self._add_error_label(message_id, 'shipping')
             return {'success': False, 'error': str(e)}
     
     def process_single_cancellation_email(
@@ -1048,7 +1335,7 @@ class RetailerOrderUpdateProcessor:
             Dictionary with processing results
         """
         # Check if email has already been processed
-        if self._is_email_processed(message_id):
+        if self._is_email_processed(message_id, 'cancellation'):
             logger.info(f"Skipping already processed email {message_id}")
             return {
                 'success': True,
@@ -1061,241 +1348,368 @@ class RetailerOrderUpdateProcessor:
             if retailer_name == 'footlocker' or retailer_name == 'kidsfootlocker':
                 cancellation_data = self.footlocker_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'champs':
                 cancellation_data = self.champs_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_champs_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'hibbett':
                 cancellation_data = self.hibbett_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_hibbett_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'dicks':
                 cancellation_data = self.dicks_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_dicks_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'dtlr':
                 cancellation_data = self.dtlr_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_dtlr_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'urban' or retailer_name == 'urbanoutfitters':
                 cancellation_data = self.urban_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_urban_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'shoepalace':
                 cancellation_data = self.shoepalace_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
-                    return {'success': False, 'error': 'Failed to parse cancellation data'}
-                
+                    partial = self.shoepalace_parser.parse_cancellation_email_partial(email_data)
+                    if partial:
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='shoepalace',
+                                    email_type='cancellation',
+                                    subject=partial.get('subject', '') or email_data.subject,
+                                    extracted_order_number=partial.get('order_number'),
+                                    extracted_items=partial.get('items', []),
+                                    missing_fields=','.join(partial.get('missing_fields', [])),
+                                    error_reason='Shoe Palace cancellation: unique_id not in email - needs manual entry',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                logger.info(
+                                    f"Queued Shoe Palace cancellation for manual review: message_id={message_id}"
+                                )
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue Shoe Palace cancellation: {e}")
+                            self.db.rollback()
+                        self._add_manual_review_label(message_id, 'cancellation')
+                        return {
+                            'success': False,
+                            'error': 'Shoe Palace cancellation - queued for manual review',
+                            'queued_for_manual_review': True,
+                        }
+                    self._add_error_label(message_id, 'cancellation')
+                    return {'success': False, 'error': 'Failed to parse Shoe Palace cancellation data'}
                 success, error_msg = self._process_shoepalace_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'orleans':
                 cancellation_data = self.orleans_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_orleans_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'finishline':
                 cancellation_data = self.finishline_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse cancellation data'}
                 
                 success, error_msg = self._process_finishline_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'jdsports':
                 cancellation_data = self.jdsports_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse JD Sports cancellation data'}
                 
                 success, error_msg = self._process_finishline_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'revolve':
                 cancellation_data = self.revolve_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
-                    return {'success': False, 'error': 'Failed to parse Revolve cancellation data'}
+                    partial = self.revolve_parser.parse_cancellation_email_partial(email_data)
+                    queued = False
+                    if partial:
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='revolve',
+                                    email_type='cancellation',
+                                    subject=partial.get('subject', '') or email_data.subject,
+                                    extracted_order_number=partial.get('order_number'),
+                                    extracted_items=partial.get('items', []),
+                                    missing_fields=','.join(partial.get('missing_fields', [])),
+                                    error_reason='Partial extraction - needs manual completion',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                queued = True
+                                logger.info(
+                                    f"📋 Queued Revolve cancellation for manual review: message_id={message_id}, "
+                                    f"missing={partial.get('missing_fields')}"
+                                )
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue manual review: {e}")
+                            self.db.rollback()
+                    self._add_manual_review_label(message_id, 'cancellation')
+                    return {
+                        'success': False,
+                        'error': 'Failed to parse Revolve cancellation data',
+                        'queued_for_manual_review': queued,
+                    }
                 
                 success, error_msg = self._process_revolve_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'snipes':
                 cancellation_data = self.snipes_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    if self.snipes_parser.is_full_cancellation_email(email_data):
+                        queued = False
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='snipes',
+                                    email_type='cancellation',
+                                    subject=email_data.subject or '',
+                                    extracted_order_number=None,
+                                    extracted_items=[],
+                                    missing_fields='order_number',
+                                    error_reason='Snipes full cancellation: no extractable data - enter order number manually',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                queued = True
+                                logger.info(f"📋 Queued Snipes full cancellation for manual review: message_id={message_id}")
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue Snipes full cancellation for manual review: {e}")
+                            self.db.rollback()
+                        self._add_error_label(message_id, 'cancellation')
+                        return {
+                            'success': False,
+                            'error': 'Snipes full cancellation - no extractable data',
+                            'queued_for_manual_review': queued,
+                        }
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse Snipes cancellation data'}
                 
                 success, error_msg = self._process_snipes_cancellation_update(cancellation_data)
                 
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items)
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             elif retailer_name == 'shopwss':
                 cancellation_data = self.shopwss_parser.parse_cancellation_email(email_data)
                 if not cancellation_data:
-                    self._add_error_label(message_id)
+                    partial = self.shopwss_parser.parse_cancellation_email_partial(email_data)
+                    if partial:
+                        try:
+                            existing = self.db.query(EmailManualReview).filter(
+                                EmailManualReview.gmail_message_id == message_id
+                            ).first()
+                            if not existing:
+                                entry = EmailManualReview(
+                                    gmail_message_id=message_id,
+                                    retailer='shopwss',
+                                    email_type='cancellation',
+                                    subject=partial.get('subject', '') or email_data.subject,
+                                    extracted_order_number=partial.get('order_number'),
+                                    extracted_items=partial.get('items', []),
+                                    missing_fields=','.join(partial.get('missing_fields', [])),
+                                    error_reason='ShopWSS partial cancellation: unique_id not in email - needs manual entry',
+                                    status='pending',
+                                )
+                                self.db.add(entry)
+                                self.db.commit()
+                                logger.info(
+                                    f"Queued ShopWSS partial cancellation for manual review: message_id={message_id}"
+                                )
+                        except Exception as e:
+                            logger.warning(f"Failed to enqueue ShopWSS partial cancellation: {e}")
+                            self.db.rollback()
+                        self._add_manual_review_label(message_id, 'cancellation')
+                        return {
+                            'success': False,
+                            'error': 'ShopWSS partial cancellation - queued for manual review',
+                            'queued_for_manual_review': True,
+                        }
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': 'Failed to parse ShopWSS cancellation data'}
                 success, error_msg = self._process_shopwss_cancellation_update(cancellation_data)
                 if success:
-                    self._add_processed_label(message_id)
+                    self._add_processed_label(message_id, 'cancellation')
                     return {
                         'success': True,
                         'order_number': cancellation_data.order_number,
                         'items_count': len(cancellation_data.items) if cancellation_data.items else None
                     }
                 else:
-                    self._add_error_label(message_id)
+                    self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
             else:
                 return {'success': False, 'error': f'Retailer {retailer_name} not supported for cancellation updates yet'}
         
         except Exception as e:
             logger.error(f"Error processing single cancellation email: {e}", exc_info=True)
-            self._add_error_label(message_id)
+            self._add_error_label(message_id, 'cancellation')
             return {'success': False, 'error': str(e)}
     
     def _process_shipping_update(self, shipping_data: FootlockerShippingData) -> Tuple[bool, Optional[str]]:
@@ -1797,6 +2211,9 @@ class RetailerOrderUpdateProcessor:
             # Commit changes
             self.db.commit()
             
+            if items_updated == 0:
+                logger.warning("No purchase tracker records matched for Hibbett shipping - needs manual review")
+                return (False, "No matching records - unique_id/size may be missing or incorrect in email")
             logger.info(f"Successfully updated {items_updated} purchase tracker records")
             return (True, None)
         
@@ -3188,31 +3605,93 @@ class RetailerOrderUpdateProcessor:
 
     def _process_shopwss_cancellation_update(self, cancellation_data: ShopWSSCancellationData) -> Tuple[bool, Optional[str]]:
         """
-        Process ShopWSS cancellation: full order cancellation.
+        Process ShopWSS cancellation: full or partial.
         items=[] means cancel ALL purchase tracker records for order_number.
+        items non-empty: match by order_number + unique_id + size, deduct from final_qty.
         """
         try:
-            logger.info(f"Processing ShopWSS full cancellation for order {cancellation_data.order_number}")
-            records = self.db.query(PurchaseTracker).filter(
-                PurchaseTracker.order_number == cancellation_data.order_number
-            ).all()
-            if not records:
-                logger.warning(f"No purchase tracker records found for order {cancellation_data.order_number}")
+            if not cancellation_data.items:
+                # Full cancellation - cancel all for order
+                logger.info(f"Processing ShopWSS full cancellation for order {cancellation_data.order_number}")
+                records = self.db.query(PurchaseTracker).filter(
+                    PurchaseTracker.order_number == cancellation_data.order_number
+                ).all()
+                if not records:
+                    logger.warning(f"No purchase tracker records found for order {cancellation_data.order_number}")
+                    self.db.commit()
+                    return (True, None)
+                items_updated = 0
+                for record in records:
+                    current_final = record.final_qty or 0
+                    record.final_qty = 0
+                    record.cancelled_qty = (record.cancelled_qty or 0) + current_final
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Cancelled ShopWSS purchase tracker ID {record.id}: order={cancellation_data.order_number}, "
+                        f"final_qty {current_final} -> 0, cancelled_qty += {current_final}"
+                    )
+                    items_updated += 1
                 self.db.commit()
+                logger.info(f"Successfully cancelled {items_updated} ShopWSS purchase tracker records")
                 return (True, None)
+
+            # Partial cancellation - match by order_number + unique_id + size
+            logger.info(f"Processing ShopWSS partial cancellation for order {cancellation_data.order_number}, {len(cancellation_data.items)} items")
             items_updated = 0
-            for record in records:
-                current_final = record.final_qty or 0
-                record.final_qty = 0
-                record.cancelled_qty = (record.cancelled_qty or 0) + current_final
-                self._recalculate_status_and_location(record)
-                logger.info(
-                    f"Cancelled ShopWSS purchase tracker ID {record.id}: order={cancellation_data.order_number}, "
-                    f"final_qty {current_final} -> 0, cancelled_qty += {current_final}"
-                )
-                items_updated += 1
+            for item in cancellation_data.items:
+                cancel_qty = max(0, item.quantity or 0)
+                if cancel_qty <= 0:
+                    continue
+                normalized_size = self._normalize_size(item.size)
+                matching_records = self.db.query(PurchaseTracker).join(
+                    OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                ).outerjoin(
+                    AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == cancellation_data.order_number,
+                        OASourcing.unique_id == item.unique_id,
+                        or_(
+                            AsinBank.size == item.size,
+                            AsinBank.size == normalized_size
+                        )
+                    )
+                ).all()
+                if not matching_records:
+                    all_for_order = self.db.query(PurchaseTracker).join(
+                        OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                    ).outerjoin(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        and_(
+                            PurchaseTracker.order_number == cancellation_data.order_number,
+                            OASourcing.unique_id == item.unique_id
+                        )
+                    ).all()
+                    for record in all_for_order:
+                        db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
+                        if db_size and self._normalize_size(db_size) == normalized_size:
+                            matching_records.append(record)
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record for order {cancellation_data.order_number}, "
+                        f"unique_id={item.unique_id}, size={item.size}"
+                    )
+                    continue
+                for record in matching_records:
+                    current_final = record.final_qty or 0
+                    og_qty = max(0, record.og_qty or 0)
+                    effective_cancel = min(cancel_qty, current_final)
+                    record.final_qty = max(0, current_final - effective_cancel)
+                    record.cancelled_qty = min(og_qty, (record.cancelled_qty or 0) + effective_cancel)
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Updated ShopWSS partial cancel ID {record.id}: order={cancellation_data.order_number}, "
+                        f"unique_id={item.unique_id}, size={item.size}, final_qty {current_final} -> {record.final_qty}"
+                    )
+                    items_updated += 1
             self.db.commit()
-            logger.info(f"Successfully cancelled {items_updated} ShopWSS purchase tracker records")
+            logger.info(f"Successfully updated {items_updated} ShopWSS purchase tracker records (partial cancellation)")
             return (True, None)
         except Exception as e:
             self.db.rollback()
@@ -3224,11 +3703,35 @@ class RetailerOrderUpdateProcessor:
         """
         Process Snipes cancellation update: Deduct from final_qty, add to cancelled_qty.
         
-        Same logic as Footlocker - match by order_number + unique_id + size.
+        Partial: match by order_number + unique_id + size.
+        Full (items=[]): cancel ALL purchase tracker records for order_number.
         """
         try:
             logger.info(f"Processing Snipes cancellation update for order {cancellation_data.order_number}")
             items_updated = 0
+
+            if not cancellation_data.items:
+                # Full cancellation - cancel all for order (like ShopWSS)
+                records = self.db.query(PurchaseTracker).filter(
+                    PurchaseTracker.order_number == cancellation_data.order_number
+                ).all()
+                if not records:
+                    logger.warning(f"No purchase tracker records found for order {cancellation_data.order_number}")
+                    self.db.commit()
+                    return (True, None)
+                for record in records:
+                    current_final = record.final_qty or 0
+                    record.final_qty = 0
+                    record.cancelled_qty = (record.cancelled_qty or 0) + current_final
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Cancelled Snipes purchase tracker ID {record.id}: order={cancellation_data.order_number}, "
+                        f"final_qty {current_final} -> 0, cancelled_qty += {current_final}"
+                    )
+                    items_updated += 1
+                self.db.commit()
+                logger.info(f"Successfully cancelled {items_updated} Snipes purchase tracker records (full cancellation)")
+                return (True, None)
             
             for item in cancellation_data.items:
                 normalized_size = self._normalize_size(item.size)
@@ -3504,26 +4007,75 @@ class RetailerOrderUpdateProcessor:
             logger.error(error_msg, exc_info=True)
             return (False, error_msg)
     
-    def _add_processed_label(self, message_id: str) -> None:
-        """Add 'Processed' label to an email and remove 'Error' label if present"""
+    def _add_processed_label(self, message_id: str, email_type: str = 'shipping') -> None:
+        """Add type-specific Processed label and remove Error/Manual-Review if present.
+        
+        Args:
+            message_id: Gmail message ID
+            email_type: 'shipping' or 'cancellation'
+        """
+        if email_type == 'cancellation':
+            label = self.cancel_processed_label
+            error_label = self.cancel_error_label
+            manual_label = self.cancel_manual_review_label
+            label_name = self.CANCEL_PROCESSED_LABEL
+        else:
+            label = self.shipping_processed_label
+            error_label = self.shipping_error_label
+            manual_label = self.shipping_manual_review_label
+            label_name = self.SHIPPING_PROCESSED_LABEL
         try:
-            self.gmail_service.add_label_to_message(message_id, self.processed_label['id'])
-            logger.debug(f"Added {self.PROCESSED_LABEL} label to message {message_id}")
-            
-            # Remove error label if present (in case this is a reprocessed email that previously failed)
-            if self.error_label:
-                self.gmail_service.remove_label_from_message(message_id, self.error_label['id'])
-                logger.debug(f"Removed {self.ERROR_LABEL} label from message {message_id}")
+            self.gmail_service.add_label_to_message(message_id, label['id'])
+            logger.debug(f"Added {label_name} label to message {message_id}")
+            # Remove error/manual-review labels if present
+            if error_label:
+                self.gmail_service.remove_label_from_message(message_id, error_label['id'])
+            if manual_label:
+                self.gmail_service.remove_label_from_message(message_id, manual_label['id'])
         except Exception as e:
             logger.error(f"Failed to add processed label to message {message_id}: {e}")
     
-    def _add_error_label(self, message_id: str) -> None:
-        """Add 'Error' label to an email"""
+    def _add_error_label(self, message_id: str, email_type: str = 'shipping') -> None:
+        """Add type-specific Error label.
+        
+        Args:
+            message_id: Gmail message ID
+            email_type: 'shipping' or 'cancellation'
+        """
+        if email_type == 'cancellation':
+            label = self.cancel_error_label
+            label_name = self.CANCEL_ERROR_LABEL
+        else:
+            label = self.shipping_error_label
+            label_name = self.SHIPPING_ERROR_LABEL
         try:
-            self.gmail_service.add_label_to_message(message_id, self.error_label['id'])
-            logger.debug(f"Added {self.ERROR_LABEL} label to message {message_id}")
+            self.gmail_service.add_label_to_message(message_id, label['id'])
+            logger.debug(f"Added {label_name} label to message {message_id}")
         except Exception as e:
             logger.error(f"Failed to add error label to message {message_id}: {e}")
+    
+    def _add_manual_review_label(self, message_id: str, email_type: str = 'shipping') -> None:
+        """Add type-specific Manual-Review label and remove Error if present.
+        
+        Args:
+            message_id: Gmail message ID
+            email_type: 'shipping' or 'cancellation'
+        """
+        if email_type == 'cancellation':
+            label = self.cancel_manual_review_label
+            error_label = self.cancel_error_label
+            label_name = self.CANCEL_MANUAL_REVIEW_LABEL
+        else:
+            label = self.shipping_manual_review_label
+            error_label = self.shipping_error_label
+            label_name = self.SHIPPING_MANUAL_REVIEW_LABEL
+        try:
+            self.gmail_service.add_label_to_message(message_id, label['id'])
+            logger.debug(f"Added {label_name} label to message {message_id}")
+            if error_label:
+                self.gmail_service.remove_label_from_message(message_id, error_label['id'])
+        except Exception as e:
+            logger.error(f"Failed to add manual review label to message {message_id}: {e}")
     
     def _check_and_notify_gift_card_cancellation(self, order_number: str) -> None:
         """

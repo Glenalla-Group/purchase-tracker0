@@ -94,6 +94,12 @@ class ShopWSSEmailParser:
     # Cancellation - same from as order
     SUBJECT_CANCELLATION_PATTERN = r"order\s+#?\s*(\d+)\s+has\s+been\s+cancel(?:l)?ed"
     
+    # Partial cancellation - different format (no img, no unique_id in email)
+    # Subject: "Cancelled Order Notification For shopwss2.shopvisible.com/ Order #1960786"
+    # From: noreply@shopwss.com (prod), glenallagroupc@gmail.com (dev)
+    SHOPWSS_PARTIAL_CANCEL_FROM_EMAIL = "noreply@shopwss.com"
+    SUBJECT_PARTIAL_CANCEL_PATTERN = r"cancelled\s+order\s+notification"
+    
     # Email identification - Development (forwarded emails)
     DEV_SHOPWSS_ORDER_FROM_EMAIL = "glenallagroupc@gmail.com"
     DEV_SUBJECT_ORDER_PATTERN = r"Fwd:.*order\s+#(\d+)\s+was\s+received"
@@ -136,9 +142,16 @@ class ShopWSSEmailParser:
     
     @property
     def cancellation_subject_query(self) -> str:
-        """Subject query for Gmail cancellation search."""
-        return 'subject:"has been canceled"'
-    
+        """Subject query for Gmail cancellation search (full + partial)."""
+        return 'subject:("has been canceled" OR "Cancelled Order Notification")'
+
+    @property
+    def cancellation_from_query(self) -> str:
+        """Gmail from query for cancellation emails (full from help@, partial from noreply@)."""
+        if self.settings.is_development:
+            return f'from:{self.DEV_SHOPWSS_ORDER_FROM_EMAIL}'
+        return f'from:({self.SHOPWSS_FROM_EMAIL} OR {self.SHOPWSS_PARTIAL_CANCEL_FROM_EMAIL})'
+
     def is_shopwss_email(self, email_data: EmailData) -> bool:
         """
         Check if email is from ShopWSS.
@@ -157,8 +170,12 @@ class ShopWSSEmailParser:
                     return True
                 return False
         
-        # In production, check for ShopWSS email
-        return self.SHOPWSS_FROM_EMAIL.lower() in sender_lower
+        # In production, check for ShopWSS email (help@ or noreply@ for partial cancellation)
+        if self.SHOPWSS_FROM_EMAIL.lower() in sender_lower:
+            return True
+        if self.SHOPWSS_PARTIAL_CANCEL_FROM_EMAIL.lower() in sender_lower:
+            return True
+        return False
     
     def is_shipping_email(self, email_data: EmailData) -> bool:
         """Check if email is a ShopWSS shipping notification."""
@@ -178,7 +195,11 @@ class ShopWSSEmailParser:
         if not self.is_shopwss_email(email_data):
             return False
         subject_lower = (email_data.subject or "").lower()
-        return bool(re.search(r"has\s+been\s+cancel(?:l)?ed", subject_lower, re.IGNORECASE))
+        if re.search(r"has\s+been\s+cancel(?:l)?ed", subject_lower, re.IGNORECASE):
+            return True
+        if re.search(self.SUBJECT_PARTIAL_CANCEL_PATTERN, subject_lower):
+            return True
+        return False
     
     def is_order_confirmation_email(self, email_data: EmailData) -> bool:
         """Check if email is an order confirmation"""
@@ -287,10 +308,13 @@ class ShopWSSEmailParser:
         Parse ShopWSS full order cancellation email.
         Subject: "Order 1354722058 has been canceled" or "Order #1354722058 has been canceled"
         Returns order_number only - items=[] means cancel ALL products for this order.
+        Do NOT use for partial cancellation ("Cancelled Order Notification") - that uses parse_cancellation_email_partial.
         """
         try:
+            subject = (email_data.subject or "").lower()
+            if re.search(self.SUBJECT_PARTIAL_CANCEL_PATTERN, subject):
+                return None  # Partial cancellation - use parse_cancellation_email_partial instead
             html_content = email_data.html_content
-            subject = email_data.subject or ""
             soup = BeautifulSoup(html_content or "", "lxml")
             
             order_number = None
@@ -313,7 +337,71 @@ class ShopWSSEmailParser:
         except Exception as e:
             logger.error(f"Error parsing ShopWSS cancellation email: {e}", exc_info=True)
             return None
-    
+
+    def parse_cancellation_email_partial(self, email_data: EmailData) -> Optional[dict]:
+        """
+        Parse ShopWSS partial cancellation (Cancelled Order Notification).
+        Order number from HTML "Order #1354722093 Order Date:". Items: product_name, size, qty - no unique_id.
+        Returns dict for manual review: {order_number, items, subject, missing_fields}.
+        """
+        try:
+            html_content = email_data.html_content
+            subject = email_data.subject or ""
+            if not html_content:
+                return None
+            soup = BeautifulSoup(html_content, "lxml")
+            text = soup.get_text()
+            match = re.search(r"Order\s+#?\s*(\d+)\s+Order\s+Date", text, re.IGNORECASE)
+            if not match:
+                return None
+            order_number = match.group(1)
+            items = self._extract_partial_cancellation_items(soup)
+            if not items:
+                return None
+            return {
+                "order_number": order_number,
+                "subject": subject,
+                "items": items,
+                "missing_fields": ["unique_id"],
+            }
+        except Exception as e:
+            logger.error(f"Error parsing ShopWSS partial cancellation: {e}", exc_info=True)
+            return None
+
+    def _extract_partial_cancellation_items(self, soup: BeautifulSoup) -> List[dict]:
+        """Extract items from Order Details table. Format: ProductNameColor=X;Size=Y (Z). Returns [{product_name, size, quantity}]."""
+        items = []
+        try:
+            order_details = soup.find(string=re.compile(r"Order\s+Details", re.IGNORECASE))
+            if not order_details:
+                return []
+            table = order_details.find_parent("table")
+            if not table:
+                return []
+            for row in table.find_all("tr"):
+                tds = row.find_all("td")
+                if len(tds) < 4:
+                    continue
+                item_text = (tds[0].get_text() or "").strip()
+                if not item_text or "Item Details" in item_text or "Total" in item_text:
+                    continue
+                product_name = item_text.split("Color=")[0].split("Size=")[0].strip().rstrip(";") if ("Color=" in item_text or "Size=" in item_text) else item_text[:80]
+                size_match = re.search(r"Size\s*=\s*(\d+\.?\d*)", item_text, re.IGNORECASE)
+                size = ""
+                if size_match:
+                    try:
+                        f = float(size_match.group(1))
+                        size = str(int(f)) if f == int(f) else size_match.group(1)
+                    except ValueError:
+                        size = size_match.group(1)
+                qty_match = re.search(r"(\d+)", (tds[2].get_text() or "").strip()) if len(tds) > 2 else None
+                quantity = int(qty_match.group(1)) if qty_match else 1
+                items.append({"product_name": product_name, "size": size, "quantity": quantity})
+            return items
+        except Exception as e:
+            logger.error(f"Error extracting partial cancellation items: {e}", exc_info=True)
+            return []
+
     def _extract_shipping_order_number(self, subject: str, soup: BeautifulSoup = None) -> Optional[str]:
         """Extract order number from shipping subject: 'Order #1361825686 is about to ship!'"""
         if subject:

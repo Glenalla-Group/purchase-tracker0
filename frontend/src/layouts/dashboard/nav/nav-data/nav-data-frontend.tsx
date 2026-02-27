@@ -52,7 +52,12 @@ export const frontendNavData: NavProps["data"] = [
 		name: "Teams",
 		items: [
 			{
-				title: "Calendar & PTO",
+				title: "sys.nav.notification",
+				path: "/teams/notification",
+				icon: <Icon icon="solar:bell-bing-bold-duotone" size="24" />,
+			},
+			{
+				title: "Calendar",
 				path: "/teams/calendar-and-pto",
 				icon: <Icon icon="mdi:calendar-clock" size="24" />,
 			},

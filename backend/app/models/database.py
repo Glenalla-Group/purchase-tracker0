@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, DateTime, Boolean, ForeignKey, Text, Date, Enum
+from sqlalchemy import Column, Integer, String, Float, DateTime, Boolean, ForeignKey, Text, Date, Enum, JSON
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from datetime import datetime
@@ -599,4 +599,32 @@ class TaskComment(Base):
     
     def __repr__(self):
         return f"<TaskComment(id={self.id}, task_id={self.task_id}, user_id={self.user_id})>"
+
+
+class EmailManualReview(Base):
+    """
+    Emails needing manual review - when parsing fails due to missing order_number or unique_id.
+    E.g. Revolve cancellation type 1 (has order#, no unique_id) or type 2 (has unique_id, no order#).
+    """
+    __tablename__ = 'email_manual_review'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    gmail_message_id = Column(String(100), unique=True, nullable=False, index=True)
+    retailer = Column(String(50), nullable=False, index=True)
+    email_type = Column(String(50), nullable=False)
+    subject = Column(Text)
+
+    extracted_order_number = Column(String(200))
+    extracted_items = Column(JSON)  # [{unique_id, size, product_name, quantity}, ...]
+    missing_fields = Column(String(200))
+    error_reason = Column(Text)
+
+    status = Column(String(20), default='pending', nullable=False, index=True)
+    resolved_at = Column(DateTime)
+    resolved_by = Column(Integer, ForeignKey('users.id'))
+
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+    def __repr__(self):
+        return f"<EmailManualReview(id={self.id}, retailer={self.retailer}, status={self.status})>"
 

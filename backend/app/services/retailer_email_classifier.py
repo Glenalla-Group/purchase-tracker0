@@ -162,6 +162,14 @@ class RetailerEmailClassifier:
             if self._dtlr.is_cancellation_email(email_data):
                 return ClassificationResult("dtlr", EmailType.CANCELLATION, "DTLR")
 
+        # Snipes EARLY (before Finish Line) - subject "Update on Your SNIPES Order", "Cancelation Update"
+        # Finish Line uses broad body checks ("canceled") that can match Snipes emails from glenallagroupc
+        if self._snipes.is_snipes_email(email_data):
+            if self._snipes.is_shipping_email(email_data):
+                return ClassificationResult("snipes", EmailType.SHIPPING, "Snipes")
+            if self._snipes.is_cancellation_email(email_data):
+                return ClassificationResult("snipes", EmailType.CANCELLATION, "Snipes")
+
         # Finish Line (shipping/update emails - includes partial ship+cancel)
         if self._finishline.is_finishline_email(email_data):
             if self._finishline.is_shipping_email(email_data):
@@ -187,13 +195,6 @@ class RetailerEmailClassifier:
         if self._asos.is_asos_email(email_data):
             if self._asos.is_shipping_email(email_data):
                 return ClassificationResult("asos", EmailType.SHIPPING, "ASOS")
-
-        # Snipes (shipping and cancellation)
-        if self._snipes.is_snipes_email(email_data):
-            if self._snipes.is_shipping_email(email_data):
-                return ClassificationResult("snipes", EmailType.SHIPPING, "Snipes")
-            if self._snipes.is_cancellation_email(email_data):
-                return ClassificationResult("snipes", EmailType.CANCELLATION, "Snipes")
 
         # Shoe Palace (shipping and cancellation)
         if self._shoepalace.is_shoepalace_email(email_data):

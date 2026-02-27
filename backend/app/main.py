@@ -17,6 +17,7 @@ if sys.platform == 'win32':
 
 import logging
 from contextlib import asynccontextmanager
+from urllib.parse import urlparse
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -31,6 +32,7 @@ from app.api.retailer_orders_api import router as retailer_orders_router
 from app.api.pto_api import router as pto_router
 from app.api.holidays_api import router as holidays_router
 from app.api.tasks_api import router as tasks_router
+from app.api.email_manual_review_api import router as email_manual_review_router
 from app.api import webhook
 from app.config import get_settings
 
@@ -49,6 +51,27 @@ logging.getLogger('googleapiclient.discovery_cache').setLevel(logging.ERROR)
 logging.getLogger('googleapiclient.discovery').setLevel(logging.WARNING)
 
 logger = logging.getLogger(__name__)
+
+
+class HealthCheckAccessFilter(logging.Filter):
+    """Filter out health check requests from uvicorn access logs."""
+    EXCLUDED_PATHS = {"/", "/health", "/health/gmail"}
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        if record.name != "uvicorn.access":
+            return True
+        args = record.args
+        if not isinstance(args, tuple) or len(args) < 5:
+            return True
+        full_path = args[2]
+        if isinstance(full_path, str):
+            path = urlparse(full_path).path or "/"
+            if path in self.EXCLUDED_PATHS:
+                return False
+        return True
+
+
+logging.getLogger("uvicorn.access").addFilter(HealthCheckAccessFilter())
 
 
 @asynccontextmanager
@@ -201,6 +224,10 @@ if settings.enable_retailer_orders_api:
 else:
     logger.info("⚠️  Retailer Orders API disabled (set ENABLE_RETAILER_ORDERS_API=true to enable)")
 
+# Email Manual Review API (for Revolve cancellation etc.)
+app.include_router(email_manual_review_router)
+logger.info("✅ Email Manual Review API enabled")
+
 # Gmail Watch Webhook (email notifications)
 if settings.enable_gmail_watch:
     app.include_router(webhook.router, prefix="/api", tags=["Webhook"])
@@ -208,6 +235,11 @@ if settings.enable_gmail_watch:
 else:
     logger.info("⚠️  Gmail Watch disabled")
 
+# Auto email processing (processes incoming emails automatically via webhook)
+if settings.enable_auto_email_processing:
+    logger.info("✅ Auto email processing enabled")
+else:
+    logger.info("⚠️  Auto email processing disabled")
 
 # Health check endpoint
 @app.get("/", tags=["Health"])

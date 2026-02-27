@@ -2,6 +2,7 @@
 PrepWorx Email Parser Service
 Specialized parser for PrepWorx "Inbound processed" emails using BeautifulSoup
 Extracts shipment data and stores to checkin table automatically
+Updates PurchaseTracker.checked_in for matching records (ASIN + size)
 """
 
 import logging
@@ -9,6 +10,7 @@ import re
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from bs4 import BeautifulSoup
+from sqlalchemy import and_, or_, func
 
 from app.models.email import EmailData
 
@@ -702,6 +704,7 @@ class PrepWorxEmailParser:
 class PrepWorxCheckinProcessor:
     """
     Processor for storing PrepWorx shipment data to the checkin table.
+    Also updates PurchaseTracker.checked_in for matching records (ASIN + size).
     """
     
     # Gmail label for processed emails
@@ -717,6 +720,119 @@ class PrepWorxCheckinProcessor:
         """
         self.db = db_session
         self.gmail_service = gmail_service
+    
+    def _normalize_size(self, size: Optional[str]) -> str:
+        """
+        Normalize size for comparison (handles "11.0" vs "11", "09.5" vs "9.5" etc.)
+        """
+        if not size:
+            return size or ""
+        if re.match(r'^\d{1,2}\.\d$', str(size)):
+            num = float(size)
+            return str(int(num)) if num % 1 == 0 else str(num)
+        return str(size)
+    
+    def _recalculate_status_and_location(self, record) -> None:
+        """Recalculate status and location for a PurchaseTracker record."""
+        from app.utils.purchase_status import calculate_status_and_location
+        try:
+            status, location = calculate_status_and_location(
+                shipped_to_pw=record.shipped_to_pw,
+                checked_in=record.checked_in,
+                shipped_out=record.shipped_out,
+                final_qty=record.final_qty
+            )
+            record.status = status
+            record.location = location
+        except Exception as e:
+            logger.error(f"Error recalculating status/location for record {record.id}: {e}")
+    
+    def _update_purchase_tracker_checked_in(self, item: PrepWorxItem) -> int:
+        """
+        Update PurchaseTracker.checked_in for records matching ASIN + size.
+        Allocates PrepWorx quantity to matching records (FIFO by purchase date).
+        
+        Returns:
+            Number of PurchaseTracker records updated
+        """
+        from app.models.database import PurchaseTracker, AsinBank
+        
+        if item.quantity <= 0:
+            return 0
+        
+        normalized_size = self._normalize_size(item.size)
+        
+        # Find all AsinBank records matching (asin, size)
+        asin_query = self.db.query(AsinBank).filter(AsinBank.asin == item.asin)
+        if item.size or normalized_size:
+            asin_query = asin_query.filter(
+                or_(
+                    AsinBank.size == item.size,
+                    AsinBank.size == normalized_size
+                )
+            )
+        asin_records = asin_query.all()
+        
+        # Fallback: if no size match, try ASIN only (for items without extracted size)
+        if not asin_records:
+            asin_records = self.db.query(AsinBank).filter(AsinBank.asin == item.asin).all()
+        
+        if not asin_records:
+            logger.debug(f"No AsinBank records found for ASIN {item.asin}, size {item.size}")
+            return 0
+        
+        asin_bank_ids = [r.id for r in asin_records]
+        
+        # Find PurchaseTracker records: shipped to PW but not fully checked in, FIFO
+        candidates = self.db.query(PurchaseTracker).filter(
+            PurchaseTracker.asin_bank_id.in_(asin_bank_ids),
+            func.coalesce(PurchaseTracker.shipped_to_pw, 0) > func.coalesce(PurchaseTracker.checked_in, 0)
+        ).order_by(PurchaseTracker.date.asc(), PurchaseTracker.id.asc()).all()
+        
+        # Filter by size if we have it (manual check for records where AsinBank.size matches)
+        if item.size or normalized_size:
+            filtered = []
+            for rec in candidates:
+                db_size = rec.asin_bank_ref.size if rec.asin_bank_ref else None
+                if not db_size:
+                    filtered.append(rec)
+                elif self._normalize_size(db_size) == normalized_size or db_size == item.size:
+                    filtered.append(rec)
+            candidates = filtered
+        
+        if not candidates:
+            logger.info(
+                f"No PurchaseTracker candidates for ASIN {item.asin} size {item.size} "
+                f"(shipped_to_pw > checked_in)"
+            )
+            return 0
+        
+        # Allocate quantity FIFO
+        remaining_qty = item.quantity
+        updated_count = 0
+        
+        for record in candidates:
+            if remaining_qty <= 0:
+                break
+            capacity = (record.shipped_to_pw or 0) - (record.checked_in or 0)
+            to_allocate = min(remaining_qty, capacity)
+            if to_allocate > 0:
+                record.checked_in = (record.checked_in or 0) + to_allocate
+                self._recalculate_status_and_location(record)
+                remaining_qty -= to_allocate
+                updated_count += 1
+                logger.info(
+                    f"✓ Updated PurchaseTracker id={record.id}: checked_in += {to_allocate} "
+                    f"(order={record.order_number}, ASIN={item.asin}, size={item.size})"
+                )
+        
+        if remaining_qty > 0:
+            logger.warning(
+                f"PrepWorx qty {item.quantity} for ASIN {item.asin} size {item.size}: "
+                f"allocated {item.quantity - remaining_qty}, {remaining_qty} unallocated (no capacity)"
+            )
+        
+        return updated_count
     
     def apply_gmail_label(self, message_id: str) -> bool:
         """
@@ -763,6 +879,7 @@ class PrepWorxCheckinProcessor:
         try:
             stored_count = 0
             skipped_count = 0
+            pt_updated_count = 0
             errors = []
             
             # Track items in current batch to avoid duplicates within the same email
@@ -844,6 +961,14 @@ class PrepWorxCheckinProcessor:
                         f"✓ Stored check-in: Order {shipment_data.order_number}, "
                         f"Item: {item.item_name}, ASIN: {item.asin}, Qty: {item.quantity}"
                     )
+                    
+                    # Update PurchaseTracker.checked_in for matching records (ASIN + size)
+                    try:
+                        updated = self._update_purchase_tracker_checked_in(item)
+                        pt_updated_count += updated
+                    except Exception as pt_err:
+                        logger.warning(f"Could not update PurchaseTracker for {item.asin}: {pt_err}")
+                        errors.append(f"PurchaseTracker update for {item.asin}: {pt_err}")
                 
                 except Exception as e:
                     error_msg = f"Error storing item {item.asin}: {str(e)}"
@@ -860,13 +985,15 @@ class PrepWorxCheckinProcessor:
                 "total_items": len(shipment_data.items),
                 "stored_count": stored_count,
                 "skipped_count": skipped_count,
+                "pt_updated_count": pt_updated_count,
                 "errors": errors
             }
             
             logger.info(
                 f"✅ PrepWorx checkin processing complete: "
                 f"Shipment {shipment_data.shipment_number} - "
-                f"Stored {stored_count}, Skipped {skipped_count}, Errors {len(errors)}"
+                f"Stored {stored_count}, Skipped {skipped_count}, "
+                f"PurchaseTracker updated {pt_updated_count}, Errors {len(errors)}"
             )
             
             # Apply Gmail label if message_id provided
