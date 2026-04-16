@@ -40,6 +40,10 @@ from app.services.sneaker_parser import SneakerPoliticsEmailParser
 from app.services.orleans_parser import OrleansEmailParser
 from app.services.endclothing_parser import ENDClothingEmailParser
 from app.services.shopwss_parser import ShopWSSEmailParser
+from app.services.als_parser import AlsEmailParser
+from app.services.fwrd_parser import FwrdEmailParser
+from app.services.academy_parser import AcademyEmailParser
+from app.services.scheels_parser import SceelsEmailParser
 
 logger = logging.getLogger(__name__)
 
@@ -97,6 +101,10 @@ class RetailerEmailClassifier:
         self._asos = ASOSEmailParser()
         self._endclothing = ENDClothingEmailParser()
         self._shopwss = ShopWSSEmailParser()
+        self._als = AlsEmailParser()
+        self._fwrd = FwrdEmailParser()
+        self._academy = AcademyEmailParser()
+        self._scheels = SceelsEmailParser()
 
     def classify(self, email_data: EmailData) -> Optional[ClassificationResult]:
         """
@@ -215,6 +223,37 @@ class RetailerEmailClassifier:
             if self._shopwss.is_shipping_email(email_data):
                 return ClassificationResult("shopwss", EmailType.SHIPPING, "ShopWSS")
 
+        # Al's Sporting Goods (shipping and cancellation)
+        if self._als.is_als_email(email_data):
+            if self._als.is_shipping_email(email_data):
+                return ClassificationResult("als", EmailType.SHIPPING, "Al's Sporting Goods")
+            if self._als.is_cancellation_email(email_data):
+                return ClassificationResult("als", EmailType.CANCELLATION, "Al's Sporting Goods")
+
+        # FWRD (shipping and cancellation)
+        if self._fwrd.is_fwrd_email(email_data):
+            if self._fwrd.is_shipping_email(email_data):
+                return ClassificationResult("fwrd", EmailType.SHIPPING, "FWRD")
+            if self._fwrd.is_cancellation_email(email_data):
+                return ClassificationResult("fwrd", EmailType.CANCELLATION, "FWRD")
+
+        # Academy Sports (shipping only, no cancellation)
+        if self._academy.is_academy_email(email_data):
+            if self._academy.is_shipping_email(email_data):
+                return ClassificationResult("academy", EmailType.SHIPPING, "Academy Sports")
+
+        # Scheels (shipping only, no cancellation yet)
+        if self._scheels.is_scheels_email(email_data):
+            if self._scheels.is_shipping_email(email_data):
+                return ClassificationResult("scheels", EmailType.SHIPPING, "Scheels")
+
+        # Urban Outfitters (shipping + cancellation)
+        if self._urban.is_urban_email(email_data):
+            if self._urban.is_shipping_email(email_data):
+                return ClassificationResult("urban", EmailType.SHIPPING, "Urban Outfitters")
+            if self._urban.is_cancellation_email(email_data):
+                return ClassificationResult("urban", EmailType.CANCELLATION, "Urban Outfitters")
+
         return None
 
     def _check_order_confirmation(self, email_data: EmailData) -> Optional[ClassificationResult]:
@@ -267,6 +306,10 @@ class RetailerEmailClassifier:
             ("concepts", "CNCPTS", self._concepts, "is_concepts_email"),
             ("sneaker", "Sneaker Politics", self._sneaker, "is_sneaker_email"),
             ("orleans", "Orleans Shoe Co", self._orleans, "is_orleans_email"),
+            ("als", "Al's Sporting Goods", self._als, "is_als_email"),
+            ("fwrd", "FWRD", self._fwrd, "is_fwrd_email"),
+            ("academy", "Academy Sports", self._academy, "is_academy_email"),
+            ("scheels", "Scheels", self._scheels, "is_scheels_email"),
         ]
 
         for retailer_id, display_name, parser, is_from_attr in confirmation_checks:

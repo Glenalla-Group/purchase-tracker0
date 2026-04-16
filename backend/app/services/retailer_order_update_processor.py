@@ -45,6 +45,7 @@ from app.services.dtlr_parser import (
 from app.services.urban_parser import (
     UrbanOutfittersEmailParser,
     UrbanOutfittersCancellationData,
+    UrbanOutfittersShippingData,
     UrbanOrderItem as UrbanOutfittersOrderItem
 )
 from app.services.shoepalace_parser import (
@@ -91,6 +92,15 @@ from app.services.snipes_parser import (
     SnipesShippingData,
     SnipesCancellationData,
 )
+from app.services.als_parser import (
+    AlsEmailParser,
+    AlsShippingData,
+    AlsCancellationData,
+    AlsOrderItem
+)
+from app.services.fwrd_parser import FwrdEmailParser
+from app.services.academy_parser import AcademyEmailParser, AcademyShippingData
+from app.services.scheels_parser import SceelsEmailParser, SceelsShippingData
 from app.models.database import AsinBank, EmailManualReview, OASourcing, PurchaseTracker
 from app.models.email import EmailData
 from app.utils.purchase_status import calculate_status_and_location
@@ -136,7 +146,11 @@ class RetailerOrderUpdateProcessor:
         self.snipes_parser = SnipesEmailParser()
         self.endclothing_parser = ENDClothingEmailParser()
         self.shopwss_parser = ShopWSSEmailParser()
-        
+        self.als_parser = AlsEmailParser()
+        self.fwrd_parser = FwrdEmailParser()
+        self.academy_parser = AcademyEmailParser()
+        self.scheels_parser = SceelsEmailParser()
+
         # Ensure type-specific labels exist
         self.shipping_processed_label = self.gmail_service.get_or_create_label(self.SHIPPING_PROCESSED_LABEL)
         self.shipping_error_label = self.gmail_service.get_or_create_label(self.SHIPPING_ERROR_LABEL)
@@ -168,9 +182,10 @@ class RetailerOrderUpdateProcessor:
         }
         
         try:
-            # Search for Footlocker shipping emails
+            # Search for Footlocker and Kids Foot Locker shipping emails
             query = (
-                f'from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
+                f'{{from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
+                f'from:{FootlockerEmailParser.KIDS_FOOTLOCKER_UPDATE_FROM_EMAIL}}} '
                 f'subject:"{FootlockerEmailParser.SUBJECT_SHIPPING_PATTERN}" '
                 f'-label:{self.SHIPPING_PROCESSED_LABEL} -label:{self.SHIPPING_ERROR_LABEL} -label:{self.SHIPPING_MANUAL_REVIEW_LABEL}'
             )
@@ -729,9 +744,10 @@ class RetailerOrderUpdateProcessor:
         }
         
         try:
-            # Search for Footlocker cancellation emails
+            # Search for Footlocker and Kids Foot Locker cancellation emails
             query = (
-                f'from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
+                f'{{from:{FootlockerEmailParser.FOOTLOCKER_UPDATE_FROM_EMAIL} '
+                f'from:{FootlockerEmailParser.KIDS_FOOTLOCKER_UPDATE_FROM_EMAIL}}} '
                 f'subject:"{FootlockerEmailParser.SUBJECT_CANCELLATION_PATTERN}" '
                 f'-label:{self.CANCEL_PROCESSED_LABEL} -label:{self.CANCEL_ERROR_LABEL} -label:{self.CANCEL_MANUAL_REVIEW_LABEL}'
             )
@@ -1307,14 +1323,90 @@ class RetailerOrderUpdateProcessor:
                 else:
                     self._add_error_label(message_id, 'shipping')
                     return {'success': False, 'error': error_msg}
+            elif retailer_name == 'als':
+                shipping_data = self.als_parser.parse_shipping_email(email_data)
+                if not shipping_data:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': "Failed to parse Al's shipping data"}
+
+                success, error_msg = self._process_als_shipping_update(shipping_data)
+
+                if success:
+                    self._add_processed_label(message_id, 'shipping')
+                    return {
+                        'success': True,
+                        'order_number': shipping_data.order_number,
+                        'tracking_number': shipping_data.tracking_number or None,
+                        'items_count': len(shipping_data.items)
+                    }
+                else:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': error_msg}
+            elif retailer_name == 'academy':
+                shipping_data = self.academy_parser.parse_shipping_email(email_data)
+                if not shipping_data:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': "Failed to parse Academy Sports shipping data"}
+
+                success, error_msg = self._process_academy_shipping_update(shipping_data)
+
+                if success:
+                    self._add_processed_label(message_id, 'shipping')
+                    return {
+                        'success': True,
+                        'order_number': shipping_data.order_number,
+                        'tracking_number': shipping_data.tracking_number or None,
+                        'items_count': len(shipping_data.items)
+                    }
+                else:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': error_msg}
+            elif retailer_name == 'scheels':
+                shipping_data = self.scheels_parser.parse_shipping_email(email_data)
+                if not shipping_data:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': "Failed to parse Scheels shipping data"}
+
+                success, error_msg = self._process_scheels_shipping_update(shipping_data)
+
+                if success:
+                    self._add_processed_label(message_id, 'shipping')
+                    return {
+                        'success': True,
+                        'order_number': shipping_data.order_number,
+                        'tracking_number': shipping_data.tracking_number or None,
+                        'items_count': len(shipping_data.items)
+                    }
+                else:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': error_msg}
+            elif retailer_name == 'urban' or retailer_name == 'urbanoutfitters':
+                shipping_data = self.urban_parser.parse_shipping_email(email_data)
+                if not shipping_data:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': 'Failed to parse Urban Outfitters shipping data'}
+
+                success, error_msg = self._process_urban_shipping_update(shipping_data)
+
+                if success:
+                    self._add_processed_label(message_id, 'shipping')
+                    return {
+                        'success': True,
+                        'order_number': shipping_data.order_number,
+                        'tracking_number': shipping_data.tracking_number or None,
+                        'items_count': len(shipping_data.items)
+                    }
+                else:
+                    self._add_error_label(message_id, 'shipping')
+                    return {'success': False, 'error': error_msg}
             else:
                 return {'success': False, 'error': f'Retailer {retailer_name} not supported for shipping updates yet'}
-        
+
         except Exception as e:
             logger.error(f"Error processing single shipping email: {e}", exc_info=True)
             self._add_error_label(message_id, 'shipping')
             return {'success': False, 'error': str(e)}
-    
+
     def process_single_cancellation_email(
         self, 
         email_data: EmailData, 
@@ -1704,9 +1796,27 @@ class RetailerOrderUpdateProcessor:
                 else:
                     self._add_error_label(message_id, 'cancellation')
                     return {'success': False, 'error': error_msg}
+            elif retailer_name == 'als':
+                cancellation_data = self.als_parser.parse_cancellation_email(email_data)
+                if not cancellation_data:
+                    self._add_error_label(message_id, 'cancellation')
+                    return {'success': False, 'error': "Failed to parse Al's cancellation data"}
+
+                success, error_msg = self._process_als_cancellation_update(cancellation_data)
+
+                if success:
+                    self._add_processed_label(message_id, 'cancellation')
+                    return {
+                        'success': True,
+                        'order_number': cancellation_data.order_number,
+                        'items_count': len(cancellation_data.items)
+                    }
+                else:
+                    self._add_error_label(message_id, 'cancellation')
+                    return {'success': False, 'error': error_msg}
             else:
                 return {'success': False, 'error': f'Retailer {retailer_name} not supported for cancellation updates yet'}
-        
+
         except Exception as e:
             logger.error(f"Error processing single cancellation email: {e}", exc_info=True)
             self._add_error_label(message_id, 'cancellation')
@@ -2339,32 +2449,32 @@ class RetailerOrderUpdateProcessor:
     def _process_dicks_shipping_update(self, shipping_data: DicksShippingData) -> Tuple[bool, Optional[str]]:
         """
         Process Dick's shipping update: Update shipped_to_pw.
-        
+
         For each item in the shipping notification:
         1. Find matching purchase tracker record by order number and size (if available)
         2. If size is not available, try matching by unique_id or product name
         3. Add the quantity to 'shipped_to_pw' (cumulative - sums from multiple shipping emails)
-        
+
         Note: final_qty is set from order confirmation emails, not shipping emails.
-        
+
         Args:
             shipping_data: DicksShippingData object
-        
+
         Returns:
             Tuple of (success: bool, error_message: Optional[str])
         """
         try:
             logger.info(f"Processing Dick's shipping update for order {shipping_data.order_number}")
-            
+
             items_updated = 0
-            
+
             for item in shipping_data.items:
                 matching_records = []
-                
+
                 # If size is available, match by order number and size (like Hibbett)
                 if item.size:
                     normalized_shipping_size = self._normalize_size(item.size)
-                    
+
                     matching_records = self.db.query(PurchaseTracker).join(
                         AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
                     ).filter(
@@ -2376,7 +2486,7 @@ class RetailerOrderUpdateProcessor:
                             )
                         )
                     ).all()
-                    
+
                     # If no exact matches, try to match by normalizing all sizes manually
                     if not matching_records:
                         all_order_records = self.db.query(PurchaseTracker).join(
@@ -2384,7 +2494,7 @@ class RetailerOrderUpdateProcessor:
                         ).filter(
                             PurchaseTracker.order_number == shipping_data.order_number
                         ).all()
-                        
+
                         for record in all_order_records:
                             db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
                             if db_size:
@@ -2397,37 +2507,37 @@ class RetailerOrderUpdateProcessor:
                     matching_records = self.db.query(PurchaseTracker).filter(
                         PurchaseTracker.order_number == shipping_data.order_number
                     ).all()
-                    
+
                     logger.info(
                         f"Size not available for item {item.unique_id}, "
                         f"found {len(matching_records)} records for order {shipping_data.order_number}"
                     )
-                
+
                 if not matching_records:
                     logger.warning(
                         f"No purchase tracker record found for order {shipping_data.order_number}, "
                         f"size {item.size if item.size else 'N/A'}, unique_id {item.unique_id}"
                     )
                     continue
-                
+
                 # Update each matching record
                 for record in matching_records:
                     # Add quantity to shipped_to_pw (cumulative - sums from multiple shipping emails)
                     current_shipped_to_pw = record.shipped_to_pw or 0
                     record.shipped_to_pw = current_shipped_to_pw + item.quantity
-                    
+
                     logger.info(
                         f"Updated purchase tracker ID {record.id}: "
                         f"shipped_to_pw {current_shipped_to_pw} -> {record.shipped_to_pw}"
                     )
                     items_updated += 1
-            
+
             # Commit changes
             self.db.commit()
-            
+
             logger.info(f"Successfully updated {items_updated} purchase tracker records")
             return (True, None)
-        
+
         except Exception as e:
             self.db.rollback()
             error_msg = f"Error processing Dick's shipping update: {str(e)}"
@@ -2831,7 +2941,110 @@ class RetailerOrderUpdateProcessor:
             error_msg = f"Error processing Urban Outfitters cancellation update: {str(e)}"
             logger.error(error_msg, exc_info=True)
             return (False, error_msg)
-    
+
+    def _process_urban_shipping_update(self, shipping_data: UrbanOutfittersShippingData) -> Tuple[bool, Optional[str]]:
+        """
+        Process Urban Outfitters shipping update: Add quantity to 'shipped_to_pw' (cumulative)
+        and set tracking number.
+
+        For each item in the shipping notification:
+        1. Find matching purchase tracker record by order number and size (with size normalization)
+        2. Add the quantity to 'shipped_to_pw' (cumulative — supports partial shipments)
+        3. Set tracking number if provided
+        4. Recalculate status and location
+
+        Matches by order_number + size (same pattern as _process_urban_cancellation_update).
+        Urban does not reliably map unique_ids across partial shipments, so size is the
+        primary matching key.
+
+        Args:
+            shipping_data: UrbanOutfittersShippingData object
+
+        Returns:
+            Tuple of (success: bool, error_message: Optional[str])
+        """
+        try:
+            logger.info(
+                f"Processing Urban Outfitters shipping update for order {shipping_data.order_number} "
+                f"(type: {shipping_data.shipment_type}, tracking: {shipping_data.tracking_number})"
+            )
+
+            items_updated = 0
+
+            for item in shipping_data.items:
+                # Normalize the size from shipping email for comparison
+                normalized_ship_size = self._normalize_size(item.size)
+
+                # Find matching purchase tracker record(s) by order_number + size
+                matching_records = self.db.query(PurchaseTracker).join(
+                    AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == shipping_data.order_number,
+                        or_(
+                            AsinBank.size == item.size,
+                            AsinBank.size == normalized_ship_size
+                        )
+                    )
+                ).all()
+
+                # If no exact matches, fall back to manual size normalization across all order records
+                if not matching_records:
+                    all_order_records = self.db.query(PurchaseTracker).join(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        PurchaseTracker.order_number == shipping_data.order_number
+                    ).all()
+
+                    for record in all_order_records:
+                        db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
+                        if db_size:
+                            normalized_db_size = self._normalize_size(db_size)
+                            if normalized_db_size == normalized_ship_size:
+                                matching_records.append(record)
+
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record found for Urban Outfitters shipping: "
+                        f"order {shipping_data.order_number}, size {item.size} "
+                        f"(normalized: {normalized_ship_size}), unique_id {item.unique_id}"
+                    )
+                    continue
+
+                # Update each matching record
+                for record in matching_records:
+                    # Add to shipped_to_pw (cumulative)
+                    current_shipped = record.shipped_to_pw or 0
+                    record.shipped_to_pw = current_shipped + item.quantity
+
+                    # Set tracking number (if provided)
+                    if shipping_data.tracking_number:
+                        record.tracking_number = shipping_data.tracking_number
+
+                    # Recalculate status and location
+                    self._recalculate_status_and_location(record)
+
+                    logger.info(
+                        f"Updated purchase tracker ID {record.id}: "
+                        f"order={shipping_data.order_number}, "
+                        f"size={item.size} (matched DB size: {record.asin_bank_ref.size if record.asin_bank_ref else 'N/A'}), "
+                        f"shipped_to_pw {current_shipped} -> {record.shipped_to_pw}, "
+                        f"tracking={shipping_data.tracking_number}"
+                    )
+                    items_updated += 1
+
+            # Commit changes
+            self.db.commit()
+
+            logger.info(f"Successfully updated {items_updated} purchase tracker records for Urban Outfitters shipping")
+            return (True, None)
+
+        except Exception as e:
+            self.db.rollback()
+            error_msg = f"Error processing Urban Outfitters shipping update: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            return (False, error_msg)
+
     def _process_shoepalace_cancellation_update(self, cancellation_data: ShoepalaceCancellationData) -> Tuple[bool, Optional[str]]:
         """
         Process Shoe Palace cancellation update: Deduct quantity from 'final_qty' and update 'cancelled_qty'.
@@ -3070,12 +3283,311 @@ class RetailerOrderUpdateProcessor:
             error_msg = f"Error processing Orleans cancellation update: {str(e)}"
             logger.error(error_msg, exc_info=True)
             return (False, error_msg)
-    
+
+    def _process_als_shipping_update(self, shipping_data: AlsShippingData) -> Tuple[bool, Optional[str]]:
+        """
+        Process Al's shipping update: Update shipped_to_pw and tracking.
+
+        Match by order_number + unique_id + size (same pattern as END Clothing).
+        """
+        try:
+            logger.info(f"Processing Al's shipping update for order {shipping_data.order_number}")
+            items_updated = 0
+
+            for item in shipping_data.items:
+                normalized_size = self._normalize_size(item.size)
+
+                matching_records = self.db.query(PurchaseTracker).join(
+                    OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                ).outerjoin(
+                    AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == shipping_data.order_number,
+                        OASourcing.unique_id == item.unique_id,
+                        or_(
+                            AsinBank.size == item.size,
+                            AsinBank.size == normalized_size
+                        )
+                    )
+                ).all()
+
+                if not matching_records:
+                    all_for_order = self.db.query(PurchaseTracker).join(
+                        OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                    ).outerjoin(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        and_(
+                            PurchaseTracker.order_number == shipping_data.order_number,
+                            OASourcing.unique_id == item.unique_id
+                        )
+                    ).all()
+                    for record in all_for_order:
+                        db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
+                        if db_size and self._normalize_size(db_size) == normalized_size:
+                            matching_records.append(record)
+
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record found for Al's order {shipping_data.order_number}, "
+                        f"unique_id {item.unique_id}, size {item.size}"
+                    )
+                    continue
+
+                for record in matching_records:
+                    current_shipped = record.shipped_to_pw or 0
+                    record.shipped_to_pw = current_shipped + item.quantity
+                    if not record.tracking and shipping_data.tracking_number:
+                        record.tracking = shipping_data.tracking_number
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Updated Al's purchase tracker ID {record.id}: "
+                        f"order={shipping_data.order_number}, unique_id={item.unique_id}, size={item.size}, "
+                        f"shipped_to_pw {current_shipped} -> {record.shipped_to_pw}"
+                    )
+                    items_updated += 1
+
+            self.db.commit()
+            logger.info(f"Successfully updated {items_updated} Al's purchase tracker records")
+            return (True, None)
+
+        except Exception as e:
+            self.db.rollback()
+            error_msg = f"Error processing Al's shipping update: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            return (False, error_msg)
+
+    def _process_academy_shipping_update(self, shipping_data: AcademyShippingData) -> Tuple[bool, Optional[str]]:
+        """
+        Process Academy Sports shipping update: Update shipped_to_pw and tracking.
+
+        Match by order_number + unique_id + size.
+        """
+        try:
+            logger.info(f"Processing Academy shipping update for order {shipping_data.order_number}")
+            items_updated = 0
+
+            for item in shipping_data.items:
+                normalized_size = self._normalize_size(item.size)
+
+                matching_records = self.db.query(PurchaseTracker).join(
+                    OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                ).outerjoin(
+                    AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == shipping_data.order_number,
+                        OASourcing.unique_id == item.unique_id,
+                        or_(
+                            AsinBank.size == item.size,
+                            AsinBank.size == normalized_size
+                        )
+                    )
+                ).all()
+
+                if not matching_records:
+                    all_for_order = self.db.query(PurchaseTracker).join(
+                        OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                    ).outerjoin(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        and_(
+                            PurchaseTracker.order_number == shipping_data.order_number,
+                            OASourcing.unique_id == item.unique_id
+                        )
+                    ).all()
+                    for record in all_for_order:
+                        db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
+                        if db_size and self._normalize_size(db_size) == normalized_size:
+                            matching_records.append(record)
+
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record found for Academy order {shipping_data.order_number}, "
+                        f"unique_id {item.unique_id}, size {item.size}"
+                    )
+                    continue
+
+                for record in matching_records:
+                    current_shipped = record.shipped_to_pw or 0
+                    record.shipped_to_pw = current_shipped + item.quantity
+                    if not record.tracking and shipping_data.tracking_number:
+                        record.tracking = shipping_data.tracking_number
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Updated Academy purchase tracker ID {record.id}: "
+                        f"order={shipping_data.order_number}, unique_id={item.unique_id}, size={item.size}, "
+                        f"shipped_to_pw {current_shipped} -> {record.shipped_to_pw}"
+                    )
+                    items_updated += 1
+
+            self.db.commit()
+            logger.info(f"Successfully updated {items_updated} Academy purchase tracker records")
+            return (True, None)
+
+        except Exception as e:
+            self.db.rollback()
+            error_msg = f"Error processing Academy shipping update: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            return (False, error_msg)
+
+    def _process_scheels_shipping_update(self, shipping_data: SceelsShippingData) -> Tuple[bool, Optional[str]]:
+        """Process Scheels shipping update: Update shipped_to_pw. No tracking number available."""
+        try:
+            logger.info(f"Processing Scheels shipping update for order {shipping_data.order_number}")
+            items_updated = 0
+
+            for item in shipping_data.items:
+                matching_records = self.db.query(PurchaseTracker).join(
+                    OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == shipping_data.order_number,
+                        OASourcing.unique_id == item.unique_id
+                    )
+                ).all()
+
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record found for Scheels order {shipping_data.order_number}, "
+                        f"unique_id {item.unique_id}"
+                    )
+                    continue
+
+                for record in matching_records:
+                    current_shipped = record.shipped_to_pw or 0
+                    record.shipped_to_pw = current_shipped + item.quantity
+                    self._recalculate_status_and_location(record)
+                    logger.info(
+                        f"Updated Scheels purchase tracker ID {record.id}: "
+                        f"order={shipping_data.order_number}, unique_id={item.unique_id}, "
+                        f"shipped_to_pw {current_shipped} -> {record.shipped_to_pw}"
+                    )
+                    items_updated += 1
+
+            self.db.commit()
+            logger.info(f"Successfully updated {items_updated} Scheels purchase tracker records")
+            return (True, None)
+
+        except Exception as e:
+            self.db.rollback()
+            error_msg = f"Error processing Scheels shipping update: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            return (False, error_msg)
+
+    def _process_als_cancellation_update(self, cancellation_data: AlsCancellationData) -> Tuple[bool, Optional[str]]:
+        """
+        Process Al's cancellation update: Deduct quantity from 'final_qty' and update 'cancelled_qty'.
+
+        For each item in the cancellation notification:
+        1. Find matching purchase tracker record by order number and unique_id (or size as fallback)
+        2. Deduct the quantity from 'final_qty'
+        3. Add the quantity to 'cancelled_qty' (cumulative)
+        """
+        try:
+            logger.info(f"Processing Al's cancellation update for order {cancellation_data.order_number}")
+
+            items_updated = 0
+
+            for item in cancellation_data.items:
+                normalized_cancel_size = self._normalize_size(item.size)
+
+                matching_records = self.db.query(PurchaseTracker).join(
+                    OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
+                ).outerjoin(
+                    AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                ).filter(
+                    and_(
+                        PurchaseTracker.order_number == cancellation_data.order_number,
+                        OASourcing.unique_id == item.unique_id
+                    )
+                ).all()
+
+                # If no matches by unique_id, try matching by size
+                if not matching_records:
+                    matching_records = self.db.query(PurchaseTracker).join(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        and_(
+                            PurchaseTracker.order_number == cancellation_data.order_number,
+                            or_(
+                                AsinBank.size == item.size,
+                                AsinBank.size == normalized_cancel_size
+                            )
+                        )
+                    ).all()
+
+                # If still no matches, try to match by normalizing all sizes manually
+                if not matching_records:
+                    all_order_records = self.db.query(PurchaseTracker).join(
+                        AsinBank, PurchaseTracker.asin_bank_id == AsinBank.id
+                    ).filter(
+                        PurchaseTracker.order_number == cancellation_data.order_number
+                    ).all()
+
+                    for record in all_order_records:
+                        db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
+                        if db_size:
+                            normalized_db_size = self._normalize_size(db_size)
+                            if normalized_db_size == normalized_cancel_size:
+                                matching_records.append(record)
+
+                if not matching_records:
+                    logger.warning(
+                        f"No purchase tracker record found for Al's order {cancellation_data.order_number}, "
+                        f"unique_id {item.unique_id}, size {item.size} (normalized: {normalized_cancel_size})"
+                    )
+                    continue
+
+                # Update each matching record
+                for record in matching_records:
+                    # Deduct from final_qty
+                    current_final_qty = record.final_qty or 0
+                    record.final_qty = max(0, current_final_qty - item.quantity)
+
+                    # Add to cancelled_qty (cumulative)
+                    current_cancelled = record.cancelled_qty or 0
+                    record.cancelled_qty = current_cancelled + item.quantity
+
+                    # Recalculate status and location
+                    self._recalculate_status_and_location(record)
+
+                    logger.info(
+                        f"Updated Al's purchase tracker ID {record.id}: "
+                        f"order={cancellation_data.order_number}, "
+                        f"unique_id={item.unique_id}, "
+                        f"size={item.size}, "
+                        f"final_qty {current_final_qty} -> {record.final_qty}, "
+                        f"cancelled_qty {current_cancelled} -> {record.cancelled_qty}"
+                    )
+                    items_updated += 1
+
+            # Commit changes
+            self.db.commit()
+
+            logger.info(f"Successfully updated {items_updated} Al's purchase tracker records for cancellation")
+            return (True, None)
+
+        except Exception as e:
+            self.db.rollback()
+            error_msg = f"Error processing Al's cancellation update: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            return (False, error_msg)
+
     def _process_finishline_shipping_update(self, shipping_data: FinishLineShippingData) -> Tuple[bool, Optional[str]]:
         """
         Process Finish Line shipping/update: shipping items (shipped_to_pw) + optional cancellation items.
-        
+
         For partial update emails, processes both shipping and cancellation in one pass.
+
+        IMPORTANT — Cumulative emails (Finish Line + JD Sports only):
+        These "scoop" emails show the CUMULATIVE order state — every email lists ALL
+        items that have shipped so far, not just newly shipped items.  Therefore
+        shipped_to_pw is set via MAX (not ADD) to avoid double-counting items that
+        appeared in a previous email.  This differs from all other retailers (Foot Locker,
+        Champs, etc.) whose shipping emails only contain items in the current package
+        (incremental).  Keep this MAX logic exclusive to Finish Line and JD Sports.
         """
         try:
             # Process shipping items first
@@ -3095,7 +3607,7 @@ class RetailerOrderUpdateProcessor:
                         )
                     )
                 ).all()
-                
+
                 if not matching_records:
                     all_for_order = self.db.query(PurchaseTracker).join(
                         OASourcing, PurchaseTracker.oa_sourcing_id == OASourcing.id
@@ -3111,10 +3623,11 @@ class RetailerOrderUpdateProcessor:
                         db_size = record.asin_bank_ref.size if record.asin_bank_ref else None
                         if db_size and self._normalize_size(db_size) == normalized_size:
                             matching_records.append(record)
-                
+
                 for record in matching_records:
                     current_shipped = record.shipped_to_pw or 0
-                    record.shipped_to_pw = current_shipped + item.quantity
+                    # Use MAX: FNL scoop emails report cumulative shipped count, not incremental
+                    record.shipped_to_pw = max(current_shipped, item.quantity)
                     if not record.tracking and item.tracking:
                         record.tracking = item.tracking
                     self._recalculate_status_and_location(record)

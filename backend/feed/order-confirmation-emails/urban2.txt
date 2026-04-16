@@ -1,0 +1,1611 @@
+
+
+<!--
+
+TEST TICKET:    https://urbnit.atlassian.net/browse/MKT-1740
+TEST TICKET:    https://urbnit.atlassian.net/browse/OPEM-2323 (Point 2 in the ticket : for removal of AN-US quadrant banner)
+CONFLUENCE:     https://urbnit.atlassian.net/wiki/spaces/UOE/pages/4202954854/Operational+Emails+-+CAN-SPAM+Audit
+
+-->
+
+<!---->
+<!----><!---->
+<!----><!---->
+<!---->
+
+<!-- Sendlog: Shared Content>Global Code Snippets>Global - Sendlog-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="x-apple-disable-message-reformatting">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" mc-deep-link="false" rel="stylesheet">
+
+   <!----><!-- Structural CSS: Shared Content>Triggered Send Content Modules>Global Trigger CSS > Structural_CSS --> 
+
+<!-- structural -->
+<style type="text/css">
+   /* STRUCTURAL styling */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+table { border-collapse: collapse !important; border-spacing: 0 !important; margin: 0 auto; }
+.framework-logo { padding-top: 30px; padding-bottom: 60px; text-align: center; }
+.framework-title { padding-bottom: 20px; text-align: center; }
+.framework-order { padding-bottom: 20px; text-align: center; }
+.header-copy { padding-bottom: 30px; }
+.header-list { padding-left: 40px; padding-right: 40px; }
+.header-list li { padding-bottom: 5px; }
+.h2-wrapper { text-align: left; padding-bottom: 30px; }
+.h3-wrapper { text-align: left; padding-bottom: 10px; }
+p { margin-top: 0; margin-bottom: 16px;  }
+p.last { margin-bottom: 0; }
+td, th { padding: 0; vertical-align: top; }
+.bold { font-weight: bold; }
+.text-centered { text-align: center; }
+.preheader {visibility: hidden; display: none; color: transparent; font-size: 1px; line-height: 1px; height: 0; max-height: 0; width: 0; max-width: 0; }
+.full-width { width: 100%; }
+.full-width-fixed { width: 100%; table-layout: fixed; }
+.main-bg { width: 100%; table-layout: fixed;}
+.main-bg-td { width: 100%; text-align:center; }
+.main { max-width: 640px; width: 100%; }
+.mso-main { width: 640px; }
+.mobile-padding { padding: 0; }
+.two-column { width: 49.9%; margin: 0; word-break:break-word; }
+.two-column-left { padding-right: 15px; }
+.two-column-right { padding-left: 15px; }
+img { display: block; max-width: 100%; margin: auto; border: none; }
+.framework-content-start { padding-top: 30px; }
+.row-hidden-small { display: table-row; }
+.row-hidden-large { display: none; }
+.shipment-info-padding, .payment-method { padding-bottom: 8px; text-align: left; line-height: 21px; }
+.lead-time-message {  }
+.seller-email { padding-top: 10px; }
+.column-header-container { padding: 10px 0px; }
+.item-table-container { padding: 15px 0; }
+.item-price-small { display: none; }
+.item-price-large { width: 12%; }
+.item-image { width: 20%; text-align: left; }
+.item-details { width: 44%; height: 18px; padding-left: 15px; padding-right: 15px; }
+.product-specs { width: 44%; padding-left: 15px; }
+.product-name { padding-bottom: 8px; }
+.item-image img { width: 100%; max-width: 100%; display: block; margin: 0; }
+.item-details td, .product-specs td { text-align: left; }
+.item-detail-row { padding-bottom: 8px; text-align: left; }
+.item-detail-row label { }
+.product-name-small { display: none; height:0; font-size:1px; line-height:0; } 
+.bo-message-small { display: none; }
+.item-status td { padding-top: 1.2em; }
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align:left; padding-bottom: 8px; }
+.summary-td-right { text-align:right; width: 30%; padding-bottom: 8px; }
+.order-total { text-align: right; }
+.tax-id { padding-top:30px; text-align: left; }
+.copy-desktop { display: inline; font-family: inherit; font-size: inherit; color: inherit; }
+.copy-mobile { display: none; }
+.address { text-align: left; line-height: 21px; }
+.address span, .footer-copy span, .simple-list span { border-bottom-style: none !important; }
+a[href^="x-apple-data-detectors:"], a[x-apple-data-detectors=true] { color: inherit !important; text-decoration: none !important; }
+span.contextualExtensionHighlight { border-bottom-style: none; color: inherit; }
+.button-margin { height: 20px; }
+.simple-list, .simple-list span, .simple-list div { text-align: left; line-height: 20px; }
+.mobile-footer {display: none; }
+.desktop-footer {display: inline-block; }
+.store-hours { margin-left: 0; }
+.store-hours td { text-align: left; line-height: 1.5em; }
+.store-hours .day { padding-right: 0.75em; }
+.gift-card-header-copy { padding: 0px 50px 50px; text-align: center; }
+.gift-card-content-left { width: 50%; padding:10px 0px; text-align: center; }
+.gift-card-content-right { width: 50%; padding: 10px 0px 30px 20px; text-align:left; font-weight: normal; }
+.gift-card-barcode { padding-top: 10px; padding-bottom: 29px; }
+.gift-card-barcode-img { margin: 0; }
+.gift-card-terms { font-size: 9px; line-height: 15px; text-align: left; }
+.centered-details, .centered-details table { margin: auto; }
+.centered-details td { text-align: center; padding-bottom: 5px; }
+p.standard-closing__body { text-align: center; margin-top: 20px; }
+.rating .stars, .rating .stars a { font-family: 'Arial', 'Helvetica'; font-size: 18px; letter-spacing: 3px; color: #aaaaaa; text-decoration: none; }
+td.rate-item { padding-top: 12px; padding-bottom: 5px; }
+
+.marketplace-contact-statement { padding-top: 30px;  text-align: center; }
+
+/* Dynamic Yield */
+.dy-title { padding-bottom: .5em; text-align: center; border-bottom: 1px solid #cccccc; }
+.dy-suggestions { text-align: center; vertical-align: top; padding-top: 1em; }
+.dy-image-grid { table-layout: fixed; width: 100%; }
+.dy-image-grid th { width: 25%; vertical-align: top; text-align: right; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: .75em; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: .25em; padding-right: .5em; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: .5em; padding-right: .25em; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: .75em; }
+.dy-suggestions img { width: 100%; max-width: 100%; vertical-align: top; }
+
+@media only screen and (max-width: 640px) {
+ .mobile-padding { padding: 0 20px !important; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+ .gift-card-header-copy { padding: 0px 0px 30px; }
+ .gift-card-content-left { display: block; width: 100%; clear: both; }
+ .gift-card-content-right { display: block; width: 100%; clear: both; margin: auto; padding: 30px 10px 0px; text-align: center !important; }
+ .gift-card-barcode { padding-top: 30px; padding-bottom: 49px; }
+ .gift-card-barcode-img { margin: auto; }
+ .gift-card-terms { width: 90%; margin-left: auto; margin-right: auto; text-align: center; }
+}
+
+@media only screen and (max-width: 479px) {
+ .two-column { width: 100% !important; }
+ .two-column-left { padding-bottom: 2em; }
+ .header-copy { padding-left: 20px !important;  padding-right: 20px !important;  padding-bottom: 30px !important; }
+ .qty { display: table-row !important; height: auto !important; }
+ .small-full { width: 100% !important; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ .indent-large { padding-left: 0 !important; }
+ .item-heading-large { display: none !important; }
+ .item-heading-small { display: table-row !important; font-size: 13px !important; line-height: 18px !important;}
+ .item-image { width: 40% !important; }
+ .item-details, .product-name, .product-specs { width: 60% !important; }
+ .item-detail-row-small { display: table-row; }
+ .row-hidden-small { display: none; }
+ .row-hidden-large { display: table-row; }
+ .item-price-large { display:none !important; width: 0 !important; }
+ .item-price-small { display: table-row !important; }  
+ .bo-message-large { display: none; }
+ .bo-message-small { display: table-row; }
+ .copy-desktop { display: none !important; }
+ .copy-mobile { display: inline !important; }
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: .5em; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: .5em; padding-right: 0; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: .5em; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: .5em; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+}
+  </style>
+
+<!-- Brand CSS: Shared Content>Triggered Send Templates>Urban Outfitters>Template CSS>UO_CSS-->
+
+
+<!--brand-->
+  <style type="text/css">
+   /* BRAND styling */
+body, th, td, div, span, h3, h4, a { font-family: Helvetica, sans-serif; font-size:14px; line-height:19px; color:#707070; }
+a { font-family: inherit; font-size: inherit; color: inherit !important; text-decoration: underline; }
+h1 { margin: 0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:36px; line-height:40px; color:#222222; padding-bottom: 20px; border-bottom: 1px solid #aaaaaa; }
+h2, .h2 { margin:0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:25px; line-height:27.5px; color:#222222; border-bottom:1px solid #aaaaaa; padding-bottom:15px; }
+h2.plain { border-bottom: none; padding-bottom: 5px; }
+h3, h4, .h3, .h4 { margin: 0; font-size:14px; font-weight: normal; color:#222222; }
+.h2-wrapper { padding-bottom: 25px; }
+.h3-wrapper { padding-bottom: 5px; }
+.mobile-padding { padding-bottom: 30px; }
+.shaded { background-color:#f5f5f5; }
+
+.header-logo-img { display:inline; margin:auto; width:183px; }
+.header-logo-img-mrkt { display:inline; margin:auto; width:160px; }
+.header-copy { text-align: center; padding: 0 50px 30px; }
+.gift-card-header-copy { font-size: 20px; line-height: 26px; color: #222222; }
+.footer-copy { text-align: center; padding-right: 50px; padding-bottom: 30px; padding-left: 50px; }
+.footer-bottom-copy { text-align: center; padding: 0 50px 30px; font-size: 11px; font-weight: 400; letter-spacing: .5px; line-height: 17px; color: #b4b4b4; }
+.footer-bottom-copy p, .footer-bottom-copy span, .footer-bottom-copy a { font-size: 11px; line-height: 17px; color: #b4b4b4; }
+
+.shipping-info-container { border: 1px #dddddd solid; border-bottom: none; background-color: #f5f5f5; padding: 30px; text-align: left; }
+.column-header-container { padding: 20px 30px; border: 1px solid #dddddd; border-bottom: none; }
+.item-table-container { padding: 30px; border:1px solid #dddddd; }
+td.item-details { padding-left: 20px; padding-right: 30px; }
+.product-specs { padding-left: 20px; }
+.product-name-large .item-detail-row { color: #222222; padding-bottom: 15px; }
+.item-status .item-detail-row { color: #222222; padding-top: 22px; padding-bottom: 0; }
+.strike { text-decoration: line-through; color: #aaaaaa; }
+.bo-message { color: #ee0000; }
+
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align: left; padding-bottom: 4px; }
+.summary-td-right { text-align: right; width: 30%; padding-bottom: 4px; }
+.order-total-label { color: #222222; font-weight: bold; text-align: left; vertical-align: baseline; padding-top: 8px;}
+.order-total {color: #222222; font-weight: bold; text-align: right; vertical-align: baseline; padding-top: 8px; width: 30%; }
+
+.footer-links-container { background: #f5f5f5; padding: 20px 10px; text-align: center; }
+.footer-links-container table { margin: auto; }
+.app-link-img { display: inline-block; padding-top: 50px; padding-left: 30px; padding-bottom:70px; }
+.app-link-img:first-child {padding-left: 0; }
+.link-cell { padding: 15px; vertical-align: middle; }
+.link-cell-social { padding: 25px 15px; vertical-align: middle; }
+.link-cell-app { padding: 15px 10px; vertical-align: middle; }
+.link-cell, .link-cell a, .link-cell a span, .footer-links-container th a, .footer-links-container th a span { font-family:Helvetica, sans-serif; font-size: 12px; line-height: 13px; font-weight: normal; color: #222222; text-decoration:none !important; }
+.social-icon img { height: auto; }
+.app-links { display: inline-block; padding-left: 10px; padding-right: 10px; }
+a[href^="x-apple-data-detectors:"] { color: inherit !important; text-decoration: none !important; }
+
+/* new footer styles */
+.yahoo-this { }
+.footer-container { background: #f5f5f5; }
+.footer-brand-links { padding-top: 40px; }
+.footer-brand-link, .footer-brand-link-last { padding: 0 25px; vertical-align: middle; }
+.footer-brand-link{ border-right: 1px #dedede solid; }
+.footer-brand-link a, .footer-brand-link-last a { font-family: Helvetica, sans-serif; font-weight: bold; font-size: 11px; color: #222222 !important; text-decoration: none !important; }
+.footer-ext-links { padding-top: 40px; }
+.footer-app-link, .footer-social-link, .footer-social-link-last { vertical-align: middle; }
+.footer-app-link { padding-right: 10px; }
+.footer-social-link { padding-left: 10px; padding-right: 5px; }
+.footer-social-link-last { padding-left: 10px;}
+.footer-fine-print { padding: 40px 50px 30px; text-align: center; }
+.footer-fine-print p, .footer-fine-print a { font-size: 9px; font-weight: 400; letter-spacing: .5px; line-height: 13px; color: #767676; }
+    
+/* 2021 footer styles */
+.yahoo-this {}
+.footer-links-container td { vertical-align: middle; text-align: center; }
+.footer-categories { padding-bottom: 20px; }
+.footer-categories td { padding: 30px 20px; }
+.footer-link, .footer-link-text { font-size: 12px; font-weight: bold; text-decoration: none; color: #000000; display: block; }
+.footer-social-icons th { padding-top: 20px;}
+.footer-social-icons td { padding: 0 10px; }
+
+.button { padding: 0; background-color: #222222; text-align: center; vertical-align: middle; }
+.button a { display: inline-block; padding: 8px 30px; border: 1px solid #222222; text-decoration: none; color: #ffffff !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+.button-secondary { padding: 0; background-color: #ffffff; text-align: center; vertical-align: middle; }
+.button-secondary a { display: inline-block; padding: 12px 22px; border: 1px solid #222222; text-decoration: none; color: #222222 !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+
+.header-fine-print { font-size: 11px; line-height: 17px; margin-bottom: 0; }
+.header-promo-copy { margin-top: 1em; }
+.gift-card-content { padding: 30px 10px 0px; text-align: center !important;  }
+.label-list__label, .label-list__value { color: #222222; }
+.gift-card-terms { font-size: 10px; line-height: 14px; color: #767676; }
+
+.seller-name { padding-bottom: 20px; font-size: 11px; font-weight: bold; color: #222222; }
+.seller-email { padding-top: 15px; }
+.marketplace-item-seller-info { padding-top: 30px; }
+.hr { font-size: 1px; line-height: 15px; height: 15px; border-top: 1px solid #dddddd; }
+.marketplace-message { background-color: #f5f5f5; padding: 30px; }
+    
+.large-text { font-size: 22px; line-height: 28px; text-align: center; padding: 20px 0; }
+.OTP { border: 1px solid #cccccc; padding: 15px 70px; text-align: center; font-size: 25px; font-family: 'Francois One', Helvetica, sans-serif;}
+
+/* Dynamic Yield */
+.dy-container .dy-title { padding-bottom: 0; text-align: center; border-bottom: none; }
+.dy-suggestions { padding-top: 20px; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: 7.5px; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: 2.5px; padding-right: 5px; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: 5px; padding-right: 2.5px; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: 7.5px; }
+
+@media all and (max-width: 479px) {
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+  </style>
+
+  <style type="text/css">
+   /* MOBILE styles */
+   @media screen and (max-width: 640px) {
+ .footer-bottom-links { display: block;  padding: 15px 0 10px; text-align: center; }
+ .app-links { padding-left: 7.5px; padding-right: 7.5px; }
+}
+
+@media only screen and (max-width: 479px) {
+ body, th, td, div, span, h3, h4, a { font-size:13px; line-height:17px; }
+ .header-logo-img { width: 150px !important; }
+ .header-copy { padding: 0 10px 30px !important; }
+ .footer-copy { padding-right: 10px; padding-bottom: 30px; padding-left: 10px; }
+ .footer-bottom-copy { padding-right: 10px; padding-left: 10px; }
+ h1 { font-size: 25px !important; line-height: 27.5px !important; }
+ h2 { font-size: 20px !important; line-height: 22px !important; }
+ h3, h4 { font-size: 13px !important; line-height: 17px !important; }
+ .h4{font-size: 13px !important; line-height: 17px !important;}
+ .tracking-img-block { display: block; vertical-align: middle; }
+ .tracking-img-block-left { padding-right: 0 !important; }
+ .shipping-info-container { padding: 20px; }
+ .item-table-container { padding: 20px; }
+ td.item-details, .product-specs { padding-left: 15px; padding-right: 0; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ /*.footer-links-container { padding: 25px 0 30px; }*/
+ .link-cell-social { padding: 25px 12.5px; }
+ .link-cell-app { padding: 15px 7.5px; }
+ .social-icon img { width: 33px !important; }
+ .uotv, .blog { display: none !important; }
+ .button a, .button-secondary a { padding: 15px 25px; }
+ .loyalty-content td { padding-left: 10px; padding-right: 10px; }
+ .spirograph { padding-left: 30px; padding-right: 30px; }
+  
+  .footer-categories td { padding-left: 0; padding-right: 0; }
+  .footer-social-icons th { display: block; }
+  .footer-social-icons td { padding: 0 20px; }
+  .footer-social-icons td:first-child { padding-left: 0; }
+  .footer-social-icons td:last-child { padding-right: 0; }
+
+ .footer-brand-link, .footer-brand-link-last { padding-left: 15px; padding-right: 15px; }
+ .footer-fine-print { padding-left: 10px; padding-right: 10px; }
+
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+
+@media only screen and (max-width: 320px) {
+ .footer-brand-link, .footer-brand-link-last { padding-left: 10px; padding-right: 10px; }
+}
+  </style>
+
+  <!--[if mso]>
+ <style type="text/css">
+  h1, h2, h3, h4, .h2, span, div, a { font-family: Helvetica, sans-serif !important; }
+  .two-column { width: 49% !important; }
+  .item-price-small { mso-hide: all !important; }
+  .simple-list, .store-hours td { white-space: nowrap; }
+  .header-copy, .header-copy p { white-space: normal; }
+  td.button, td.button-secondary {white-space: nowrap; }
+ </style>
+<![endif]--><!----><!----><!-- Structural CSS: Shared Content>Triggered Send Content Modules>Global Trigger CSS > Structural_CSS --> 
+
+<!-- structural -->
+<style type="text/css">
+   /* STRUCTURAL styling */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+table { border-collapse: collapse !important; border-spacing: 0 !important; margin: 0 auto; }
+.framework-logo { padding-top: 30px; padding-bottom: 60px; text-align: center; }
+.framework-title { padding-bottom: 20px; text-align: center; }
+.framework-order { padding-bottom: 20px; text-align: center; }
+.header-copy { padding-bottom: 30px; }
+.header-list { padding-left: 40px; padding-right: 40px; }
+.header-list li { padding-bottom: 5px; }
+.h2-wrapper { text-align: left; padding-bottom: 30px; }
+.h3-wrapper { text-align: left; padding-bottom: 10px; }
+p { margin-top: 0; margin-bottom: 16px;  }
+p.last { margin-bottom: 0; }
+td, th { padding: 0; vertical-align: top; }
+.bold { font-weight: bold; }
+.text-centered { text-align: center; }
+.preheader {visibility: hidden; display: none; color: transparent; font-size: 1px; line-height: 1px; height: 0; max-height: 0; width: 0; max-width: 0; }
+.full-width { width: 100%; }
+.full-width-fixed { width: 100%; table-layout: fixed; }
+.main-bg { width: 100%; table-layout: fixed;}
+.main-bg-td { width: 100%; text-align:center; }
+.main { max-width: 640px; width: 100%; }
+.mso-main { width: 640px; }
+.mobile-padding { padding: 0; }
+.two-column { width: 49.9%; margin: 0; word-break:break-word; }
+.two-column-left { padding-right: 15px; }
+.two-column-right { padding-left: 15px; }
+img { display: block; max-width: 100%; margin: auto; border: none; }
+.framework-content-start { padding-top: 30px; }
+.row-hidden-small { display: table-row; }
+.row-hidden-large { display: none; }
+.shipment-info-padding, .payment-method { padding-bottom: 8px; text-align: left; line-height: 21px; }
+.lead-time-message {  }
+.seller-email { padding-top: 10px; }
+.column-header-container { padding: 10px 0px; }
+.item-table-container { padding: 15px 0; }
+.item-price-small { display: none; }
+.item-price-large { width: 12%; }
+.item-image { width: 20%; text-align: left; }
+.item-details { width: 44%; height: 18px; padding-left: 15px; padding-right: 15px; }
+.product-specs { width: 44%; padding-left: 15px; }
+.product-name { padding-bottom: 8px; }
+.item-image img { width: 100%; max-width: 100%; display: block; margin: 0; }
+.item-details td, .product-specs td { text-align: left; }
+.item-detail-row { padding-bottom: 8px; text-align: left; }
+.item-detail-row label { }
+.product-name-small { display: none; height:0; font-size:1px; line-height:0; } 
+.bo-message-small { display: none; }
+.item-status td { padding-top: 1.2em; }
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align:left; padding-bottom: 8px; }
+.summary-td-right { text-align:right; width: 30%; padding-bottom: 8px; }
+.order-total { text-align: right; }
+.tax-id { padding-top:30px; text-align: left; }
+.copy-desktop { display: inline; font-family: inherit; font-size: inherit; color: inherit; }
+.copy-mobile { display: none; }
+.address { text-align: left; line-height: 21px; }
+.address span, .footer-copy span, .simple-list span { border-bottom-style: none !important; }
+a[href^="x-apple-data-detectors:"], a[x-apple-data-detectors=true] { color: inherit !important; text-decoration: none !important; }
+span.contextualExtensionHighlight { border-bottom-style: none; color: inherit; }
+.button-margin { height: 20px; }
+.simple-list, .simple-list span, .simple-list div { text-align: left; line-height: 20px; }
+.mobile-footer {display: none; }
+.desktop-footer {display: inline-block; }
+.store-hours { margin-left: 0; }
+.store-hours td { text-align: left; line-height: 1.5em; }
+.store-hours .day { padding-right: 0.75em; }
+.gift-card-header-copy { padding: 0px 50px 50px; text-align: center; }
+.gift-card-content-left { width: 50%; padding:10px 0px; text-align: center; }
+.gift-card-content-right { width: 50%; padding: 10px 0px 30px 20px; text-align:left; font-weight: normal; }
+.gift-card-barcode { padding-top: 10px; padding-bottom: 29px; }
+.gift-card-barcode-img { margin: 0; }
+.gift-card-terms { font-size: 9px; line-height: 15px; text-align: left; }
+.centered-details, .centered-details table { margin: auto; }
+.centered-details td { text-align: center; padding-bottom: 5px; }
+p.standard-closing__body { text-align: center; margin-top: 20px; }
+.rating .stars, .rating .stars a { font-family: 'Arial', 'Helvetica'; font-size: 18px; letter-spacing: 3px; color: #aaaaaa; text-decoration: none; }
+td.rate-item { padding-top: 12px; padding-bottom: 5px; }
+
+.marketplace-contact-statement { padding-top: 30px;  text-align: center; }
+
+/* Dynamic Yield */
+.dy-title { padding-bottom: .5em; text-align: center; border-bottom: 1px solid #cccccc; }
+.dy-suggestions { text-align: center; vertical-align: top; padding-top: 1em; }
+.dy-image-grid { table-layout: fixed; width: 100%; }
+.dy-image-grid th { width: 25%; vertical-align: top; text-align: right; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: .75em; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: .25em; padding-right: .5em; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: .5em; padding-right: .25em; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: .75em; }
+.dy-suggestions img { width: 100%; max-width: 100%; vertical-align: top; }
+
+@media only screen and (max-width: 640px) {
+ .mobile-padding { padding: 0 20px !important; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+ .gift-card-header-copy { padding: 0px 0px 30px; }
+ .gift-card-content-left { display: block; width: 100%; clear: both; }
+ .gift-card-content-right { display: block; width: 100%; clear: both; margin: auto; padding: 30px 10px 0px; text-align: center !important; }
+ .gift-card-barcode { padding-top: 30px; padding-bottom: 49px; }
+ .gift-card-barcode-img { margin: auto; }
+ .gift-card-terms { width: 90%; margin-left: auto; margin-right: auto; text-align: center; }
+}
+
+@media only screen and (max-width: 479px) {
+ .two-column { width: 100% !important; }
+ .two-column-left { padding-bottom: 2em; }
+ .header-copy { padding-left: 20px !important;  padding-right: 20px !important;  padding-bottom: 30px !important; }
+ .qty { display: table-row !important; height: auto !important; }
+ .small-full { width: 100% !important; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ .indent-large { padding-left: 0 !important; }
+ .item-heading-large { display: none !important; }
+ .item-heading-small { display: table-row !important; font-size: 13px !important; line-height: 18px !important;}
+ .item-image { width: 40% !important; }
+ .item-details, .product-name, .product-specs { width: 60% !important; }
+ .item-detail-row-small { display: table-row; }
+ .row-hidden-small { display: none; }
+ .row-hidden-large { display: table-row; }
+ .item-price-large { display:none !important; width: 0 !important; }
+ .item-price-small { display: table-row !important; }  
+ .bo-message-large { display: none; }
+ .bo-message-small { display: table-row; }
+ .copy-desktop { display: none !important; }
+ .copy-mobile { display: inline !important; }
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: .5em; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: .5em; padding-right: 0; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: .5em; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: .5em; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+}
+  </style>
+
+<!-- Brand CSS: Shared Content>Triggered Send Templates>Urban Outfitters>Template CSS>UO_CSS-->
+
+
+<!--brand-->
+  <style type="text/css">
+   /* BRAND styling */
+body, th, td, div, span, h3, h4, a { font-family: Helvetica, sans-serif; font-size:14px; line-height:19px; color:#707070; }
+a { font-family: inherit; font-size: inherit; color: inherit !important; text-decoration: underline; }
+h1 { margin: 0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:36px; line-height:40px; color:#222222; padding-bottom: 20px; border-bottom: 1px solid #aaaaaa; }
+h2, .h2 { margin:0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:25px; line-height:27.5px; color:#222222; border-bottom:1px solid #aaaaaa; padding-bottom:15px; }
+h2.plain { border-bottom: none; padding-bottom: 5px; }
+h3, h4, .h3, .h4 { margin: 0; font-size:14px; font-weight: normal; color:#222222; }
+.h2-wrapper { padding-bottom: 25px; }
+.h3-wrapper { padding-bottom: 5px; }
+.mobile-padding { padding-bottom: 30px; }
+.shaded { background-color:#f5f5f5; }
+
+.header-logo-img { display:inline; margin:auto; width:183px; }
+.header-logo-img-mrkt { display:inline; margin:auto; width:160px; }
+.header-copy { text-align: center; padding: 0 50px 30px; }
+.gift-card-header-copy { font-size: 20px; line-height: 26px; color: #222222; }
+.footer-copy { text-align: center; padding-right: 50px; padding-bottom: 30px; padding-left: 50px; }
+.footer-bottom-copy { text-align: center; padding: 0 50px 30px; font-size: 11px; font-weight: 400; letter-spacing: .5px; line-height: 17px; color: #b4b4b4; }
+.footer-bottom-copy p, .footer-bottom-copy span, .footer-bottom-copy a { font-size: 11px; line-height: 17px; color: #b4b4b4; }
+
+.shipping-info-container { border: 1px #dddddd solid; border-bottom: none; background-color: #f5f5f5; padding: 30px; text-align: left; }
+.column-header-container { padding: 20px 30px; border: 1px solid #dddddd; border-bottom: none; }
+.item-table-container { padding: 30px; border:1px solid #dddddd; }
+td.item-details { padding-left: 20px; padding-right: 30px; }
+.product-specs { padding-left: 20px; }
+.product-name-large .item-detail-row { color: #222222; padding-bottom: 15px; }
+.item-status .item-detail-row { color: #222222; padding-top: 22px; padding-bottom: 0; }
+.strike { text-decoration: line-through; color: #aaaaaa; }
+.bo-message { color: #ee0000; }
+
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align: left; padding-bottom: 4px; }
+.summary-td-right { text-align: right; width: 30%; padding-bottom: 4px; }
+.order-total-label { color: #222222; font-weight: bold; text-align: left; vertical-align: baseline; padding-top: 8px;}
+.order-total {color: #222222; font-weight: bold; text-align: right; vertical-align: baseline; padding-top: 8px; width: 30%; }
+
+.footer-links-container { background: #f5f5f5; padding: 20px 10px; text-align: center; }
+.footer-links-container table { margin: auto; }
+.app-link-img { display: inline-block; padding-top: 50px; padding-left: 30px; padding-bottom:70px; }
+.app-link-img:first-child {padding-left: 0; }
+.link-cell { padding: 15px; vertical-align: middle; }
+.link-cell-social { padding: 25px 15px; vertical-align: middle; }
+.link-cell-app { padding: 15px 10px; vertical-align: middle; }
+.link-cell, .link-cell a, .link-cell a span, .footer-links-container th a, .footer-links-container th a span { font-family:Helvetica, sans-serif; font-size: 12px; line-height: 13px; font-weight: normal; color: #222222; text-decoration:none !important; }
+.social-icon img { height: auto; }
+.app-links { display: inline-block; padding-left: 10px; padding-right: 10px; }
+a[href^="x-apple-data-detectors:"] { color: inherit !important; text-decoration: none !important; }
+
+/* new footer styles */
+.yahoo-this { }
+.footer-container { background: #f5f5f5; }
+.footer-brand-links { padding-top: 40px; }
+.footer-brand-link, .footer-brand-link-last { padding: 0 25px; vertical-align: middle; }
+.footer-brand-link{ border-right: 1px #dedede solid; }
+.footer-brand-link a, .footer-brand-link-last a { font-family: Helvetica, sans-serif; font-weight: bold; font-size: 11px; color: #222222 !important; text-decoration: none !important; }
+.footer-ext-links { padding-top: 40px; }
+.footer-app-link, .footer-social-link, .footer-social-link-last { vertical-align: middle; }
+.footer-app-link { padding-right: 10px; }
+.footer-social-link { padding-left: 10px; padding-right: 5px; }
+.footer-social-link-last { padding-left: 10px;}
+.footer-fine-print { padding: 40px 50px 30px; text-align: center; }
+.footer-fine-print p, .footer-fine-print a { font-size: 9px; font-weight: 400; letter-spacing: .5px; line-height: 13px; color: #767676; }
+    
+/* 2021 footer styles */
+.yahoo-this {}
+.footer-links-container td { vertical-align: middle; text-align: center; }
+.footer-categories { padding-bottom: 20px; }
+.footer-categories td { padding: 30px 20px; }
+.footer-link, .footer-link-text { font-size: 12px; font-weight: bold; text-decoration: none; color: #000000; display: block; }
+.footer-social-icons th { padding-top: 20px;}
+.footer-social-icons td { padding: 0 10px; }
+
+.button { padding: 0; background-color: #222222; text-align: center; vertical-align: middle; }
+.button a { display: inline-block; padding: 8px 30px; border: 1px solid #222222; text-decoration: none; color: #ffffff !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+.button-secondary { padding: 0; background-color: #ffffff; text-align: center; vertical-align: middle; }
+.button-secondary a { display: inline-block; padding: 12px 22px; border: 1px solid #222222; text-decoration: none; color: #222222 !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+
+.header-fine-print { font-size: 11px; line-height: 17px; margin-bottom: 0; }
+.header-promo-copy { margin-top: 1em; }
+.gift-card-content { padding: 30px 10px 0px; text-align: center !important;  }
+.label-list__label, .label-list__value { color: #222222; }
+.gift-card-terms { font-size: 10px; line-height: 14px; color: #767676; }
+
+.seller-name { padding-bottom: 20px; font-size: 11px; font-weight: bold; color: #222222; }
+.seller-email { padding-top: 15px; }
+.marketplace-item-seller-info { padding-top: 30px; }
+.hr { font-size: 1px; line-height: 15px; height: 15px; border-top: 1px solid #dddddd; }
+.marketplace-message { background-color: #f5f5f5; padding: 30px; }
+    
+.large-text { font-size: 22px; line-height: 28px; text-align: center; padding: 20px 0; }
+.OTP { border: 1px solid #cccccc; padding: 15px 70px; text-align: center; font-size: 25px; font-family: 'Francois One', Helvetica, sans-serif;}
+
+/* Dynamic Yield */
+.dy-container .dy-title { padding-bottom: 0; text-align: center; border-bottom: none; }
+.dy-suggestions { padding-top: 20px; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: 7.5px; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: 2.5px; padding-right: 5px; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: 5px; padding-right: 2.5px; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: 7.5px; }
+
+@media all and (max-width: 479px) {
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+  </style>
+
+  <style type="text/css">
+   /* MOBILE styles */
+   @media screen and (max-width: 640px) {
+ .footer-bottom-links { display: block;  padding: 15px 0 10px; text-align: center; }
+ .app-links { padding-left: 7.5px; padding-right: 7.5px; }
+}
+
+@media only screen and (max-width: 479px) {
+ body, th, td, div, span, h3, h4, a { font-size:13px; line-height:17px; }
+ .header-logo-img { width: 150px !important; }
+ .header-copy { padding: 0 10px 30px !important; }
+ .footer-copy { padding-right: 10px; padding-bottom: 30px; padding-left: 10px; }
+ .footer-bottom-copy { padding-right: 10px; padding-left: 10px; }
+ h1 { font-size: 25px !important; line-height: 27.5px !important; }
+ h2 { font-size: 20px !important; line-height: 22px !important; }
+ h3, h4 { font-size: 13px !important; line-height: 17px !important; }
+ .h4{font-size: 13px !important; line-height: 17px !important;}
+ .tracking-img-block { display: block; vertical-align: middle; }
+ .tracking-img-block-left { padding-right: 0 !important; }
+ .shipping-info-container { padding: 20px; }
+ .item-table-container { padding: 20px; }
+ td.item-details, .product-specs { padding-left: 15px; padding-right: 0; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ /*.footer-links-container { padding: 25px 0 30px; }*/
+ .link-cell-social { padding: 25px 12.5px; }
+ .link-cell-app { padding: 15px 7.5px; }
+ .social-icon img { width: 33px !important; }
+ .uotv, .blog { display: none !important; }
+ .button a, .button-secondary a { padding: 15px 25px; }
+ .loyalty-content td { padding-left: 10px; padding-right: 10px; }
+ .spirograph { padding-left: 30px; padding-right: 30px; }
+  
+  .footer-categories td { padding-left: 0; padding-right: 0; }
+  .footer-social-icons th { display: block; }
+  .footer-social-icons td { padding: 0 20px; }
+  .footer-social-icons td:first-child { padding-left: 0; }
+  .footer-social-icons td:last-child { padding-right: 0; }
+
+ .footer-brand-link, .footer-brand-link-last { padding-left: 15px; padding-right: 15px; }
+ .footer-fine-print { padding-left: 10px; padding-right: 10px; }
+
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+
+@media only screen and (max-width: 320px) {
+ .footer-brand-link, .footer-brand-link-last { padding-left: 10px; padding-right: 10px; }
+}
+  </style>
+
+  <!--[if mso]>
+ <style type="text/css">
+  h1, h2, h3, h4, .h2, span, div, a { font-family: Helvetica, sans-serif !important; }
+  .two-column { width: 49% !important; }
+  .item-price-small { mso-hide: all !important; }
+  .simple-list, .store-hours td { white-space: nowrap; }
+  .header-copy, .header-copy p { white-space: normal; }
+  td.button, td.button-secondary {white-space: nowrap; }
+ </style>
+<![endif]-->
+<!----> 
+   
+     
+  
+ 
+
+ </head>
+
+ <body>
+  <img src="https://click.s.urbanoutfitters.com/open.aspx?YFR6RQZVQMUERE4YZUD27CHNCY.110056&d=110056&bmt=0" width="1" height="1" alt="">
+  <!--[if (gte mso 9)|(IE)]>   <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">   <tr>   <td align="center" valign="top" width="640">   <![endif]-->
+  <table align="center" class="main full-width">
+   <tr>
+    <td class="mobile-padding">
+ 
+  
+     <table align="center" class="full-width">
+      <!-- Begin Header Section-->
+   <tr>  
+    <td><!----><!-- Header Logo Content Module -->
+    <table align="center" class="full-width">
+                   <tr>
+                  <td class="framework-logo">
+                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjhx7XmxKuUM3fuiWZRT9ZGHCjF21TRHPe2SazHXg5hkGP1NAKAhPgTfbXEz0xzdsyc825jbhkUmPgmVzRXK4Yzgs6QNQNz02napnQUTlEWI7Q"  >
+                <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/eaa4773c-042d-4d98-8117-0cd65380df73.gif" class="header-logo-img" width="183" alt="Urban Outfitters"  />
+      </a>
+                  </td>
+                  </tr>
+     </table>
+    
+    <!-- / Header Logo Content Module --><!----></td>
+  </tr>
+  <!--End Header Section--> 
+  <!-- Begin Content Section -->
+   <tr>
+   
+    <td><!---->
+
+<table class="full-width">
+
+    
+    
+    <!-- BEGIN Content Title Section. This value is coming from the xml node 'label_email_title' -->
+    <tr>
+        <td class="framework-title">
+            <h1>Order Confirmation</h1>
+        </td>
+    </tr>
+    <!-- END Content Title Section -->
+    <!-- BEGIN Order Number Section -->
+    <tr>
+        <td class="framework-order">
+            <h4>
+                Order Number: <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjhyBgtLTR0Okfwv3ldfakHLCJh6XhjHGDr-dDNX6Z_Wygagx1wACT9ZZDS0Dj54Rn1nveg5cRUMUhafhT9Bd8NoX8lo8L3QumthLgk1Uai8pg"  >TN20906790</a>
+            </h4>
+        </td>
+    </tr>
+    
+    <!-- END Order Number Section -->
+
+    <!-- BEGIN FINAL SALE MESSAGE -->
+    
+    <!-- END FINAL SALE MESSAGE -->
+
+    <!-- BEGIN Header Copy Section -->
+    <tr>
+        <td class="header-copy">
+            <p>Hi&nbsp;Griffin,</p>
+            <p>Thank you for shopping at <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjhzwc8PxdiM-xo9_yL46N11SN6dt-MyqZ1SIZCmrFVjkltWegKBfy0Hr3_9YSmNk-k4WUwqZeAJSfJk4lkk9tJKz2dZ7NYgaVT8nQIn"  >UrbanOutfitters.com</a>.
+            &#160;We'll be in touch as soon as your items become available to ship.
+            
+            
+            </p>
+            <p class="last">Please note: delivery timeframe reflects the most up-to-date information, however some orders may experience delays due to increased package volume in carrier networks. Any backordered items will have the estimated availability date listed under the product information.</p>
+            
+            
+            
+        </td>
+    </tr>
+    <!-- END Header Copy Section -->
+
+    <tr>
+        <td style="padding-top:30px;">
+
+        <!-- BEGIN OC Carton Items Section -->
+
+            <table class="full-width">
+                <tr>
+                    <td class="h2-wrapper">
+                        <h2>Shipping Information</h2>
+                    </td>
+                </tr>
+            </table>
+            
+
+
+
+            <table class="full-width">
+                <tr>
+                    <td style="padding-bottom:50px;">
+                        <table class="full-width">
+                            <tr>
+                                <td class="h3-wrapper">
+                                    <h3>
+                                        Shipping Address
+                                    </h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="address">
+
+                                    
+                                    Griffin&#160;
+                                    Myers<br />
+                                    
+                                    
+                                    595 Lloyd Lane<br />
+                                    
+                                    
+                                    Independence,&#160;OR&#160;
+                                    97351
+                                    
+                                    
+
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            
+
+
+
+            <table class="full-width">
+                <tr>
+                    <td class="shipping-info-container" style="border-bottom: none">
+                        <table class="full-width">
+                            
+                            <tr>
+                                <td>
+                                    <h3>
+                                        Standard Shipping
+                                    </h3>
+                                </td>
+                            </tr>
+
+                            
+
+                            <tr>
+                                <td>
+                                    <h4>
+                                        Arrives by:&#8194;
+                                        04/23/2026
+                                    </h4>
+                                </td>
+                            </tr>
+
+                            
+
+                            
+
+                            <tr>
+                                <td>
+                                    Please keep in mind that items are shipped as they become available and that you may receive multiple packages.
+                                </td>
+                            </tr>
+                            
+
+                            
+
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+
+            
+
+            
+
+            
+            <!--Item Information Start-->
+            <table class="full-width">
+                <tr class="item-heading-large">
+                    <td class="column-header-container">
+                        <table class="full-width-fixed">
+                            <tr class="h3">
+                                <td class="item-image">&#160;</td>
+                                <td class="item-details">
+                                    Item
+                                </td>
+                                <td style="text-align:left;" class="item-price-large">
+                                    Price
+                                </td>
+                                <td style="text-align:center;" class="item-price-large">
+                                    Qty
+                                </td>
+                                <td style="text-align:right;" class="item-price-large">
+                                    Total
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td class="item-table-container">
+                        <table class="full-width-fixed">
+                            <tr>
+                                <td class="item-image" rowspan="2">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh0Vdt1z3pbKE3MCBJePCcidyrJy_lQcCzBYJ3oJN34GnKHVHF_B_QxhmiMkktwoeSHUd5eF2atzd6tZypm6jZsN7T3OWnGkY1wf5Z2z7lmtA"  >
+                                        <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/89004956_041_b" alt="Gola Women's Tornado Sneaker" />
+                                    </a>
+                                </td>
+                                <td class="item-details">
+                                    <table class="full-width">
+                                        <tr class="product-name-large">
+                                            <td class="item-detail-row product-name">
+                                                <h4>Gola Women's Tornado Sneaker</h4>
+                                            </td>
+                                        </tr>
+
+
+
+                                        <tr>
+                                            <td class="item-detail-row product-style">
+                                                Style No.&#160;<span>89004956</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="item-detail-row product-color">
+                                                Color:&#160;<span>Navy/Chalk Pink</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        <tr>
+                                            <td class="item-detail-row product-size">
+                                                Size:&#160;<span>W 7.5</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        
+                                        
+
+                                        
+
+                                    </table>
+                                </td>
+                                <td class="item-price-large" style="text-align:left;">
+                                    $
+                                    41.97<br />
+                                    
+                                </td>
+                                <td class="item-price-large" style="text-align:center;">
+                                    2
+                                </td>
+                                <td class="item-price-large" style="text-align: right;">
+                                    $
+                                    83.94<br />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="product-specs" colspan="4">
+                                    <table class="full-width">
+                                        <!--[if (!mso)]><!-->
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-price"><label>Price:&#160;</label>
+                                                $
+                                                41.97&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-qty"><label>Qty:&#160;</label>
+                                                2
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-total"><label>Total:&#160;</label>
+                                                $
+                                                83.94&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <!--<![endif]-->
+                                        
+                                        
+
+                                        
+
+                                        
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td class="item-table-container">
+                        <table class="full-width-fixed">
+                            <tr>
+                                <td class="item-image" rowspan="2">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh11GBJqj5a1ZUDGqpmw5R5FRBSM_u5G5lWC7fG1XPxYgLOHutSkW8ShbgKsMUVELqE8C11IiQ9H3smgSUKCO1TIGTgzhSyI9wk2FuktqxrJw"  >
+                                        <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/89004956_041_b" alt="Gola Women's Tornado Sneaker" />
+                                    </a>
+                                </td>
+                                <td class="item-details">
+                                    <table class="full-width">
+                                        <tr class="product-name-large">
+                                            <td class="item-detail-row product-name">
+                                                <h4>Gola Women's Tornado Sneaker</h4>
+                                            </td>
+                                        </tr>
+
+
+
+                                        <tr>
+                                            <td class="item-detail-row product-style">
+                                                Style No.&#160;<span>89004956</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="item-detail-row product-color">
+                                                Color:&#160;<span>Navy/Chalk Pink</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        <tr>
+                                            <td class="item-detail-row product-size">
+                                                Size:&#160;<span>W 8.5</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        
+                                        
+
+                                        
+
+                                    </table>
+                                </td>
+                                <td class="item-price-large" style="text-align:left;">
+                                    $
+                                    41.97<br />
+                                    
+                                </td>
+                                <td class="item-price-large" style="text-align:center;">
+                                    2
+                                </td>
+                                <td class="item-price-large" style="text-align: right;">
+                                    $
+                                    83.94<br />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="product-specs" colspan="4">
+                                    <table class="full-width">
+                                        <!--[if (!mso)]><!-->
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-price"><label>Price:&#160;</label>
+                                                $
+                                                41.97&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-qty"><label>Qty:&#160;</label>
+                                                2
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-total"><label>Total:&#160;</label>
+                                                $
+                                                83.94&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <!--<![endif]-->
+                                        
+                                        
+
+                                        
+
+                                        
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td class="item-table-container">
+                        <table class="full-width-fixed">
+                            <tr>
+                                <td class="item-image" rowspan="2">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh2nLAwBH-sx7GXwJPf9__IOryneyIg9wAoNCICuh929e_1uboTPqzcJlgPqaVRePK046T0kCerQR7tTtr3RoVpLNS6EUhKIb_nFBfrokJ4hw"  >
+                                        <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/89004956_041_b" alt="Gola Women's Tornado Sneaker" />
+                                    </a>
+                                </td>
+                                <td class="item-details">
+                                    <table class="full-width">
+                                        <tr class="product-name-large">
+                                            <td class="item-detail-row product-name">
+                                                <h4>Gola Women's Tornado Sneaker</h4>
+                                            </td>
+                                        </tr>
+
+
+
+                                        <tr>
+                                            <td class="item-detail-row product-style">
+                                                Style No.&#160;<span>89004956</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="item-detail-row product-color">
+                                                Color:&#160;<span>Navy/Chalk Pink</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        <tr>
+                                            <td class="item-detail-row product-size">
+                                                Size:&#160;<span>W 8</span>
+                                            </td>
+                                        </tr>
+                                        
+
+                                        
+                                        
+
+                                        
+
+                                    </table>
+                                </td>
+                                <td class="item-price-large" style="text-align:left;">
+                                    $
+                                    41.97<br />
+                                    
+                                </td>
+                                <td class="item-price-large" style="text-align:center;">
+                                    2
+                                </td>
+                                <td class="item-price-large" style="text-align: right;">
+                                    $
+                                    83.94<br />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="product-specs" colspan="4">
+                                    <table class="full-width">
+                                        <!--[if (!mso)]><!-->
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-price"><label>Price:&#160;</label>
+                                                $
+                                                41.97&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-qty"><label>Qty:&#160;</label>
+                                                2
+                                            </td>
+                                        </tr>
+                                        <tr class="item-price-small">
+                                            <td class="item-detail-row product-total"><label>Total:&#160;</label>
+                                                $
+                                                83.94&#8201;
+                                                
+                                            </td>
+                                        </tr>
+                                        <!--<![endif]-->
+                                        
+                                        
+
+                                        
+
+                                        
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+            </table>
+            <table>
+                <tr>
+                    <td style="height:50px;" height="50">&#160;</td>
+                </tr>
+            </table>
+
+
+
+            <!-- END OC Carton Items Section -->
+            <!-- BEGIN Order Billing Section -->
+
+
+            <!-- This block is reused across most ORDER-based emails for displaying billing address and payment info. Once converted to Ampscript it will likewise be reusable. -->
+
+            <table class="full-width">
+                <tr>
+                    <th class="h2-wrapper">
+                        <h2>Billing Information</h2>
+                    </th>
+                </tr>
+            </table>
+            <table class="full-width">
+                <tr>
+                    <td>
+                        <table class="two-column" align="left">
+                            <tr>
+                                <td class="two-column-left">
+                                    <table class="full-width">
+                                        <tr>
+                                            <th class="h3-wrapper">
+                                                <h3>Billing Address</h3>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="address">
+                                                
+                                                Griffin&#160;Myers<br />
+                                                595 Lloyd Lane<br />
+                                                
+                                                
+                                                Independence,&#160;OR&#160;&#160;97351
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table class="two-column" align="right">
+                            <tr>
+                                <td class="two-column-right">
+                                    <table class="full-width">
+                                        <tr>
+                                            <th class="h3-wrapper">
+
+                                                <h3>Payment Method</h3>
+                                                
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="payment-method">
+
+                                                <!-- BEGIN <order_payments.ordpmts_to_ord> LOOP -->
+
+                                                
+
+                                                American Express&#8201;
+                                                Ending in:&#160;
+                                                1018
+                                                
+
+                                                <br />
+
+
+                                                
+
+                                                <!-- END <order_payments.ordpmts_to_ord> LOOP -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 50px; padding-bottom:30px;">
+
+            
+
+            <!-- BEGIN Order Total Section -->
+
+            <table align="right" class="two-column">
+                <tr>
+                    <td align="left" class="two-column-right">
+                        <table class="order-summary-table">
+                            <tr>
+                                <th align="left" colspan="2" style="padding-bottom:15px;">
+                                    <h2>Order Summary</h2>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td class="summary-td-left">Subtotal:</td>
+                                <td class="summary-td-right" style="padding-right:2px">$251.82</td>
+                            </tr>
+                            <tr>
+                                <td class="summary-td-left">Shipping:</td>
+                                <td class="summary-td-right" style="padding-right:2px">$0.00</td>
+                            </tr>
+                            
+                            
+                            
+                            
+                            
+                            <tr>
+                                <td class="summary-td-left">Tax:</td>
+                                <td class="summary-td-right" style="padding-right:2px">$0.00</td>
+                            </tr>
+                            
+                            
+                            
+                            
+                            
+                            <tr>
+                                <td class="order-total-label">Total:</td>
+                                <td class="order-total" style="padding-right:2px">$251.82</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            
+        </td>
+    </tr>
+    <!-- END Order Total Section -->
+
+
+    
+
+    <!-- BEGIN Marketplace Seller Info Section -->
+    
+    <!-- END Marketplace Seller Info Section -->
+
+    <!-- BEGIN Payment Message Info Section -->
+    <tr>
+        <td>
+            <table class="full-width">
+                <tr>
+                    <td style="padding-bottom: 30px; text-align:center;">If your method of payment is a gift card or e-gift card, the charge will be processed immediately.</td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+    <!-- END Payment Message Info Section -->
+
+    <!-- BEGIN Cancel Statement Section -->
+    <tr>
+        <td>
+            <!-- This block outputs a translated statement about the self-service cancel feature and a link to begin a cancellation on the website. -->
+
+            <table class="full-width">
+                <tr>
+                    <td class="h2-wrapper" style="padding-top: 20px;">
+                        <h2>Changed your mind?</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 20px; text-align: center;">
+                        <p>You have a short window of time to cancel your order. If you are unable to cancel, you can return or exchange your items once your order arrives. </p>
+                        <p>
+                            <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh3jcnPALViT50BRc0GIUVm_AfFiV_PTccm1SeAkSzFJU2JnqSY5FADQK_8aAwkAz9cz7BMsNf2MZGtHADH2RHXo94Z5pL-STNOgxp_ypENXQ"  >Manage Your Order</a>
+                            
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+    
+    <!-- END Cancel Statement Section -->
+
+</table>
+<!----><!----><!-- BEGIN Rec Tray Section -->
+
+
+<table class="full-width">
+    <tr>
+        <td class="dy-container" style="padding-top:30px;padding-bottom:30px;">
+            <table class="full-width">
+                <tr>
+                    <td class="dy-title">
+                        <h2>You may also like...</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dy-suggestions">
+                        <table class="dy-image-grid">
+                            <tr>
+                                <th class="dy-image-wrapper-1">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh4PPOTluEAJtP8e3KDD9iOtfDPsYJxlf6S9__jSsKH9ovotUPkW9rjDMQYI2J2lRm7vHpINEw0YEO5xkElrHOOrW8Dx-6zGXx4yVKuXm3OMg"  >
+                                        <img class="dy-first-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/1/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 1" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-2">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh5BIQ8fMLheyrBINloWZK8SAl9_FzYpUpE67VIrtx-h2vLq-7o80KIgMWWGhQDswKAg7ISUNWYR0RjdP3OdnliNJ7L1L4C_IIE7e8YGZK5Dg"  >
+                                        <img class="dy-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/2/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 2" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-3">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh6jkbEgZM1xI0kwIyCz1GAKCwIFu61bKhTNyfELsLpsNk-bEjRiz-fQiMaV1iKOBD0r7bCvdKZaN-bq7cc-c9szqQF22y68FXCcg6BBi1SpQ"  >
+                                        <img class="dy-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/3/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 3" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-4">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh7UHXs029KfZmfNzj0gj7gmwIit3BCtN4Ztlw62KhgI6eYk6c38BEb31vPi5vJtQhRkKAxzAIlw6W2Uc_MGNRFxvsZM1dq2g3KWYau8yB0DQ"  >
+                                        <img class="dy-last-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/4/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 4" />
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- END Rec Tray Section -->
+<!----></td>
+   
+   </tr>
+   <!-- End Content Section -->
+      
+      <!-- Begin Footer Links Section -->
+  <tr> 
+   <td><!---->
+
+<tr>
+      <td style="padding-top:30px;padding-bottom:30px;">
+       <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh8DEPZ22RZAfv8C3z0T-CjP1AYjvijFeyloou0SgydfFrFrYijqXnhmbZkz5XpVhN9ZnPoh90bTSqmzkCYKH5x9Ym4yStKgiPBadbDTbdgKQ"  ><img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/19/nonmember_UOR+Email+Banner-20230414-180419.jpg" width="640" /></a>
+      </td>
+     </tr><!----><!----><!-- Footer Links Content Module -->
+
+<table class="full-width">
+        <tr>
+            <td style="padding-bottom:30px;">
+
+                <table class="full-width">
+                    <tr>
+                        <td class="footer-links-container">
+                            <table class="full-width">
+                                <tr>
+                                    <td class="footer-categories">
+                                        
+                                            <table class="full-width-fixed">
+                                                <tr>
+                                                    <td style="border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh9b9hLI6kVWBahhYsNTCgYtVA9omYrP1SyA_Widw9ba12yXxGsDrV8dH0NngOP5daLFLtJ0Ur6tx00Z-BPRonKaohM94RPZQbf-xFAnDRu1Q"   class="footer-link">
+                                                            <span class="footer-link-text">Shop UO</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh-tmMEIHrcW7t543ksEBsgX0HNn5uODrtBvwvz0QMX8U6kanHBZB-XRog_xroX55vwHrHgLB4SP-Dh5edXiIrXVJTDlwErCYbRWcCm4ArpHg"   class="footer-link">
+                                                            <span class="footer-link-text">Help + Info</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjh_4TSvX07aDKdeWW8mR7ycuT9N9VibPbdvJdqvKBPHkxJD7I3BaYBdnS5_mHcT4KYs4T8zYfDEOt8FvwYq686JYmdS78R-NQMGB1R2RkvFCQ"   class="footer-link">
+                                                            <span class="footer-link-text">Find a Store</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="border-right: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiAu_4D0_hffvH249thb3LdUb7ukrtWh_LiP1ekW7Nqf-0F1eo65BuAw5szlEJgoKg-0bOE5DzPdVsf9euXc7PHZqh21tVZImWERM8znMbQUA"   class="footer-link">
+                                                            <span class="footer-link-text">Contact Us</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-right: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiBLiCQRB51fUBOhS7vPze9axEN-2p1xE1NlAy8x477I3wAOwfWvFWJSKAGRus1B1PvbeTYNLZZmRUo1edK-uNV53GbY7W6Wcyz_XpWke345Q"   class="footer-link">
+                                                            <span class="footer-link-text">UO Rewards</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiC2aLy3cJdNK1QoltGBO9MKLI0lSSNoWwe0eTRxLD4WRLO7xVVu2isVMi6VBLJWyHUFElJr2cfkNNV_A1zF18bA9vWxj1zewVKS5ZK"   class="footer-link">
+                                                            <span class="footer-link-text">UO Community</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="footer-social-icons">
+                                        <table>
+                                            <tr>
+                                                <th>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiD1sF3T3Zm0J25naipBaizsg7x5b5qCDiyR9m8bhz3TTi1R_FlvwUWFDTU3YGkVDjsSPqEaIiAJGGvkaQZILYPCqf3dY34mHN0wDfP"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/5540a0a3-3d04-41f6-89ec-198871196a8d.png" width="45" alt="Instagram">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiEUsBmzx2cS8yBcjk2T4JOEH1ZuhgPD3mM2QaKtdM9UkDXsJNKiPep1beawCx8MwqyyHEexUy_1DfjTNgzWoeUejsJBLvcJOFCyZUU"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/1b1f1494-1ebc-4515-8fa0-8d916528f83b.png" width="45" alt="Facebook">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiF6JXNUK3nXtJLS-KPwudk2H3bK1f1Km1PyMTE2pCZp6iJU68yGxaDQR02yILk9JA69UlzjOwgb7KKfQjDMPuoyqO9TTEHf6qMWV6F"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/c5fe2589-f092-43f0-a7d0-22caeb3abe21.png" width="45" alt="Twitter">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                                <th>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiGkd8BuYVpA2MhUL6ery93bMVUyQ-WWULtvpBunRHS3JJAGEU8WXWWeQN7dyyJlW_N_BD4xWvM9oYw9-kZvReo5UzLwX88Y8tMCGjk"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/8ba2903e-4d12-4060-869d-17566dd29f55.png" width="45" alt="Pinterest">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiH0RA0c6dktUz-7-Lj04NfqujUWlpMgvRA21iHI2wPJRBZbz7oMCn6ZXeZKEPZHequtXt6owW4HNey_-2mF8-G9Wu2v5sz15A1OFHh"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/121bf89f-d547-4450-8712-5da7241eac9a.png" width="45" alt="Youtube">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiI9J0XLCGPADSIHaYFdHJpI7SzqorCAawIpUpN5w9eQ_SqkvAZ_RCVxAOIhCMCHadoHFc241JKkJh1y4Bw7qBP0Qm9MR5eq9GS6HCz"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/915a99b2-5f5c-4f48-b72d-977d9a841591.png" width="45" alt="TikTok">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiJZh39WQ0ijn96gMCa3quNzWwuqT9HPFIW8MYeo2GVQe3nDMZR2q67hJ9dQdW21FToE3BNYxnPkJDHDVLq8Ye0Ik4zJ8MNBL0Tz-e8"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/99dadbc3-b63e-4480-aa2f-2011970e363f.png" width="45" alt="Spotify">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 40px">
+                                        <table>
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiKQIy6TLAUcOhAOHyT1bE8IXaYzIjBnoVEhqkGGUu-5M2ZsuBlkPgM1yVjO7H57qwQE8cmMfqOHexT0ad0S9ejP5siMldJRSDjx6Xd"  >
+                                                        <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/47ecfb00-a391-4ea8-9928-f624e293b1f5.png" width="120" style="width: 120px;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 10px;">
+                                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiLOsP_CGPtoyk_18i43zoLSEaXi4CkB4fG5-MlVAJZQsfCOBZujrdnNR1TgWTuF2ttBHRxtVDrpFGAjkmAaqDyO-6t0Su6nVevws_K"  >
+                                                        <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/a70c5058-e899-42fb-b938-ef5072f824d1.png" width="120" style="width: 120px">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+<!----></td>
+   </tr>
+      <!-- End Footer Links Section -->
+   
+  <!-- Begin footer copy Section -->
+      <tr>
+  <td><!----><!-- Footer Pre Copy Content Module -->
+    <table align="center" class="full-width">
+        <tr>
+            <td class="footer-bottom-copy">
+            <p>
+                    Questions?<br>
+                    <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiMmPcjz9yvlT3wbvsBA_mKN_qgf64ywTwZ5a3_aIfzJ4UgWN-h7yQkscPEcVePjZnMx05mUha6TkVpFJHXa6t_ye5QRwmLGq31wUN-QVdkHA"  >Contact us</a><br>
+                    Find us on Twitter <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiNZf_JzIoAnSR5n5tThQMlp_YajrM1yagBZ227qHFxucuMXa3x9MN8b8jOeRbcE_WYrtjedFXNfXFe18IBlF8_Gm1FoRzcKZD7_eMv"  >@UOHelpMe</a>
+                </p>
+
+                <p>
+                    US & Canada Customers:<br />
+                    Customer Service <a href="tel:8002822200" mc-deep-link="false">(800) 282-2200</a><br />
+                    Open 24 hours a day, 7 days a week
+                </p>
+                <p>
+                    All Other Customers:<br />
+                    Click <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiO5cfD-cJO_K0RzV6hF44WGdpbwKd1jOufOgXRlm_gP81GFTx-D19SC8ISnSqNDue30rdPxsgkl9QCN5ngTL6__wpnRaC093AAbfyffFY_Hw"  >here</a> for details on how to contact us.
+                </p>
+
+                <p>Need to make a return? <a href="https://click.s.urbanoutfitters.com/u/?qs=ABB7InYiOjEsImQiOjQ4NDd9AAsAAAAAABAYdjiPe7yEu4bDKMVloPQ_lQe91qPoGna4OGkfMawLGuBHkxjJW2QhLM8qtvAFUGz7T3WFB7OsG0yQGiHmE7016MXOxcWv9ulekMDR6tcj4fNpUw"  >Click here</a> for details. Restocking fees may apply. </p>
+
+                <p>To ensure delivery to your inbox (not bulk or junk folders), you can add urbanoutfitters@s.urbanoutfitters.com to your address book or safe list.</p>
+                
+
+                
+
+                <p>&copy; 2026 UrbanOutfitters.com All Rights Reserved</p>
+            
+
+            </td>
+        </tr>
+    </table>
+
+<!-- / Pre Footer Copy Content Module -->
+<!----></td> 
+   </tr>
+  <!-- End footer copy Section -->
+      
+   
+      
+
+     </table>
+    </td>
+   </tr>
+  </table>
+  <!--[if (gte mso 9)|(IE)]>   </td>   </tr>   </table>   <![endif]-->
+   <!-- begin Audience Studio Pixel -->
+  <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=NtRFlMmN_sfmc_514011507_sha256&partner_uid=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=NtRFlMmN_sfmc_514011507_subid&partner_uid=152878222" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=vxjpsnpu5&advertiserid=514011507&campaignid=uous_ppc_orderConfirmation" width=0 height=0 style="display:none;" />
+ </body>
+</html>

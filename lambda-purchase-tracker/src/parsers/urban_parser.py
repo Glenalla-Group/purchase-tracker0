@@ -58,9 +58,9 @@ from typing import List, Optional, Dict
 from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
 
-from app.models.email import EmailData
-from app.utils.address_utils import normalize_shipping_address
-from app.config.settings import get_settings
+from src.models import EmailData
+from src.utils.address_utils import normalize_shipping_address
+from src.config import get_config as get_settings
 
 logger = logging.getLogger(__name__)
 
@@ -310,7 +310,7 @@ class UrbanOutfittersEmailParser:
                 logger.error("No HTML content in Urban Outfitters email")
                 return None
             
-            soup = BeautifulSoup(html_content, 'lxml')
+            soup = BeautifulSoup(html_content, 'html.parser')
             
             # Extract order number from HTML
             order_number = self._extract_order_number(soup)
@@ -359,7 +359,7 @@ class UrbanOutfittersEmailParser:
                 logger.error("No HTML content in Urban Outfitters cancellation email")
                 return None
             
-            soup = BeautifulSoup(html_content, 'lxml')
+            soup = BeautifulSoup(html_content, 'html.parser')
             
             # Extract order number
             order_number = self._extract_order_number(soup)
@@ -403,7 +403,7 @@ class UrbanOutfittersEmailParser:
                 logger.error("No HTML content in Urban Outfitters shipping email")
                 return None
             
-            soup = BeautifulSoup(html_content, 'lxml')
+            soup = BeautifulSoup(html_content, 'html.parser')
             
             # Extract order number
             order_number = self._extract_order_number(soup)
