@@ -244,7 +244,10 @@ def extract_unique_id(url: str) -> str:
     # --- Urban Outfitters ---
     # URL: urbanoutfitters.com/shop/[optional-middle/]SLUG?color=CODE
     # Handles: /shop/slug?color=X   AND  /shop/hybrid/slug?color=X
-    # Slug normalized to match email parser: strip "womens"/"mens" + trailing digits
+    # Slug normalization MUST match backend/app/services/urban_parser.py _normalize_slug:
+    #   1. Strip "womens"/"mens" segments
+    #   2. Strip trailing digits glued to last word (sneaker2 -> sneaker)
+    #   3. Strip trailing 's' from last segment (sneakers -> sneaker)
     if "urbanoutfitters.com" in url_lower:
         # Strip query string first so '/' in param values (e.g. size=US+7/UK+5)
         # can't be mistaken for a path separator.
@@ -254,11 +257,14 @@ def extract_unique_id(url: str) -> str:
         color_match = re.search(r"[?&]color=(\d{3})", url)
         if slug_match:
             slug = slug_match.group(1).lower()
-            # Normalize: strip "womens"/"mens" segments (handles any position)
+            # 1. Strip "womens"/"mens" segments (handles any position)
             parts = [p for p in slug.split('-') if p not in ('womens', 'mens')]
             slug = '-'.join(parts)
-            # Strip trailing digits glued to last word (e.g., sneaker2 -> sneaker)
+            # 2. Strip trailing digits glued to last word (e.g. sneaker2 -> sneaker)
             slug = re.sub(r'\d+$', '', slug).rstrip('-')
+            # 3. Strip trailing 's' from last segment (plural -> singular)
+            if len(slug) > 1 and slug.endswith('s'):
+                slug = slug[:-1]
             if color_match:
                 return f"{slug}-{color_match.group(1)}"
             return slug

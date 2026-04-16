@@ -583,17 +583,17 @@ class UrbanOutfittersEmailParser:
                 size_span = size_tag.find_next('span')
                 if size_span:
                     size = size_span.get_text(strip=True)
-                    details['size'] = size
-                    logger.debug(f"Found size: {size}")
-            
+                    details['size'] = self._extract_primary_size(size)
+                    logger.debug(f"Found size: {details['size']} (raw: {size})")
+
             if not details.get('size'):
                 # Try regex fallback - look for "Size:" followed by text in span
                 size_match = re.search(r'Size:\s*<span>([^<]+)</span>', str(container), re.IGNORECASE)
                 if size_match:
                     size = size_match.group(1).strip()
-                    details['size'] = size
-                    logger.debug(f"Found size (regex span): {size}")
-            
+                    details['size'] = self._extract_primary_size(size)
+                    logger.debug(f"Found size (regex span): {details['size']} (raw: {size})")
+
             if not details.get('size'):
                 # Try regex fallback - look for "Size:" followed by any text
                 size_match = re.search(r'Size:\s*([^\n<]+)', container_text, re.IGNORECASE)
@@ -601,8 +601,8 @@ class UrbanOutfittersEmailParser:
                     size = size_match.group(1).strip()
                     # Clean up any HTML entities or extra whitespace
                     size = re.sub(r'<[^>]+>', '', size).strip()
-                    details['size'] = size
-                    logger.debug(f"Found size (regex fallback): {size}")
+                    details['size'] = self._extract_primary_size(size)
+                    logger.debug(f"Found size (regex fallback): {details['size']} (raw: {size})")
             
             if not details.get('size'):
                 logger.warning("Size not found in Urban Outfitters container")
@@ -704,14 +704,18 @@ class UrbanOutfittersEmailParser:
         """
         Normalize slug for crossover consistency between email and URL.
 
-        Strips "womens"/"mens" segments and trailing digits so brands like
-        Gola and On produce matching IDs from both email (e.g., "Gola Women's
-        Tornado Sneaker") and URL (e.g., /shop/gola-tornado-sneaker).
+        Three normalization steps, applied identically on both email parser
+        and URL extractor sides so the resulting IDs always match:
+          1. Strip "womens"/"mens" segments (handles any position)
+          2. Strip trailing digits glued to last word (e.g. sneaker2 -> sneaker)
+          3. Strip trailing 's' from last segment (e.g. sneakers -> sneaker)
+             to handle plural vs. singular product name variations
 
         Examples:
-            "nike-womens-cortez-leather-sneaker" -> "nike-cortez-leather-sneaker"
-            "gola-elan-sneaker2"                 -> "gola-elan-sneaker"
-            "on-womens-cloudnova-2-sneaker"      -> "on-cloudnova-2-sneaker"
+            "nike-womens-cortez-leather-sneaker"  -> "nike-cortez-leather-sneaker"
+            "nike-womens-cortez-leather-sneakers" -> "nike-cortez-leather-sneaker"
+            "gola-elan-sneaker2"                  -> "gola-elan-sneaker"
+            "on-womens-cloudnova-2-sneaker"       -> "on-cloudnova-2-sneaker"
 
         Args:
             slug: Raw slug string
@@ -719,15 +723,51 @@ class UrbanOutfittersEmailParser:
         Returns:
             Normalized slug
         """
-        # Strip "womens"/"mens" as standalone segments (handles any position)
+        # 1. Strip "womens"/"mens" as standalone segments (handles any position)
         parts = [p for p in slug.split('-') if p not in ('womens', 'mens')]
         normalized = '-'.join(parts)
 
-        # Strip trailing digits glued to last word (e.g., sneaker2 -> sneaker)
-        # Does NOT strip digits in the middle (e.g., pegasus-41-running stays)
-        normalized = re.sub(r'\d+$', '', normalized)
+        # 2. Strip trailing digits glued to last word (e.g. sneaker2 -> sneaker)
+        # Does NOT strip digits in the middle (e.g. pegasus-41-running stays)
+        normalized = re.sub(r'\d+$', '', normalized).rstrip('-')
 
-        return normalized.rstrip('-')
+        # 3. Strip trailing 's' from last segment (plural -> singular)
+        # Applied to entire normalized string since the last char is the last
+        # char of the last segment.
+        if len(normalized) > 1 and normalized.endswith('s'):
+            normalized = normalized[:-1]
+
+        return normalized
+
+    def _extract_primary_size(self, raw_size: str) -> str:
+        """
+        Extract the first numeric size from an Urban Outfitters size string.
+
+        Urban size strings often contain dual-system sizing like
+        "W 9/M 7.5" or "US 7.5/UK 5.5" or "US 8/EU 39". We always
+        take the first number (the primary US / Women's size).
+
+        Examples:
+            "W 9/M 7.5"     -> "9"
+            "US 7.5/UK 5.5" -> "7.5"
+            "W 7.5"         -> "7.5"
+            "US 8/EU 39"    -> "8"
+
+        If no number is found, returns the original string (so callers can
+        still detect extraction failures).
+
+        Args:
+            raw_size: Size string as it appears in the email
+
+        Returns:
+            First numeric size as a string, or the raw input if no number found
+        """
+        if not raw_size:
+            return raw_size
+        match = re.search(r'\d+(?:\.\d+)?', raw_size)
+        if match:
+            return match.group(0)
+        return raw_size
     
     def _extract_shipping_address(self, soup: BeautifulSoup) -> str:
         """

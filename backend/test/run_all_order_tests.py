@@ -43,7 +43,7 @@ def run_order_confirmation_tests():
          ["shopsimon.txt"],
          "support@shopsimon.com", "Order Confirmation"),
         ("urban", "UrbanOutfittersEmailParser", "urban_parser",
-         ["urban.txt", "urban1.txt", "urban2.txt", "urban3.txt", "urban4.txt", "urban5.txt", "urban6.txt"],
+         ["urban.txt", "urban1.txt", "urban2.txt", "urban3.txt", "urban4.txt", "urban5.txt", "urban6.txt", "urban7.txt"],
          "urbanoutfitters@st.urbanoutfitters.com", "Thank you for your Urban Outfitters order!"),
         ("bloomingdales", "BloomingdalesEmailParser", "bloomingdales_parser",
          ["bloomingdale.txt"],
