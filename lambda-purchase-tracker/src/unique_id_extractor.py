@@ -246,8 +246,11 @@ def extract_unique_id(url: str) -> str:
     # Handles: /shop/slug?color=X   AND  /shop/hybrid/slug?color=X
     # Slug normalized to match email parser: strip "womens"/"mens" + trailing digits
     if "urbanoutfitters.com" in url_lower:
-        # Capture LAST segment before query string (supports /shop/hybrid/slug paths)
-        slug_match = re.search(r"/shop/(?:.+/)?([^/?]+)", url, re.IGNORECASE)
+        # Strip query string first so '/' in param values (e.g. size=US+7/UK+5)
+        # can't be mistaken for a path separator.
+        path_only = url.split('?', 1)[0]
+        # Capture LAST segment after /shop/ (supports /shop/hybrid/slug paths).
+        slug_match = re.search(r"/shop/(?:[^/]+/)*([^/]+)", path_only, re.IGNORECASE)
         color_match = re.search(r"[?&]color=(\d{3})", url)
         if slug_match:
             slug = slug_match.group(1).lower()
