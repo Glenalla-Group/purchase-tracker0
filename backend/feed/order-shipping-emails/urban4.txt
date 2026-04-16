@@ -1,0 +1,1456 @@
+
+
+<!--
+
+TEST TICKET:    https://urbnit.atlassian.net/browse/MKT-1740
+TEST TICKET:    https://urbnit.atlassian.net/browse/OPEM-2323 (Point 2 in the ticket : for removal of AN-US quadrant banner)
+CONFLUENCE:     https://urbnit.atlassian.net/wiki/spaces/UOE/pages/4202954854/Operational+Emails+-+CAN-SPAM+Audit
+
+-->
+
+<!---->
+<!----><!---->
+
+
+
+
+
+<!---->
+
+<!-- Sendlog: Shared Content>Global Code Snippets>Global - Sendlog-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="x-apple-disable-message-reformatting">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" mc-deep-link="false" rel="stylesheet">
+
+   <!----><!-- Structural CSS: Shared Content>Triggered Send Content Modules>Global Trigger CSS > Structural_CSS --> 
+
+<!-- structural -->
+<style type="text/css">
+   /* STRUCTURAL styling */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+table { border-collapse: collapse !important; border-spacing: 0 !important; margin: 0 auto; }
+.framework-logo { padding-top: 30px; padding-bottom: 60px; text-align: center; }
+.framework-title { padding-bottom: 20px; text-align: center; }
+.framework-order { padding-bottom: 20px; text-align: center; }
+.header-copy { padding-bottom: 30px; }
+.header-list { padding-left: 40px; padding-right: 40px; }
+.header-list li { padding-bottom: 5px; }
+.h2-wrapper { text-align: left; padding-bottom: 30px; }
+.h3-wrapper { text-align: left; padding-bottom: 10px; }
+p { margin-top: 0; margin-bottom: 16px;  }
+p.last { margin-bottom: 0; }
+td, th { padding: 0; vertical-align: top; }
+.bold { font-weight: bold; }
+.text-centered { text-align: center; }
+.preheader {visibility: hidden; display: none; color: transparent; font-size: 1px; line-height: 1px; height: 0; max-height: 0; width: 0; max-width: 0; }
+.full-width { width: 100%; }
+.full-width-fixed { width: 100%; table-layout: fixed; }
+.main-bg { width: 100%; table-layout: fixed;}
+.main-bg-td { width: 100%; text-align:center; }
+.main { max-width: 640px; width: 100%; }
+.mso-main { width: 640px; }
+.mobile-padding { padding: 0; }
+.two-column { width: 49.9%; margin: 0; word-break:break-word; }
+.two-column-left { padding-right: 15px; }
+.two-column-right { padding-left: 15px; }
+img { display: block; max-width: 100%; margin: auto; border: none; }
+.framework-content-start { padding-top: 30px; }
+.row-hidden-small { display: table-row; }
+.row-hidden-large { display: none; }
+.shipment-info-padding, .payment-method { padding-bottom: 8px; text-align: left; line-height: 21px; }
+.lead-time-message {  }
+.seller-email { padding-top: 10px; }
+.column-header-container { padding: 10px 0px; }
+.item-table-container { padding: 15px 0; }
+.item-price-small { display: none; }
+.item-price-large { width: 12%; }
+.item-image { width: 20%; text-align: left; }
+.item-details { width: 44%; height: 18px; padding-left: 15px; padding-right: 15px; }
+.product-specs { width: 44%; padding-left: 15px; }
+.product-name { padding-bottom: 8px; }
+.item-image img { width: 100%; max-width: 100%; display: block; margin: 0; }
+.item-details td, .product-specs td { text-align: left; }
+.item-detail-row { padding-bottom: 8px; text-align: left; }
+.item-detail-row label { }
+.product-name-small { display: none; height:0; font-size:1px; line-height:0; } 
+.bo-message-small { display: none; }
+.item-status td { padding-top: 1.2em; }
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align:left; padding-bottom: 8px; }
+.summary-td-right { text-align:right; width: 30%; padding-bottom: 8px; }
+.order-total { text-align: right; }
+.tax-id { padding-top:30px; text-align: left; }
+.copy-desktop { display: inline; font-family: inherit; font-size: inherit; color: inherit; }
+.copy-mobile { display: none; }
+.address { text-align: left; line-height: 21px; }
+.address span, .footer-copy span, .simple-list span { border-bottom-style: none !important; }
+a[href^="x-apple-data-detectors:"], a[x-apple-data-detectors=true] { color: inherit !important; text-decoration: none !important; }
+span.contextualExtensionHighlight { border-bottom-style: none; color: inherit; }
+.button-margin { height: 20px; }
+.simple-list, .simple-list span, .simple-list div { text-align: left; line-height: 20px; }
+.mobile-footer {display: none; }
+.desktop-footer {display: inline-block; }
+.store-hours { margin-left: 0; }
+.store-hours td { text-align: left; line-height: 1.5em; }
+.store-hours .day { padding-right: 0.75em; }
+.gift-card-header-copy { padding: 0px 50px 50px; text-align: center; }
+.gift-card-content-left { width: 50%; padding:10px 0px; text-align: center; }
+.gift-card-content-right { width: 50%; padding: 10px 0px 30px 20px; text-align:left; font-weight: normal; }
+.gift-card-barcode { padding-top: 10px; padding-bottom: 29px; }
+.gift-card-barcode-img { margin: 0; }
+.gift-card-terms { font-size: 9px; line-height: 15px; text-align: left; }
+.centered-details, .centered-details table { margin: auto; }
+.centered-details td { text-align: center; padding-bottom: 5px; }
+p.standard-closing__body { text-align: center; margin-top: 20px; }
+.rating .stars, .rating .stars a { font-family: 'Arial', 'Helvetica'; font-size: 18px; letter-spacing: 3px; color: #aaaaaa; text-decoration: none; }
+td.rate-item { padding-top: 12px; padding-bottom: 5px; }
+
+.marketplace-contact-statement { padding-top: 30px;  text-align: center; }
+
+/* Dynamic Yield */
+.dy-title { padding-bottom: .5em; text-align: center; border-bottom: 1px solid #cccccc; }
+.dy-suggestions { text-align: center; vertical-align: top; padding-top: 1em; }
+.dy-image-grid { table-layout: fixed; width: 100%; }
+.dy-image-grid th { width: 25%; vertical-align: top; text-align: right; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: .75em; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: .25em; padding-right: .5em; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: .5em; padding-right: .25em; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: .75em; }
+.dy-suggestions img { width: 100%; max-width: 100%; vertical-align: top; }
+
+@media only screen and (max-width: 640px) {
+ .mobile-padding { padding: 0 20px !important; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+ .gift-card-header-copy { padding: 0px 0px 30px; }
+ .gift-card-content-left { display: block; width: 100%; clear: both; }
+ .gift-card-content-right { display: block; width: 100%; clear: both; margin: auto; padding: 30px 10px 0px; text-align: center !important; }
+ .gift-card-barcode { padding-top: 30px; padding-bottom: 49px; }
+ .gift-card-barcode-img { margin: auto; }
+ .gift-card-terms { width: 90%; margin-left: auto; margin-right: auto; text-align: center; }
+}
+
+@media only screen and (max-width: 479px) {
+ .two-column { width: 100% !important; }
+ .two-column-left { padding-bottom: 2em; }
+ .header-copy { padding-left: 20px !important;  padding-right: 20px !important;  padding-bottom: 30px !important; }
+ .qty { display: table-row !important; height: auto !important; }
+ .small-full { width: 100% !important; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ .indent-large { padding-left: 0 !important; }
+ .item-heading-large { display: none !important; }
+ .item-heading-small { display: table-row !important; font-size: 13px !important; line-height: 18px !important;}
+ .item-image { width: 40% !important; }
+ .item-details, .product-name, .product-specs { width: 60% !important; }
+ .item-detail-row-small { display: table-row; }
+ .row-hidden-small { display: none; }
+ .row-hidden-large { display: table-row; }
+ .item-price-large { display:none !important; width: 0 !important; }
+ .item-price-small { display: table-row !important; }  
+ .bo-message-large { display: none; }
+ .bo-message-small { display: table-row; }
+ .copy-desktop { display: none !important; }
+ .copy-mobile { display: inline !important; }
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: .5em; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: .5em; padding-right: 0; padding-bottom: 1em; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: .5em; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: .5em; }
+ .desktop-footer {display: none; }
+ .mobile-footer {display: inline-block; }
+}
+  </style>
+
+<!-- Brand CSS: Shared Content>Triggered Send Templates>Urban Outfitters>Template CSS>UO_CSS-->
+
+
+<!--brand-->
+  <style type="text/css">
+   /* BRAND styling */
+body, th, td, div, span, h3, h4, a { font-family: Helvetica, sans-serif; font-size:14px; line-height:19px; color:#707070; }
+a { font-family: inherit; font-size: inherit; color: inherit !important; text-decoration: underline; }
+h1 { margin: 0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:36px; line-height:40px; color:#222222; padding-bottom: 20px; border-bottom: 1px solid #aaaaaa; }
+h2, .h2 { margin:0; padding:0; font-family: 'Francois One', Helvetica, sans-serif; font-weight:bold; font-size:25px; line-height:27.5px; color:#222222; border-bottom:1px solid #aaaaaa; padding-bottom:15px; }
+h2.plain { border-bottom: none; padding-bottom: 5px; }
+h3, h4, .h3, .h4 { margin: 0; font-size:14px; font-weight: normal; color:#222222; }
+.h2-wrapper { padding-bottom: 25px; }
+.h3-wrapper { padding-bottom: 5px; }
+.mobile-padding { padding-bottom: 30px; }
+.shaded { background-color:#f5f5f5; }
+
+.header-logo-img { display:inline; margin:auto; width:183px; }
+.header-logo-img-mrkt { display:inline; margin:auto; width:160px; }
+.header-copy { text-align: center; padding: 0 50px 30px; }
+.gift-card-header-copy { font-size: 20px; line-height: 26px; color: #222222; }
+.footer-copy { text-align: center; padding-right: 50px; padding-bottom: 30px; padding-left: 50px; }
+.footer-bottom-copy { text-align: center; padding: 0 50px 30px; font-size: 11px; font-weight: 400; letter-spacing: .5px; line-height: 17px; color: #b4b4b4; }
+.footer-bottom-copy p, .footer-bottom-copy span, .footer-bottom-copy a { font-size: 11px; line-height: 17px; color: #b4b4b4; }
+
+.shipping-info-container { border: 1px #dddddd solid; border-bottom: none; background-color: #f5f5f5; padding: 30px; text-align: left; }
+.column-header-container { padding: 20px 30px; border: 1px solid #dddddd; border-bottom: none; }
+.item-table-container { padding: 30px; border:1px solid #dddddd; }
+td.item-details { padding-left: 20px; padding-right: 30px; }
+.product-specs { padding-left: 20px; }
+.product-name-large .item-detail-row { color: #222222; padding-bottom: 15px; }
+.item-status .item-detail-row { color: #222222; padding-top: 22px; padding-bottom: 0; }
+.strike { text-decoration: line-through; color: #aaaaaa; }
+.bo-message { color: #ee0000; }
+
+.order-summary-table { width: 100%; }
+.summary-td-left { text-align: left; padding-bottom: 4px; }
+.summary-td-right { text-align: right; width: 30%; padding-bottom: 4px; }
+.order-total-label { color: #222222; font-weight: bold; text-align: left; vertical-align: baseline; padding-top: 8px;}
+.order-total {color: #222222; font-weight: bold; text-align: right; vertical-align: baseline; padding-top: 8px; width: 30%; }
+
+.footer-links-container { background: #f5f5f5; padding: 20px 10px; text-align: center; }
+.footer-links-container table { margin: auto; }
+.app-link-img { display: inline-block; padding-top: 50px; padding-left: 30px; padding-bottom:70px; }
+.app-link-img:first-child {padding-left: 0; }
+.link-cell { padding: 15px; vertical-align: middle; }
+.link-cell-social { padding: 25px 15px; vertical-align: middle; }
+.link-cell-app { padding: 15px 10px; vertical-align: middle; }
+.link-cell, .link-cell a, .link-cell a span, .footer-links-container th a, .footer-links-container th a span { font-family:Helvetica, sans-serif; font-size: 12px; line-height: 13px; font-weight: normal; color: #222222; text-decoration:none !important; }
+.social-icon img { height: auto; }
+.app-links { display: inline-block; padding-left: 10px; padding-right: 10px; }
+a[href^="x-apple-data-detectors:"] { color: inherit !important; text-decoration: none !important; }
+
+/* new footer styles */
+.yahoo-this { }
+.footer-container { background: #f5f5f5; }
+.footer-brand-links { padding-top: 40px; }
+.footer-brand-link, .footer-brand-link-last { padding: 0 25px; vertical-align: middle; }
+.footer-brand-link{ border-right: 1px #dedede solid; }
+.footer-brand-link a, .footer-brand-link-last a { font-family: Helvetica, sans-serif; font-weight: bold; font-size: 11px; color: #222222 !important; text-decoration: none !important; }
+.footer-ext-links { padding-top: 40px; }
+.footer-app-link, .footer-social-link, .footer-social-link-last { vertical-align: middle; }
+.footer-app-link { padding-right: 10px; }
+.footer-social-link { padding-left: 10px; padding-right: 5px; }
+.footer-social-link-last { padding-left: 10px;}
+.footer-fine-print { padding: 40px 50px 30px; text-align: center; }
+.footer-fine-print p, .footer-fine-print a { font-size: 9px; font-weight: 400; letter-spacing: .5px; line-height: 13px; color: #767676; }
+    
+/* 2021 footer styles */
+.yahoo-this {}
+.footer-links-container td { vertical-align: middle; text-align: center; }
+.footer-categories { padding-bottom: 20px; }
+.footer-categories td { padding: 30px 20px; }
+.footer-link, .footer-link-text { font-size: 12px; font-weight: bold; text-decoration: none; color: #000000; display: block; }
+.footer-social-icons th { padding-top: 20px;}
+.footer-social-icons td { padding: 0 10px; }
+
+.button { padding: 0; background-color: #222222; text-align: center; vertical-align: middle; }
+.button a { display: inline-block; padding: 8px 30px; border: 1px solid #222222; text-decoration: none; color: #ffffff !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+.button-secondary { padding: 0; background-color: #ffffff; text-align: center; vertical-align: middle; }
+.button-secondary a { display: inline-block; padding: 12px 22px; border: 1px solid #222222; text-decoration: none; color: #222222 !important; font-family: Helvetica, sans-serif; font-size: 12px; line-height: 16px; letter-spacing: .1em; text-transform: uppercase; }
+
+.header-fine-print { font-size: 11px; line-height: 17px; margin-bottom: 0; }
+.header-promo-copy { margin-top: 1em; }
+.gift-card-content { padding: 30px 10px 0px; text-align: center !important;  }
+.label-list__label, .label-list__value { color: #222222; }
+.gift-card-terms { font-size: 10px; line-height: 14px; color: #767676; }
+
+.seller-name { padding-bottom: 20px; font-size: 11px; font-weight: bold; color: #222222; }
+.seller-email { padding-top: 15px; }
+.marketplace-item-seller-info { padding-top: 30px; }
+.hr { font-size: 1px; line-height: 15px; height: 15px; border-top: 1px solid #dddddd; }
+.marketplace-message { background-color: #f5f5f5; padding: 30px; }
+    
+.large-text { font-size: 22px; line-height: 28px; text-align: center; padding: 20px 0; }
+.OTP { border: 1px solid #cccccc; padding: 15px 70px; text-align: center; font-size: 25px; font-family: 'Francois One', Helvetica, sans-serif;}
+
+/* Dynamic Yield */
+.dy-container .dy-title { padding-bottom: 0; text-align: center; border-bottom: none; }
+.dy-suggestions { padding-top: 20px; }
+.dy-image-grid .dy-image-wrapper-1 { padding-right: 7.5px; }
+.dy-image-grid .dy-image-wrapper-2 { padding-left: 2.5px; padding-right: 5px; }
+.dy-image-grid .dy-image-wrapper-3 { padding-left: 5px; padding-right: 2.5px; }
+.dy-image-grid .dy-image-wrapper-4 { padding-left: 7.5px; }
+
+@media all and (max-width: 479px) {
+ .dy-suggestions .dy-image-grid th { display: inline-block; width: 50%; }
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+  </style>
+
+  <style type="text/css">
+   /* MOBILE styles */
+   @media screen and (max-width: 640px) {
+ .footer-bottom-links { display: block;  padding: 15px 0 10px; text-align: center; }
+ .app-links { padding-left: 7.5px; padding-right: 7.5px; }
+}
+
+@media only screen and (max-width: 479px) {
+ body, th, td, div, span, h3, h4, a { font-size:13px; line-height:17px; }
+ .header-logo-img { width: 150px !important; }
+ .header-copy { padding: 0 10px 30px !important; }
+ .footer-copy { padding-right: 10px; padding-bottom: 30px; padding-left: 10px; }
+ .footer-bottom-copy { padding-right: 10px; padding-left: 10px; }
+ h1 { font-size: 25px !important; line-height: 27.5px !important; }
+ h2 { font-size: 20px !important; line-height: 22px !important; }
+ h3, h4 { font-size: 13px !important; line-height: 17px !important; }
+ .h4{font-size: 13px !important; line-height: 17px !important;}
+ .tracking-img-block { display: block; vertical-align: middle; }
+ .tracking-img-block-left { padding-right: 0 !important; }
+ .shipping-info-container { padding: 20px; }
+ .item-table-container { padding: 20px; }
+ td.item-details, .product-specs { padding-left: 15px; padding-right: 0; }
+ .two-column-left { padding-right: 0 !important; }
+ .two-column-right { padding-left: 0 !important; }
+ /*.footer-links-container { padding: 25px 0 30px; }*/
+ .link-cell-social { padding: 25px 12.5px; }
+ .link-cell-app { padding: 15px 7.5px; }
+ .social-icon img { width: 33px !important; }
+ .uotv, .blog { display: none !important; }
+ .button a, .button-secondary a { padding: 15px 25px; }
+ .loyalty-content td { padding-left: 10px; padding-right: 10px; }
+ .spirograph { padding-left: 30px; padding-right: 30px; }
+  
+  .footer-categories td { padding-left: 0; padding-right: 0; }
+  .footer-social-icons th { display: block; }
+  .footer-social-icons td { padding: 0 20px; }
+  .footer-social-icons td:first-child { padding-left: 0; }
+  .footer-social-icons td:last-child { padding-right: 0; }
+
+ .footer-brand-link, .footer-brand-link-last { padding-left: 15px; padding-right: 15px; }
+ .footer-fine-print { padding-left: 10px; padding-right: 10px; }
+
+ .dy-image-grid .dy-image-wrapper-1 { padding-right: 5px; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-2 { padding-left: 5px; padding-right: 0; padding-bottom: 10px; }
+ .dy-image-grid .dy-image-wrapper-3 { padding-left: 0; padding-right: 5px; }
+ .dy-image-grid .dy-image-wrapper-4 { padding-left: 5px; }
+}
+
+@media only screen and (max-width: 320px) {
+ .footer-brand-link, .footer-brand-link-last { padding-left: 10px; padding-right: 10px; }
+}
+  </style>
+
+  <!--[if mso]>
+ <style type="text/css">
+  h1, h2, h3, h4, .h2, span, div, a { font-family: Helvetica, sans-serif !important; }
+  .two-column { width: 49% !important; }
+  .item-price-small { mso-hide: all !important; }
+  .simple-list, .store-hours td { white-space: nowrap; }
+  .header-copy, .header-copy p { white-space: normal; }
+  td.button, td.button-secondary {white-space: nowrap; }
+ </style>
+<![endif]-->
+<!----> 
+   
+     
+  
+ 
+
+ </head>
+
+ <body>
+  <img src="https://click.s.urbanoutfitters.com/open.aspx?3O4I53GSH5OEFF2NJ7EIATVLHU.110051&d=110051&bmt=0" width="1" height="1" alt="">
+  <!--[if (gte mso 9)|(IE)]>   <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">   <tr>   <td align="center" valign="top" width="640">   <![endif]-->
+  <table align="center" class="main full-width">
+   <tr>
+    <td class="mobile-padding">
+ 
+  
+     <table align="center" class="full-width">
+      <!-- Begin Header Section-->
+   <tr>  
+    <td><!----><!-- Header Logo Content Module -->
+    <table align="center" class="full-width">
+                   <tr>
+                  <td class="framework-logo">
+                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjdkZjA1ZmQ0LTgzNDYtNDQ3OC1iYTczLTQ5NmYyMGM4MGI3YSIsImRla1ZlcnNpb24iOjEsIml2IjoiT0szVGx6aEx4UUR2RTRYVFdEaTRoUT09IiwiY2lwaGVyVGV4dCI6ImNhQ2NDNWhpTEVQejNXeFRhNlZWRkdGbkpsVU9JRE9RdlM3aS8xTFhtOC9RS0xDaHpMMG1MNksxb3ZCS1BzZGZDUWNjdTcxQXhiNWdYTGxuZW40dG5YUzZmSDh0ZTA1T2VBVFgzOGxUeHppdDA1YzRTOFVBN3hPRjAxZzR1SVU9IiwiYXV0aFRhZyI6Im5YUzZmSDh0ZTA1T2VBVFgzOGxUeHc9PSJ9"  >
+                <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/eaa4773c-042d-4d98-8117-0cd65380df73.gif" class="header-logo-img" width="183" alt="Urban Outfitters"  />
+      </a>
+                  </td>
+                  </tr>
+     </table>
+    
+    <!-- / Header Logo Content Module --><!----></td>
+  </tr>
+  <!--End Header Section--> 
+  <!-- Begin Content Section -->
+   <tr>
+   
+    <td><!----><span class="preheader">Thank you for your order!</span>
+
+<table class="main">
+    <tr>
+        <td class="mobile-padding">
+            <table class="full-width">
+                <!-- BEGIN Content Title Section. This value is coming from the xml node 'label_email_title' -->
+                <tr>
+                    <td class="framework-title">
+                        <h1>Shipping Confirmation</h1>
+                    </td>
+                </tr>
+                <!-- END Content Title Section -->
+                <!-- BEGIN Order Number Section -->
+                <tr>
+                    <td class="framework-order">
+                        <h4>
+                            Order Number: <a
+                                href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImI3Zjg4Y2M0LWRmYWItNDlhMy05NTkyLThhMDE4NWY3MWExYSIsImRla1ZlcnNpb24iOjEsIml2IjoiT1VZSjBLNnFYYWpLSjhmeHRUdnZ5Zz09IiwiY2lwaGVyVGV4dCI6IkFsdGd3QUJGRmJzcWw5blB5QjBNQk1qSzFzNi84YzcrQzFFSXBtdnBaMEJkTGlZU0JlQnIvSXRQSDI5bUZpcU9veG1MTVVuT0Z6NlhwZlNaajZZR0U2eHRvWitnK28rZ2NIYTlTVmhJMURsR0NkQ3VxbDJveWlmSDhiVTc3OG89IiwiYXV0aFRhZyI6IkU2eHRvWitnK28rZ2NIYTlTVmhJMUE9PSJ9" 
+                                >TN20625365</a>
+                        </h4>
+                    </td>
+                </tr>
+                <!-- END Order Number Section -->
+
+                <!-- BEGIN FINAL SALE MESSAGE -->
+                
+                <!-- END FINAL SALE MESSAGE -->
+
+                <!-- BEGIN Header Copy Section -->
+                <tr>
+                    <td class="header-copy">
+                        <p>Thanks again for shopping at <a
+                                    href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjdiMTk1MjZiLWFjY2EtNGRhNC1hMzMwLTMxNzkzYTk2MmI4NyIsImRla1ZlcnNpb24iOjEsIml2IjoiVDRJWFdXSDVYSmtqR1VuSVp3eXNRQT09IiwiY2lwaGVyVGV4dCI6Im02SGxMMndSTGZ1M2JIVG5MYjdRc3d1Z0g2RXptRkFVR3Z4ZnRQdGxjZC9kczh0djB0NkgxN3ZLS1laT2VoQlpQSjFyWjFvZ082Y0I0T0NlY1BTbGJZZjVrK1IvaWNGem1yRjhUNElYV1dINVhKa2pHVW5JWnd5c1FBPT0iLCJhdXRoVGFnIjoibm5EMHBXMkgrWlBrZjRuQmM1cXhmQT09In0%3D"  >UrbanOutfitters.com</a>.
+                                Please refer to your order summary below to see what shipped. Don't see your full order?
+                                Some of your items might be shipped separately.</p>
+
+                            <p>Keep an eye on this email - the tracking information below will refresh as your package makes
+                                its way to you!</p>
+
+                            
+
+                            <p>Please note, you have now been charged for the item(s) below.</p>
+                            
+                        
+                        
+                        
+                            <table align="center">
+                                    <tr>
+                                        <td style="height:20px">&#160;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-centered">
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjRkMmJkNTMxLWMyZTUtNGVjYi05YWU1LWY2MGVkNmM4NmY3MyIsImRla1ZlcnNpb24iOjEsIml2IjoiZ3NIaSsxV0xnS2N0QUJaSGpCaFlyUT09IiwiY2lwaGVyVGV4dCI6ImRjZnArcFpZLytyZEt6NEZtSFpvSVFLR2I4YnVjM1k4bVlwYWNvS1NMZ2RsQ2JtZlkrUGkwL1lLZFlySU42Y280QWswcW40Q3RPMXBiVFNMT3l1V3Z3Mi8vZW9PVXJiN3RMRWlkRklXVVlMQjR2dFZpNENuTFFBV1I0d1lXSzA9IiwiYXV0aFRhZyI6InZ3Mi8vZW9PVXJiN3RMRWlkRklXVVE9PSJ9"  >
+                                                    <img src="https://api.parcellab.com/tracking-image?trackingNo=1ZY8Y6020316338626&courier=ups&zip=97351&highcol=%23222222&highcolinv=%23ffffff&font=Helvetica&nocheckpoints=true&scale=2&lang=en" width="31%" overflow="hidden" alt="Tracking Information" />
+                                                </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center">
+                                    <tr>
+                                        <td style="height:20px">&#160;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="button" style= "width:200px height:150px">
+                                            <h4>
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjAzZGQ1YzRhLWU4NzQtNDAwNS04MjMyLTA5YjliNjAwNzk1ZCIsImRla1ZlcnNpb24iOjEsIml2IjoiNkZMbnZaYm1Tb01BOEhyWGt1ZGo3Zz09IiwiY2lwaGVyVGV4dCI6Ilk0RWN3S2oyYS9HZkUvV1VrOHh2aStGM2pQQW9XZEFReWwxM05vTHAzWFQrbE42VmNsOVpLRWxlV0JvOWcyK050ZXlUeTlsdDZGRzNORXZ0WHk1Szc3RGthU1pXL0phSXdJVUhnZWxuMXVoUzU3Mlc1a3FEQVBCNjE1TG5ZKzQ9IiwiYXV0aFRhZyI6Ijc3RGthU1pXL0phSXdJVUhnZWxuMWc9PSJ9"  >Track My Package</a>
+                                            </h4>
+                                        </td>
+                                    </tr>
+                                </table>
+                            
+
+                        
+                    </td>
+                </tr>
+                <!-- END Header Copy Section -->
+                <!-- BEGIN Shipment Carton Items Section-->
+                <tr>
+                        <td style="padding-top: 30px;">
+
+                            <table class="full-width">
+                                <tr>
+                                    <td class="h2-wrapper">
+                                        <h2>
+                                            Shipping Information
+                                        </h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom:50px;">
+                                        <table class="full-width">
+                                            <tr>
+                                                <td class="h3-wrapper">
+                                                    <h3>
+                                                        Shipping Address
+                                                    </h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="address">
+
+                                                    
+                                                    Griffin&#160;Myers<br />
+                                                    
+                                                    
+                                                    595 Lloyd Ln<br />
+                                                    
+                                                    
+                                                    Independence&#44;&#160;
+                                                    OR&#160;
+                                                    97351
+                                                    
+
+                                                    
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                
+                <tr>
+                        <td class="h2-wrapper">
+                            <h2 class="plain">
+                                The Below Items Shipped
+                            </h2>
+                        </td>
+                    </tr>
+                
+                        </table>
+
+
+                        <!-- BEGIN parent loop @p:  shipment_carton.shpmntcrtn_to_shpmnt -->
+                        
+
+                        <table class="full-width">
+                                <tr>
+                                    <td class="shipping-info-container">
+                                        <table class="full-width">
+                                            <tr>
+                                                <td style="padding-bottom:10px">
+                                                    <h3 class="bold">
+                                                        Fulfilled by
+                                                        Urban Outfitters
+                                                    </h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h4>
+                                                        Tracking Number:&#160;
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImM3YWE3NWRlLWRkMTctNDcyMC1iOTY4LTZkNWY1YzgzNWYwMyIsImRla1ZlcnNpb24iOjEsIml2IjoiNmVsQnMzREZWc2p3ZDM1NlJoK2dhQT09IiwiY2lwaGVyVGV4dCI6Imp5bHM4STdoN01nUFozbG52dFZlVmNjbmVVUEpGb01mZzRRNU5RaVphVW10M3JSTnVxcXZIN0JzRDFZVjJKd2dXclNXODZONjlmWE5YV3FrV2hla0NXaEVyNnRqQ0VCSlRJOWJDWmQrYnVucFFiTnd4VmJJOEhkK2VrWWZvR2c9IiwiYXV0aFRhZyI6IkNXaEVyNnRqQ0VCSlRJOWJDWmQrYmc9PSJ9" 
+                                                            >1ZY8Y6020316338626</a>
+                                                        
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            
+                                            
+                                            
+                                            
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        
+                        <!--Item Information Start-->
+                        <table class="full-width">
+                            <tr class="item-heading-large">
+                                <td class="column-header-container">
+                                    <table class="full-width-fixed">
+                                        <tr class="h3">
+                                            <td class="item-image">&#160;</td>
+                                            <td class="item-details">
+                                                Item
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left">
+                                                Price
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center">
+                                                Qty
+                                            </td>
+                                            <td class="item-price-large" style="text-align:right">
+                                                Total
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- ITEM LOOP START -->
+                            
+
+
+                            <tr>
+                                <td class="item-table-container">
+                                    <table class="full-width-fixed">
+                                        <tr>
+                                            <td class="item-image" rowspan="2">
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImQwZjdkOWJmLWNiYWUtNDIzMy05MWM4LWQwNDZiNWYyMzViMiIsImRla1ZlcnNpb24iOjEsIml2IjoiNDhCUUhlWkJjQjh5dG94cEd2RVljQT09IiwiY2lwaGVyVGV4dCI6ImtZYUM5UWs5NUNQZjlVbmtzOHJ1Z0QyVmRFQUM3ZUFOaC9HeURLVDFHZEdyTFdCV1FmOThMbUhPMk5JRTVPOG12UHRlSUd4TEhSMVhlbUM5WUhDakl4ZUQvaXRQVld4N0pqRkc5N0ZqSXVQQVVCM21RWEFmTXJhTWFScnhHSEE9IiwiYXV0aFRhZyI6Ikl4ZUQvaXRQVld4N0pqRkc5N0ZqSWc9PSJ9"  >
+                                                    <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/99456469_038_b"
+                                                        alt="Nike Women's Air Max Moto 2K Retro Sneaker" />
+                                                </a>
+                                            </td>
+                                            <td class="item-details">
+                                                <table class="full-width">
+                                                    <tr class="product-name-large">
+                                                        <td class="item-detail-row">
+                                                            <h4>Nike Women's Air Max Moto 2K Retro Sneaker</h4>
+                                                        </td>
+                                                    </tr>
+
+
+
+                                                    <tr>
+                                                        <td class="item-detail-row product-style">
+                                                            <label>Style No.&#160;</label>
+                                                            <span>99456469</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-color">
+                                                            <label>Color:&#160;</label>
+                                                            <span>Cannon/Green Haze-Black-Metallic</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-size">
+                                                            <label>Size:&#160;</label>
+                                                            <span>US 7.5/EU 38.5</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+
+                                                    
+                                                </table>
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left;">
+                                                $62.99<br />
+                                                
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center;">
+                                                2
+                                            </td>
+                                            <td class="item-price-large" style="text-align: right;">
+                                                $125.98<br />
+                                                <span
+                                                    class="strike">
+                                                    $209.98</span>
+                                                    
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-specs" colspan="4">
+                                                <table class="full-width">
+                                                    <!--[if (!mso)]><!-->
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-price">
+                                                            <label>Price: </label>
+                                                            $62.99&#8201;
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-qty">
+                                                            <label>Qty: </label>
+                                                            2
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-total">
+                                                            <label>Total: </label>
+                                                            $125.98&#8201;
+                                                            <span
+                                                                class="strike">
+                                                                $209.98</span>
+                                                                
+                                                        </td>
+                                                    </tr>
+                                                    <!--<![endif]-->
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            
+
+
+                            <tr>
+                                <td class="item-table-container">
+                                    <table class="full-width-fixed">
+                                        <tr>
+                                            <td class="item-image" rowspan="2">
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjY4YTNjYmJjLWI0MjAtNDk4Yi1iMGMxLTU1NmViYzU2NjAzOCIsImRla1ZlcnNpb24iOjEsIml2IjoiejdWQWZoQkNwU2RYQ3dmNjRRbHlkZz09IiwiY2lwaGVyVGV4dCI6Ijk1dERjc2NRaWN4SHpYWThIcG5aTDVXczBVd0EvTE9oZ2I5akc4LzFwUWJ5bnZOQUVrMkV4eWRCNlFKNjhtWDErTHYrNUQ1Vy96NUVBK0FYOTAxM3RyNjVOTmsrQXFQcWNzUDZZSGdHNXMrMVFINFFRcVVuVndzSCt1RUpjblk9IiwiYXV0aFRhZyI6InRyNjVOTmsrQXFQcWNzUDZZSGdHNWc9PSJ9"  >
+                                                    <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/99456469_038_b"
+                                                        alt="Nike Women's Air Max Moto 2K Retro Sneaker" />
+                                                </a>
+                                            </td>
+                                            <td class="item-details">
+                                                <table class="full-width">
+                                                    <tr class="product-name-large">
+                                                        <td class="item-detail-row">
+                                                            <h4>Nike Women's Air Max Moto 2K Retro Sneaker</h4>
+                                                        </td>
+                                                    </tr>
+
+
+
+                                                    <tr>
+                                                        <td class="item-detail-row product-style">
+                                                            <label>Style No.&#160;</label>
+                                                            <span>99456469</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-color">
+                                                            <label>Color:&#160;</label>
+                                                            <span>Cannon/Green Haze-Black-Metallic</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-size">
+                                                            <label>Size:&#160;</label>
+                                                            <span>US 8/EU 39</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+
+                                                    
+                                                </table>
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left;">
+                                                $62.99<br />
+                                                
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center;">
+                                                2
+                                            </td>
+                                            <td class="item-price-large" style="text-align: right;">
+                                                $125.98<br />
+                                                <span
+                                                    class="strike">
+                                                    $209.98</span>
+                                                    
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-specs" colspan="4">
+                                                <table class="full-width">
+                                                    <!--[if (!mso)]><!-->
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-price">
+                                                            <label>Price: </label>
+                                                            $62.99&#8201;
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-qty">
+                                                            <label>Qty: </label>
+                                                            2
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-total">
+                                                            <label>Total: </label>
+                                                            $125.98&#8201;
+                                                            <span
+                                                                class="strike">
+                                                                $209.98</span>
+                                                                
+                                                        </td>
+                                                    </tr>
+                                                    <!--<![endif]-->
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            
+
+
+                            <tr>
+                                <td class="item-table-container">
+                                    <table class="full-width-fixed">
+                                        <tr>
+                                            <td class="item-image" rowspan="2">
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjA0YjFkNGMyLTMyZTctNGU1NC1iYTg0LWI3MDg4N2MxMzc0YiIsImRla1ZlcnNpb24iOjEsIml2IjoiTmxLcVJSc3ltbHROV29Td1lLdlNhQT09IiwiY2lwaGVyVGV4dCI6IlBNbUI2UGJvSkF1WlBDcnFZZDRNZ2t5RXlPdnE2bXB2VFN5N01RUWlBZFFTcjFMSUVkZW5telZwNzF2ekk3UkNDaXl1UWFiZHFZRzNxU2syMkdEZ1dUUlRxTzBMREFtVmdHUVdRbWJ6NlRaU3FrVWJNcHBiVFZxRXNHQ3IwbWc9IiwiYXV0aFRhZyI6IldUUlRxTzBMREFtVmdHUVdRbWJ6NlE9PSJ9"  >
+                                                    <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/99456469_038_b"
+                                                        alt="Nike Women's Air Max Moto 2K Retro Sneaker" />
+                                                </a>
+                                            </td>
+                                            <td class="item-details">
+                                                <table class="full-width">
+                                                    <tr class="product-name-large">
+                                                        <td class="item-detail-row">
+                                                            <h4>Nike Women's Air Max Moto 2K Retro Sneaker</h4>
+                                                        </td>
+                                                    </tr>
+
+
+
+                                                    <tr>
+                                                        <td class="item-detail-row product-style">
+                                                            <label>Style No.&#160;</label>
+                                                            <span>99456469</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-color">
+                                                            <label>Color:&#160;</label>
+                                                            <span>Cannon/Green Haze-Black-Metallic</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-size">
+                                                            <label>Size:&#160;</label>
+                                                            <span>US 8.5/EU 39.5</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+
+                                                    
+                                                </table>
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left;">
+                                                $62.99<br />
+                                                
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center;">
+                                                2
+                                            </td>
+                                            <td class="item-price-large" style="text-align: right;">
+                                                $125.98<br />
+                                                <span
+                                                    class="strike">
+                                                    $209.98</span>
+                                                    
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-specs" colspan="4">
+                                                <table class="full-width">
+                                                    <!--[if (!mso)]><!-->
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-price">
+                                                            <label>Price: </label>
+                                                            $62.99&#8201;
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-qty">
+                                                            <label>Qty: </label>
+                                                            2
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-total">
+                                                            <label>Total: </label>
+                                                            $125.98&#8201;
+                                                            <span
+                                                                class="strike">
+                                                                $209.98</span>
+                                                                
+                                                        </td>
+                                                    </tr>
+                                                    <!--<![endif]-->
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            
+
+
+
+                        </table>
+                        <table class="full-width">
+                            <tr>
+                                <td style="height:50px;" height="50">&#160;</td>
+                            </tr>
+                        </table>
+
+
+
+                        <!-- Next PARENT LOOP for -->
+
+                        
+
+                        <table class="full-width">
+                                <tr>
+                                    <td class="shipping-info-container">
+                                        <table class="full-width">
+                                            <tr>
+                                                <td style="padding-bottom:10px">
+                                                    <h3 class="bold">
+                                                        Fulfilled by
+                                                        Urban Outfitters
+                                                    </h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h4>
+                                                        Tracking Number:&#160;
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjBhZjhkZGE5LTBiYzMtNDY2NC1hODUxLWU1ZTdjMDgwMzkzNSIsImRla1ZlcnNpb24iOjEsIml2IjoiMEQxbmZySDVWMTk5YmFrRVc3U3M0Zz09IiwiY2lwaGVyVGV4dCI6ImFoQlZGNE9RbVM0SGlkdlFKd3hOVFVMQXlteDVuVktWeEszeFJWZFd0V3hrS2VLTXRPUGdoZmc1UkZsODE1V1JVWWlLaDRWNmt0WXF0SlBMTTdQS0pRTmVaWFoyMERnS0NnMnk4UlNOdk5BOVozNngrVmRmZlcycEJGdTByT0k9IiwiYXV0aFRhZyI6IkpRTmVaWFoyMERnS0NnMnk4UlNOdkE9PSJ9" 
+                                                            >1ZY8Y6020316338635</a>
+                                                        
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            
+                                            
+                                            
+                                            
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        
+                        <!--Item Information Start-->
+                        <table class="full-width">
+                            <tr class="item-heading-large">
+                                <td class="column-header-container">
+                                    <table class="full-width-fixed">
+                                        <tr class="h3">
+                                            <td class="item-image">&#160;</td>
+                                            <td class="item-details">
+                                                Item
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left">
+                                                Price
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center">
+                                                Qty
+                                            </td>
+                                            <td class="item-price-large" style="text-align:right">
+                                                Total
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- ITEM LOOP START -->
+                            
+
+
+                            <tr>
+                                <td class="item-table-container">
+                                    <table class="full-width-fixed">
+                                        <tr>
+                                            <td class="item-image" rowspan="2">
+                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjhjZjkyMmM3LTQxNWYtNDQwOS05MjE3LTk2M2FlOGE1MDRjZiIsImRla1ZlcnNpb24iOjEsIml2Ijoid3c3M3JWckhZU0tYQU90RHI5R2xRZz09IiwiY2lwaGVyVGV4dCI6IkJGY0t4ZEtKOElWdDZPRFo1b3VuU2Rpc1ZpK1JHMUZFQUtNZi9Wc2h4TnVnekcvMkV6UzVZRWdncFJwSkJzNitSMTFsR081RnQ3akVONzNNOS91OEJ5OEF0am92ZTkxV2s1c3RQVmVMcDhNTzk2MWF4MkVpbHdEclE2L1JwVUk9IiwiYXV0aFRhZyI6IkJ5OEF0am92ZTkxV2s1c3RQVmVMcHc9PSJ9"  >
+                                                    <img width="116" border="0" src="https://images.urbndata.com/is/image/UrbanOutfitters/99456469_038_b"
+                                                        alt="Nike Women's Air Max Moto 2K Retro Sneaker" />
+                                                </a>
+                                            </td>
+                                            <td class="item-details">
+                                                <table class="full-width">
+                                                    <tr class="product-name-large">
+                                                        <td class="item-detail-row">
+                                                            <h4>Nike Women's Air Max Moto 2K Retro Sneaker</h4>
+                                                        </td>
+                                                    </tr>
+
+
+
+                                                    <tr>
+                                                        <td class="item-detail-row product-style">
+                                                            <label>Style No.&#160;</label>
+                                                            <span>99456469</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-color">
+                                                            <label>Color:&#160;</label>
+                                                            <span>Cannon/Green Haze-Black-Metallic</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="item-detail-row product-size">
+                                                            <label>Size:&#160;</label>
+                                                            <span>US 9/EU 40</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+
+                                                    
+                                                </table>
+                                            </td>
+                                            <td class="item-price-large" style="text-align:left;">
+                                                $62.99<br />
+                                                
+                                            </td>
+                                            <td class="item-price-large" style="text-align:center;">
+                                                2
+                                            </td>
+                                            <td class="item-price-large" style="text-align: right;">
+                                                $125.98<br />
+                                                <span
+                                                    class="strike">
+                                                    $209.98</span>
+                                                    
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-specs" colspan="4">
+                                                <table class="full-width">
+                                                    <!--[if (!mso)]><!-->
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-price">
+                                                            <label>Price: </label>
+                                                            $62.99&#8201;
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-qty">
+                                                            <label>Qty: </label>
+                                                            2
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="item-price-small">
+                                                        <td class="item-detail-row product-total">
+                                                            <label>Total: </label>
+                                                            $125.98&#8201;
+                                                            <span
+                                                                class="strike">
+                                                                $209.98</span>
+                                                                
+                                                        </td>
+                                                    </tr>
+                                                    <!--<![endif]-->
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            
+
+
+
+                        </table>
+                        <table class="full-width">
+                            <tr>
+                                <td style="height:50px;" height="50">&#160;</td>
+                            </tr>
+                        </table>
+
+
+
+                        <!-- Next PARENT LOOP for -->
+
+                        
+
+                        <!-- END parent loop: shipment_carton.shpmntcrtn_to_shpmnt -->
+
+
+                    </td>
+                </tr>
+                <!-- END Shipment Carton Items Section -->
+                <!-- BEGIN Shipment Billing Section-->
+                <tr>
+                        <td>
+
+                            <!-- This block is reused across most SHIPMENT-based emails for displaying billing address and payment info. Once converted to Ampscript it will likewise be reusable. -->
+
+                            <table class="full-width">
+                                <tr>
+                                    <th class="h2-wrapper">
+                                        <h2>Billing Information</h2>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table class="full-width">
+                                <tr>
+                                    <td>
+                                        <table class="two-column" align="left">
+                                            <tr>
+                                                <td class="two-column-left">
+                                                    <table class="full-width">
+                                                        <tr>
+                                                            <th class="h3-wrapper">
+                                                                <h3>Billing Address</h3>
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="address">
+                                                                
+                                                                Griffin&#160;Myers<br />
+                                                                595 Lloyd Lane<br />
+                                                                
+                                                                
+                                                                Independence,&#160;OR&#160;&#160;97351
+                                                                
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <table align="right" class="two-column">
+                                            <tr>
+                                                <td class="two-column-right">
+                                                    <table class="full-width">
+                                                        <tr>
+                                                            <th class="h3-wrapper">
+                                                                <h3>Payment Method</h3>
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="payment-method">
+                                                                <!-- BEGIN <shipment_payments.shpmntpmts_to_shpmnt> LOOP -->
+
+                                                                
+
+
+
+                                                                American Express&#8201;
+                                                                Ending in:&#160;
+                                                                1018
+                                                                
+
+                                                                <br />
+
+                                                                
+                                                                <!-- END LOOP -->
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                
+                <!-- END Shipment Billing Section-->
+                <!-- BEGIN Shipment Order Total Section -->
+                <tr>
+                        <td style="padding-top:50px; padding-bottom:50px;">
+                            <!-- This block is reused across most SHIPMENT-based emails for displaying order summary. Once converted to Ampscript it will likewise be reusable. -->
+
+                            <table align="right" class="two-column">
+                                <tr>
+                                    <td class="two-column-right">
+                                        <table class="order-summary-table">
+                                            <tr>
+                                                <th colspan="2" class="h2-wrapper">
+                                                    <h2>Order Summary</h2>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td class="summary-td-left">Subtotal:</td>
+                                                <td class="summary-td-right">
+                                                    $503.92</td>
+                                            </tr>
+                                            
+
+                                            <tr>
+                                                <td class="summary-td-left">Shipping:</td>
+                                                <td class="summary-td-right">$0.00
+                                                </td>
+                                            </tr>
+                                            
+                                            
+                                            
+                                            <tr>
+                                                <td class="summary-td-left">Tax:</td>
+                                                <td class="summary-td-right">$0.00
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td class="order-total-label">Total:</td>
+                                                <td class="order-total">
+                                                    $503.92</td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                
+                <!-- END Shipment Order Total Section -->
+                <!-- BEGIN Shipment Other Lines Section -->
+                    
+                <!-- END Shipment Other Lines Section -->
+                <!-- BEGIN Shipment Other Containers Section. Previously-shipped items. Only displays if there are items. -->
+                    
+                <!-- END Shipment Other Containers Section. -->
+                <!-- BEGIN marketplace seller info section -->
+                <tr>
+                    <td>
+
+                        
+                    </td>
+                </tr>
+                <!-- END marketplace seller info section -->
+
+
+            </table>
+        </td>
+    </tr>
+</table>
+<!----><!----><!-- BEGIN Rec Tray Section -->
+
+
+<table class="full-width">
+    <tr>
+        <td class="dy-container" style="padding-top:30px;padding-bottom:30px;">
+            <table class="full-width">
+                <tr>
+                    <td class="dy-title">
+                        <h2>You may also like...</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dy-suggestions">
+                        <table class="dy-image-grid">
+                            <tr>
+                                <th class="dy-image-wrapper-1">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImJhNWJkODgwLTZiNDEtNDEzMS1hZjM2LWFhYzNhZThmNDZiOCIsImRla1ZlcnNpb24iOjEsIml2IjoiVE1TV1RGN0VOSURrSW80dXl0elkvQT09IiwiY2lwaGVyVGV4dCI6IjRpMU05MUxlZldidUpZQXc2enVrdGxSU3NwSlVxbklyU2dHK29ab1JMTEQxS3ptMC9yNmQwalZBdUtOLzMzeFpYcHByeUNYREE0VkJyUGQ5SXRubmRkaTZaVkl1SEJmRG1FaE1lOWtuV0V6RWxreGV4RFNBNUNLT0xzcmMyUHc9IiwiYXV0aFRhZyI6ImRkaTZaVkl1SEJmRG1FaE1lOWtuV0E9PSJ9"  >
+                                        <img class="dy-first-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/1/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 1" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-2">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjI1ZmY1ZmQyLWY3M2EtNDUxYy04YmIwLTA4MWI2MzBkYzNkMSIsImRla1ZlcnNpb24iOjEsIml2IjoiRnJOMHBtejZtZVlDRnBxMFB0WXZ0UT09IiwiY2lwaGVyVGV4dCI6IkxlTHp1c01TNHVXK3RONlVjUWo2aVVaTUxCaCtpRW9wcUFTL3hEaUIwZWJacDVIK0xPQ0pnYlMrUFdYc3R5MmVxN3BXamkwVUVVcEFlc0RmQ1Q5bDhWdnhWSDlEdDJSaHg0eE9yV2pKeFJhemRLWnMrcG5tQWhhYXREN1dMN1U9IiwiYXV0aFRhZyI6IjhWdnhWSDlEdDJSaHg0eE9yV2pKeFE9PSJ9"  >
+                                        <img class="dy-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/2/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 2" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-3">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImJiMTRlOGFlLTk0ZDMtNDJlOS05MzMyLTEzYjhkNWQ2MWFiOSIsImRla1ZlcnNpb24iOjEsIml2IjoiZm1CSU5yVHdNQWlWaWF0U2lYYk1kUT09IiwiY2lwaGVyVGV4dCI6ImlRdUpJT0xJaVFaNDJaMzBibEhvRWRNSzJXYkh3cG1YdHdhR3VwNnJtTFIvenJYV3c5cnVrczhUNThvbi80dE9WWWg3NFFWSzRtTDIrcjBBa0FpN1J2R1NzUnRQNnRSYnJjYmJDREd1ZDM1Z1NEYTA4REFJbFltclVvbDJ6SFU9IiwiYXV0aFRhZyI6IlJ2R1NzUnRQNnRSYnJjYmJDREd1ZHc9PSJ9"  >
+                                        <img class="dy-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/3/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 3" />
+                                    </a>
+                                </th>
+                                <th class="dy-image-wrapper-4">
+                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjI0YmJiYzM1LWIzYmQtNDFmNi05OTFhLWE2ZjM0NGE3MmJhNCIsImRla1ZlcnNpb24iOjEsIml2IjoiVktCVm5iMUhubWU3LytkZTFRRFFndz09IiwiY2lwaGVyVGV4dCI6ImtSelVGOXNyNkE3Nm9FRm9WdFA5cDdaaVMvNWlXVXBEQkJaNElNY2IyVHNuOVg4MG5EMEF3eUZHQnh5ZjZrVDhnRk5CYkd4SlZ2QXgxbTVVNnJXZ2tzWkFGRTdTTUFsekN6QWNCcTF2eUZTZ1ZaMjlSNTVudS8vblh0VUEwSU09IiwiYXV0aFRhZyI6ImtzWkFGRTdTTUFsekN6QWNCcTF2eUE9PSJ9"  >
+                                        <img class="dy-last-image" width="150" src="https://urbanoutfitters.us-1.evergage.com/api/dataset/uous_prod/campaign/YW0c6/uUuj1/4/summary.png?userId=003Kf000022dr5WIAQ" alt="Image 4" />
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- END Rec Tray Section -->
+<!----></td>
+   
+   </tr>
+   <!-- End Content Section -->
+      
+      <!-- Begin Footer Links Section -->
+  <tr> 
+   <td><!----><!-- Footer Links Content Module -->
+
+<table class="full-width">
+        <tr>
+            <td style="padding-bottom:30px;">
+
+                <table class="full-width">
+                    <tr>
+                        <td class="footer-links-container">
+                            <table class="full-width">
+                                <tr>
+                                    <td class="footer-categories">
+                                        
+                                            <table class="full-width-fixed">
+                                                <tr>
+                                                    <td style="border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjFlNmU1NGI1LTE1NjktNDRhMC04NzM4LTNiMjFjZDEwYjQ2ZCIsImRla1ZlcnNpb24iOjEsIml2IjoiTDF1QUpocVlGaGgvRjRUUXNwczJsZz09IiwiY2lwaGVyVGV4dCI6IlVESXp2Qnk4eVhIbEl6NVQ3YTUyb0xkUzB3amkvd3V5YUZoMGtUcm9XRk05OElxMnBtQlQ1SU1zaW1FbjczcCtaN0d2eWVtN3ZMS2FwY0c4SzVpQkdXMk1WZVBlSWxqNGI1eVpPR2grb2k5YmdDWWFtQllZZnhlRTBMS2JOcFk9IiwiYXV0aFRhZyI6IkdXMk1WZVBlSWxqNGI1eVpPR2grb2c9PSJ9"   class="footer-link">
+                                                            <span class="footer-link-text">Shop UO</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjBlMmJjZTAxLTBiN2EtNGNhZS1hYzViLTU1ZTY0ZjI2MzJlNyIsImRla1ZlcnNpb24iOjEsIml2IjoiNUR1T0N3UG9xZ0Z3VFpaZWtjZlAzQT09IiwiY2lwaGVyVGV4dCI6IlBiQTFTSkNoYzNjLzZqNC9PY0pkcUZoNkJLaXBGUWxXT2QzRVM1ejY0czB0UFo0aldLNG5UYWhlKzh0Vk9xb3g1VlUxWDc3ZmVHTVNiMmhxbklURGU3NVVDK3d0b09PaDNNRFl2L1E4L2VRN2pnc0Q2S29CY0UyV1hwSEh6OXc9IiwiYXV0aFRhZyI6ImU3NVVDK3d0b09PaDNNRFl2L1E4L1E9PSJ9"   class="footer-link">
+                                                            <span class="footer-link-text">Help + Info</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-bottom: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjkzNDg4ZTk4LTZjNDctNGI4Mi1hYTRiLTYzZDg0NWU4ZDYyNSIsImRla1ZlcnNpb24iOjEsIml2IjoiSFVZR2pjRmVFQVovQzVsbThZOU1yQT09IiwiY2lwaGVyVGV4dCI6IlVnWkZtd2FpYmo5SFhESVdoUzFDMk0zZkZEMEMyN3JDZUNhb0VHRmI5a3RsbUxaMUtWTmNhbktqTEN1NzVValNIaHMvcVU2L3k3aGg1RnNBZTgrOGkxNnBnSVBEVStqajVtZkxaQU5QZkIxR0JvM0JYaEFHZnd1Wlp2R1BUS3c9IiwiYXV0aFRhZyI6ImkxNnBnSVBEVStqajVtZkxaQU5QZkE9PSJ9"   class="footer-link">
+                                                            <span class="footer-link-text">Find a Store</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="border-right: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjY0MTZiZTJmLTMyMjUtNDUyMS1hYjQ2LWVhYjg2N2YyMDE2MSIsImRla1ZlcnNpb24iOjEsIml2IjoiaW1xcHVmUW5kT040dmNvM1Z0QXg3dz09IiwiY2lwaGVyVGV4dCI6IlNkZ0IwVm84ZGNTY0g4aSsrNU9vR0dCdHpiUUxBc1VSQlU2cnJsSUVEd2VwbGszL21OWU5rd0FoMUZVK0IvZlFnK3pBWGpFdGlTaHlyTEFtdEljOVlGeXJySXZ2T3BKSzY2VHh0TTB0STRwcXFibjBKM1RqZUwzS04xYlFNZTg9IiwiYXV0aFRhZyI6IllGeXJySXZ2T3BKSzY2VHh0TTB0SXc9PSJ9"   class="footer-link">
+                                                            <span class="footer-link-text">Contact Us</span>
+                                                        </a>
+                                                    </td>
+                                                    <td style="border-right: 1px solid #dddddd;">
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjhmODYxMzQ0LTVjNGUtNDUxYS1iMjI4LTY0YTU1ZDNlZGMxZCIsImRla1ZlcnNpb24iOjEsIml2IjoiS1liRzB0czhtS2lOR1VXQktxdjZJZz09IiwiY2lwaGVyVGV4dCI6Ing4MkZRdERUdVNlYkI1RytHUTVoM1JsTW85V2hEV0JQWGJqN3ljbmdoSmRmM200QXF1VE03VVhQTkJ1QVVKR2kvWGk4bWptSEcyTlAyRXdsY0V5ZHcyZUo4TWluUVRhNVJjUFQzUXJDUkNtR3h0TGJQSmlvalJsRmdTcXIraUk9IiwiYXV0aFRhZyI6IncyZUo4TWluUVRhNVJjUFQzUXJDUkE9PSJ9"   class="footer-link">
+                                                            <span class="footer-link-text">UO Rewards</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjdjNDJkMTc1LTE5OGItNDRjYi1hODQyLTg1ZWRhNDdkYzczNiIsImRla1ZlcnNpb24iOjEsIml2IjoiMHRDWVorTTc3ZHZGTUpmZGxOaTgrQT09IiwiY2lwaGVyVGV4dCI6ImExWnRCclJLU1gyWVByMjNiNXFWK2l6UlEycXIzVFVucUdhd05WSDE1Z25rNVBZclB4a0ZPbWtiaUdGbG0wRFFNUjZ3ZkF3RjhLZFVVVHVJSGNXQ0N4TEVVbUMyTlZUY2xYKzkwdENZWitNNzdkdkZNSmZkbE5pOCtBPT0iLCJhdXRoVGFnIjoiaUIzRmdnc1N4RkpndGpWVTNKVi92UT09In0%3D"   class="footer-link">
+                                                            <span class="footer-link-text">UO Community</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="footer-social-icons">
+                                        <table>
+                                            <tr>
+                                                <th>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImFmYjEyODE2LWIwMmUtNGZlMS1iMjgwLWRkODRiMTJmOGRmOSIsImRla1ZlcnNpb24iOjEsIml2IjoiZ3lyMDVNMzNHRHAxM3VxL0wvQU5Rdz09IiwiY2lwaGVyVGV4dCI6IjcyWENlYXFiaFRsWUp2amFsTGZ4U3dNRVQ4VE5WM051OWNnZUFPZk1iVTNXVSsvbTFaVVFDZzB6ZElmMVhxajJza3huLzd2QVI0NVZGVkJlc0xPb0FuY2x1Y3lWYmVQR3lHWjZneXIwNU0zM0dEcDEzdXEvTC9BTlF3PT0iLCJhdXRoVGFnIjoiWHJDenFBSjNKYm5NbFczanhzaG1lZz09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/5540a0a3-3d04-41f6-89ec-198871196a8d.png" width="45" alt="Instagram">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImU4YjY4MzlhLTU0NTItNGM3MS1iOGVlLWRmNWVkNTJjOGQ4YSIsImRla1ZlcnNpb24iOjEsIml2IjoicWZES211ajNFQ0xKZStxYWFiQmlvUT09IiwiY2lwaGVyVGV4dCI6IlFsaHh4TkNpTTJrQ0xGKy9NSEh5ekM2d3REVE8wQ0RMZ0J4Y0QvZ3dqeTIzMUFzc2M5SkJlWlppeXdnZGtMYmxXZS93SEYzMzhJN054YVh5Q0xpcmY0RlAvNzM3amdvMWhoWmNxZkRLbXVqM0VDTEplK3FhYWJCaW9RPT0iLCJhdXRoVGFnIjoiOGdpNHEzK0JULys5KzQ0S05ZWVdYQT09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/1b1f1494-1ebc-4515-8fa0-8d916528f83b.png" width="45" alt="Facebook">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjgwNTQwMmVhLTA1NGQtNDczMi1iYjllLTgxNDEzOGFmMDIwMCIsImRla1ZlcnNpb24iOjEsIml2IjoiTm5ZMThFMVVITmxqeXNOdTA2VmlEQT09IiwiY2lwaGVyVGV4dCI6IkZ1UEFRVldFNlB3WC9nVklMdWcyZHhBeFBWNEYzYTR2VWU1Tnp2VUFWNE5JaXhoMDJmYXBPc24yRkVhczJHTkcvMWhNQXgrWjZ6Y0E3TFJuenppcjkzOGU4TFViend4Z0ZtM3NOblkxOEUxVUhObGp5c051MDZWaURBPT0iLCJhdXRoVGFnIjoiWjg4NHEvZC9IdkMxRzg4TVlCWnQ3QT09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/c5fe2589-f092-43f0-a7d0-22caeb3abe21.png" width="45" alt="Twitter">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                                <th>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6Ijg5YzdiZGVhLTQzYjItNDJkZi05NzdhLWUzNjRhYTBjNDE2YiIsImRla1ZlcnNpb24iOjEsIml2IjoiSFp0VFNRKzFWU3JFaG4rc3ZwaXI2dz09IiwiY2lwaGVyVGV4dCI6Ik5xR3lWV21yWGNBVmthNnlzOVA1SmJwbENXN0VHQjFnN0o2M0tiWExNMHBCeEpjQVdOZUNnRFdtT2ZrUk4zaDJxUGFZQzR3QjQwSHRLd1hUaUx2WGhvaUU5OWhIVmptclM0bDJIWnRUU1ErMVZTckVobitzdnBpcjZ3PT0iLCJhdXRoVGFnIjoiMDRpNzE0YUloUGZZUjFZNXEwdUpkZz09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/8ba2903e-4d12-4060-869d-17566dd29f55.png" width="45" alt="Pinterest">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjFkNmQ5ZTI4LTc5YTUtNDI2My1hMWY3LWE2NzVkZjBmYWE4OSIsImRla1ZlcnNpb24iOjEsIml2IjoibnU5aUpiZTJCS0d4aDhrUEUzWk9xZz09IiwiY2lwaGVyVGV4dCI6ImtzMllLR1AzN1NvcCtQUGpmMTV3b0JodXpmTXNjSmFiWmtEWllkMDV2eFdqaDJlMnp5NzVTQ0lXNHl5dHh0RzdNbzFGSUMwVTF4OW5sUWJ1MkJITzlKdEg2MXA5bHA1Zll4a1RudTlpSmJlMkJLR3hoOGtQRTNaT3FnPT0iLCJhdXRoVGFnIjoiN3RnUnp2U2JSK3RhZlphZVgyTVpFdz09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/121bf89f-d547-4450-8712-5da7241eac9a.png" width="45" alt="Youtube">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjBkMDQ4MmE3LWEyMDUtNDBhOS05YjRhLTNhYzljNGFhZDFkMiIsImRla1ZlcnNpb24iOjEsIml2IjoiZGtjODBHK0NDTi9wajZzQmgzMzI1Zz09IiwiY2lwaGVyVGV4dCI6ImhDRWdDMDRXeE5Xd01xTEQ2Y1k4ZXhXMU45M0RmbE1SVWtwMDJYK3U0OTBvYVhieFpuL2x4YzB4SlBZTnlyU3BwSkJzVS9ISE1tRFpiUGNGeVVSeXY3MDVYMU90NSs2QVFuVHZka2M4MEcrQ0NOL3BqNnNCaDMzMjVnPT0iLCJhdXRoVGFnIjoiQmNsRWNyKzlPVjlUcmVmdWdFSjA3dz09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/915a99b2-5f5c-4f48-b72d-977d9a841591.png" width="45" alt="TikTok">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjRmZjgzM2ZiLTc0NmYtNDEwNS05MDM0LTczODk1OGRkYzM0NiIsImRla1ZlcnNpb24iOjEsIml2IjoiTHAzOWtWa2JWNlIvY2tjeS92blFrZz09IiwiY2lwaGVyVGV4dCI6InU5V2hlQlZkWG13K1kweXBpMTJiMGJpVkMycElJMzRVaVJDVllXeG44K3Y1bzlJM0F1Zk1VcUpWbDNRT1M0NS9vS1k1ZnBXbGVIUUROaU5lRkJoMVVVaEJzVGc1cm5JZ1VPemtMcDM5a1ZrYlY2Ui9ja2N5L3ZuUWtnPT0iLCJhdXRoVGFnIjoiWGhRWWRWRklRYkU0T2E1eUlGRHM1QT09In0%3D"  >
+                                                                    <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/99dadbc3-b63e-4480-aa2f-2011970e363f.png" width="45" alt="Spotify">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 40px">
+                                        <table>
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjNjNDFjNTc4LTZmYTQtNGNjNC05YzQ2LWQxOWFjYTBhZTkzMCIsImRla1ZlcnNpb24iOjEsIml2IjoiSW1HQUpmVXk1S3VLeExjQnF2ZWw1UT09IiwiY2lwaGVyVGV4dCI6ImVZT00wWmJqbWgveVJIbmJFWFQxWGZsQ2VtVWhCckE5dDczOUJRYklKdXI3TkNDSkJBSC9TbDZOYWk2dlVjUVF6ZTNBUVlZNWUvRWF0ZUxna0grT2ZnTEpGb0JEZXlWcjQyN0ZJbUdBSmZVeTVLdUt4TGNCcXZlbDVRPT0iLCJhdXRoVGFnIjoiNEpCL2puNEN5UmFBUTNzbGErTnV4UT09In0%3D"  >
+                                                        <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/47ecfb00-a391-4ea8-9928-f624e293b1f5.png" width="120" style="width: 120px;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 10px;">
+                                                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjMzZmM2M2FlLTczZGYtNDZhYS05ZWU1LWQ1NWQ1OGE2ZTY4NyIsImRla1ZlcnNpb24iOjEsIml2IjoiMWh0N29uZmlUT0RVUzBBUy8yRnJ2QT09IiwiY2lwaGVyVGV4dCI6IjlKTGI4K1NyeVZyUXd3NVZMVXF5UGdweko0TjByU2NFdVZMSytpaUhHeWtGUXM2ZS9JK3JxYmlJeDU4M3pLZ2F0QTQrUUVPK0gvbHhTVEVzZnRmWHFMejJjQXRpUTZaZ3FTbnIxaHQ3b25maVRPRFVTMEFTLzJGcnZBPT0iLCJhdXRoVGFnIjoiTEg3WDE2aTg5bkFMWWtPbVlLa3A2dz09In0%3D"  >
+                                                        <img src="https://image.s.urbanoutfitters.com/lib/fe3711717164057c701477/m/1/a70c5058-e899-42fb-b938-ef5072f824d1.png" width="120" style="width: 120px">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+<!----></td>
+   </tr>
+      <!-- End Footer Links Section -->
+   
+  <!-- Begin footer copy Section -->
+      <tr>
+  <td><!----><!-- Footer Pre Copy Content Module -->
+    <table align="center" class="full-width">
+        <tr>
+            <td class="footer-bottom-copy">
+            <p>
+                    Questions?<br>
+                    <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjhjNGZhZTc4LTgzZWEtNGVkMC1iNWQ4LWYzYWY5OGJlMzVhZSIsImRla1ZlcnNpb24iOjEsIml2IjoiQjVWM0pZRjRCbjNHa2pjWEZkQU9CZz09IiwiY2lwaGVyVGV4dCI6InVraFE3YnJOOTVKWTJSN0g5MExpUW5DN28yTGh6OHFXdXhmQ1hvMmNrdGdnZkN2T1hMVWZ6T2FpcFZ1ZkV4eVQxQXBzTHZYM2Y2NHB0cHQrY0w5d3pyVUxBNk5HMERDV3NKSlJzUStjcFFlVmR5V0JlQVo5eHBJM0Z4WFFEZ1k9IiwiYXV0aFRhZyI6InpyVUxBNk5HMERDV3NKSlJzUStjcFE9PSJ9"  >Contact us</a><br>
+                    Find us on Twitter <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjI3ZmQzNWMzLTY1NTYtNGIyOS1iMzc5LTIxMWIzOWQwNmUxNiIsImRla1ZlcnNpb24iOjEsIml2IjoiajNkZ0Npd0d5WkZybzEyb1lTNUpCUT09IiwiY2lwaGVyVGV4dCI6InZDZG56cUZqZVFXQ1QzdTUvSXdSVm5KSHV0Y3hlZjZtZjZOZzkwVWlja3ppK0x3TFhnUVRvaFhEWGFERWFOTG9mTmV6Um82aHdjNEVhdW5MSUpKT1lNaU5qcnErRHNLSFg4TzhqM2RnQ2l3R3laRnJvMTJvWVM1SkJRPT0iLCJhdXRoVGFnIjoieXlDU1RtRElqWTY2dmc3Q2gxL0R2QT09In0%3D"  >@UOHelpMe</a>
+                </p>
+
+                <p>
+                    US & Canada Customers:<br />
+                    Customer Service <a href="tel:8002822200" mc-deep-link="false">(800) 282-2200</a><br />
+                    Open 24 hours a day, 7 days a week
+                </p>
+                <p>
+                    All Other Customers:<br />
+                    Click <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6ImNiOWEzZjU4LTI2OWUtNDRhNS04YjBlLTk4M2M5MmIxOTZiMSIsImRla1ZlcnNpb24iOjEsIml2IjoiNzhBdTlnSlNvRUFOT2t4dy8yMzFCZz09IiwiY2lwaGVyVGV4dCI6Im9wZzEya2RXN3V0VG9aY21TL0trZHJaL2hTMkJJcENRM3FaNVZkMGJjcEcwRk1sRkZZSXNvbndWZ1U1VFpBZnRleVk2Sk9KSnROdUo4S05kdU50OTlrb0NGOHdSL2M4YVpxMVU5UjFFc3UvQUx2WUNVcUJBRFRwTWNQOXQ5UVk9IiwiYXV0aFRhZyI6Ijlrb0NGOHdSL2M4YVpxMVU5UjFFc2c9PSJ9"  >here</a> for details on how to contact us.
+                </p>
+
+                <p>Need to make a return? <a href="https://click.s.urbanoutfitters.com/u/?qs=eyJkZWtJZCI6IjFhZTFiNmQ4LTZjOWMtNGFmYy1iNTViLThkYTY1YzhhNWE5YyIsImRla1ZlcnNpb24iOjEsIml2IjoiakxpSDg2OUpHcEREczlBcDE0RlNmUT09IiwiY2lwaGVyVGV4dCI6ImtjYWh6VDhBSVRTUXFUT1ZtcTl2NmM5K3RScklscnBrUHUwTlpFdTJybWhUS2NhbDBlUFR4TENlbnYvQVkxNCttWGpKdU5VOVFKUjlubHlNeHozNXZTeW9Ma1RvaXd5WGg5a2hpejVKZEl5NGgvT3ZTUnFRdzdQUUtkZUJVbjA9IiwiYXV0aFRhZyI6InZTeW9Ma1RvaXd5WGg5a2hpejVKZEE9PSJ9"  >Click here</a> for details. Restocking fees may apply. </p>
+
+                <p>To ensure delivery to your inbox (not bulk or junk folders), you can add urbanoutfitters@s.urbanoutfitters.com to your address book or safe list.</p>
+                
+
+                
+
+                <p>&copy; 2026 UrbanOutfitters.com All Rights Reserved</p>
+            
+
+            </td>
+        </tr>
+    </table>
+
+<!-- / Pre Footer Copy Content Module -->
+<!----></td> 
+   </tr>
+  <!-- End footer copy Section -->
+      
+   
+      
+
+     </table>
+    </td>
+   </tr>
+  </table>
+  <!--[if (gte mso 9)|(IE)]>   </td>   </tr>   </table>   <![endif]-->
+   <!-- begin Audience Studio Pixel -->
+  <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=NtRFlMmN_sfmc_514011507_sha256&partner_uid=bce4f2c3728a6449ecc8d1c5ad22760399e4a84233df5095bedaa99bfeb4e16b" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=NtRFlMmN_sfmc_514011507_subid&partner_uid=152878222" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=vxjpsnpu5&advertiserid=514011507&campaignid=uous_ppc_shipmentConfirmation" width=0 height=0 style="display:none;" />
+ </body>
+</html>

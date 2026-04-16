@@ -120,7 +120,7 @@ class UrbanOutfittersEmailParser:
     # Subject patterns for different email types
     SUBJECT_ORDER_PATTERN = r"order\s+confirmation|thank you for your.*order"
     SUBJECT_CANCELLATION_PATTERN = r"cancellation notice"
-    SUBJECT_SHIPPING_PATTERN = r"shipping\s+confirmation|your order.*shipped|order.*shipped|shipping.*notification"
+    SUBJECT_SHIPPING_PATTERN = r"shipping\s+confirmation|your order.*shipped|order.*shipped|shipping.*notification|your order is on its way|order is on its way"
 
     # Email identification - Development (forwarded emails)
     DEV_URBAN_ORDER_FROM_EMAIL = "glenallagroupc@gmail.com"
