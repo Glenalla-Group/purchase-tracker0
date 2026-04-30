@@ -82,9 +82,11 @@ def extract_unique_id(url: str) -> str:
 
     # --- Finish Line / JD Sports ---
     # URL: .../pdp/.../prod.../STYLE/COLOR or /STYLE/COLOR/WIDTH
-    # Extract: {style}_{color}, stripping width suffix from style
+    # Extract: {style}_{color}, stripping width suffix from style.
+    # Negative lookahead skips /prod\d+/ (product number) so an all-numeric
+    # style isn't misread as the color of the product-number segment.
     if "finishline.com" in url_lower or "jdsports.com" in url_lower:
-        m = re.search(r"/([A-Z0-9]+)/(\d+)(?:/|$)", url, re.IGNORECASE)
+        m = re.search(r"/(?!prod\d+/)([A-Z0-9]+)/(\d+)(?:/|$)", url, re.IGNORECASE)
         if m:
             style = m.group(1)
             color = m.group(2)
